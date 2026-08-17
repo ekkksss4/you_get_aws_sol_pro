@@ -1,0 +1,244 @@
+[
+  {
+    "qNumber": 511,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "애플리케이션은 새로 업로드된 파일에 대해 Amazon Elastic File System(Amazon EFS) 파일 시스템을 폴링합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "애플리케이션은 적절한 컨테이너 이미지를 시작하고 파일 위치를 매개변수로 전달합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "2시간",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "한 회사가 Amazon EC2 인스턴스에서 데이터 처리 애플리케이션을 호스팅합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "처리가 완료되면 컨테이너 내부에서 실행되는 코드가 파일을 Amazon EFS에 다시 쓰고 종료됩니다.",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 512,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 AWS와 고속 AWS Direct Connect 연결을 보유하고 있으며 MAM 솔루션 비디오 콘텐츠를 현재 파일 시스템에서 직접 이동하려고 합니다.",
+        "answerLink": "AWS Storage"
+      },
+      {
+        "text": "회사는 이러한 비디오를 AWS로 마이그레이션하려고 합니다.",
+        "answerLink": "AWS Storage"
+      },
+      {
+        "text": "이러한 비디오는 온프레미스 테이프 라이브러리의 테이프에 저장되며 MAM(미디어 자산 관리) 시스템에서 참조됩니다.",
+        "answerLink": "AWS Storage"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Storage"
+      },
+      {
+        "text": "기업은 사물, 풍경 항목, 사람 얼굴 등 영상 속 정보를 기반으로 검색할 수 있어야 합니다.",
+        "answerLink": "AWS Storage"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 513,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 AWS Organizations 의 조직에서 여러 계정을 포함하는 AWS 환경의 비용을 최적화해야 합니다.",
+        "answerLink": "전체 선결제로 추가 3년 기간 동안 동일한 예약 인스턴스를 구매합니다. 추가 컴퓨팅 비용을 충당하기 위해 마스터 계정에서 전체 선결제로 3년 컴퓨팅 절약 계획을 구입하십시오."
+      },
+      {
+        "text": "여러 계정",
+        "answerLink": "전체 선결제로 추가 3년 기간 동안 동일한 예약 인스턴스를 구매합니다. 추가 컴퓨팅 비용을 충당하기 위해 마스터 계정에서 전체 선결제로 3년 컴퓨팅 절약 계획을 구입하십시오."
+      },
+      {
+        "text": "이 회사는 3년 전에 비용 최적화 활동을 수행했으며 최근 만료된 Amazon EC2 표준 예약 인스턴스를 구입했습니다.",
+        "answerLink": "전체 선결제로 추가 3년 기간 동안 동일한 예약 인스턴스를 구매합니다. 추가 컴퓨팅 비용을 충당하기 위해 마스터 계정에서 전체 선결제로 3년 컴퓨팅 절약 계획을 구입하십시오."
+      },
+      {
+        "text": "회사에 가장 많은 비용을 절감할 수 있는 전략은 무엇입니까?",
+        "answerLink": "전체 선결제로 추가 3년 기간 동안 동일한 예약 인스턴스를 구매합니다. 추가 컴퓨팅 비용을 충당하기 위해 마스터 계정에서 전체 선결제로 3년 컴퓨팅 절약 계획을 구입하십시오."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 514,
+    "answer": "A, E",
+    "highlights": [
+      {
+        "text": "회사는 S3 파일 게이트웨이를 사용하여 온프레미스 환경의 콘텐츠를 S3 버킷에 업로드합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 최소한의 지연 시간과 공용 인터넷 노출 없이 온프레미스 데이터를 Amazon S3로 라우팅해야 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 Amazon S3 버킷에서 콘텐츠를 제공합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "S3"
+      },
+      {
+        "text": "최소한의 지연",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 515,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "파일 공유 크기가 100GB보다 큽니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "이 회사는 AWS와 데이터 센터 사이에 10GB의 대역폭을 갖춘 AWS Direct Connect 연결을 보유하고 있습니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "10GB",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "100GB",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "각 VM은 공통 공유 파일이 포함된 공유 Windows 폴더로 구성됩니다.",
+        "answerLink": "AWS Application"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 516,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사에는 AWS Organizations 의 조직에 여러 AWS 계정이 있습니다.",
+        "answerLink": "AWS CloudTrail"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS CloudTrail"
+      },
+      {
+        "text": "회사는 AWS 계정 활동을 저장하고 SQL을 사용하여 중앙 위치에서 데이터를 쿼리해야 합니다.",
+        "answerLink": "AWS CloudTrail"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 517,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "애플리케이션에는 AWS Lambda 함수를 호출하는 Amazon API Gateway HTTP API 가 포함되어 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사는 이미 회사의 다른 애플리케이션에 대해 OAuth 토큰을 발급하는 타사 ID 공급자를 사용하고 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "Lambda 함수는 데이터를 처리한 다음 데이터베이스에 저장합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "한 회사에서 AWS를 사용하여 프로덕션 웹 애플리케이션을 개발하고 관리하고 있습니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 518,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "또한 솔루션은 개발 팀이 암호화되지 않은 EBS 볼륨을 생성하지 못하도록 방지해야 합니다.",
+        "answerLink": "EBS"
+      },
+      {
+        "text": "보안 감사를 통해 암호화되지 않은 여러 Amazon Elastic Block Store(Amazon EBS) 볼륨이 EC2 인스턴스에 연결되어 있음을 발견했습니다.",
+        "answerLink": "EBS"
+      },
+      {
+        "text": "회사의 보안 정책에 따라 EBS 볼륨을 암호화해야 합니다.",
+        "answerLink": "EBS"
+      },
+      {
+        "text": "회사는 EBS 볼륨을 암호화하기 위한 자동화된 솔루션을 구현해야 합니다.",
+        "answerLink": "EBS"
+      },
+      {
+        "text": "한 회사가 AWS 계정의 수천 개의 Amazon EC2 인스턴스에 애플리케이션을 배포했습니다.",
+        "answerLink": "EBS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 519,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "최근 회사 개발팀은 ECS 클러스터에서 Amazon EC2 인스턴스 대신 AWS Fargate 를 사용하기 시작했습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "이 회사는 Amazon Elastic Container Service(Amazon ECS)를 사용하여 워크로드를 조정합니다.",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 520,
+    "answer": "A, B, E",
+    "highlights": [
+      {
+        "text": "코드 스캔은 모든 Lambda 함수가 아닌 선택한 Lambda 함수에 대해서만 수행되어야 합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "Lambda .zip 패키지와 Lambda 계층 .zip 파일은 Amazon S3 버킷에 저장됩니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "Lambda 함수의 하위 집합은 잠재적인 데이터 유출 및 기타 취약점을 감지하기 위해 자동화된 코드 스캔을 받아야 합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사에는 Python으로 작성된 여러 AWS Lambda 함수가 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "이 함수는 .zip 파일에 공통 라이브러리와 패키지가 포함된 Lambda 계층을 사용합니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

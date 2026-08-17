@@ -1,0 +1,272 @@
+[
+  {
+    "qNumber": 441,
+    "answer": "A, E",
+    "highlights": [
+      {
+        "text": "• LOB에서 사용하는 모든 AWS 계정에 대해 단일 AWS 송장을 생성합니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "• 각 LOB 계정의 비용은 송장에서 분류되어야 합니다.",
+        "answerLink": "상위 계정의 결제 콘솔에서 통합 결제를 활성화하고 LOB 계정을 연결합니다."
+      },
+      {
+        "text": "• 회사의 거버넌스 정책에 정의된 대로 LOB 계정의 서비스 및 기능을 제한하는 기능을 제공합니다.",
+        "answerLink": "상위 계정의 결제 콘솔에서 통합 결제를 활성화하고 LOB 계정을 연결합니다."
+      },
+      {
+        "text": "회사에는 모회사로 연결되는 여러 LOB(사업 부문)가 있습니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "회사는 솔루션 설계자에게 다음 요구 사항을 충족하는 솔루션을 개발하도록 요청했습니다.",
+        "answerLink": "AWS Organizations"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 442,
+    "answer": "D, E",
+    "highlights": [
+      {
+        "text": "솔루션 아키텍트는 각 지역에 대해 별도의 가용 영역에 있는 웹 서버 쌍과 가중치 기반 레코드 세트를 연결했습니다.",
+        "answerLink": "중지된 웹 서버와 연결된 하나 이상의 가중치 기반 리소스 레코드 세트에 대해 HTTP 상태 확인이 설정되지 않았습니다."
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "웹 서버가 중지된 리전의 도메인과 연결된 지연 시간 별칭 리소스 레코드 세트에 대해 대상 상태를 평가하는 설정이 켜져 있지 않습니다."
+      },
+      {
+        "text": "애플리케이션은 Amazon Route 53 지연 시간 기반 라우팅을 사용합니다.",
+        "answerLink": "웹 서버가 중지된 리전의 도메인과 연결된 지연 시간 별칭 리소스 레코드 세트에 대해 대상 상태를 평가하는 설정이 켜져 있지 않습니다."
+      },
+      {
+        "text": "한 지역의 모든 웹 서버가 중지되면 Route 53은 자동으로 사용자를 다른 지역으로 리디렉션하지 않습니다.",
+        "answerLink": "웹 서버가 중지된 리전의 도메인과 연결된 지연 시간 별칭 리소스 레코드 세트에 대해 대상 상태를 평가하는 설정이 켜져 있지 않습니다."
+      },
+      {
+        "text": "솔루션 설계자는 재해 복구 시나리오를 실행합니다.",
+        "answerLink": "웹 서버가 중지된 리전의 도메인과 연결된 지연 시간 별칭 리소스 레코드 세트에 대해 대상 상태를 평가하는 설정이 켜져 있지 않습니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 443,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이러한 서버는 센서로부터 업데이트를 수신하고, 원시 데이터를 사람이 읽을 수 있는 형식으로 변환하고, 결과를 온프레미스 관계형 데이터베이스 서버에 기록합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "솔루션 아키텍트는 AWS IoT Core를 사용하여 센서 데이터를 수집할 것을 권장합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "이 기관은 온프레미스 애플리케이션 서버를 보유하고 있습니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "그런 다음 데이터 분석가는 간단한 SQL 쿼리를 사용하여 데이터를 모니터링합니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 444,
+    "answer": "B, E",
+    "highlights": [
+      {
+        "text": "공개 소매 웹 애플리케이션은 Amazon RDS MySQL 다중 AZ 배포가 지원되는 지역의 여러 가용 영역(AZ)에서 실행되는 Amazon EC2 인스턴스 앞에 Application Load Balancer(ALB) 를 사용합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "대상 그룹 상태 확인은 HTTP를 사용하도록 구성되고 제품 카탈로그 페이지를 가리킵니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "Auto Scaling은 ALB 상태 확인을 기반으로 웹 플릿 크기를 유지하도록 구성됩니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "다음 중 향후 성장을 위해 전체 애플리케이션 스택의 가용성 및 기능에 대한 모니터링 기능을 개선하는 동시에 이러한 문제를 해결하는 변경 사항은 무엇입니까?",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "후속 조사에서는 웹 서버 지표가 정상 범위 내에 있었지만 데이터베이스 계층에서 높은 Toad 현상이 발생하여 쿼리 응답 시간이 심각하게 증가한 것으로 확인되었습니다.",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 445,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "프로덕션 워크로드를 위한 EKS 제어 플레인과 데이터 플레인은 온프레미스에 있어야 합니다.",
+        "answerLink": "AWS Outposts"
+      },
+      {
+        "text": "한 회사는 온프레미스 데이터 센터를 보유하고 있으며 Kubernetes를 사용하여 AWS에서 새로운 솔루션을 개발하고 있습니다.",
+        "answerLink": "AWS Outposts"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Outposts"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Outposts"
+      },
+      {
+        "text": "이 회사는 개발 및 테스트 환경에 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를 사용합니다.",
+        "answerLink": "AWS Outposts"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 446,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "모든 개발팀은 DB 클러스터의 실시간 데이터로 작업해야 합니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "실시간",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "회사의 각 개발 팀에는 자체 AWS 계정이 있습니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "회사는 AWS Organizations 를 사용하여 개발 환경을 관리합니다.",
+        "answerLink": "Transit Gateway"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 447,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "솔루션은 비용 증가를 유발하는 리소스를 식별하는 데 도움이 되어야 하며 회사 운영 팀에 자동으로 알려야 합니다.",
+        "answerLink": "AWS 비용 이상 탐지를 사용하여 모니터 유형이 AWS 서비스인 비용 모니터를 생성합니다. 일일 AWS 비용 요약을 운영 팀에 보내려면 구독을 생성하세요. 비용 차이에 대한 임계값을 지정합니다."
+      },
+      {
+        "text": "월별 AWS 청구서는 일관됩니다.",
+        "answerLink": "AWS 비용 이상 탐지를 사용하여 모니터 유형이 AWS 서비스인 비용 모니터를 생성합니다. 일일 AWS 비용 요약을 운영 팀에 보내려면 구독을 생성하세요. 비용 차이에 대한 임계값을 지정합니다."
+      },
+      {
+        "text": "이러한 테스트의 대부분은 리소스가 더 이상 필요하지 않을 때까지 며칠 동안 지속됩니다.",
+        "answerLink": "AWS 비용 이상 탐지를 사용하여 모니터 유형이 AWS 서비스인 비용 모니터를 생성합니다. 일일 AWS 비용 요약을 운영 팀에 보내려면 구독을 생성하세요. 비용 차이에 대한 임계값을 지정합니다."
+      },
+      {
+        "text": "솔루션 아키텍트는 AWS 청구서 비용이 증가하는지 여부를 결정하는 솔루션을 설계해야 합니다.",
+        "answerLink": "AWS 비용 이상 탐지를 사용하여 모니터 유형이 AWS 서비스인 비용 모니터를 생성합니다. 일일 AWS 비용 요약을 운영 팀에 보내려면 구독을 생성하세요. 비용 차이에 대한 임계값을 지정합니다."
+      },
+      {
+        "text": "한 회사는 AWS CloudFormation 을 사용하여 AWS 회원 계정에 새로운 인프라를 모두 생성했습니다.",
+        "answerLink": "AWS 비용 이상 탐지를 사용하여 모니터 유형이 AWS 서비스인 비용 모니터를 생성합니다. 일일 AWS 비용 요약을 운영 팀에 보내려면 구독을 생성하세요. 비용 차이에 대한 임계값을 지정합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 448,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 매일 3시간 동안 최대 작업이 발생하고 총 225MiBps의 읽기 처리량이 필요하다고 결정했습니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "솔루션 설계자는 재해 복구(DR)를 위해 다른 AWS 리전에서 사용할 수 있는 데이터 사본을 만드는 다중 AZ 솔루션을 설계해야 합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "3시간",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "1시간",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 449,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "실험 기간 동안 전체 네트워크에 연결된 센서는 1주일 동안 예비 형식으로 6TB의 데이터를 생성합니다.",
+        "answerLink": "Amazon Linux"
+      },
+      {
+        "text": "데이터 파일을 FTP 서버에 주기적으로 업로드하도록 센서를 구성할 수 있지만 센서에는 자체 FTP 서버가 없습니다.",
+        "answerLink": "Amazon Linux"
+      },
+      {
+        "text": "회사는 실험 후 가능한 한 빨리 데이터를 중앙에서 수집하고 거짓말 데이터를 AWS 클라우드의 객체 스토리지로 옮겨야 합니다.",
+        "answerLink": "Amazon Linux"
+      },
+      {
+        "text": "6TB",
+        "answerLink": "Amazon Linux"
+      },
+      {
+        "text": "회사는 인터넷에 연결되지 않은 원격 위치에서 실험을 통해 데이터를 수집해야 합니다.",
+        "answerLink": "Amazon Linux"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 450,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "조직의 모든 데이터가 포함된 중앙 비용 및 사용 보고서는 이미 Amazon S3 버킷에서 사용할 수 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "각 AWS 계정의 관리자는 Amazon Athena를 사용하여 해당 계정에 대한 자세한 비용 및 사용률 데이터를 확인해야 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "각 사업부는 자체 비용 및 활용 데이터에만 액세스할 수 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 각 사업부가 자체 AWS 계정을 갖는 계정 구조를 구현했습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "AWS 비용 및 사용 보고서 설정 기능을 관리하는 IAM 정책이 마련되어 있습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

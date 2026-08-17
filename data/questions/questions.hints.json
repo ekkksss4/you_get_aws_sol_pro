@@ -1,0 +1,17 @@
+{
+  "1": [
+    { "text": "VPC", "importance": "critical", "linkedTo": "Amazon Route 53 Private Hosted Zone" },
+    { "text": "온프레미스", "importance": "critical", "linkedTo": "AWS Direct Connect" },
+    { "text": "cloud.example.com", "importance": "critical", "linkedTo": "Route 53 private hosted zone" }
+  ],
+  "172": [
+    { "text": "여러 VPC", "importance": "critical", "linkedTo": "AWS PrivateLink" },
+    { "text": "사설 IP", "importance": "critical", "linkedTo": "PrivateLink" },
+    { "text": "운영 오버헤드", "importance": "supporting", "linkedTo": "PrivateLink" }
+  ],
+  "173": [
+    { "text": "이벤트 기반", "importance": "critical", "linkedTo": "Amazon S3 이벤트" },
+    { "text": "서버 관리 부담", "importance": "critical", "linkedTo": "AWS Lambda" },
+    { "text": "이미지 처리", "importance": "supporting", "linkedTo": "Lambda" }
+  ]
+}

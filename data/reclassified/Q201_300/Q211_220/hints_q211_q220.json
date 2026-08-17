@@ -1,0 +1,240 @@
+[
+  {
+    "qNumber": 211,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "회사에서 AWS로 마이그레이션하려고 합니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "이 회사는 VMware ESXi 환경에서 수천 개의 VM을 실행하고 있습니다.",
+        "answerLink": "AWS Migration"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 212,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "마이크로서비스는 제한된 수의 동시 연결을 지원하는 온프레미스 SQL 데이터베이스에 데이터를 씁니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "Lambda 함수 호출 수가 너무 많으면 데이터베이스가 충돌하고 애플리케이션 가동 중지 시간이 발생합니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "회사는 마이크로 서비스를 AWS Lambda 함수로 실행합니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "회사에는 회사의 VPC와 온프레미스 데이터 센터 간에 AWS Direct Connect 연결이 있습니다.",
+        "answerLink": "Amazon Simple"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 213,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 단일 Amazon EC2 인스턴스에서 실행되는 Grafana 데이터 시각화 솔루션을 사용하여 회사의 AWS 워크로드 상태를 모니터링합니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "10분",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "대시보드는 가용성이 높아야 하며 10분 이상 다운될 수 없습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 214,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 고객 트랜잭션 데이터베이스를 온프레미스에서 AWS로 마이그레이션해야 합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "새로운 보안 요구 사항에 따라 회사는 매년 데이터베이스 암호를 순환해야 합니다.",
+        "answerLink": "Amazon RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 215,
+    "answer": "B, D",
+    "highlights": [
+      {
+        "text": "회사에는 온프레미스 네트워크에 연결된 VPC가 필요합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 온프레미스 네트워크에서 들어오고 나가는 총 트래픽이 50Mbps 미만일 것으로 예상합니다.",
+        "answerLink": "AWS Site-to-Site"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "50Mbps",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 216,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 조직의 모든 AWS 계정에 대해 인터넷으로 향하는 모든 아웃바운드 트래픽에 대해 중앙에서 관리되는 규칙 기반 필터링을 추가할 수 있는 기능이 필요합니다.",
+        "answerLink": "AWS Network"
+      },
+      {
+        "text": "아웃바운드 트래픽의 최대 부하는 각 가용 영역에서 25Gbps를 초과하지 않습니다.",
+        "answerLink": "AWS Network"
+      },
+      {
+        "text": "각 계정에는 인터넷으로의 아웃바운드 트래픽을 위한 인터넷 게이트웨이와 NAT 게이트웨이가 모두 있습니다.",
+        "answerLink": "AWS Network"
+      },
+      {
+        "text": "대기업의 솔루션 설계자는 AWS Organizations 의 조직 내 모든 AWS 계정에서 인터넷으로 나가는 아웃바운드 트래픽에 대한 네트워크 보안을 설정해야 합니다.",
+        "answerLink": "AWS Network"
+      },
+      {
+        "text": "25Gb",
+        "answerLink": "AWS Network"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 217,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "• 거부된 요청은 타사 감사 응용 프로그램으로 보내야 합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "회사는 로드 밸런서를 사용하여 단일 가용 영역의 Amazon EC2 인스턴스에 트래픽을 분산합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이 회사는 보안에 대해 우려하고 있으며 솔루션 설계자가 다음 요구 사항을 충족하도록 솔루션을 다시 설계하기를 원합니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 218,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사는 최근 Amazon API Gateway 에서 구현된 새로운 REST API를 추가했습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "EC2 인스턴스에서 실행되는 일부 이전 마이크로서비스는 이 새로운 API를 호출해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 공용 인터넷에서 API에 액세스하는 것을 원하지 않으며 독점 데이터가 공용 인터넷을 통과하는 것을 원하지 않습니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 219,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "때때로 엔지니어가 다른 엔지니어의 EC2 보안 그룹 구성을 변경하여 환경에서 비준수 문제를 일으킵니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "엔지니어가 EC2 인스턴스의 보안 설정을 비준수로 변경하면 시스템에서 알림을 보내야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "이 회사는 Amazon EC2 인스턴스를 사용하여 전자 상거래 웹 사이트를 호스팅하고 Amazon S3 를 사용하여 정적 데이터를 저장합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "솔루션 설계자는 엔지니어가 수행한 변경 사항을 추적하는 시스템을 설정해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "회사의 엔지니어 3명이 하나의 AWS 계정을 통해 클라우드 관리 및 개발을 처리합니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 220,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "회사에는 대도시 전체의 교통 패턴을 모니터링하는 IoT 센서가 있습니다.",
+        "answerLink": "스트림을 리샤딩하여 스트림의 샤드 수를 늘립니다."
+      },
+      {
+        "text": "회사는 센서에서 데이터를 읽고 수집하고 데이터 집계를 수행하려고 합니다.",
+        "answerLink": "스트림을 리샤딩하여 스트림의 샤드 수를 늘립니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

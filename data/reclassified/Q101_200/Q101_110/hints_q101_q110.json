@@ -1,0 +1,244 @@
+[
+  {
+    "qNumber": 101,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "마케팅 팀은 마케팅 AWS 계정에서 QuickSight 접근을 제공하기 위해 QuickSight용 IAM 서비스 역할을 이미 생성했습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "마케팅 팀은 상태 팀이 S3 버킷에 저장하는 데이터에 액세스해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "영업팀은 Amazon S3 버킷에 페타바이트 규모의 데이터를 저장합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 AWS 계정 전체에서 S3 버킷의 데이터에 대한 보안 접근을 제공할 솔루션이 필요합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 AWS Key Management Service(AWS KMS) 키로 S3 버킷을 암호화했습니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 102,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사에서 비즈니스 크리티컬 애플리케이션을 온프레미스 데이터 센터에서 AWS로 마이그레이션할 계획입니다.",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "회사에는 Microsoft SQL Server Always On 클러스터의 온프레미스 설치가 있습니다.",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "회사는 AWS 관리형 데이터베이스 서비스로 마이그레이션하려고 합니다.",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "솔루션 설계자는 AWS에서 이기종 데이터베이스 마이그레이션을 설계해야 합니다.",
+        "answerLink": "AWS Schema"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 103,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "디자인 팀이 개발 계정에서 정적 자산을 테스트한 후 디자인 팀은 프로덕션 계정의 S3 버킷에 자산을 로드해야 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 회사의 프로덕션 계정에서 호스팅되는 Amazon S3 버킷의 아이콘과 자산을 제공합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 또한 디자인 팀 구성원이 액세스할 수 있는 개발 계정을 사용합니다.",
+        "answerLink": "프로덕션 계정에서 역할을 생성하고 새 정책을 역할에 연결합니다. 개발 계정을 신뢰할 수 있는 엔터티로 정의합니다."
+      },
+      {
+        "text": "솔루션 설계자는 원치 않는 변경의 위험에 웹 애플리케이션의 다른 부분을 노출시키지 않고 프로덕션 계정에 대한 액세스 권한을 디자인 팀에 제공해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "출판 회사의 디자인 팀은 전자 상거래 웹 애플리케이션에서 사용하는 아이콘 및 기타 정적 자산을 업데이트합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 104,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "5분"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "5분"
+      },
+      {
+        "text": "CPU 사용률은 정기적으로 85%보다 높으며 이로 인해 일부 성능 병목 현상이 발생합니다.",
+        "answerLink": "5분"
+      },
+      {
+        "text": "최근 테스트에 따르면 애플리케이션이 예상보다 더 많은 CPU를 사용하는 것으로 나타났습니다.",
+        "answerLink": "5분"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 105,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "그러나 회사가 증가하는 수요를 충족하기 위해 인프라 내에서 Elastic Load Balancer 및 Auto Scaling 을 사용하고 있음에도 불구하고 월말 보고로 인해 매달 마지막 3일 동안 속도가 느려집니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "3일",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "다음 작업 중 데이터베이스가 성능에 미치는 영향을 최소화하면서 월말 로드를 처리할 수 있는 작업은 무엇입니까?",
+        "answerLink": "Amazon RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 106,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 애플리케이션을 AWS로 마이그레이션하고 서버를 유지 관리하기 위한 관리 오버헤드를 최소화하려고 합니다.",
+        "answerLink": "AWS App2Container"
+      },
+      {
+        "text": "회사는 회사의 데이터 센터에 있는 VM에 복잡한 종속성이 있는 Java 애플리케이션을 실행합니다.",
+        "answerLink": "AWS App2Container"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 107,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "Lambda 함수와 API 게이트웨이 엔드포인트는 us-east-1 리전에 상주합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "퍼블릭 Amazon API Gateway 엔드포인트는 Lambda 함수를 호출합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사에 AWS Lambda 함수로 호스팅되는 비동기 HTTP 애플리케이션이 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "솔루션 설계자는 다른 AWS 리전에 대한 장애 조치를 지원하도록 애플리케이션을 재설계해야 합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 108,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "각 OU에는 부서 내의 각 환경에 대해 하나씩 여러 AWS 계정이 있습니다.",
+        "answerLink": "AWS Billing"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS Billing"
+      },
+      {
+        "text": "준비 과정에서 HR 부서는 프로덕션 AWS 계정에서 여러 예약 인스턴스(RI)를 구입했습니다.",
+        "answerLink": "AWS Billing"
+      },
+      {
+        "text": "소매 회사는 AWS Organizations 에서 조직의 일부가 되도록 AWS 계정을 구성했습니다.",
+        "answerLink": "AWS Billing"
+      },
+      {
+        "text": "HR 부서에서 이 계정에 새 애플리케이션을 설치합니다.",
+        "answerLink": "AWS Billing"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 109,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "애플리케이션은 프라이빗 서브넷의 Auto Scaling 그룹에 있는 여러 Amazon EC2 Linux 인스턴스에서 실행됩니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "Application Load Balancer는 프라이빗 서브넷의 Auto Scaling 그룹에 있는 인스턴스를 대상으로 합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "현재 일부 EC2 인스턴스가 비정상으로 표시되어 종료되고 있습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "솔루션 설계자는 문제를 해결하기 위해 EC2 인스턴스에 대한 액세스 권한을 어떻게 얻어야 합니까?",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 110,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "관리자는 필요에 따라 관리형 AWS WAF 규칙 세트에서 계정 또는 OU를 추가하거나 제거할 수 있어야 합니다.",
+        "answerLink": "AWS Firewall"
+      },
+      {
+        "text": "회사에서 AWS WAF 솔루션을 배포하여 여러 AWS 계정에서 AWS WAF 규칙을 관리하려고 합니다.",
+        "answerLink": "AWS Firewall"
+      },
+      {
+        "text": "또한 관리자는 모든 계정에서 비준수 AWS WAF 규칙을 자동으로 업데이트하고 수정하는 기능이 있어야 합니다.",
+        "answerLink": "AWS Firewall"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Firewall"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS Firewall"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

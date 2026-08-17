@@ -1,0 +1,240 @@
+[
+  {
+    "qNumber": 251,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "한 회사가 미국에 기반을 둔 6개의 파트너와 정보를 공유하기 위해 REST API를 만들고 있습니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "회사는 API 보안을 위해 어떤 접근 방식을 취해야 합니까?",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "회사는 Amazon API Gateway 지역 엔드포인트를 생성했습니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "6 개 파트너는 각각 하루에 한 번씩 API에 액세스하여 일일 판매 수치를 게시합니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "이 회사는 이 트래픽이 봇넷에서 발생한다고 믿고 비용을 최소화하면서 API를 보호하기를 원합니다.",
+        "answerLink": "AWS WAF"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 252,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 단일 AWS 리전의 애플리케이션에 Amazon Aurora PostgreSQL DB 클러스터를 사용합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "회사의 데이터베이스 팀은 모든 데이터베이스의 모든 데이터 활동을 모니터링해야 합니다.",
+        "answerLink": "Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 253,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 아키텍트는 가장 비용 효율적인 방식으로 수요를 충족하도록 Auto Scaling 그룹을 구성해야 합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "회사는 CPU 및 메모리 소비를 모니터링하는 Auto Scaling 그룹을 사용하여 인스턴스 플릿을 동적으로 확장하기로 결정합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "출시 기간 동안 플레이어에게 좋은 경험을 제공하기 위해 회사는 Network Load Balancer 뒤에 12개의 r6g.16xlarge(메모리 최적화) Amazon EC2 인스턴스 정적 수량을 배포했습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이 회사의 운영 팀은 Amazon CloudWatch 에이전트와 사용자 지정 지표를 사용하여 모니터링 전략에 메모리 사용률을 포함시켰습니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 254,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사는 DynamoDB와 관련된 비용을 줄여야 합니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "금융 서비스 회사는 수백만 건의 과거 주식 거래를 Amazon DynamoDB 테이블에 로드했습니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "테이블은 온디맨드 용량 모드를 사용합니다.",
+        "answerLink": "DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 255,
+    "answer": "A, C",
+    "highlights": [
+      {
+        "text": "NLB(Network Load Balancer) 가 있는 EC2 인스턴스에서 실행되는 로깅 서비스는 서로 다른 서브넷에 배포됩니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "한 회사에서 수백 개의 AWS 계정으로부터 로그를 수신하고 분석하는 Amazon EC2 에서 실행되는 중앙 집중식 로깅 서비스를 만들고 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "솔루션 아키텍트가 이 문제를 해결하기 위해 취해야 하는 단계 조합은 무엇입니까?",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "AWS PrivateLink 는 클라이언트 서비스와 로깅 서비스 간의 연결을 제공하는 데 사용되고 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "클라이언트가 있는 각 AWS 계정에서 로깅 서비스에 대한 인터페이스 엔드포인트가 생성되었으며 사용할 수 있습니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 256,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 Amazon S3 버킷에 수백만 개의 객체를 가지고 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "솔루션 아키텍트는 회사의 월별 AWS 송장을 검토하고 Amazon S3 의 많은 요청으로 인해 AWS KMS 비용이 증가하고 있음을 확인합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "모든 S3 객체는 자주 액세스됩니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "객체는 S3 Standard 스토리지 클래스에 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 257,
+    "answer": "B, D",
+    "highlights": [
+      {
+        "text": "애플리케이션 상태는 Amazon DynamoDB 테이블에 저장됩니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "미디어 스토리지 애플리케이션은 AWS Lambda 기능으로 처리하기 위해 사용자 사진을 Amazon S3에 업로드합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "문제는 데이터 저장 시 Lambda 동시성 제한 및 DynamoDB 성능의 결과입니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "애플리케이션 개발자는 로그를 추적하고 수천 명의 사용자가 동시에 사진을 업로드할 때 Lambda가 사진 처리 문제를 겪고 있음을 발견합니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 258,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "이 애플리케이션은 사용자에게 미디어 파일을 업로드할 수 있는 기능을 제공합니다.",
+        "answerLink": "AWS Amplify"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Amplify"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Amplify"
+      },
+      {
+        "text": "회사는 온프레미스 데이터 센터에서 애플리케이션을 실행합니다.",
+        "answerLink": "AWS Amplify"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Amplify"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 259,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사에는 ALB(Application Load Balancer) 뒤의 Amazon EC2 인스턴스에 배포된 애플리케이션이 있습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "그러나 인스턴스가 축소된 후에는 더 이상 로그를 사용할 수 없습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "축소 이벤트 후 개발 팀이 애플리케이션 로그를 볼 수 있는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "회사의 개발 팀은 애플리케이션 로그를 분석하여 애플리케이션 성능을 개선할 방법을 찾고자 합니다.",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 260,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 CloudFront 배포 오리진에 www.example.com으로 설정된 Access-Control-Allow- Origin 헤더가 있는지 확인합니다.",
+        "answerLink": "API Gateway API 엔드포인트에서 CORS 설정을 활성화합니다. Access -Control-Allow-Origin 헤더가 www.example.com으로 설정된 모든 응답을 반환하도록 API 엔드포인트가 구성되었는지 확인합니다."
+      },
+      {
+        "text": "등록 양식이 제출되면 웹 사이트는 AWS Lambda 함수를 호출하는 Amazon API Gateway API 엔드포인트를 호출하여 페이로드를 처리하고 페이로드를 외부 API 호출로 전달합니다.",
+        "answerLink": "API Gateway API 엔드포인트에서 CORS 설정을 활성화합니다. Access -Control-Allow-Origin 헤더가 www.example.com으로 설정된 모든 응답을 반환하도록 API 엔드포인트가 구성되었는지 확인합니다."
+      },
+      {
+        "text": "테스트 중에 솔루션 설계자가 CORS(교차 원본 리소스 공유) 오류를 발견했습니다.",
+        "answerLink": "API Gateway API 엔드포인트에서 CORS 설정을 활성화합니다. Access -Control-Allow-Origin 헤더가 www.example.com으로 설정된 모든 응답을 반환하도록 API 엔드포인트가 구성되었는지 확인합니다."
+      },
+      {
+        "text": "회사는 사용자 등록 양식이 포함된 인증되지 않은 정적 웹사이트(www.example.com)를 운영합니다.",
+        "answerLink": "API Gateway API 엔드포인트에서 CORS 설정을 활성화합니다. Access -Control-Allow-Origin 헤더가 www.example.com으로 설정된 모든 응답을 반환하도록 API 엔드포인트가 구성되었는지 확인합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

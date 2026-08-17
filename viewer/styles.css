@@ -252,6 +252,30 @@ button:hover,
   font-size: 1.04rem;
 }
 
+.v5 .question {
+  line-height: 1.7;
+}
+
+.v5 .correct-choice--v5 {
+  font-weight: 700;
+  background: linear-gradient(90deg, #fff8c2 0%, #fffdf8 82%);
+  border-left: 4px solid #f59e0b;
+  padding: 8px 10px;
+  border-radius: 6px;
+  list-style: none;
+}
+
+.v5 .choices {
+  padding-left: 0;
+}
+
+.v5 .hl {
+  background: #fff08a;
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 800;
+}
+
 .v4 {
   min-height: 100vh;
   background: #f4f1ea;

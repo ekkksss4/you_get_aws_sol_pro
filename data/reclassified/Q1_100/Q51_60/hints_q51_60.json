@@ -1,0 +1,224 @@
+[
+  {
+    "qNumber": 51,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 S3 관리형 암호화 키(SSE-S3)로 서버 측 암호화를 사용하여 개체를 암호화합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "새로운 요구 사항에 따라 S3 버킷의 모든 현재 및 미래 개체는 회사의 보안 팀이 관리하는 키로 암호화되어야 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "S3 버킷에 버전 관리가 활성화되어 있지 않습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "건강 보험 회사는 Amazon S3 버킷에 개인 식별 정보(PII)를 저장합니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 52,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "EC2 인스턴스는 Application Load Balancer(ALB)의 대상 그룹으로 구성된 Auto Scaling 그룹에서 실행됩니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "CloudFront 배포는 ALB를 오리진으로 사용합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이 회사는 Amazon CloudFront 배포를 사용하여 애플리케이션을 전 세계에 배포하고 있습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이 회사는 DNS에 Amazon Route 53 을 사용하고 CloudFront 배포를 위해 www.example.com의 A 레코드를 생성했습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "애플리케이션은 Amazon EC2 인스턴스 세트에서 생성되는 동적 콘텐츠로 구성됩니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 53,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "AWS 계정 중 하나는 전송 계정으로 지정되며 다른 모든 AWS 계정과 공유되는 전송 게이트웨이가 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "이 회사는 모든 계정에서 AWS Config를 활성화했습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사의 네트워킹 팀은 글로벌 사무소에 속하는 내부 IP 주소 범위 목록을 중앙에서 관리해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "AWS Site -to- Site VPN 연결은 회사의 모든 글로벌 사무소와 전송 계정 간에 구성됩니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 54,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 2주마다 CSV 보고서를 생성하여 각 API Lambda 함수의 권장 구성 메모리, 권장 비용, 현재 구성과 권장 사항 간의 가격 차이를 표시하려고 합니다.",
+        "answerLink": "AWS Compute"
+      },
+      {
+        "text": "AWS Lambda 함수는 각 API 메서드를 지원합니다.",
+        "answerLink": "AWS Compute"
+      },
+      {
+        "text": "회사는 Amazon S3 에서 정적 웹 사이트로 새 애플리케이션을 실행합니다.",
+        "answerLink": "AWS Compute"
+      },
+      {
+        "text": "회사는 보고서를 S3 버킷에 저장합니다.",
+        "answerLink": "AWS Compute"
+      },
+      {
+        "text": "이 회사는 프로덕션 AWS 계정에 애플리케이션을 배포했으며 Amazon CloudFront를 사용하여 웹 사이트를 제공합니다.",
+        "answerLink": "AWS Compute"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 55,
+    "answer": "A, C, F",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 이러한 비용 보고서를 제공하는 AWS Billing and Cost Management 솔루션을 추천해야 합니다.",
+        "answerLink": "Billing and Cost Management에서 각 애플리케이션에 대한 비용 범주를 생성합니다."
+      },
+      {
+        "text": "팀 리소스에는 애플리케이션과 팀을 나타내는 태그가 있습니다.",
+        "answerLink": "애플리케이션과 팀을 나타내는 사용자 정의 비용 할당 태그를 활성화합니다."
+      },
+      {
+        "text": "회사의 공장 및 자동화 애플리케이션이 단일 VPC에서 실행되고 있습니다.",
+        "answerLink": "Billing and Cost Management에서 각 애플리케이션에 대한 비용 범주를 생성합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 56,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "AWS 고객에게는 온프레미스에서 실행되는 웹 애플리케이션이 있습니다.",
+        "answerLink": "고객 소유의 퍼블릭 IP 주소 블록을 AWS 계정에 등록합니다. 주소 블록에서 탄력적 IP 주소를 생성하고 VPC의 NAT 게이트웨이에 할당합니다."
+      },
+      {
+        "text": "NAT 게이트웨이는 프라이빗 서브넷에 대한 인터넷 접근을 제공합니다.",
+        "answerLink": "고객 소유의 퍼블릭 IP 주소 블록을 AWS 계정에 등록합니다. 주소 블록에서 탄력적 IP 주소를 생성하고 VPC의 NAT 게이트웨이에 할당합니다."
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "고객 소유의 퍼블릭 IP 주소 블록을 AWS 계정에 등록합니다. 주소 블록에서 탄력적 IP 주소를 생성하고 VPC의 NAT 게이트웨이에 할당합니다."
+      },
+      {
+        "text": "인터넷 접근",
+        "answerLink": "고객 소유의 퍼블릭 IP 주소 블록을 AWS 계정에 등록합니다. 주소 블록에서 탄력적 IP 주소를 생성하고 VPC의 NAT 게이트웨이에 할당합니다."
+      },
+      {
+        "text": "ALB는 퍼블릭 서브넷에 있습니다.",
+        "answerLink": "고객 소유의 퍼블릭 IP 주소 블록을 AWS 계정에 등록합니다. 주소 블록에서 탄력적 IP 주소를 생성하고 VPC의 NAT 게이트웨이에 할당합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 57,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "계정 1111-1111-1111에서 작업하는 개발자는 Amazon S3 버킷을 생성할 수 없다고 불평합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "여러 AWS 계정이 있는 회사에서 AWS Organizations 및 서비스 제어 정책(SCP)을 사용하고 있습니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 58,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사의 애플리케이션 팀은 법무 부서로부터 인스턴스의 암호화된 Amazon Elastic Block Store(Amazon EBS) 볼륨에서 Amazon S3 버킷으로 데이터를 백업하라는 지시를 받습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "애플리케이션 팀에 인스턴스에 대한 관리 SSH 키 쌍이 없습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "회사는 Amazon Linux 2를 실행하는 Amazon EC2 인스턴스에서 애플리케이션을 호스팅합니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 59,
+    "answer": "B, D, F",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 AWS 계정의 Amazon S3 버킷에서 새 AWS 계정의 새 S3 버킷으로 데이터를 복사해야 합니다.",
+        "answerLink": "aws s3"
+      },
+      {
+        "text": "어떤 단계 조합이 데이터를 성공적으로 복사합니까?",
+        "answerLink": "aws s3"
+      },
+      {
+        "text": "솔루션 설계자는 AWS CLI를 사용하는 솔루션을 구현해야 합니다.",
+        "answerLink": "aws s3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 60,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사에서 AWS CloudFormation 스택에 배포된 AWS Lambda 를 기반으로 애플리케이션을 구축했습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "웹 애플리케이션의 마지막 프로덕션 릴리스에서 몇 분 동안 중단되는 문제가 발생했습니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

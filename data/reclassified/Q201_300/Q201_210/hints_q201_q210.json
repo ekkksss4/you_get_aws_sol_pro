@@ -1,0 +1,244 @@
+[
+  {
+    "qNumber": 201,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "애플리케이션은 현재 텍스트 기반 구성 파일에 자격 증명을 저장합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "솔루션은 자격 증명을 안전하게 유지하고 정기적으로 자격 증명을 자동으로 교체하는 기능을 제공해야 합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "솔루션 설계자는 AWS 클라우드에서 호스팅되는 애플리케이션을 개선해야 합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "애플리케이션은 과부하 연결이 발생하는 Amazon Aurora MySQL DB 인스턴스를 사용합니다.",
+        "answerLink": "Amazon RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 202,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "EC2 인스턴스는 여러 가용 영역에 걸쳐 확장되는 Auto Scaling 그룹에 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "웹 애플리케이션은 t3.large Amazon EC2 인스턴스 플릿에서 호스팅되며 Amazon RDS for MySQL DB 인스턴스를 사용합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "재해 발생 시 웹 애플리케이션은 RPO 30 초 및 RTO 10 분으로 보조 환경으로 장애 조치해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "회사는 전자 상거래 웹 사이트를 위한 DR(재해 복구) 솔루션을 구축해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 203,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사에서 온프레미스 MySQL 데이터베이스를 us-east-1 리전의 Amazon Aurora MySQL로 일회성 마이그레이션을 계획하고 있습니다.",
+        "answerLink": "AWS Snowball"
+      },
+      {
+        "text": "온프레미스 MySQL 데이터베이스의 크기는 60TB입니다.",
+        "answerLink": "AWS Snowball"
+      },
+      {
+        "text": "60TB",
+        "answerLink": "AWS Snowball"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Snowball"
+      },
+      {
+        "text": "회사는 현재 인터넷 연결을 통해 데이터를 AWS로 전송하는 데 한 달이 걸릴 것으로 예상합니다.",
+        "answerLink": "AWS Snowball"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 204,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 회사는 보조 리전에 필요한 네트워크 구성을 배포할 수 있는 AWS CloudFormation 템플릿을 이미 생성했습니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "회사는 하루 분량의 데이터 손실 없이 영업일 기준 1일 이내에 EC2 인스턴스와 해당 구성을 복구할 수 있어야 합니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "이 애플리케이션은 20개의 Amazon EC2 인스턴스 플릿에서 실행됩니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "EC2 인스턴스는 영구적이며 연결된 여러 Amazon Elastic Block Store(Amazon EBS) 볼륨에 데이터를 저장합니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "1일",
+        "answerLink": "AWS Backup"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 205,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 Amazon S3 및 Amazon CloudFront를 사용하여 솔루션을 구축하고 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사에서 정적 콘텐츠를 호스팅하는 새 웹 사이트를 디자인하고 있습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 206,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사는 Amazon RDS 에서 Microsoft SQL Server DB 인스턴스에 액세스해야 하는 AWS Lambda 함수를 사용하여 서버리스 아키텍처를 구현하고 있습니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "그러나 프로덕션 데이터베이스의 자격 증명은 IT 보안 팀의 IAM 사용자 그룹 구성원만 액세스할 수 있는 키로 암호화해야 합니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "회사의 개발자는 개발 데이터베이스의 자격 증명에 액세스할 수 있습니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "솔루션 설계자는 이러한 요구 사항을 충족하기 위해 프로덕션 환경에서 무엇을 해야 합니까?",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "이 회사는 데이터베이스 시스템의 복제본을 포함하여 개발 및 생산을 위한 별도의 환경을 가지고 있습니다.",
+        "answerLink": "AWS Secrets"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 207,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "가장 비용",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "이 애플리케이션은 부하가 분산된 프런트엔드 웹 서버, 부하가 분산된 애플리케이션 서버 및 Microsoft SQL Server 데이터베이스에서 실행됩니다.",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "온라인 소매 회사는 레거시 온프레미스 .NET 애플리케이션을 AWS로 마이그레이션하고 있습니다.",
+        "answerLink": "Application Load Balancer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 208,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "SaaS(Software-as-a-Service) 공급자는 ALB(Application Load Balancer) 를 통해 API를 노출합니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "ALB 는 us-east-1 지역에 배포된 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터에 연결됩니다.",
+        "answerLink": "AWS Global"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 209,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사는 Amazon Route 53 을 DNS 서비스로 사용합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "센서는 MQTT 프로토콜을 사용하여 사용자 지정 MQTT 브로커에 연결하고 데이터를 보냅니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사는 AWS 클라우드에서 IoT 애플리케이션을 실행합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사는 데이터를 Amazon DynamoDB에 저장합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "MQTT 브로커는 단일 Amazon EC2 인스턴스에 데이터를 저장합니다.",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 210,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 요청 시 모든 EC2 키 쌍을 자동으로 교체하고 키를 안전하게 암호화된 위치에 보관하는 키 교체 정책을 구현하려고 합니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "각 시스템에는 고유한 EC2 키 쌍이 필요합니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "회사에 Linux 기반 Amazon EC2 인스턴스가 있습니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "사용자는 EC2 SSH 키 쌍과 함께 SSH를 사용하여 인스턴스에 액세스해야 합니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "1분",
+        "answerLink": "AWS Secrets"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

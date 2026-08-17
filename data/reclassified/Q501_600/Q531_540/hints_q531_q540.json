@@ -1,0 +1,260 @@
+[
+  {
+    "qNumber": 531,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사는 MQTT 프로토콜을 사용하여 AWS IoT Core 로 데이터를 전송할 계획입니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "회사는 데이터를 처리한 후 Amazon Aurora 데이터베이스에 저장합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "한 회사가 센서에서 대기질 데이터를 수집합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "대기질이 좋지 않은 기간에는 센서에서 데이터를 더 자주 전송합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "회사는 데이터 처리 및 저장 전에 데이터 손실이 발생하지 않도록 이 기간 동안 데이터를 버퍼링해야 합니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 532,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "애플리케이션의 개발자가 SecretsManagerReadWnte AWS 관리형 IAM 정책을 IAM 역할에 연결했습니다.",
+        "answerLink": "AWS Identity"
+      },
+      {
+        "text": "애플리케이션은 IAM 인스턴스 프로파일이 연결된 Amazon EC2 인스턴스의 AWS Auto Scaling 그룹을 사용합니다.",
+        "answerLink": "AWS Identity"
+      },
+      {
+        "text": "IAM 역할은 EC2 인스턴스에 연결된 인스턴스 프로필과 연결됩니다.",
+        "answerLink": "AWS Identity"
+      },
+      {
+        "text": "애플리케이션 로직의 일부는 AWS Secrets Manager 에서 비밀을 생성하고 액세스합니다.",
+        "answerLink": "AWS Identity"
+      },
+      {
+        "text": "솔루션 설계자는 SecretsManagerReadWnte 정책을 애플리케이션에 필요한 Secrets Manager 작업에 대한 최소 권한 접근을 제공하는 새 정책으로 교체해야 합니다.",
+        "answerLink": "AWS Identity"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 533,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "데이터베이스는 기본 RDS AWS Key Management Service(AWS KMS) 키로 암호화됩니다.",
+        "answerLink": "Organizations"
+      },
+      {
+        "text": "이 회사는 AWS Organizations를 사용하고 있으며 백업을 위한 중앙 WORM(write-once, read-many) 계정을 만들었습니다.",
+        "answerLink": "Organizations"
+      },
+      {
+        "text": "이 회사는 프로덕션 계정에 40개의 Amazon RDS to MySQL 데이터베이스를 보유하고 있습니다.",
+        "answerLink": "Organizations"
+      },
+      {
+        "text": "데이터베이스의 RDS 자동 백업은 매일 수행되며 보관 기간은 30일입니다.",
+        "answerLink": "Organizations"
+      },
+      {
+        "text": "30일",
+        "answerLink": "Organizations"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 534,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "EC2 인스턴스는 VPC에서 실행 중입니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "회사는 Amazon EC2 인스턴스 플릿에서 프록시 서버를 운영합니다.",
+        "answerLink": "Amazon Route"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 535,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "백업 계획에는 7일 후에 EFS 백업을 콜드 스토리지로 전환하고 추가 90일 동안 백업을 유지하는 수명 주기 구성 규칙이 포함되어 있습니다.",
+        "answerLink": "EFS"
+      },
+      {
+        "text": "EFS 백업 콜드 스토리지는 EFS 웜 백업 스토리지 비용의 거의 두 배를 생성합니다.",
+        "answerLink": "EFS"
+      },
+      {
+        "text": "솔루션 설계자는 EFS 백업을 위해 AWS Backup 에서 이미 백업 계획을 구성했습니다.",
+        "answerLink": "EFS"
+      },
+      {
+        "text": "한 달 후 회사는 EFS 스토리지 비용을 검토하고 EFS 백업 비용이 증가했음을 확인했습니다.",
+        "answerLink": "EFS"
+      },
+      {
+        "text": "회사는 Amazon Elastic File System(Amazon EFS) 의 백업 비용을 최적화해야 합니다.",
+        "answerLink": "EFS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 536,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 AWS 솔루션의 일부로 Amazon Elastic Container Registry(Amazon ECR) 를 사용할 예정입니다.",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "회사에는 기본 컨테이너 이미지가 포함된 컨테이너화된 설정이 있습니다.",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "회사는 기본 이미지에 의존하는 맞춤형 개발 구성 요소에 대한 이미지를 보유하고 있습니다.",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "한 회사가 레거시 .NET 워크로드를 AWS로 마이그레이션하고 있습니다.",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "레거시 라이브러리 및 기타 종속성으로 인해 기본 이미지 크기는 수십 기가바이트입니다.",
+        "answerLink": "Amazon ECR"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 537,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "각 IAM 그룹에는 구성원이 계정 전체에서 특정 역할을 맡을 수 있도록 허용하는 정책이 첨부되어 있습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 IAM에 존재하는 권한과 일치하도록 IAM Identity Center 에 이미 새로운 사용자 및 그룹을 생성했습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사에서는 AWS IAM Identity Center(AWS Single Sign -On)를 사용하여 AWS 서비스에 대한 직원 접근을 관리하려고 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 기존 권한을 구현하기 위해 IAM ID 센터를 어떻게 사용해야 합니까?",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "직원마다 자신만의 IAM 사용자가 있습니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 538,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "* 실제 서버 사용량, 시스템 성능 및 실행 중인 프로세스 측정 * 시스템 구성 목록 확인 * 시스템 간 네트워크 연결 세부 정보 파악 * 온프레미스 워크로드 내 애플리케이션 구성 요소 및 종속성 분석 * AWS로부터 EC2 인스턴스 크기 조정 권장 사항 수신 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "이 회사는 서버를 Amazon EC2 인스턴스로 마이그레이션할 계획입니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "서버는 물리적 머신과 가상 머신(VM)에서 실행됩니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "한 회사가 온프레미스 Linux, Windows, Ubuntu 서버에서 다양한 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "AWS Application"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 539,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "확장성",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "이 애플리케이션은 정적 React 기반 단일 페이지 애플리케이션(SPA), Node.js API 및 MYSQL 데이터베이스 서버를 호스팅하는 일련의 웹 서버를 사용합니다.",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "회사가 온프레미스에서 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "AWS Database"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 540,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "비즈니스 로직 및 API 계층은 Python 기반 웹 프레임워크를 사용합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "회사는 온프레미스 데이터 센터에서 AWS로 3계층 웹 애플리케이션을 마이그레이션할 계획입니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "데이터 계층은 MySQL 데이터베이스에서 실행됩니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "회사는 비즈니스 요구 사항을 충족하기 위해 응용 프로그램을 사용자 정의했습니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

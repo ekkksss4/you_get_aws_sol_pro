@@ -1,0 +1,240 @@
+[
+  {
+    "qNumber": 471,
+    "answer": "A, C, F",
+    "highlights": [
+      {
+        "text": "전송 게이트웨이는 중앙 집중식 네트워킹 계정의 VPC를 멤버 계정의 VPC에 연결합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "방화벽 장비를 재구축하는 동안 회사는 시작 시 방화벽 장비를 구성하기 위한 새로운 스크립트를 작성했습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "방화벽 어플라이언스는 네트워크 확장 시 증가된 트래픽을 처리하기 위해 수평으로 확장할 수 있는 기능이 필요합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "각 방화벽 어플라이언스는 수동으로 구성된 고가용성 Amazon EC2 인스턴스에서 실행됩니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "솔루션 설계자는 이러한 요구 사항을 가장 비용 효율적으로 충족하기 위해 어떤 단계 조합을 권장해야 합니까?",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 472,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "데이터베이스는 기본 및 보조 리전에 모두 존재하는 AWS 서비스 및 기능을 포함하는 AWS CloudFormation 템플릿에서 시작됩니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "RTO",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "15분",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "2시간",
+        "answerLink": "AWS Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 473,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "애플리케이션에는 AWS Lambda 함수를 호출하는 Amazon API Gateway API 가 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "데이터는 PostgreSQL DB 인스턴스용 Amazon RDS에 저장됩니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "솔루션 설계자는 해당 기간 동안 Amazon CloudWatch 지표를 검토한 결과 Lambda 호출 및 데이터베이스 연결이 크게 증가한 것을 발견했습니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 474,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "애플리케이션은 MySQL 데이터베이스와 Oracle OLAP 분석 데이터베이스에 소매 데이터를 저장합니다.",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "실시간",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "모든 애플리케이션과 데이터베이스는 Amazon EC2 인스턴스에서 호스팅됩니다.",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "별도의 ETL 작업이 매주 실행되어 각 애플리케이션의 데이터를 분석 데이터베이스에 복사합니다.",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "솔루션은 거의 실시간으로 업데이트된 분석을 제공해야 합니다.",
+        "answerLink": "AWS Fargate"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 475,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 AWS 조직 내에서 관리되는 여러 AWS 계정을 사용할 계획입니다.",
+        "answerLink": "조직 마스터 계정에 새 CloudTrail 추적을 생성합니다. 조직의 모든 AYYS 계정에 대한 모든 이벤트를 기록하도록 추적을 구성합니다."
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "조직 마스터 계정에 새 CloudTrail 추적을 생성합니다. 조직의 모든 AYYS 계정에 대한 모든 이벤트를 기록하도록 추적을 구성합니다."
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "조직 마스터 계정에 새 CloudTrail 추적을 생성합니다. 조직의 모든 AYYS 계정에 대한 모든 이벤트를 기록하도록 추적을 구성합니다."
+      },
+      {
+        "text": "한 회사가 온프레미스 데이터 센터에서 AWS 클라우드로 마이그레이션을 계획하고 있습니다.",
+        "answerLink": "조직 마스터 계정에 새 CloudTrail 추적을 생성합니다. 조직의 모든 AYYS 계정에 대한 모든 이벤트를 기록하도록 추적을 구성합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 476,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "VPN에 액세스하려면 다중 요소 인증(MFA)을 사용해야 합니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "회사의 보안 정책에는 VPC에 배포된 모든 내부 비공개 서비스가 VPN을 통해 액세스할 수 있어야 한다고 명시되어 있습니다.",
+        "answerLink": "VPN"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 477,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "회사는 온프레미스 데이터 센터에서 3계층 웹 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "확장성",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "솔루션은 확장성을 극대화하고 운영 노력을 최소화해야 합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "애플리케이션이 응답하지 않게 되었고 읽기 작업으로 인해 데이터베이스가 용량 제한에 도달했습니다.",
+        "answerLink": "AWS Database"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 478,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "애플리케이션은 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터와 Amazon Elastic Container Registry(Amazon ECR) 리포지토리로 구성됩니다.",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "EKS 클러스터에는 AWS 관리형 노드 그룹이 있습니다.",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "EKS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 479,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "ECS 클러스터의 단일 ECS 서비스는 CloudFront 배포의 오리진입니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "회사는 Amazon CloudFront 를 사용하여 애플리케이션을 제공합니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "애플리케이션은 Amazon Elastic Container Service(Amazon ECS) 클러스터에서 실행됩니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "이러한 사용자는 JWT(JSON 웹 토큰)의 암호화된 속성으로 식별됩니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "이러한 중단은 애플리케이션의 티켓 판매 거래에 부정적인 영향을 미치고 있습니다.",
+        "answerLink": "ECS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 480,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "CloudFormation 템플릿이 하위 계정에서 시작되면 권한이 부족하여 EC2 인스턴스가 더 이상 상위 계정의 역할을 맡을 수 없습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "EC2 인스턴스에는 EC2 인스턴스가 상위 계정의 역할을 맡는 데 사용하는 인스턴스 프로필이 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "환경에는 Amazon EC2 인스턴스가 포함되어 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "솔루션 설계자는 CloudFormation 템플릿에서 역할을 다시 생성하고 동일한 역할 이름을 사용합니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

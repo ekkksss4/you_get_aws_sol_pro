@@ -1,0 +1,225 @@
+[
+  {
+    "qNumber": 1,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "온프레미스 시스템은 cloud.example.com을 확인하고 연결할 수 있어야 합니다.",
+        "answerLink": "공유 서비스 VPC에서 Route 53 인바운드 해석기를 생성"
+      },
+      {
+        "text": "모든 VPC는 cloud.example.com을 확인할 수 있어야 합니다.",
+        "answerLink": "프라이빗 호스팅 영역을 모든 VPC에 연결"
+      },
+      {
+        "text": "온프레미스 회사 네트워크와 AWS 운송 게이트웨이(Transit Gateway ) 사이에 이미 AWS Direct Connect 연결이 있습니다.",
+        "answerLink": "모든 VPC를 전송 게이트웨이에 연결"
+      }
+    ],
+    "memory": "온프레미스에서 Route 53 Private Hosted Zone을 조회하려면 Route 53 Resolver Inbound Endpoint를 사용한다. 모든 VPC가 같은 private DNS를 확인해야 하므로 Private Hosted Zone을 각 VPC에 연결한다."
+  },
+  {
+    "qNumber": 2,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "API가 다른 AWS 리전으로 장애 조치할 수 있는 기능을 제공하는 솔루션이 필요합니다.",
+        "answerLink": "다른 리전에 새 API Gateway API 및 Lambda 함수를 배포"
+      },
+      {
+        "text": "API가 다른 AWS 리전으로 장애 조치할 수 있는 기능을 제공하는 솔루션이 필요합니다.",
+        "answerLink": "Route 53 DNS 레코드를 장애 조치 레코드로 변경"
+      },
+      {
+        "text": "회사 는 API용 데이터를 Amazon DynamoDB 테이블에 저장합니다.",
+        "answerLink": "DynamoDB 테이블을 전역 테이블로 변환"
+      }
+    ],
+    "memory": "Multi-Region API failover → 다른 Region에 API Gateway/Lambda를 배포하고 Route 53 Failover Routing을 사용한다. DynamoDB는 Global Table로 구성한다."
+  },
+  {
+    "qNumber": 3,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "관리자는 조직의 루트에 있는 거부 목록 SCP를 사용하여 제한된 서비스에 대한 접근을 관리합니다.",
+        "answerLink": "조직의 루트 SCP를 프로덕션 OU로 이동"
+      },
+      {
+        "text": "새 사업부의 기존 AWS 계정을 조직에 초대했습니다.",
+        "answerLink": "새 계정에 대해 Onboarding이라는 임시 OU를 만듭니다."
+      },
+      {
+        "text": "기존 AWS Config 규칙을 업데이트할 수 없음을 발견했습니다.",
+        "answerLink": "온보딩 OU에 SCP를 적용하여 AWS Config 작업을 허용"
+      },
+      {
+        "text": "추가 장기 유지 관리 없이 현재 정책을 변경하고 계속 시행",
+        "answerLink": "AWS Config 조정이 완료되면 새 계정을 프로덕션 OU로 이동"
+      }
+    ],
+    "memory": "Root의 Deny SCP가 온보딩 작업까지 막는다면 기존 Production 정책은 OU로 이동하고, 신규 계정은 임시 Onboarding OU에서 필요한 AWS Config 작업만 허용한 뒤 Production OU로 이동한다."
+  },
+  {
+    "qNumber": 4,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "상태 저장 애플리케이션을 실행하는 단일 서버",
+        "answerLink": "고정 세션이 활성화된 Application Load Balancer"
+      },
+      {
+        "text": "애플리케이션의 사용자 기반이 크게 성장할 것으로 예상",
+        "answerLink": "Aurora 복제본에 대해 Aurora Auto Scaling 을 활성화"
+      },
+      {
+        "text": "애플리케이션 및 데이터베이스 계층을 확장할 수 있는 일관된 사용자 경험",
+        "answerLink": "라운드 로빈 라우팅 및 고정 세션이 활성화된 Application Load Balancer"
+      }
+    ],
+    "memory": "Stateful 애플리케이션을 수평 확장하면서 사용자 세션 일관성을 유지하려면 ALB sticky sessions가 필요하다. Aurora는 read replica Auto Scaling으로 읽기 계층을 확장한다."
+  },
+  {
+    "qNumber": 5,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "많은 구형 장치는 특정 HTTP 헤더를 지원하지 않으며 이러한 헤더가 응답에 있을 때 오류를 표시합니다.",
+        "answerLink": "문제가 있는 헤더를 제거하는 CloudFront 함수를 생성"
+      },
+      {
+        "text": "User-Agent 헤더로 회사에서 식별한 이전 장치",
+        "answerLink": "User -Agent 헤더의 값을 기반으로"
+      },
+      {
+        "text": "서비스를 AWS로 마이그레이션하고 서버리스 기술을 채택",
+        "answerLink": "Amazon CloudFront 배포"
+      },
+      {
+        "text": "애플리케이션을 AWS Lambda 함수 세트로 마이그레이션했습니다.",
+        "answerLink": "각 요청 유형에 대해 올바른 Lambda 함수를 호출하도록 ALB를 구성"
+      }
+    ],
+    "memory": "User-Agent에 따라 응답 헤더를 제거해야 하면 CloudFront Functions로 viewer response를 가공할 수 있다. 기존 Lambda 함수는 ALB의 Lambda target 통합으로 호출한다."
+  },
+  {
+    "qNumber": 6,
+    "answer": "C, D",
+    "highlights": [
+      {
+        "text": "계정 A의 Amazon S3 버킷에 저장됩니다.",
+        "answerLink": "계정 A에서 S3 버킷 정책을 다음과 같이 설정"
+      },
+      {
+        "text": "자체 AWS 계정(계정 B)에서 파일에 액세스",
+        "answerLink": "계정 B에서 User_DataProcessor의 권한을 다음과 같이 설정"
+      },
+      {
+        "text": "IAM 사용자 중 하나인 User_DataProcessor",
+        "answerLink": "User_DataProcessor의 권한"
+      }
+    ],
+    "memory": "Cross-account S3 액세스는 리소스 소유 계정의 bucket policy와 접근 주체 계정의 IAM permission 양쪽 허용이 필요하다.",
+    "warning": "choices C와 D의 실제 정책 JSON/statement 내용이 추출되지 않아 Principal, Action, Resource 수준의 세부 매칭은 현재 JSON만으로 확인할 수 없음."
+  },
+  {
+    "qNumber": 7,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "애플리케이션을 컨테이너에서 실행되는 마이크로서비스로 리팩터링",
+        "answerLink": "컨테이너 이미지를 Amazon Elastic Container Registry(Amazon ECR) 에 업로드"
+      },
+      {
+        "text": "생산 및 테스트라는 두 가지 환경",
+        "answerLink": "2개의 자동 확장 Amazon Elastic Container Service(Amazon ECS) 클러스터를 구성"
+      },
+      {
+        "text": "운영 복잡성을 최소화하는 서버리스 아키텍처",
+        "answerLink": "Fargate 시작 유형"
+      },
+      {
+        "text": "가장 비용 효율적으로",
+        "answerLink": "자동 확장 Amazon Elastic Container Service(Amazon ECS) 클러스터"
+      }
+    ],
+    "memory": "Container microservices + serverless compute → Amazon ECS on AWS Fargate. Production/Test를 분리하고 Auto Scaling으로 알려진 부하 범위에 맞춰 확장한다."
+  },
+  {
+    "qNumber": 8,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "백업 AWS 리전에서 복제됩니다.",
+        "answerLink": "백업 리전에서 AWS Lambda 함수를 생성"
+      },
+      {
+        "text": "Auto Scaling 그룹의 최소값과 최대값은 0으로 설정됩니다.",
+        "answerLink": "Auto Scaling 그룹 값을 수정"
+      },
+      {
+        "text": "DB 인스턴스에는 백업 리전에 읽기 전용 복제본이 있습니다.",
+        "answerLink": "읽기 전용 복제본을 승격"
+      },
+      {
+        "text": "백업 리전으로 자동 장애 조치할 수 있는 기능",
+        "answerLink": "Route 53 ... 장애 조치 정책"
+      },
+      {
+        "text": "RTO를 15분 미만으로 줄여야 합니다.",
+        "answerLink": "상태 확인 실패가 발생할 때 백업 리전의 ALB로 트래픽을 라우팅"
+      },
+      {
+        "text": "활성-활성 전략을 위한 충분한 예산이 없습니다.",
+        "answerLink": "백업 리전의 Auto Scaling 그룹 값을 필요 시 수정"
+      }
+    ],
+    "memory": "Active-active 비용을 피하면서 자동 DR을 구성하려면 Route 53 health check + Failover Routing을 사용하고, 장애 시 Lambda로 RDS read replica 승격 및 standby ASG 확장을 자동화한다."
+  },
+  {
+    "qNumber": 9,
+    "answer": "A, D, F",
+    "highlights": [
+      {
+        "text": "단일 Amazon EC2 인스턴스에서 중요한 애플리케이션을 호스팅",
+        "answerLink": "Elastic Load Balancer를 사용하여 여러 EC2 인스턴스에 트래픽을 분산"
+      },
+      {
+        "text": "Redis 단일 노드 클러스터용 Amazon ElastiCache",
+        "answerLink": "Redis 클러스터용 ElastiCache에 대한 복제 그룹을 생성"
+      },
+      {
+        "text": "Amazon RDS for MariaDB DB 인스턴스",
+        "answerLink": "두 가용 영역에 걸쳐 확장되는 다중 AZ 배포"
+      },
+      {
+        "text": "가동 중지 시간을 최소화하면서 장애로부터 자동으로 복구",
+        "answerLink": "클러스터에서 다중 AZ를 활성화"
+      }
+    ],
+    "memory": "각 계층에 단일 장애 지점을 제거한다. EC2는 ELB + Auto Scaling 최소 2대, RDS는 Multi-AZ, Redis는 replication group + Multi-AZ로 자동 복구를 구성한다."
+  },
+  {
+    "qNumber": 10,
+    "answer": "A, E",
+    "highlights": [
+      {
+        "text": "Amazon CloudFront 는 ALB를 가리키는 하나의 오리진으로 구성됩니다.",
+        "answerLink": "CloudFront 사용자 지정 오류 페이지를 구성하여 사용자 지정 오류 응답을 추가"
+      },
+      {
+        "text": "ALB는 때때로 502 상태 코드(잘못된 게이트웨이) 오류를 반환합니다.",
+        "answerLink": "CloudFront 사용자 지정 오류 페이지"
+      },
+      {
+        "text": "방문자에게 표준 ALB 오류 페이지 대신 사용자 지정 오류 페이지를 제공",
+        "answerLink": "사용자 지정 오류 페이지를 Amazon S3에 업로드"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon S3 + CloudFront 사용자 지정 오류 응답"
+      }
+    ],
+    "memory": "CloudFront 앞단에서 간헐적 ALB 502를 사용자 지정 오류 페이지로 대체하려면 정적 오류 페이지를 S3에 두고 CloudFront Custom Error Response를 사용한다."
+  }
+]

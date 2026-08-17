@@ -1,0 +1,228 @@
+[
+  {
+    "qNumber": 341,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "이 애플리케이션은 쓰기 집약적이며 Amazon Aurora MySQL 데이터베이스에 데이터를 저장합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "솔루션 설계자는 트래픽 변화를 처리할 수 있도록 확장할 수 있는 솔루션을 설계해야 합니다.",
+        "answerLink": "Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 342,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "각 EC2 인스턴스에 연결된 Amazon Elastic Block Store(Amazon EBS) 볼륨에서 정적 콘텐츠를 로드합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "애플리케이션은 ALB(Application Load Balancer) 뒤에 있는 두 개의 Amazon EC2 인스턴스에서 실행됩니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "한 회사가 애플리케이션을 AWS 클라우드로 마이그레이션했습니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "정적 콘텐츠는 자주 업데이트되므로 각 EBS 볼륨에 복사해야 합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "애플리케이션 데이터는 추가 EC2 인스턴스에서 실행되는 MySQL 데이터베이스에 저장됩니다.",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 343,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "Solutions Architect는 적절한 권한이 있는 AWS 사용자 또는 역할만 새로운 Amazon API Gateway 엔드포인트에 액세스할 수 있는지 확인하려고 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "Solutions Architect 는 어떻게 API 게이트웨이 액세스 제어를 설계하고 요청 검사를 수행할 수 있습니까?",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "Solutions Architect 는 요청의 대기 시간을 분석하고 서비스 맵을 생성하기 위해 각 요청에 대한 엔드투엔드 보기를 원합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 344,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "모든 AWS 리소스는 AWS CloudFormation 템플릿에 정의됩니다.",
+        "answerLink": "AWS CodeBuild"
+      },
+      {
+        "text": "애플리케이션이 더욱 복잡해짐에 따라 CloudFormation 템플릿의 최근 리소스 변경으로 인해 계획되지 않은 가동 중지 시간이 발생했습니다.",
+        "answerLink": "AWS CodeBuild"
+      },
+      {
+        "text": "한 회사에서 Amazon EC2 Auto Scaling 그룹에 대한 애플리케이션의 CI/CD에 AWS CodePipeline을 사용하고 있습니다.",
+        "answerLink": "AWS CodeBuild"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 345,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "동부 해안에 본사를 둔 북미 회사는 us-east-1 지역의 Amazon EC2 에서 실행되는 새로운 웹 애플리케이션을 배포하고 있습니다.",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "us-east-1 리전에서 VPC를 생성한 후 솔루션 아키텍트가 수행해야 하는 단계는 무엇입니까?",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "또한 애플리케이션에는 us-west-1 리전의 활성-수동 구성에서 재해 복구 기능이 있어야 합니다.",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "애플리케이션은 사용자 요구를 충족하고 탄력성을 유지하기 위해 동적으로 확장되어야 합니다.",
+        "answerLink": "Application Load Balancer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 346,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사는 컨테이너화된 .NET Core 구성 요소로의 마이그레이션을 시작하고 있으며 AWS에서 실행되도록 애플리케이션을 리팩터링하려고 합니다.",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": ".NET Core 구성 요소에는 복잡한 오케스트레이션이 필요합니다.",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "회사에는 여러 NET Framework 구성 요소에서 실행되는 레거시 응용 프로그램이 있습니다.",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "구성 요소는 동일한 Microsoft SQL Server 데이터베이스를 공유하고 MSMQ(Microsoft Message Queuing)를 사용하여 비동기적으로 서로 통신합니다.",
+        "answerLink": "Amazon EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 347,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "시스템에 대한 추가 로드로 인해 솔루션 설계자는 배치 그룹에 새 인스턴스를 추가하려고 시도합니다.",
+        "answerLink": "배치 그룹의 모든 인스턴스를 중지하고 시작합니다. 다시 실행해 보세요."
+      },
+      {
+        "text": "솔루션 아키텍트가 단일 가용 영역 내의 배치 그룹에서 여러 Amazon EC2 인스턴스를 시작했습니다.",
+        "answerLink": "배치 그룹의 모든 인스턴스를 중지하고 시작합니다. 다시 실행해 보세요."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 348,
+    "answer": "C, D",
+    "highlights": [
+      {
+        "text": "결과적으로 Auto Scaling 그룹은 인스턴스를 종료하고 패치가 적용되지 않은 새 인스턴스로 교체했습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이에 대응하여 회사 운영팀은 갑작스러운 트래픽 증가를 관리하기 위해 Auto Scaling 그룹을 구현했습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "한 회사는 IaC(Infrastructure as Code) 를 사용하여 두 개의 Amazon EC2 인스턴스 세트를 프로비저닝했습니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 349,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "인터페이스 VPC 엔드포인트는 Amazon S3 및 SageMaker API 에 대한 접근을 제공합니다.",
+        "answerLink": "AWS CodeArtifact"
+      },
+      {
+        "text": "SageMaker 인스턴스는 인터넷에 대한 액세스 권한이 없거나 인터넷에서 액세스할 수 없는 VPC에 배포됩니다.",
+        "answerLink": "AWS CodeArtifact"
+      },
+      {
+        "text": "경우에 따라 데이터 과학자는 워크플로의 일부로 사용하는 Python 패키지를 업데이트하기 위해 PyPl(Python Package Index) 리포지토리에 액세스해야 합니다.",
+        "answerLink": "AWS CodeArtifact"
+      },
+      {
+        "text": "솔루션 설계자는 SageMaker 인스턴스가 인터넷에서 격리된 상태를 유지하도록 보장하면서 PyPI 저장소에 대한 접근을 제공해야 합니다.",
+        "answerLink": "AWS CodeArtifact"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 350,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "컨테이너는 Amazon Elastic Container Service(Amazon ECS) 의 AWS Fargate 에서 호스팅됩니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "애플리케이션에 오류가 발생하면 Amazon CloudWatch 경보는 Amazon EventBridge 규칙을 호출합니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "애플리케이션에는 데이터 계층으로 MYSQL DB 인스턴스용 Amazon RDS 가 있으며 DNS 확인을 위해 Amazon Route 53 을 사용합니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "애플리케이션은 단일 AWS 리전에서 실행됩니다.",
+        "answerLink": "ECS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

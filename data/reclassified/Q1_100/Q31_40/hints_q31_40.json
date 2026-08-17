@@ -1,0 +1,256 @@
+[
+  {
+    "qNumber": 31,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사의 다른 IAM 사용자, 그룹, 역할 및 계정 관리자는 Private Marketplace 관리 액세스가 거부되어야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "조달 팀은 Private Marketplace 의 관리가 조달 관리자가 맡을 수 있는 조달-관리자-역할이라는 역할로 제한되기를 원합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "이 회사는 모든 기능이 활성화된 AWS Organizations 계정 구조를 사용하고 조달 관리자가 사용할 각 조직 단위(OU)에 공유 서비스 계정을 가지고 있습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "조달 팀의 정책에 따르면 개발자는 승인된 목록에서만 타사 소프트웨어를 얻을 수 있어야 하며 AWS Marketplace에서 Private Marketplace 를 사용하여 이 요구 사항을 충족할 수 있어야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "엔터프라이즈 회사는 개발자가 AWS Marketplace 를 통해 타사 소프트웨어를 구매할 수 있도록 허용하려고 합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 32,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 개발자 계정에 다음 SCP를 구현했습니다.",
+        "answerLink": "개발자 계정의 OU에서 FullAWSAccess SCP를 제거합니다."
+      },
+      {
+        "text": "이 정책이 배포되면 개발자 계정의 IAM 사용자는 정책에 나열되지 않은 AWS 서비스를 계속 사용할 수 있습니다.",
+        "answerLink": "개발자 계정의 OU에서 FullAWSAccess SCP를 제거합니다."
+      },
+      {
+        "text": "개발자 계정은 전용 조직 단위(OU)에 상주합니다.",
+        "answerLink": "개발자 계정의 OU에서 FullAWSAccess SCP를 제거합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 33,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "모바일 클라이언트는 Amazon Route 53 에서 호스팅되는 도메인 이름을 사용하여 API에 연결합니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "회사는 모든 EC2 인스턴스의 IP 주소로 Route 53 다중값 응답 라우팅 정책을 생성했습니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "한 회사가 VPC의 퍼블릭 서브넷에 있는 5개의 Amazon EC2 인스턴스에서 모바일 앱용 모놀리식 REST 기반 API를 호스팅하고 있습니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 34,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사에서 각 엔지니어링 팀을 위해 AWS Organizations 에 OU를 생성했습니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "각 OU는 여러 AWS 계정을 소유합니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "솔루션 설계자는 각 OU가 AWS 계정 전체의 사용 비용 내역을 볼 수 있도록 솔루션을 설계해야 합니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "조직에는 수백 개의 AWS 계정이 있습니다.",
+        "answerLink": "AWS Organizations"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 35,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 Windows 파일 서버에 온프레미스로 데이터를 저장하고 있습니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "회사는 이미 온프레미스 네트워크와 AWS 간에 AWS Direct Connect 연결을 설정했습니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "이 회사는 Windows 기반 워크로드의 일부를 AWS로 마이그레이션했으며 클라우드의 파일 시스템에서 데이터를 사용할 수 있어야 합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "회사는 매일 5GB의 새로운 데이터를 생성합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "5GB",
+        "answerLink": "AWS DataSync"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 36,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "애플리케이션은 us-east-1 리전의 Amazon S3 버킷에 있는 정적 자산을 참조합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 이미 두 번째 리전에 S3 버킷을 생성했습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "S3"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 37,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "솔루션 설계자는 일일 사용자 200,000명의 수요를 충족할 수 있는 확장 가능하고 가용성이 높은 솔루션을 설계해야 합니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "회사는 온프레미스 환경에서 3계층 웹 애플리케이션을 호스팅하고 있습니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "애플리케이션은 .NET으로 작성되었으며 MySQL 데이터베이스에 종속됩니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "최근 트래픽 급증으로 인해 가동 중지 시간이 발생하고 재정적으로 상당한 영향을 받았기 때문에 회사 경영진은 애플리케이션을 AWS로 이전하도록 명령했습니다.",
+        "answerLink": "AWS CloudFormation"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 38,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 AWS CloudFormation 템플릿을 사용하여 CloudFormation 스택의 배포를 자동화하기 위한 SNS 주제 및 스택 세트를 생성했습니다.",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "모든 AWS 계정에 CloudFormation StackSets 를 배포하려면 솔루션 설계자가 무엇을 해야 합니까?",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "보안을 위해 회사는 모든 조직 구성원 계정에서 타사 알림 시스템과 통합할 수 있는 Amazon Simple Notification Service(Amazon SNS) 항목을 생성해야 합니다.",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "회사에서 AWS Organizations 를 사용하여 여러 AWS 계정을 관리하고 있습니다.",
+        "answerLink": "CloudFormation"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 39,
+    "answer": "A, D, E",
+    "highlights": [
+      {
+        "text": "이 회사는 수많은 애플리케이션을 호스팅하는 물리적 머신과 VM으로 구성된 대규모 온프레미스 인프라를 보유하고 있습니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "회사는 가장 비용 효율적인 방식으로 AWS에서 워크로드를 실행할 수 있도록 Amazon EC2 인스턴스 유형에 대한 권장 사항이 필요합니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "회사는 또한 AWS 마이그레이션을 위해 온프레미스 애플리케이션을 그룹으로 나누어야 합니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "한 회사가 온프레미스에서 AWS로 워크로드를 마이그레이션하려고 합니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "AWS Application"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 40,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 VPC의 AWS에서 이미지 처리 서비스를 호스팅하고 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "VPC 는 두 가용 영역에 걸쳐 확장됩니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "EC2 인스턴스는 매일 S3 버킷에서 약 1TВ의 데이터를 검색합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "이 서비스는 이미지 저장을 위해 Amazon S3 를 사용합니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

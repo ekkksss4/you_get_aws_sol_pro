@@ -1,0 +1,216 @@
+[
+  {
+    "qNumber": 271,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 웹 호스팅, 데이터베이스 API 서비스 및 비즈니스 로직을 위해 현재 로드 밸런싱된 Amazon EC2 인스턴스 플릿이 있는 소매 주문 웹 애플리케이션을 리팩터링하려고 합니다.",
+        "answerLink": "AWS AppSync"
+      },
+      {
+        "text": "회사는 실패한 주문을 유지하는 동시에 운영 비용을 최소화하는 메커니즘을 갖춘 분리되고 확장 가능한 아키텍처를 만들어야 합니다.",
+        "answerLink": "AWS AppSync"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 272,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 us-west-2에 애플리케이션 서버를 배포하고 Amazon Route 53 상태 확인 및 us-west-2에 대한 DNS 장애 조치를 구성했습니다.",
+        "answerLink": "Amazon Aurora"
+      },
+      {
+        "text": "5분",
+        "answerLink": "Amazon Aurora"
+      },
+      {
+        "text": "1분",
+        "answerLink": "Amazon Aurora"
+      },
+      {
+        "text": "RTO",
+        "answerLink": "Amazon Aurora"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "Amazon Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 273,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사에서 AWS Organizations 를 사용하여 여러 계정을 관리하고 있습니다.",
+        "answerLink": "특정 회원 계정을 새 OU와 연결합니다. 조건을 사용하여 태그 정책 및 SCP를 적용하여 리전을 제한합니다."
+      },
+      {
+        "text": "여러 계정",
+        "answerLink": "특정 회원 계정을 새 OU와 연결합니다. 조건을 사용하여 태그 정책 및 SCP를 적용하여 리전을 제한합니다."
+      },
+      {
+        "text": "규제 요구 사항으로 인해 회사는 리소스 배포가 허용되는 특정 AWS 리전으로 특정 멤버 계정을 제한하려고 합니다.",
+        "answerLink": "특정 회원 계정을 새 OU와 연결합니다. 조건을 사용하여 태그 정책 및 SCP를 적용하여 리전을 제한합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 274,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사에는 보고서를 생성하고 Amazon S3 버킷에 저장하는 애플리케이션이 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "사용자가 보고서에 액세스하면 애플리케이션은 사용자가 보고서를 다운로드할 수 있도록 서명된 URL을 생성합니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 275,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "한 회사에서 Oracle 데이터베이스용 Amazon RDS 를 다른 AWS 계정의 RDS for PostgreSQL DB 인스턴스로 마이그레이션할 계획입니다.",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "모든 애플리케이션은 현재 Oracle DB 인스턴스용 RDS와의 통신을 위한 엔드포인트로 Amazon Route 53 CNAME 레코드를 사용합니다.",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "RDS for Oracle DB 인스턴스는 프라이빗 서브넷에 있습니다.",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "대상 데이터베이스는 마이그레이션 프로세스 완료 시 소스 데이터베이스와 동일해야 합니다.",
+        "answerLink": "AWS Schema"
+      },
+      {
+        "text": "솔루션 설계자는 다운타임이 필요하지 않고 마이그레이션을 완료하는 데 필요한 시간을 최소화하는 마이그레이션 전략을 설계해야 합니다.",
+        "answerLink": "AWS Database"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 276,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "추가 로그 분석 결과 Amazon Simple Queue Service(Amazon SQS) 표준 대기열의 주문 메시지 하나가 백엔드에서 오류를 일으키고 모든 후속 주문 메시지를 차단하는 것으로 나타났습니다.",
+        "answerLink": "SQS"
+      },
+      {
+        "text": "솔루션 설계자는 잘못된 주문 메시지를 분석하고 시스템이 후속 메시지를 계속 처리하는지 확인해야 합니다.",
+        "answerLink": "SQS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 277,
+    "answer": "A, B, C",
+    "highlights": [
+      {
+        "text": "각 단계는 다양한 이유로 실패할 수 있으며 모든 실패로 인해 전체 워크플로가 실패합니다.",
+        "answerLink": "\"ErrorEquals\": [ \"States.ALL\" ] 및 \"Next\": \"Email\" 문이 있는 모든 작업, 맵 및 병렬 상태에 Catch 필드를 추가합니다."
+      },
+      {
+        "text": "솔루션 설계자는 재교육 프로세스에서 모든 유형의 실패에 대해 알림을 보내도록 워크플로를 개선해야 합니다.",
+        "answerLink": "Amazon Simple"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 278,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "온프레미스 서비스는 company.example DNS 영역에 있는 호스트 이름을 사용하여 액세스할 수 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "AWS Site -to-Site VPN 은 VPC를 회사의 온프레미스 네트워크에 연결합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사에서 VPC 내부의 Amazon EC2 인스턴스에 새로운 프라이빗 인트라넷 서비스를 배포할 계획입니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "솔루션 설계자는 새 서비스가 기존 서비스와 통합하기 위해 company.example 도메인의 호스트 이름을 확인할 수 있는지 확인해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "새 서비스는 기존 온프레미스 서비스와 통신해야 합니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 279,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "전송 게이트웨이는 모든 VPC 연결에 기본 라우팅 테이블을 사용합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "VPC 내의 각 서브넷은 기본 VPC 라우팅 테이블을 사용하고 트래픽은 전송 게이트웨이로 라우팅됩니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "솔루션 설계자는 VPC 간의 트래픽을 제한해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "각 VPC는 미리 정의되고 제한된 승인된 VPC 세트와만 통신할 수 있어야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "퍼블릭 인터넷으로 트래픽을 전송하는 각 VPC는 공유 서비스 VPC를 통해 트래픽을 전송해야 합니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 280,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "인수 회사는 온프레미스에서 Active Directory 를 사용하지만 모든 직원을 위해 AWS에서 애플리케이션에 대한 접근을 관리하는 간소화된 방법을 원합니다.",
+        "answerLink": "Amazon AppStream"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon AppStream"
+      },
+      {
+        "text": "최소한의 개발 노력",
+        "answerLink": "Amazon AppStream"
+      },
+      {
+        "text": "최소한의 개발 노력으로 AWS에서 애플리케이션을 다시 호스팅하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon AppStream"
+      },
+      {
+        "text": "모든 직원은 애플리케이션을 사용하기 전에 인증을 받아야 합니다.",
+        "answerLink": "Amazon AppStream"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

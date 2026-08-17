@@ -1,0 +1,244 @@
+[
+  {
+    "qNumber": 161,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 내부 Application Load Balancer(ALB) 뒤에 있는 여러 가용 영역의 Amazon EC2 인스턴스에 애플리케이션을 배포했습니다.",
+        "answerLink": "Network Load Balancer"
+      },
+      {
+        "text": "회사는 IP 주소를 기반으로 하는 허용 목록을 사용하여 온프레미스 방화벽 어플라이언스를 배포할 계획입니다.",
+        "answerLink": "Network Load Balancer"
+      },
+      {
+        "text": "회사의 클라이언트는 HTTPS를 사용하여 온프레미스 네트워크에서 연결합니다.",
+        "answerLink": "Network Load Balancer"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Network Load Balancer"
+      },
+      {
+        "text": "회사에는 여러 대상 그룹이 있으며 경로 기반 라우팅을 사용하여 URL 경로를 기반으로 요청을 전달합니다.",
+        "answerLink": "Network Load Balancer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 162,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "다양한 AWS 관리형 규칙을 포함하는 AWS WAF 웹 ACL은 CloudFront 배포와 연결됩니다.",
+        "answerLink": "ALB 에 보안 그룹 규칙을 추가하여 CloudFront에 대해서만 AWS 관리형 접두사 목록의 트래픽을 허용합니다."
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "ALB 에 보안 그룹 규칙을 추가하여 CloudFront에 대해서만 AWS 관리형 접두사 목록의 트래픽을 허용합니다."
+      },
+      {
+        "text": "ALB 는 Amazon CloudFront 배포의 오리진입니다.",
+        "answerLink": "ALB 에 보안 그룹 규칙을 추가하여 CloudFront에 대해서만 AWS 관리형 접두사 목록의 트래픽을 허용합니다."
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "ALB 에 보안 그룹 규칙을 추가하여 CloudFront에 대해서만 AWS 관리형 접두사 목록의 트래픽을 허용합니다."
+      },
+      {
+        "text": "회사는 인터넷 트래픽이 ALB에 직접 액세스하지 못하도록 하는 솔루션이 필요합니다.",
+        "answerLink": "ALB 에 보안 그룹 규칙을 추가하여 CloudFront에 대해서만 AWS 관리형 접두사 목록의 트래픽을 허용합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 163,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "그러나 회사는 전송 중 암호화를 사용하도록 ElastiCache를 구성하지 않았습니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "솔루션 설계자는 사용자 인증을 요구하고 회사가 엔드투엔드 암호화를 사용하도록 변경해야 합니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "회사는 Redis용 Amazon ElastiCache 클러스터를 캐싱 계층으로 사용하는 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "최근 보안 감사에서 회사가 ElastiCache에 대해 저장된 데이터 암호화를 구성한 것으로 나타났습니다.",
+        "answerLink": "AWS Secrets"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 164,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "최근 모니터링 시스템에서 시스템 사용자의 대기 시간이 길어지는 Auto Scaling 인스턴스 시작 실패를 보고했습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "회사는 Auto Scaling 그룹에 있는 Amazon EC2 스팟 인스턴스를 사용하여 컴퓨팅 워크로드를 실행하고 있습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "시작 템플릿은 두 개의 배치 그룹과 단일 인스턴스 유형을 사용합니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 165,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "문서 처리가 완료되면 고객은 Amazon S3에서 직접 문서를 다운로드할 수 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "이 회사는 기본적으로 Amazon S3 API 를 사용하여 처리 서버가 초당 약 5개의 문서 속도로 생성하는 문서를 저장, 검색 및 수정하도록 많은 애플리케이션을 업데이트했습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "마이그레이션 과정에서 회사는 S3 API 를 지원하기 위해 많은 문서를 생성하는 처리 서버를 즉시 업데이트할 수 없음을 발견했습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "30분",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "서버가 처리를 마치면 파일을 30분 이내에 다운로드할 수 있도록 대중이 사용할 수 있어야 합니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 166,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "중앙 사용자 서비스는 민감한 데이터를 Amazon DynamoDB 테이블에 저장합니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "중앙 사용자 서비스가 사용자를 삭제하는 즉시 다른 모든 마이크로 서비스도 데이터 복사본을 즉시 삭제해야 합니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "회사는 요청 시 사용자 정보를 삭제할 수 있는 권한이 필요합니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "다른 여러 마이크로 서비스는 민감한 데이터의 일부 사본을 다른 스토리지 서비스에 저장합니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "이 솔루션은 여러 마이크로 서비스로 구성됩니다.",
+        "answerLink": "Amazon EventBridge"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 167,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "ALB 는 AWS WAF 를 사용하고 있습니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "회사는 모든 외부 고객에게 IP 주소를 제공해야 합니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "웹 애플리케이션은 ALB(Application Load Balancer) 뒤의 Amazon EC2 인스턴스 그룹에서 실행됩니다.",
+        "answerLink": "AWS Global"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 168,
+    "answer": "C, D, F",
+    "highlights": [
+      {
+        "text": "회사는 유휴 상태의 Amazon Elastic Block Store(Amazon EBS) 암호화를 현재 프로덕션 계정과 향후 프로덕션 계정에만 적용해야 합니다.",
+        "answerLink": "EBS"
+      },
+      {
+        "text": "회사는 개발용 AWS 계정이 몇 개 있고 프로덕션 애플리케이션을 AWS로 이동하려고 합니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "이 회사는 빌트인 청사진과 가드레일을 포함하는 솔루션이 필요합니다.",
+        "answerLink": "EBS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 169,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사가 Amazon RDS for MySQL 데이터베이스가 있는 Application Load Balancer(ALB) 뒤에 있는 두 개의 Linux Amazon EC2 인스턴스에서 중요한 상태 저장 웹 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "2분",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "5분",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "30분",
+        "answerLink": "AWS Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 170,
+    "answer": "C, D",
+    "highlights": [
+      {
+        "text": "솔루션 아키텍트는 비용을 최적화하고 단일 AWS 계정에서 Amazon EC2 인스턴스의 크기를 적절하게 조정하려고 합니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계 조합을 수행해야 합니까?",
+        "answerLink": "AWS Compute"
+      },
+      {
+        "text": "솔루션 아키텍트는 인스턴스가 CPU, 메모리 및 네트워크 메트릭을 기반으로 최적화되었는지 확인하려고 합니다.",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "qNumber": 91,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 Amazon S3 관리형 암호화 키(SSE-S3)로 서버 측 암호화를 구현하려고 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "S3 버킷에는 수백만 개의 객체가 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "최근 보안 감사에서 두 S3 버킷 모두 유휴 암호화가 활성화되어 있지 않은 것으로 확인되었습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "공유를 용이하게 하기 위해 회사는 각 계정에 Amazon S3 버킷을 생성하고 S3 버킷 간에 저속 복제를 구성했습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 92,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 애플리케이션은 Amazon S3 버킷에 대량의 비정형 데이터를 수집하고 저장합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "S3 버킷에는 수 테라바이트의 데이터가 포함되어 있으며 S3 Standard 스토리지 클래스를 사용합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "회사는 데이터를 쿼리하고 분석해야 합니다.",
+        "answerLink": "AWS Glue"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 93,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 회사는 ML 실험에 필요한 컴퓨팅 리소스가 온프레미스에 없으며 AWS를 사용하려고 합니다.",
+        "answerLink": "AWS Management"
+      },
+      {
+        "text": "비디오 처리 회사는 회사의 온프레미스 네트워크 연결 스토리지 시스템에 수천 개의 파일로 저장된 600TB의 압축 데이터를 사용하여 기계 학습(ML) 모델을 구축하려고 합니다.",
+        "answerLink": "AWS Management"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "AWS Management"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Management"
+      },
+      {
+        "text": "600TB",
+        "answerLink": "AWS Management"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 94,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "데이터베이스는 사용자 메타데이터와 Amazon S3 에 저장된 파일에 대한 참조를 저장합니다.",
+        "answerLink": "AWS Step"
+      },
+      {
+        "text": "팀원은 API를 사용하는 다른 시스템에 정보를 입력하기 전에 양식에서 데이터 유효성 검사를 수행하고 관련 데이터를 추출합니다.",
+        "answerLink": "AWS Step"
+      },
+      {
+        "text": "양식이 업로드되면 애플리케이션은 Amazon Simple Notification Service(Amazon SNS) 를 통해 팀에 알림을 보냅니다.",
+        "answerLink": "AWS Step"
+      },
+      {
+        "text": "회사에서 양식 처리 애플리케이션을 AWS로 마이그레이션했습니다.",
+        "answerLink": "AWS Step"
+      },
+      {
+        "text": "웹 애플리케이션은 Amazon EC2 인스턴스와 Amazon RDS for PostgreSQL 데이터베이스에서 실행됩니다.",
+        "answerLink": "AWS Step"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 95,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사가 AWS 클라우드에서 온프레미스 주문 처리 플랫폼을 리팩토링하고 있습니다.",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "플랫폼에는 여러 VM에서 호스팅되는 웹 프런트 엔드, 프런트 엔드를 백엔드에 연결하는 RabbitMQ, 컨테이너화된 백엔드 시스템을 실행하여 주문을 처리하는 Kubernetes 클러스터가 포함됩니다.",
+        "answerLink": "Amazon EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 97,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 회사는 애플리케이션의 보안 태세를 개선하기를 원하며 AWS WAF 웹 ACL을 사용할 계획입니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "솔루션 설계자는 이러한 요구 사항을 충족하기 위해 웹 ACL을 어떻게 구성해야 합니까?",
+        "answerLink": "AWS WAF"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 98,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "현재 보안 팀은 허용 목록이 변경되면 다른 AWS 계정의 소유자에게 알립니다.",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "회사는 회사의 온프레미스 네트워크에 대한 접근을 허용하기 위해 각 AWS 계정의 허용 목록에 공통 IP CIDR 범위 세트를 가지고 있습니다.",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "보안 팀에는 자체 AWS 계정이 있습니다.",
+        "answerLink": "AWS Resource"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 99,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "현재 애플리케이션은 AWS Site -to-Site VPN 연결을 통해 회사의 온프레미스 사무실 네트워크에서 액세스할 수 있습니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "이 회사는 여러 AWS 계정에서 VPC로 내부 애플리케이션을 호스팅하고 있습니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "솔루션 설계자는 직원이 재택 근무 중에 사용할 수 있도록 확장 가능한 AWS Client VPN 솔루션을 설계해야 합니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "회사에서 직원이 VPN을 사용하여 연결하면 집에서 원격으로 작업할 수 있도록 하는 새로운 정책을 도입했습니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "VPN"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 100,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "현재 애플리케이션은 AWS Lambda 함수를 직접 호출하여 타사 서비스를 동기식으로 호출합니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "회사가 AWS 클라우드에서 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "Amazon Simple"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

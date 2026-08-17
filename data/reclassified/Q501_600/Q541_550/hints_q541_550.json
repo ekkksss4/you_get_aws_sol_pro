@@ -1,0 +1,252 @@
+[
+  {
+    "qNumber": 541,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 관리자 역할만 IAM 작업을 사용할 수 있도록 허용되는 솔루션을 설계해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "그러나 아키텍처가 적용된 솔루션은 회사 전체의 모든 AWS 계정에 접근할 수 없습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 AWS Organizations AWS 계정을 사용합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 542,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "RTO",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "솔루션은 웹 인터페이스를 통해 보고서를 제공해야 하며 최종 사용자에게 500밀리초 또는 대기 시간 미만의 데이터를 제공해야 합니다.",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "또한 솔루션은 가용성이 높아야 하며 RTO 또는 30초가 있어야 합니다.",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "한 회사에서 재무 보고서를 표시하는 애플리케이션을 개발 중입니다.",
+        "answerLink": "Amazon DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 543,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "새 계정을 생성한 후 루트 사용자는 새 계정에 로그인하고 Amazon EC2 인스턴스에 대한 서비스 할당량을 늘리기 위한 서비스 요청을 생성합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "각각의 새로운 프로젝트에 대해 회사는 새로운 연결 계정을 만듭니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 544,
+    "answer": "A, B",
+    "highlights": [
+      {
+        "text": "자동화 프레임워크는 중앙 집중식 계정에서 AWS Lambda 함수를 사용합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "솔루션 설계자는 Lambda 함수가 회사의 각 AWS 계정에서 실행될 수 있도록 허용하는 최소 권한 정책을 구현해야 합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "한 회사에 여러 AWS 계정이 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 545,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "ECS 클러스터의 단일 ECS 서비스는 CloudFront 배포의 오리진입니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "이 회사는 Amazon CloudFront 를 사용하여 애플리케이션을 제공합니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "애플리케이션은 Amazon Elastic Container Service(Amazon ECS) 클러스터에서 실행됩니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "이러한 사용자는 JWT(JSON 웹 토큰)의 암호화된 속성으로 식별됩니다.",
+        "answerLink": "ECS"
+      },
+      {
+        "text": "이러한 중단은 애플리케이션의 티켓 판매 거래에 부정적인 영향을 미치고 있습니다.",
+        "answerLink": "ECS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 546,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "계정은 AWS Organizations 의 조직에 있는 OU에 있습니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "IT 부서는 계정에서 AWS Private Certificate Authority 를 사용하여 개인 인증 기관(CA)을 관리합니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "회사에는 다른 부서 계정의 개발자 팀이 개인 CA에 액세스하여 애플리케이션에 대한 인증서를 발급할 수 있는 솔루션이 필요합니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "한 회사에는 각 부서에 대한 별도의 AWS 계정이 있습니다.",
+        "answerLink": "AWS CloudFormation"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 547,
+    "answer": "B, C, E",
+    "highlights": [
+      {
+        "text": "이 회사는 VPC에 있는 모든 EC2 인스턴스가 온프레미스 데이터 센터에 있는 권한 있는 DNS 서버에 대한 internal.company.com 도메인에 대한 DNS 쿼리를 해결해야 합니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "이 솔루션은 VPC와 온프레미스 네트워크 간에 개인 통신을 사용해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "이 회사는 한 AWS 지역의 여러 VPC에 있는 Amazon EC2 인스턴스에서 워크로드를 실행합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "모든 경로 테이블, 네트워크 ACL 및 보안 그룹이 AWS와 온프레미스 데이터 센터 간에 올바르게 구성되었습니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "이 회사는 또한 AWS Direct Connect 를 사용하여 회사의 AWS 계정에 연결하는 온프레미스 데이터 센터에서 워크로드를 실행합니다.",
+        "answerLink": "Amazon Route"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 548,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "한 회사에서 모놀리식 온프레미스 .NET Framework 프로덕션 애플리케이션을 AWS로 마이그레이션하고 있습니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "이 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "일부 비즈니스 로직은 저장 프로시저에 포함되어 있습니다.",
+        "answerLink": "Amazon API"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 549,
+    "answer": "B, D",
+    "highlights": [
+      {
+        "text": "허용된 IP 주소가 지난 90일 동안 애플리케이션에 액세스하지 않은 경우 Lambda 함수는 보안 그룹에서 IP 주소를 제거합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "이 회사는 허용된 IP 주소가 최근에 애플리케이션에 액세스했는지 확인하기 위해 AWS Lambda 함수를 개발하고 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "이 회사는 Lambda 함수가 IP 주소를 확인하는 기능을 구현해야 합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "90일",
+        "answerLink": "Amazon Athena"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Amazon Athena"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 550,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "실시간",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "데이터는 실시간으로 전송해야 합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "회사에서 환경 데이터를 처리합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "회사에서는 AWS 솔루션을 사용하여 고정된 스키마 없이도 저장할 수 있는 데이터베이스로 데이터를 전송하려고 합니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

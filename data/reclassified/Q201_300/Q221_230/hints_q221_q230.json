@@ -1,0 +1,220 @@
+[
+  {
+    "qNumber": 221,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사에는 CPU 또는 메모리 사용량이 충분히 활용되지 않은 모든 Amazon EC2 인스턴스 목록이 필요합니다.",
+        "answerLink": "AWS Systems"
+      },
+      {
+        "text": "또한 회사는 활용률이 낮은 인스턴스의 크기를 줄이는 방법에 대한 권장 사항이 필요합니다.",
+        "answerLink": "AWS Systems"
+      },
+      {
+        "text": "최소한의 노력으로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Systems"
+      },
+      {
+        "text": "회사는 AWS Organizations 를 사용하여 AWS 계정을 관리합니다.",
+        "answerLink": "AWS Systems"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 222,
+    "answer": "B, D, E",
+    "highlights": [
+      {
+        "text": "이 회사는 Auto Scaling 그룹의 3개 Amazon EC2 인스턴스에 AWS CloudFormation 을 사용하여 솔루션을 배포했습니다.",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "트래픽을 EC2 인스턴스로 보내기 위해 모든 네트워크 라우팅이 설정되었습니다.",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "회사는 사용자 지정 네트워크 분석 소프트웨어 패키지를 실행하여 트래픽이 VPC를 나가고 들어올 때 트래픽을 검사하려고 합니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "인스턴스 교체가 발생할 때 네트워크 경로가 업데이트되지 않습니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "분석 소프트웨어가 작동을 멈출 때마다 Auto Scaling 그룹이 인스턴스를 교체합니다.",
+        "answerLink": "Amazon Simple"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 223,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "솔루션은 로드 밸런서를 통해 각 ECS 서비스에 트래픽을 분산해야 합니다.",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "회사는 HTTPS 프로토콜을 사용하는 ECS 서비스를 사용하여 애플리케이션을 개발했습니다.",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "이 회사는 AWS Fargate 의 Amazon Elastic Container Service(Amazon ECS) 에 애플리케이션을 배포했습니다.",
+        "answerLink": "Application Load Balancer"
+      },
+      {
+        "text": "솔루션 설계자는 블루/그린 배포를 사용하여 애플리케이션에 대한 업데이트를 구현해야 합니다.",
+        "answerLink": "Application Load Balancer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 224,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "솔루션은 심각도가 높거나 심각도가 높은 결과가 있는 새 이미지 태그를 자동으로 삭제해야 합니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "솔루션은 또한 이러한 삭제가 발생하면 개발 팀에 알려야 합니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "애플리케이션이 Amazon EC2 인스턴스 세트에서 Amazon Elastic Container Service(Amazon ECS) 를 사용하여 실행 중입니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "회사는 AWS 클라우드에서 컨테이너화된 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "새 이미지 버전이 업로드되면 새 이미지 버전에 고유한 태그가 부여됩니다.",
+        "answerLink": "Amazon EventBridge"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 225,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "어떤 솔루션이 조직의 모든 컴퓨팅 사용에 대해 가장 많은 비용 절감을 제공합니까?",
+        "answerLink": "마스터 계정 수준의 권장 사항을 사용하여 마스터 계정에서 조직의 Compute Savings Plan 을 구매합니다."
+      },
+      {
+        "text": "회사는 AWS에서 많은 워크로드를 실행하고 AWS Organizations 를 사용하여 계정을 관리합니다.",
+        "answerLink": "마스터 계정 수준의 권장 사항을 사용하여 마스터 계정에서 조직의 Compute Savings Plan 을 구매합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 226,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "재무 팀이 AWS 비용에 대한 일일 예산을 할당했습니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "재무 팀은 조직의 AWS 비용이 할당된 예산의 80%를 초과하는 경우 이메일 알림을 받아야 합니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "한 회사에 수백 개의 AWS 계정이 있습니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "회사는 AWS Organizations 의 조직을 사용하여 모든 계정을 관리합니다.",
+        "answerLink": "Amazon Simple"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 227,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "고해상도 이미지 파일을 휴대폰에서 us-east-1 리전에서 생성된 중앙 집중식 Amazon S3 버킷으로 전송합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "한 회사가 미술품 경매 서비스를 제공하고 북미와 유럽 전역에 사용자를 보유하고 있습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 228,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사에서 다중 계층 웹 애플리케이션을 컨테이너화하고 애플리케이션을 온프레미스 데이터 센터에서 AWS로 이동하려고 합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "확장성",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "내결함성",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 229,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 중요한 Microsoft SQL Server 데이터베이스를 AWS로 마이그레이션할 계획입니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "데이터베이스는 레거시 시스템이므로 솔루션 설계자는 데이터베이스를 최신 데이터 아키텍처로 이동합니다.",
+        "answerLink": "Amazon RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 230,
+    "answer": "C, D",
+    "highlights": [
+      {
+        "text": "환경은 단일 AWS 리전의 여러 가용 영역에 배포됩니다.",
+        "answerLink": "엔드포인트의 로컬 DNS 이름을 사용하여 서비스 소비자 컴퓨팅 리소스가 가용 영역별 엔드포인트 서비스를 사용하는지 확인합니다."
+      },
+      {
+        "text": "회사는 다른 조직에서 여러 서비스 소비자 응용 프로그램을 만들었습니다.",
+        "answerLink": "엔드포인트의 로컬 DNS 이름을 사용하여 서비스 소비자 컴퓨팅 리소스가 가용 영역별 엔드포인트 서비스를 사용하는지 확인합니다."
+      },
+      {
+        "text": "솔루션 설계자는 개발자가 서비스를 배포할 때 따라야 할 지침을 권장해야 합니다.",
+        "answerLink": "엔드포인트의 로컬 DNS 이름을 사용하여 서비스 소비자 컴퓨팅 리소스가 가용 영역별 엔드포인트 서비스를 사용하는지 확인합니다."
+      },
+      {
+        "text": "이 회사는 한 조직에서 AWS PrivateLink 기반 VPC 엔드포인트 서비스로 여러 서비스 공급자 애플리케이션을 만들었습니다.",
+        "answerLink": "Network Load Balancer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

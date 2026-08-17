@@ -1,0 +1,256 @@
+[
+  {
+    "qNumber": 481,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "애플리케이션은 단일 Amazon EC2 인스턴스에서 실행되며 Amazon RDS for MySQL 데이터베이스에서 읽기 집약적인 작업을 수행합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "부하가 높으면 애플리케이션이 응답하지 않게 되며 EC2 인스턴스를 수동으로 다시 시작해야 합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "최소한의 개발 노력으로 이 요구 사항을 충족할 수 있는 솔루션은 무엇입니까?",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "최소한의 개발 노력",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이 응용 프로그램은 전 세계 고객에게 서비스를 제공합니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 482,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 Transfer Family 관리형 워크플로를 사용합니다.",
+        "answerLink": "Secrets Manager에 PGP 개인 키를 저장합니다. 파일 암호를 해독하려면 Transfer Family 관리 워크플로에 명목상의 단계를 추가하세요. 명목 단계에서 PGP 암호 해독 매개변수를 구성합니다. 워크플로를 Transfer Family"
+      },
+      {
+        "text": "회사는 AWS Secrets Manager 및 S3 버킷에 대한 접근을 허용하는 IAM 정책을 사용하여 IAM 서비스 역할을 생성했습니다.",
+        "answerLink": "Secrets Manager에 PGP 개인 키를 저장합니다. 파일 암호를 해독하려면 Transfer Family 관리 워크플로에 명목상의 단계를 추가하세요. 명목 단계에서 PGP 암호 해독 매개변수를 구성합니다. 워크플로를 Transfer Family"
+      },
+      {
+        "text": "회사는 타사 데이터 공급업체로부터 업데이트를 받으려면 Amazon S3 버킷과 함께 AWS Transfer Family SFTP 지원 서버를 사용해야 합니다.",
+        "answerLink": "Secrets Manager에 PGP 개인 키를 저장합니다. 파일 암호를 해독하려면 Transfer Family 관리 워크플로에 명목상의 단계를 추가하세요. 명목 단계에서 PGP 암호 해독 매개변수를 구성합니다. 워크플로를 Transfer Family"
+      },
+      {
+        "text": "데이터는 PGP(Pretty Good Privacy) 암호화로 암호화됩니다.",
+        "answerLink": "Secrets Manager에 PGP 개인 키를 저장합니다. 파일 암호를 해독하려면 Transfer Family 관리 워크플로에 명목상의 단계를 추가하세요. 명목 단계에서 PGP 암호 해독 매개변수를 구성합니다. 워크플로를 Transfer Family"
+      },
+      {
+        "text": "회사는 데이터를 수신한 후 자동으로 데이터의 암호를 해독하는 솔루션이 필요합니다.",
+        "answerLink": "Secrets Manager에 PGP 개인 키를 저장합니다. 파일 암호를 해독하려면 Transfer Family 관리 워크플로에 명목상의 단계를 추가하세요. 명목 단계에서 PGP 암호 해독 매개변수를 구성합니다. 워크플로를 Transfer Family"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 483,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "데이터 세트의 크기는 한 자릿수 테라바이트이며 기본 노드 오류가 발생할 경우 1분 이내에 쓰기를 허용할 수 있어야 합니다.",
+        "answerLink": "Amazon MemoryDB"
+      },
+      {
+        "text": "1분",
+        "answerLink": "Amazon MemoryDB"
+      },
+      {
+        "text": "실시간",
+        "answerLink": "Amazon MemoryDB"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon MemoryDB"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon MemoryDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 484,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 AWS Organizations 의 조직에 있는 여러 AWS 계정에서 애플리케이션 구성 요소를 실행하고 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "회사 조직의 모든 클라우드 리소스에는 BusinessUnit이라는 태그가 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "또한 회사는 각 사업부의 클라우드 비용을 시각화해야 합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "한 회사가 AWS 클라우드에서 여러 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 485,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "측정기가 AWS로 데이터를 보내면 해당 데이터는 AWS Lambda 함수에 의해 처리되는 Amazon API Gateway 로 전송됩니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "Amazon DynamoDB 테이블에 저장됩니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "DynamoDB 에서 PUT 작업을 수행하는 동안 ProvisionedThroughputExceededException 오류가 많이 발생하고, Lambda 에서도 TooManyRequestsException 오류가 많이 발생합니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "한 유틸리티 회사는 사용 시간 측정을 용이하게 하기 위해 스마트 계량기에서 5분마다 사용량 데이터를 수집하려고 합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "5분",
+        "answerLink": "DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 486,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "Amazon WorkSpaces 는 장애 조치 지역에 배포되고, 호스팅 영역은 Amazon Route 53에 배포됩니다.",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "고가용성",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "솔루션의 고가용성을 구성하려면 솔루션 설계자가 무엇을 해야 합니까?",
+        "answerLink": "Route 53"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 487,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사에서는 마이그레이션 전에 온프레미스 환경에 대한 초기 평가, VM 에서 실행되는 애플리케이션 간의 종속성을 시각화하고 온프레미스 환경에 대한 평가를 제공하는 보고서를 요구합니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "회사는 온프레미스 환경에서 AWS로 많은 VM을 마이그레이션할 계획입니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "회사는 아무런 제약 없이 온프레미스 환경에 수집기 소프트웨어를 설치할 수 있는 능력을 갖추고 있습니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Application"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 488,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 Amazon API Gateway API 와 API 메서드에 대한 논리가 포함된 AWS Lambda 함수를 사용하여 AWS에서 기본 API를 호스팅합니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "여러 고객은 단일 독립형 Amazon EC2 인스턴스에서 실행되는 레거시 API에도 액세스할 수 있습니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "회사의 고객은 API를 사용하여 계정의 데이터에 액세스합니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "회사의 내부 애플리케이션은 핵심 기능과 비즈니스 로직을 위해 API를 사용합니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "회사는 서비스 거부(DoS) 공격을 더 효과적으로 방지하고, 취약성을 확인하고, 일반적인 악용으로부터 보호하기 위해 이러한 API에 대한 보안을 강화하려고 합니다.",
+        "answerLink": "AWS WAF"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 489,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "Lambda 함수는 MySQL용 Amazon RDS 데이터베이스에 연결하여 데이터를 저장합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "애플리케이션은 Amazon API Gateway 를 사용하여 AWS Lambda Java 함수를 호출합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "회사는 Lambda 기능의 지연 시간을 최소화하고 트래픽 급증을 지원하는 솔루션을 구현해야 합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "한 회사가 AWS에서 서버리스 전자상거래 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "최근 세일 이벤트 중에 웹 트래픽이 갑자기 증가하여 API 성능이 저하되고 데이터베이스 연결 오류가 발생했습니다.",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 490,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사에서는 모든 내부 애플리케이션 연결이 개인 IP 주소를 사용해야 한다고 요구합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "이 정책을 용이하게 하기 위해 솔루션 아키텍트는 AWS 퍼블릭 서비스에 연결하기 위한 인터페이스 엔드포인트를 생성했습니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

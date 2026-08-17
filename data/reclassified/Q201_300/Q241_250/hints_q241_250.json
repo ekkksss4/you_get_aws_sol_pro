@@ -1,0 +1,232 @@
+[
+  {
+    "qNumber": 241,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "그런 다음 회사는 차량 텔레매틱스 데이터를 온프레미스 스토리지에 복사합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사는 맞춤형 애플리케이션을 사용하여 차량 데이터를 수집합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사는 5분 간격으로 데이터를 처리합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "5분",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 242,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "감사 중에 보안 팀은 개발 팀이 코드에 IAM 사용자 보안 액세스 키를 넣은 다음 AWS CodeCommit 리포지토리에 커밋하고 있음을 발견했습니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "자격 증명이 자동으로 적절하게 보호되도록 보장하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 243,
+    "answer": "A, C",
+    "highlights": [
+      {
+        "text": "이러한 요구 사항을 충족하기 위해 솔루션 설계자는 각 애플리케이션의 특정 VPC로 제한된 S3 액세스 포인트를 사용할 계획입니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 Amazon S3 에 여러 AWS 계정에 걸쳐 수백 개의 애플리케이션에서 액세스해야 하는 데이터 레이크를 보유하고 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사의 정보 보안 정책에 따르면 공용 인터넷을 통해 S3 버킷에 액세스할 수 없으며 각 애플리케이션이 작동하는 데 필요한 최소한의 권한이 있어야 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 244,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사는 애플리케이션 로그를 Amazon CloudWatch로 전송하는 Amazon VPC 및 Amazon EC2 인스턴스를 사용합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "이 회사는 이미 온프레미스에서 Splunk를 사용하는 모니터링 솔루션을 보유하고 있습니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "실시간",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "솔루션 설계자는 네트워킹 트래픽을 Splunk로 보내는 방법을 결정해야 합니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 245,
+    "answer": "B, D, E",
+    "highlights": [
+      {
+        "text": "지출을 추적하기 위해 개발 팀은 매월 각 계정에 로그인하고 AWS Billing and Cost Management 콘솔에서 현재 비용을 기록하고 회사의 재무 팀에 정보를 제공합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "그러나 일부 리소스는 다른 리전에서 생성되었습니다.",
+        "answerLink": "모든 개발 팀을 포함하는 OU를 만듭니다. 미국 이외의 리전에서 리소스 생성을 거부하는 SCP를 만듭니다. SCP를 OU에 적용합니다."
+      },
+      {
+        "text": "다른 리전",
+        "answerLink": "마스터 계정 역할을 할 새 계정을 생성합니다. 모든 기능이 활성화된 상태에서 AWS Organizations에 조직을 배포합니다. 모든 기존 계정을 조직에 초대합니다. 각 계정이 초대를 수락하는지 확인하십시오."
+      },
+      {
+        "text": "회사에는 애플리케이션을 개발하고 호스팅하기 위해 각각 5개의 AWS 계정을 생성한 5개의 개발 팀이 있습니다.",
+        "answerLink": "마스터 계정 역할을 할 새 계정을 생성합니다. 모든 기능이 활성화된 상태에서 AWS Organizations에 조직을 배포합니다. 모든 기존 계정을 조직에 초대합니다. 각 계정이 초대를 수락하는지 확인하십시오."
+      },
+      {
+        "text": "솔루션 설계자는 재무 팀이 모든 계정에 대한 지출을 추적하고 통합할 수 있는 기능을 제공하는 솔루션을 구현해야 합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 246,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "보안 팀은 자체 AWS 계정의 모든 계정에 대한 읽기 전용 액세스 권한이 필요합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 중앙 위치에서 여러 부서의 여러 AWS 계정을 만들고 관리해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "이 회사는 AWS Organizations를 사용하고 있으며 보안 팀을 위한 계정을 생성했습니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 247,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "대기업은 수백 개의 AWS 계정에 배포된 VPC에서 워크로드를 실행합니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "솔루션 설계자는 이미 중앙 AWS 계정의 송신 VPC에 NAT 게이트웨이를 배포했습니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "각 VPC는 여러 가용 영역에 걸쳐 있는 퍼블릭 서브넷과 프라이빗 서브넷으로 구성됩니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "스포크 VPC의 모든 프라이빗 서브넷은 송신 VPC를 통해 트래픽을 인터넷으로 라우팅해야 합니다.",
+        "answerLink": "Transit Gateway"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 248,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "애플리케이션은 Application Load Balancer(ALB) 뒤에 있는 Auto Scaling 그룹의 Amazon Elastic Container Service(Amazon ECS) 클러스터에서 실행됩니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "한 교육 회사가 전 세계 대학생들이 사용하는 웹 애플리케이션을 운영하고 있습니다.",
+        "answerLink": "AWS WAF"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 249,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 매일 여러 파일을 수집하는 온프레미스 SaaS(Software-as-a-Service) 솔루션을 운영합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "고객은 SFTP 끝점 IP 주소를 아웃바운드 트래픽에 대한 방화벽 허용 목록에 추가합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "회사는 SaaS 솔루션을 AWS로 마이그레이션하고 파일 전송 서비스의 운영 오버헤드를 줄이려고 합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "SFTP 끝점 IP 주소에 대한 변경은 허용되지 않습니다.",
+        "answerLink": "AWS Transfer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 250,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사에 단일 AWS 리전의 5개 Amazon EC2 인스턴스에서 실행해야 하는 새로운 애플리케이션이 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "애플리케이션은 애플리케이션이 실행될 모든 EC2 인스턴스 간에 높은 처리량과 낮은 지연 시간의 네트워크 연결이 필요합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "내결함성",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "응용 프로그램이 내결함성이 있어야 한다는 요구 사항은 없습니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

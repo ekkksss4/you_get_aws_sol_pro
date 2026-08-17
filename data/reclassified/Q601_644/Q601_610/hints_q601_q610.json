@@ -1,0 +1,192 @@
+[
+  {
+    "qNumber": 601,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "데이터베이스는 기본 AWS 관리형 KMS 암호화 키를 사용합니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "교차 계정 백업을 활성화하는 올바른 방법은 무엇입니까?",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "한 회사가 프로덕션 계정에서 40개의 RDS for MySQL 데이터베이스 백업을 AWS Organizations 내 중앙 백업 계정으로 복사해야 합니다.",
+        "answerLink": "AWS Backup"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 602,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "각 계정은 학습 및 추론을 위해 ml.p2.xlarge SageMaker 인스턴스에 액세스해야 합니다.",
+        "answerLink": "inus-east-1에 할당량 요청 템플릿을 생성하고, 템플릿 연결을 활성화하고, ap-southeast-2에 ml.p2.xlarge 학습 및 엔드포인트 사용에 대한 할당량을 추가합니다."
+      },
+      {
+        "text": "계정 프로비저닝 중에 할당량 증가를 어떻게 자동화해야 합니까?",
+        "answerLink": "inus-east-1에 할당량 요청 템플릿을 생성하고, 템플릿 연결을 활성화하고, ap-southeast-2에 ml.p2.xlarge 학습 및 엔드포인트 사용에 대한 할당량을 추가합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 603,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "IoT 센서는 사설 CA의 인증서를 사용하여 제조됩니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "물리적 설치 후에만 AWS에 연결해야 합니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 604,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "NAT 게이트웨이와 인터넷 게이트웨이가 하나씩 있습니다.",
+        "answerLink": "NAT 게이트웨이를 두 개 더 추가합니다(가용 영역당 하나씩). 각 프라이빗 서브넷이 해당 가용 영역의 NAT 게이트웨이를 사용하도록 구성합니다."
+      },
+      {
+        "text": "VPC는 각각 퍼블릭 서브넷과 프라이빗 서브넷을 가진 세 개의 가용 영역에 걸쳐 있습니다.",
+        "answerLink": "NAT 게이트웨이를 두 개 더 추가합니다(가용 영역당 하나씩). 각 프라이빗 서브넷이 해당 가용 영역의 NAT 게이트웨이를 사용하도록 구성합니다."
+      },
+      {
+        "text": "프라이빗 EC2 인스턴스는 인터넷에 연결되어야 합니다.",
+        "answerLink": "NAT 게이트웨이를 두 개 더 추가합니다(가용 영역당 하나씩). 각 프라이빗 서브넷이 해당 가용 영역의 NAT 게이트웨이를 사용하도록 구성합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 605,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "한 회사가 AWS로 마이그레이션 중이며, 마이그레이션 규모를 적절히 조정하고 계획을 수립하기 위해 물리적 및 가상 서버, 앱, 데이터베이스 관계를 파악해야 합니다.",
+        "answerLink": "디스커버리 에이전트 및 전략 권장 사항과 함께 마이그레이션 허브를 사용합니다."
+      },
+      {
+        "text": "설계자는 어떻게 해야 합니까?",
+        "answerLink": "디스커버리 에이전트 및 전략 권장 사항과 함께 마이그레이션 허브를 사용합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 606,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 애플리케이션은 DynamoDB와 RDS for MySQL을 사용합니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "한 회사가 보조 리전에서 애플리케이션을 복제하고 있습니다.",
+        "answerLink": "DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 607,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사에는 Amazon S3 버킷에 .csv 파일로 거래를 저장하는 판매 시스템이 있습니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "회사는 매일 수백만 개의 csv 파일을 저장합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "회사는 csv 파일의 저장 및 쿼리 비용을 최소화해야 합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "데이터 처리 시 .csv 파일의 모든 행과 열을 읽어야 합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "대부분의 .csv 파일은 크기가 64KB에서 100KB 사이입니다.",
+        "answerLink": "AWS Glue"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 608,
+    "answer": "B, E",
+    "highlights": [
+      {
+        "text": "어떤 애플리케이션이 CloudFront, App Runner, 그리고 두 개의 S3 버킷(정적 자산용 하나, 사용자 업로드 콘텐츠용 하나)을 사용합니다.",
+        "answerLink": "CloudFront"
+      },
+      {
+        "text": "30일",
+        "answerLink": "S3"
+      },
+      {
+        "text": "사용자 콘텐츠는 30일 후 거의 액세스되지 않습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 609,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "솔루션은 AWS에서 온프레미스 데이터를 외래 테이블로 쿼리할 수 있어야 합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "온프레미스 데이터베이스에는 공간 데이터가 포함되어 있으며 Cron 작업이 실행됩니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "한 회사가 규정 준수를 위해 일부 Oracle 데이터베이스를 AWS로 마이그레이션하고 다른 데이터베이스는 온프레미스에 유지해야 합니다.",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 610,
+    "answer": "D, E, F",
+    "highlights": [
+      {
+        "text": "HTTP 사용자는 오류를 수신해서는 안 됩니다.",
+        "answerLink": "CloudFront의 뷰어 프로토콜 정책을 HTTP를 HTTPS로 리디렉션으로 설정합니다."
+      },
+      {
+        "text": "Amazon CloudFront 배포는 요청을 ALB로 라우팅합니다.",
+        "answerLink": "CloudFront에 대해 오리진 프로토콜 정책을 HTTPS 전용으로 설정합니다."
+      },
+      {
+        "text": "회사는 모든 사용자가 HTTPS를 통해 웹사이트와 통신하도록 요구합니다.",
+        "answerLink": "CloudFront에 대해 오리진 프로토콜 정책을 HTTPS 전용으로 설정합니다."
+      },
+      {
+        "text": "이 회사는 ALB의 HTTPS 리스너에 AWS Certificate Manager(ACM) 인증서를 설정했습니다.",
+        "answerLink": "CloudFront에 대해 오리진 프로토콜 정책을 HTTPS 전용으로 설정합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

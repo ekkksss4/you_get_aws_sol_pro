@@ -1,0 +1,200 @@
+[
+  {
+    "qNumber": 571,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "솔루션 아키텍트는 S3와 같은 퍼블릭 AWS 서비스를 위한 인터페이스 VPC 엔드포인트를 생성했습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "한 회사에서 모든 내부 AWS 통신에 프라이빗 IP를 사용하도록 규정하고 있습니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 572,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사 웹사이트는 AWS에서 호스팅되고 Amazon RDS for PostgreSQL DB 인스턴스로 지원됩니다.",
+        "answerLink": "Amazon SQS"
+      },
+      {
+        "text": "경영진은 주기적으로 발생하는 예측 불가능한 대규모 트래픽을 예상하며, 이로 인해 많은 데이터베이스 쓰기 작업이 발생합니다.",
+        "answerLink": "Amazon SQS"
+      },
+      {
+        "text": "솔루션 아키텍트는 기본 데이터 모델을 변경하지 않고 제출된 데이터가 데이터베이스에 커밋되기 전에 삭제되지 않도록 하는 솔루션을 구축해야 합니다.",
+        "answerLink": "Amazon SQS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 573,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "고가용성",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "한 회사에서는 SQL Server 를 기반으로 레거시 .NET Framework 애플리케이션을 현대화하고 있습니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "요구 사항: * 마이크로서비스로 컨테이너화 * OS 패치 및 스토리지 제어 * 로드 밸런싱 추가 * 고가용성 보장 이 모든 요구 사항을 최소한의 리팩토링으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 574,
+    "answer": "B, D, E",
+    "highlights": [
+      {
+        "text": "한 회사에 온프레미스 환경에서 실행되는 IoT 플랫폼이 있습니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "온프레미스 시스템에 설치된 애플리케이션은 원격 측정 및 기기 메타데이터를 집계하고 변환하는 주기적인 작업을 실행합니다.",
+        "answerLink": "Amazon DocumentDB"
+      },
+      {
+        "text": "이 애플리케이션은 사용자가 동일한 온프레미스 시스템에서 실행되는 다른 웹 애플리케이션을 통해 볼 수 있는 보고서를 생성합니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "5분",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 575,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사에서는 다른 계정의 패치 소스를 사용하여 인터넷 접속 없이 EC2 인스턴스에 패치를 적용하는 동시에 Systems Manager와 S3에 접속할 수 있나요?",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 576,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "이 문제를 해결하기 위해 솔루션 아키텍트는 어떤 조치를 취해야 합니까?",
+        "answerLink": "스트림의 샤드 수를 늘리기 위해 스트림을 재샤딩합니다."
+      },
+      {
+        "text": "한 회사가 대도시 전역의 교통 패턴을 모니터링하는 IoT 센서를 보유하고 있습니다.",
+        "answerLink": "스트림의 샤드 수를 늘리기 위해 스트림을 재샤딩합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 577,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 회사는 AWS 5ite -to-5ite VPN 연결을 설정하려고 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "한 회사에서 내부 비즈니스 애플리케이션을 VPC의 Amazon EC2 및 Amazon RDS 로 마이그레이션하고 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 두 개의 개별 고객 게이트웨이를 생성했습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "마이그레이션을 위해서는 클라우드 기반 애플리케이션을 온프레미스 내부 네트워크에 연결해야 합니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 578,
+    "answer": "B, D, E",
+    "highlights": [
+      {
+        "text": "한 회사가 AWS 리전에 여러 개의 Amazon DynamoDB 테이블을 보유하고 있습니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "비용 절감을 위해 회사는 사용되지 않는 테이블을 파악해야 합니다.",
+        "answerLink": "사용하지 않는 테이블의 용량 모드를 온디맨드 모드로 변경합니다."
+      },
+      {
+        "text": "각 테이블에는 10만 개가 넘는 레코드가 있으며 기본 테이블 설정으로 생성되었습니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "하지만 회사는 향후 테이블을 사용해야 할 경우를 대비하여 테이블의 가용성과 현재 성능을 유지해야 합니다.",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 579,
+    "answer": "A, D, F",
+    "highlights": [
+      {
+        "text": "한 회사가 모든 사용자가 UDP를 사용하여 액세스할 수 있는 공개된 물리적 온프레미스 인스턴스에서 게임 플레이어 매칭 서비스를 호스팅하고 있습니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "솔루션 아키텍트는 AWS를 사용하여 매칭 서비스를 제거해야 합니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "이 회사는 서비스를 AWS로 마이그레이션하고 높은 수준의 보안을 제공하려고 합니다.",
+        "answerLink": "AWS Shield"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 580,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "이 회사는 M6i 제품군에 대한 EC2 인스턴스 절약 플랜을 보유하고 있으며, 이 플랜은 곧 만료됩니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "한 회사가 M6i(범용) 인스턴스 유형의 노드를 사용하여 Amazon EKS 에서 간단한 Linux 애플리케이션을 실행합니다.",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "솔루션 설계자는 절약 플랜이 만료되면 EKS 컴퓨터 비용을 최소화해야 합니다.",
+        "answerLink": "EKS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

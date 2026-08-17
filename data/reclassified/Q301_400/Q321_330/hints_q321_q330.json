@@ -1,0 +1,256 @@
+[
+  {
+    "qNumber": 321,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "때때로 시뮬레이션이 중단되고 클라우드 운영 엔지니어가 SSH를 통해 EC2 인스턴스에 연결하여 문제를 해결해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "회사 정책에 따르면 EC2 인스턴스는 동일한 SSH 키를 사용할 수 없으며 모든 연결은 AWS CloudTrail에 기록되어야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "시뮬레이션은 Amazon Linux 2 를 기반으로 하는 수백 개의 Amazon EC2 인스턴스에서 실행됩니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 322,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "VPC 에서 실행되는 애플리케이션은 데이터 센터에서 실행되는 온프레미스 Active Directory 도메인에 대한 DNS 요청을 확인해야 합니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "한 회사가 VPC의 Amazon EC2 인스턴스에서 실행되도록 모바일 뱅킹 애플리케이션을 마이그레이션하고 있습니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "백엔드 서비스 애플리케이션은 온프레미스 데이터 센터에서 실행됩니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Route"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 323,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "실시간",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "데이터는 실시간으로 전송되어야 합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "회사에서 환경 데이터를 처리합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "회사는 AWS 솔루션을 사용하여 저장을 위해 고정된 스키마가 필요하지 않은 데이터베이스에 데이터를 전송하려고 합니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 324,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 온프레미스 데이터 센터의 레거시 애플리케이션을 AWS로 마이그레이션하고 있습니다.",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "데이터베이스는 수요에 따라 확장할 수 있어야 합니다.",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "회사의 기술 지침에 따라 모든 Amazon EC2 인스턴스는 인터넷 연결 없이 프라이빗 서브넷에서 호스팅되어야 합니다.",
+        "answerLink": "Amazon DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 325,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 온프레미스 MongoDB 데이터베이스를 Amazon DocumentDB(MongoDB 와 호환)로 마이그레이션해야 합니다.",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "MongoDB 데이터베이스는 회사 온프레미스 데이터 센터의 시스템에 설치되며 데이터 센터 환경에 대한 AWS Direct Connect 연결을 통해 액세스할 수 있습니다.",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "회사는 AWS 클라우드의 Amazon EC2 인스턴스에서 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "애플리케이션은 데이터 계층으로 설정된 복제본과 함께 MongoDB 데이터베이스를 사용하고 있습니다.",
+        "answerLink": "AWS Database"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 326,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사는 모든 Windows EC2 인스턴스를 AWS의 Active Directory 도메인에 조인하도록 요구하는 정책을 구현하려고 합니다.",
+        "answerLink": "AWS Directory"
+      },
+      {
+        "text": "이 회사의 인프라에는 여러 Amazon EC2 인스턴스가 포함되어 있습니다.",
+        "answerLink": "AWS Directory"
+      },
+      {
+        "text": "회사는 가능하면 관리형 AWS 서비스를 사용하려고 합니다.",
+        "answerLink": "AWS Directory"
+      },
+      {
+        "text": "한 회사가 AWS에서 실행되도록 애플리케이션을 재설계하고 있습니다.",
+        "answerLink": "AWS Directory"
+      },
+      {
+        "text": "회사는 또한 다단계 인증(MFA)과 같은 향상된 보안 프로세스를 구현하기를 원합니다.",
+        "answerLink": "AWS Directory"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 327,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사는 사용자 세션 데이터에서 제품 데이터를 분리해야 합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "애플리케이션용 데이터베이스는 구조화된 제품 데이터와 임시 사용자 세션 데이터를 저장합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "또한 회사는 재해 복구를 위해 다른 AWS 리전에 복제를 구현해야 합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 328,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 AWS Control Tower 를 사용하여 AWS에서 다중 계정 구조를 조정합니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "회사에는 개발자가 AWS에서 실험하는 데 사용하는 개발 계정에 대한 특정 OU가 있습니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "회사는 이러한 개발 계정의 비용을 최적화하려고 합니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "회사는 관련성이 없는 기타 서비스의 이용을 거부하고자 합니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "회사에는 수백 명의 개발자가 있으며 각 개발자는 개별 개발 계정을 가지고 있습니다.",
+        "answerLink": "AWS Control"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 329,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "S3 객체는 45분 동안만 유효하며 24시간 후에 삭제됩니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 AWS CloudFormation 스택을 시작하여 애플리케이션의 각 버전을 배포합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "분석에 따르면 CloudFormation이 기존 S3 버킷을 삭제하지 못한 것으로 나타났습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 최근 이전 애플리케이션 버전의 CloudFormation 스택을 삭제하려고 시도했지만 작업이 실패했습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사가 새 애플리케이션 버전을 배포하고 검증할 때 회사는 이전 버전의 CloudFormation 스택을 삭제합니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 330,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "플레이어 세션 데이터를 가져올 때 대기 시간 문제도 있습니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "비즈니스 로직은 여러 기능이 포함된 REST API 를 사용하여 노출됩니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "플레이어 세션 데이터는 중앙 파일 저장소에 저장됩니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "게임의 백엔드는 온프레미스 데이터 센터에 있는 여러 가상 머신에서 실행됩니다.",
+        "answerLink": "Amazon API"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

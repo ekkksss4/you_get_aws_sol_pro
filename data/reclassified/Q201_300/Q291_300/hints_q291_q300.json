@@ -1,0 +1,248 @@
+[
+  {
+    "qNumber": 291,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "예약된 스크립트는 매일 밤 EC2 온디맨드 인스턴스를 시작하여 야간 처리를 수행합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "집계 통계를 계산하는 야간 프로세스는 완료하는 데 4시간이 걸립니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "4시간",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "이러한 EC2 인스턴스는 연결된 Amazon Elastic Block Store(Amazon EBS) 볼륨에서 스트리밍 데이터를 수집하고 저장하기 위해 상시 실행됩니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 292,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 온프레미스 데이터 센터와 VPC 간에 AWS Direct Connect 연결을 설정했습니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "업로드된 파일은 NFS 공유를 통해 다운스트림 애플리케이션에서 사용할 수 있습니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "회사는 온프레미스 SFTP 사이트를 AWS로 마이그레이션해야 합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "AWS로 마이그레이션하는 과정에서 솔루션 설계자는 고가용성을 구현해야 합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "고가용성",
+        "answerLink": "AWS Transfer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 293,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "VPC 아키텍처는 Auto Scaling 그룹이 대상으로 하는 각각의 서브넷이 있는 두 개의 가용 영역(AZ)에 걸쳐 있습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "Auto Scaling 그룹의 최대 크기는 서비스 중인 인스턴스 20개입니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "솔루션 설계자는 Auto Scaling 그룹의 Amazon EC2 인스턴스에 배포된 운영 워크로드를 가지고 있습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "VPC CIDR: 10.0.0.0/23 - AZ1 서브넷 CIDR: 10.0.0.0/24 - AZ2 서브넷 CIDR: 10.0.1.0/24 - 배포 이후 지역에서 세 번째 AZ를 사용할 수 있게 되었습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 294,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "재무 팀이 AWS Cost Explorer 에서 AWS 비용 및 사용 보고서를 사용하고 프로젝트를 기준으로 필터링했을 때 팀은 규정을 준수하지 않는 프로젝트 값을 발견했습니다.",
+        "answerLink": "조직의 마스터 계정에서 허용된 프로젝트 태그 값을 포함하는 태그 정책을 생성합니다. 프로젝트 태그가 추가되지 않는 한 cloudform:CreateStack API 작업을 거부하는 SCP를 생성합니다. SCP를 각 OU에 연결합니다."
+      },
+      {
+        "text": "회사는 새 리소스에 대해 프로젝트 태그 사용을 시행하려고 합니다.",
+        "answerLink": "조직의 마스터 계정에서 허용된 프로젝트 태그 값을 포함하는 태그 정책을 생성합니다. 프로젝트 태그가 추가되지 않는 한 cloudform:CreateStack API 작업을 거부하는 SCP를 생성합니다. SCP를 각 OU에 연결합니다."
+      },
+      {
+        "text": "재무 팀은 미리 정의된 프로젝트 값 목록을 사용하여 각 사업부에 리소스에 태그를 지정하도록 요청했습니다.",
+        "answerLink": "조직의 마스터 계정에서 허용된 프로젝트 태그 값을 포함하는 태그 정책을 생성합니다. 프로젝트 태그가 추가되지 않는 한 cloudform:CreateStack API 작업을 거부하는 SCP를 생성합니다. SCP를 각 OU에 연결합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 295,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "Auto Scaling 그룹 구성은 한 가지 유형의 인스턴스만 사용합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "애플리케이션은 Auto Scaling 그룹에서 실행되는 Amazon EC2 인스턴스에 배포됩니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "CPU 및 메모리 사용률 메트릭은 인스턴스가 충분히 활용되지 않음을 보여줍니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "향후 구성 변경 횟수가 가장 적은 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 296,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "애플리케이션 데이터는 Amazon Aurora 데이터베이스 및 Amazon DynamoDB 데이터베이스에 저장됩니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "회사는 Amazon Elastic Container Service(Amazon ECS) 및 Amazon API Gateway 를 사용하여 컨테이너화된 애플리케이션을 구현합니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "2시간",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "4시간",
+        "answerLink": "AWS Backup"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 297,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사에는 글로벌 확장성 및 성능을 위해 Amazon CloudFront 를 활용하는 복잡한 웹 애플리케이션이 있습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사의 운영 팀은 CloudFront 캐시 적중률이 꾸준히 떨어지고 있다고 보고합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "확장성",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "캐시 측정항목 보고서는 일부 URL의 쿼리 문자열이 일관되지 않게 정렬되고 경우에 따라 대소문자 혼합 및 소문자로 지정됨을 나타냅니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 298,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 재해 복구 요구 사항을 충족하기 위해 Aurora 데이터베이스의 데이터를 다른 지역으로 복제해야 합니다.",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "이 애플리케이션은 5노드 Amazon Aurora MySQL DB 클러스터를 사용하여 고객 및 고객의 최근 주문에 대한 정보를 저장합니다.",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "1시간",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "AWS DMS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 299,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "애플리케이션 계층은 상태 비저장이며 AMI에서 시작된 단일 대규모 Amazon EC2 인스턴스에서 실행됩니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "한 회사의 솔루션 아키텍트가 몇 년 전에 배포된 AWS 워크로드를 평가하고 있습니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "애플리케이션 서버 EC2 인스턴스의 CPU 사용률이 100%에 도달하는 경우가 많아 애플리케이션이 응답을 중지합니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 300,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사에서 여러 애플리케이션을 AWS로 마이그레이션할 계획입니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "회사는 AWS Application Discovery Agent를 설치하고 몇 달 동안 데이터를 수집해 왔습니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "회사는 애플리케이션과 이러한 종속성을 함께 마이그레이션하여 지연 시간이 짧은 모든 인터페이스를 동시에 AWS로 이동하려고 합니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "그러나 회사는 지연 시간이 짧은 통신이 포트 1000에서 실행되는 사용자 지정 IP 기반 프로토콜을 사용한다는 것을 알고 있습니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "애플리케이션과 동일한 단계에서 마이그레이션해야 하는 종속성을 식별하려면 회사는 무엇을 해야 합니까?",
+        "answerLink": "AWS Migration"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

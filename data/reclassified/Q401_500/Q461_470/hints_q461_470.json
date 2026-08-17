@@ -1,0 +1,236 @@
+[
+  {
+    "qNumber": 461,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "AWS 의 새로운 솔루션은 예측할 수 없는 트래픽 증가에 대응하여 Amazon EC2 인스턴스 2개에서 EC2 인스턴스 30개로 확장할 수 있어야 합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "회사는 웹사이트를 온프레미스 데이터 센터에서 AWS로 마이그레이션해야 합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "CMS에는 파일 시스템용 영구 NFS 호환 스토리지가 필요합니다.",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 462,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "애플리케이션 사용자는 ALB(Application Load Balancer) 뒤의 Amazon EC2 인스턴스에서 호스팅되는 웹 프런트엔드와 상호 작용합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "애플리케이션은 MySQL DB 인스턴스용 Amazon RDS에 씁니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "또한 애플리케이션은 Amazon S3 버킷에 저장된 처리된 문서를 출력합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "회사는 단일 AWS 리전에서 실행되는 중요한 애플리케이션에 대한 재해 복구를 구현해야 합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 463,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "온프레미스",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사에는 온프레미스 데이터 센터에서 실행되는 많은 서비스가 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 새로운 시장 부문으로 확장하고 AWS를 사용하는 다른 회사에 서비스를 제공하기를 원합니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 464,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 관리자 역할만 IAM 작업을 사용할 수 있도록 허용되는 솔루션을 설계해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "그러나 솔루션 아키텍트는 회사 전체의 모든 AWS 계정에 액세스할 수 없습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 AWS Organizations 를 사용하여 AWS 계정을 관리합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 465,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "또한 회사에서는 필요에 따라 공유 서비스 계정에 대한 팀 연결을 다시 생성할 수 있는 기능을 개발 팀에 제공하려고 합니다.",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "회사는 공유 서비스 계정의 VPC에 전송 게이트웨이를 연결했습니다.",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "회사에서는 개발 계정의 리소스를 자주 삭제하고 다시 생성할 예정입니다.",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "회사는 AWS Organizations 의 조직을 사용하여 여러 AWS 계정을 관리합니다.",
+        "answerLink": "AWS Resource"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS Resource"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 466,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "솔루션 설계자는 데이터 센터의 모든 워크로드 마이그레이션에 대한 총 소유 비용(TCO) 보고서를 생성해야 합니다.",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "회사는 온프레미스 데이터 센터에서 AWS로 가상 Microsoft 워크로드를 마이그레이션하려고 합니다.",
+        "answerLink": "Amazon EC2"
+      },
+      {
+        "text": "검색 데이터는 자동으로 AWS Migration Hub로 가져와야 합니다.",
+        "answerLink": "Amazon EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 467,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "게임 자산은 각 지역의 ALB(Application Load Balancer) 뒤의 Amazon EC2 인스턴스 세트에서 제공됩니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "모바일 게임을 개발하는 회사는 두 개의 AWS 리전에서 게임 자산을 사용할 수 있도록 만들고 있습니다.",
+        "answerLink": "Amazon Route"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 468,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "각 계정에는 중앙 집중식 Amazon S3 버킷에 텍스트 로그 형식으로 게시된 VPC 흐름 로그가 있는 VPC가 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "솔루션 아키텍트는 토그 분석의 성능을 향상시키고 VPC 흐름 로그가 사용하는 저장 공간을 줄여야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "보안 엔지니어는 때때로 Amazon Athena 를 사용하여 VPC 흐름 로그를 쿼리하여 토그를 분석합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 로그 파일을 무기한 보관해야 합니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 469,
+    "answer": "B, C",
+    "highlights": [
+      {
+        "text": "아키텍처에는 여러 VPC와 온프레미스 인프라를 연결하기 위한 전송 게이트웨이와 Direct Connect 게이트웨이가 포함되어 있습니다.",
+        "answerLink": "Direct Connect"
+      },
+      {
+        "text": "회사는 Direct Connect 연결을 사용하여 전송 VIF를 통해 VPC 리소스에 연결해야 합니다.",
+        "answerLink": "Direct Connect"
+      },
+      {
+        "text": "회사는 계정 VPC에 대한 1Gbps AWS Direct Connect 연결을 설정하고 있습니다.",
+        "answerLink": "Direct Connect"
+      },
+      {
+        "text": "회사는 온프레미스 인프라와 AWS 간에 전용 연결을 설정하려고 합니다.",
+        "answerLink": "온프레미스"
+      },
+      {
+        "text": "1Gb",
+        "answerLink": "온프레미스"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 470,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사에서는 씬 클라이언트 디바이스와 함께 Amazon Workspaces 를 사용하여 노후된 데스크톱을 교체하려고 합니다.",
+        "answerLink": "지점의 공용 주소 목록을 사용하여 IP 액세스 제어 그룹 규칙을 만듭니다. IP 액세스 제어 그룹을 Workspaces 디렉터리와 연결합니다."
+      },
+      {
+        "text": "직원들은 데스크톱을 사용하여 임상 시험 데이터를 다루는 애플리케이션에 액세스합니다.",
+        "answerLink": "지점의 공용 주소 목록을 사용하여 IP 액세스 제어 그룹 규칙을 만듭니다. IP 액세스 제어 그룹을 Workspaces 디렉터리와 연결합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "qNumber": 151,
+    "answer": "B, E",
+    "highlights": [
+      {
+        "text": "EC2 인스턴스는 애플리케이션의 최대 사용량에 대한 온프레미스 사양을 충족하도록 크기가 조정된 대형 범용 온디맨드 인스턴스입니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "애플리케이션 백엔드는 다른 ALB 뒤에 있는 3개의 EC2 인스턴스에서 실행되는 Python 애플리케이션입니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "애플리케이션 프런트엔드는 Application Load Balancer(ALB) 뒤에 있는 두 개의 Amazon EC2 인스턴스에서 실행되는 정적 웹 사이트입니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "회사가 온프레미스에서 AWS로 애플리케이션을 마이그레이션했습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "애플리케이션 프런트엔드를 Amazon S3에서 호스팅되는 정적 웹 사이트로 이동합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 152,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사는 AWS Fargate 를 사용하여 Amazon EKS에서 실행할 새로운 애플리케이션 기능을 개발하고 있습니다.",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "이 플랫폼은 Amazon EC2 와 함께 Amazon Elastic Kubernetes Service(Amazon EKS) 에 배포되며 Amazon RDS for MySQL DB 인스턴스의 지원을 받습니다.",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "플랫폼에 가장 비용 효율적인 설정을 제공하는 솔루션은 무엇입니까?",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "수요 급증은 이벤트 날짜에 따라 다릅니다.",
+        "answerLink": "EKS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 153,
+    "answer": "A, C, D",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 프로세스의 첫 번째 단계로 Amazon S3 버킷을 생성합니다.",
+        "answerLink": "CloudFront"
+      },
+      {
+        "text": "애플리케이션을 사용할 수 없는 시간 동안 회사는 방문자가 CloudFront 오류 메시지 대신 정보 메시지를 받기를 원합니다.",
+        "answerLink": "CloudFront"
+      },
+      {
+        "text": "Amazon CloudFront 배포는 웹 요청을 처리하고 Elastic Beanstalk 도메인 이름을 오리진 서버로 포함합니다.",
+        "answerLink": "CloudFront"
+      },
+      {
+        "text": "매주 회사는 일상적인 유지 관리를 위해 응용 프로그램을 서비스에서 제외합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "요구 사항을 충족하기 위해 솔루션 설계자가 다음으로 수행해야 하는 단계 조합은 무엇입니까?",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 154,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "애플리케이션은 특정 함수 버전 ARN을 사용하여 Lambda 함수를 호출합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사는 종종 최적의 이미지 처리 출력을 얻기 위해 Lambda 함수의 환경 변수를 조정합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "Lambda 함수는 환경 변수를 사용하여 이미지 처리 매개변수를 수락합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "업로드 프로세스는 Amazon S3 버킷에서 이미지를 처리하고 저장하는 AWS Lambda 함수를 호출합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 155,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "퍼블릭 DNS는 회사에서 내부적으로 관리합니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "회사는 apex 도메인을 통해 애플리케이션을 사용할 수 있게 하려고 합니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "각 배포에는 퍼블릭 Application Load Balancer(ALB) 가 있습니다.",
+        "answerLink": "AWS Global"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 156,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "이 회사는 Lambda 함수를 API Gateway 와 통합하여 여러 공유 라이브러리와 사용자 지정 클래스를 사용했습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사에서 Amazon API Gateway 및 AWS Lambda 를 사용하여 새로운 서버리스 API를 개발하고 있습니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 157,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 결함이 감지되면 공장 작업자에게 현지 피드백을 제공하려고 합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사에는 작업자에게 로컬 피드백을 제공하는 API를 호스팅하는 로컬 Linux 서버가 있습니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "이 회사는 Amazon SageMaker 를 사용하여 기계 학습(ML) 모델을 교육하여 스틸 이미지에서 일반적인 결함을 식별했습니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사는 이러한 요구 사항을 충족하기 위해 ML 모델을 어떻게 배포해야 합니까?",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 158,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "가장 비용",
+        "answerLink": "Migration Evaluator 를 사용하여 분석을 수행합니다. 데이터 가져오기 템플릿을 사용하여 CMDB 내보내기에서 데이터를 업로드합니다."
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Migration Evaluator 를 사용하여 분석을 수행합니다. 데이터 가져오기 템플릿을 사용하여 CMDB 내보내기에서 데이터를 업로드합니다."
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Migration Evaluator 를 사용하여 분석을 수행합니다. 데이터 가져오기 템플릿을 사용하여 CMDB 내보내기에서 데이터를 업로드합니다."
+      },
+      {
+        "text": "솔루션 설계자는 회사의 온프레미스 데이터 센터를 AWS 클라우드로 마이그레이션하기 위한 비즈니스 사례를 만들어야 합니다.",
+        "answerLink": "Migration Evaluator 를 사용하여 분석을 수행합니다. 데이터 가져오기 템플릿을 사용하여 CMDB 내보내기에서 데이터를 업로드합니다."
+      },
+      {
+        "text": "솔루션 설계자는 모든 회사 서버의 구성 관리 데이터베이스(CMDB) 내보내기를 사용하여 사례를 생성합니다.",
+        "answerLink": "Migration Evaluator 를 사용하여 분석을 수행합니다. 데이터 가져오기 템플릿을 사용하여 CMDB 내보내기에서 데이터를 업로드합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 159,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "ALB 는 AWS WAF 웹 ACL과 연결됩니다.",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS WAF"
+      },
+      {
+        "text": "ALB(Application Load Balancer) 뒤의 Amazon EC2 인스턴스에서 실행되는 웹 사이트가 있는 회사가 있습니다.",
+        "answerLink": "AWS WAF"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 160,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "현재 Aurora MySQL 엔진 버전은 글로벌 데이터베이스를 지원합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "데이터 계층은 Amazon DynamoDB 테이블과 Amazon Aurora MySQL DB 클러스터를 사용합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "RTO",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "RTO 및 RPO는 각각 몇 분을 넘지 않아야 합니다.",
+        "answerLink": "Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

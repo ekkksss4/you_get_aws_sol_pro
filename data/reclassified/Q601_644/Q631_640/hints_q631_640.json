@@ -1,0 +1,232 @@
+[
+  {
+    "qNumber": 631,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "보안 사고로 인해 회사는 계정 A에 저장된 비밀 정보에 대한 모든 액세스 권한을 취소해야 합니다.",
+        "answerLink": "계정 A에 저장된 비밀 정보의 리소스 정책을 수정하여 모든 보안 주체에 대해 secretsmanagenGetSecretValue 작업을 명시적으로 거부합니다."
+      },
+      {
+        "text": "이 비밀 정보에는 조직 외부 계정(계정 B)의 IAM 역할에 읽기 전용 액세스를 허용하는 리소스 정책이 설정되어 있습니다.",
+        "answerLink": "계정 A에 저장된 비밀 정보의 리소스 정책을 수정하여 모든 보안 주체에 대해 secretsmanagenGetSecretValue 작업을 명시적으로 거부합니다."
+      },
+      {
+        "text": "회사는 중앙 AWS 계정(계정 A)의 AWS Secrets Manager 에 비밀 정보를 저장합니다.",
+        "answerLink": "계정 A에 저장된 비밀 정보의 리소스 정책을 수정하여 모든 보안 주체에 대해 secretsmanagenGetSecretValue 작업을 명시적으로 거부합니다."
+      },
+      {
+        "text": "해당 조직은 모든 기능을 활성화했습니다.",
+        "answerLink": "계정 A에 저장된 비밀 정보의 리소스 정책을 수정하여 모든 보안 주체에 대해 secretsmanagenGetSecretValue 작업을 명시적으로 거부합니다."
+      },
+      {
+        "text": "조직 내 계정의 일부 권한 있는 사용자는 IAM 역할을 사용하여 비밀 정보에 액세스할 수 있습니다.",
+        "answerLink": "계정 A에 저장된 비밀 정보의 리소스 정책을 수정하여 모든 보안 주체에 대해 secretsmanagenGetSecretValue 작업을 명시적으로 거부합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 632,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 IdP와 통합된 AWS IAM Identity Center 인스턴스를 구축하고 필요한 사용자 그룹을 생성합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "여러 부서와 애플리케이션에서 Amazon S3 를 사용하고 있으며, S3 버킷 정책을 사용하여 권한을 관리합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 회사 ID에 대한 세분화된 S3 버킷 권한 관리 프로세스를 간소화해야 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사가 생성하는 세분화된 권한으로 인해 정책 크기가 너무 커져 S3 버킷 정책 길이 할당량을 초과하는 문제가 발생합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 633,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 회사는 처리 로직을 컨테이너화하고 Amazon EKS 로 마이그레이션하려고 합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "사용자는 온프레미스 스토리지 컴퓨터에서 SSH를 이용하여 매일 수동으로 원시 데이터를 Amazon EC2 에 업로드합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "이 회사는 원시 데이터와 처리된 데이터를 저장하는 기본 스토리지로 Amazon EBS 를 사용합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "분석 애플리케이션은 데이터를 처리하고, 사용자는 처리된 데이터를 장기 저장을 위해 수동으로 Amazon S3에 업로드합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "처리된 데이터를 업로드하고 이동하는 자동화된 솔루션이 필요하며, 이 솔루션은 멀티 프로토콜을 지원하고 EKS 클러스터에서 바로 사용할 수 있어야 합니다.",
+        "answerLink": "AWS DataSync"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 634,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "현재 MSK 클러스터는 각 가용 영역에 두 개의 표준 대형 인스턴스를 사용하는 표준 브로커를 사용합니다.",
+        "answerLink": "표준 브로커를 Express Large 인스턴스를 사용하는 Express 브로커로 교체합니다. Kafka 클라이언트의 client.rack 속성을 az_id로 설정합니다."
+      },
+      {
+        "text": "이 회사는 브로커와 동일한 가용 영역에 배포된 Apache Kafka 클라이언트 간의 지연 시간을 최소화하고자 합니다.",
+        "answerLink": "표준 브로커를 Express Large 인스턴스를 사용하는 Express 브로커로 교체합니다. Kafka 클라이언트의 client.rack 속성을 az_id로 설정합니다."
+      },
+      {
+        "text": "한 회사가 Amazon Managed Streaming for Apache Kafka(Amazon MSK) 클러스터에서 메시지를 소비하는 지연 시간에 민감한 애플리케이션을 운영하고 있습니다.",
+        "answerLink": "표준 브로커를 Express Large 인스턴스를 사용하는 Express 브로커로 교체합니다. Kafka 클라이언트의 client.rack 속성을 az_id로 설정합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 635,
+    "answer": "C, D",
+    "highlights": [
+      {
+        "text": "개발자에게 AWS 리소스에 액세스하기 위한 IAM 사용자 자격 증명이 제공되었습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "솔루션 아키텍트는 권한을 검토한 결과 개발자의 IAM 사용자가 계정의 모든 S3 버킷에 대해 읽기 전용 액세스 권한만 가지고 있는 것을 확인했습니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 636,
+    "answer": "A, C, F",
+    "highlights": [
+      {
+        "text": "팀 리소스에는 애플리케이션과 팀을 나타내는 태그가 지정되어 있습니다.",
+        "answerLink": "애플리케이션과 팀을 나타내는 사용자 정의 비용 할당 태그를 활성화합니다."
+      },
+      {
+        "text": "솔루션 아키텍트는 이러한 비용 보고서를 제공하는 AWS 청구 및 비용 관리 솔루션을 권장해야 합니다.",
+        "answerLink": "청구 및 비용 관리에서 각 애플리케이션에 대한 비용 범주를 생성합니다."
+      },
+      {
+        "text": "또한 지난 12개월 동안의 비용 항목을 비교하고 향후 12개월의 비용을 예측하는 데 도움이 되는 보고서를 생성할 수 있어야 합니다.",
+        "answerLink": "애플리케이션과 팀을 나타내는 사용자 정의 비용 할당 태그를 활성화합니다."
+      },
+      {
+        "text": "이 회사는 세 개의 팀으로 소프트웨어 엔지니어를 두고 있으며, 각 팀은 각 애플리케이션을 담당하고, 각 팀은 담당하는 모든 애플리케이션의 비용 및 성능에 대한 책임을 집니다.",
+        "answerLink": "애플리케이션과 팀을 나타내는 사용자 정의 비용 할당 태그를 활성화합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 637,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "이 회사는 네트워크 트래픽을 검사하고 워크로드 VPC에 인터넷 액세스를 허용하는 중앙 집중식 방법이 필요합니다.",
+        "answerLink": "게이트웨이 로드 밸런서(GWLB), GWLB 엔드포인트 및 네트워크 가상 어플라이언스가 포함된 검사 VPC를 생성합니다. 모든 워크로드 VPC의 라우팅 테이블을 업데이트하여 트래픽을 트랜짓 게이트웨이로 보냅니다. 트랜짓 게이트웨이 라우팅 테이블을 구성"
+      },
+      {
+        "text": "한 회사가 동일한 AWS 리전 내의 여러 VPC를 연결하는 트랜짓 게이트웨이를 보유하고 있습니다.",
+        "answerLink": "게이트웨이 로드 밸런서(GWLB), GWLB 엔드포인트 및 네트워크 가상 어플라이언스가 포함된 검사 VPC를 생성합니다. 모든 워크로드 VPC의 라우팅 테이블을 업데이트하여 트래픽을 트랜짓 게이트웨이로 보냅니다. 트랜짓 게이트웨이 라우팅 테이블을 구성"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 638,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 SageMaker A1 노트북 인스턴스가 인터넷과 격리된 상태를 유지하면서 Git 리포지토리에 대한 접근을 제공해야 합니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "데이터 과학자들은 워크플로의 일부로 사용하는 애플리케이션 패키지를 업데이트하기 위해 비공개 Git 리포지토리에 접근해야 하는 경우가 있습니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "SageMaker A1 노트북 인스턴스는 인터넷에 접속할 수 없는 VPC에 배포되어 있습니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "인터페이스 VPC 엔드포인트는 Amazon S3 및 SageMaker API에 대한 접근을 제공합니다.",
+        "answerLink": "AWS Secrets"
+      },
+      {
+        "text": "한 회사가 Amazon SageMaker A1 노트북 인스턴스와 SageMaker API 를 사용하여 머신러닝(ML) 모델을 학습시키고 있습니다.",
+        "answerLink": "AWS Secrets"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 639,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 중앙 이벤트 브로커에서 각 계정에 있는 마이크로서비스로 이벤트를 분산하려고 합니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "이 모놀리식 애플리케이션은 중앙 계정의 이벤트 브로커와 개별 AWS 계정에 있는 여러 마이크로서비스로 구성됩니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "이벤트 브로커와 마이크로서비스는 Fargate 시작 유형을 사용하는 Amazon ECS 클러스터에 배포됩니다.",
+        "answerLink": "Amazon EventBridge"
+      },
+      {
+        "text": "여러 마이크로서비스가 이벤트 브로커에서 동일한 이벤트에 액세스해야 합니다.",
+        "answerLink": "Amazon EventBridge"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 640,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 회사는 애플리케이션 데이터를 이전 버전의 Amazon DocumentDB 에 저장하고 있습니다.",
+        "answerLink": "Amazon DocumentDB"
+      },
+      {
+        "text": "이 회사는 데이터 손실 없이 데이터베이스를 최신 버전의 Amazon DocumentDB 로 업그레이드해야 합니다.",
+        "answerLink": "Amazon DocumentDB"
+      },
+      {
+        "text": "모든 서비스는 Amazon Route 53 에 DNS 레코드로 등록된 Amazon DocumentDB 클러스터 엔드포인트를 사용하여 데이터베이스에 연결합니다.",
+        "answerLink": "Amazon DocumentDB"
+      },
+      {
+        "text": "여러 백엔드 서비스가 24시간 내내 데이터베이스에서 데이터를 읽고 씁니다.",
+        "answerLink": "Amazon DocumentDB"
+      },
+      {
+        "text": "24시간",
+        "answerLink": "Amazon DocumentDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

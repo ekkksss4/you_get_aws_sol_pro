@@ -1,0 +1,204 @@
+[
+  {
+    "qNumber": 81,
+    "answer": "A, C",
+    "highlights": [
+      {
+        "text": "이 시스템에는 Amazon S3를 원본으로 사용하여 Amazon CloudFront 배포를 사용하는 웹 애플리케이션이 포함되어 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "웹 애플리케이션은 Amazon API Gateway 지역 엔드포인트와 통신합니다.",
+        "answerLink": "API Gateway 지역 엔드포인트를 엣지 최적화 엔드포인트로 변경합니다."
+      },
+      {
+        "text": "API Gateway API는 Amazon Aurora Serverless 데이터베이스에 메타데이터를 저장하고 문서를 S3 버킷에 저장하는 AWS Lambda 함수를 호출합니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 82,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "사진과 비디오는 S3 버킷의 Amazon S3 Standard 스토리지에 저장되며 Amazon CloudFront를 통해 제공됩니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "30일",
+        "answerLink": "S3"
+      },
+      {
+        "text": "다만, 업로드된 사진과 영상 중 일부는 30일 이후에 자주 접속되는 경우가 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "솔루션 설계자는 업로드된 사진과 비디오의 대부분이 30일 후에 드물게 액세스된다는 것을 발견했습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 83,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 Amazon S3 를 사용하여 다양한 스토리지 클래스에 파일과 이미지를 저장합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "솔루션 설계자는 지난 12개월 동안의 데이터 추세를 검토하고 개체에 적합한 스토리지 클래스를 식별해야 합니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 84,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 회사의 비즈니스 확장 계획에는 여러 AWS 계정에 걸쳐 여러 지역에 배포하는 것이 포함됩니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "회사는 AWS에 클라우드 인프라를 가지고 있습니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "인프라는 현재 하나의 AWS 리전에 배포되어 있습니다.",
+        "answerLink": "AWS Organizations"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 85,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 회사의 비즈니스 확장 계획에는 여러 AWS 계정에 걸쳐 여러 지역에 배포하는 것이 포함됩니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "회사는 AWS에 클라우드 인프라를 가지고 있습니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "인프라는 현재 하나의 AWS 리전에 배포되어 있습니다.",
+        "answerLink": "AWS Organizations"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 86,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "CI/CD 파이프라인은 다음 요구 사항이 있는 애플리케이션의 최신 디자인을 지원하도록 업그레이드해야 합니다.",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "회사에서 모놀리식 애플리케이션을 AWS에 배포된 최신 애플리케이션 디자인으로 리팩터링할 계획입니다.",
+        "answerLink": "AWS Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 87,
+    "answer": "B, C",
+    "highlights": [
+      {
+        "text": "EC2 인스턴스는 모두 동일한 보안 그룹과 연결됩니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "회사에는 Amazon EC2 인스턴스에서 실행되는 애플리케이션이 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "솔루션 설계자는 애플리케이션이 Amazon Aurora DB 클러스터에 액세스해야 하는 AWS 리전에서 VPC 인프라를 설계하고 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "솔루션 설계자는 보안 그룹에 규칙을 추가하여 애플리케이션에 DB 클러스터에 대한 최소 권한 접근을 제공해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "DB 클러스터는 자체 보안 그룹과 연결됩니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 88,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이러한 요구 사항을 충족하는 가장 비용 효율적인 방법은 무엇입니까?",
+        "answerLink": "Amazon SNS"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Amazon SNS"
+      },
+      {
+        "text": "조직의 기존 태깅 표준에는 애플리케이션, 환경 및 소유자가 포함됩니다.",
+        "answerLink": "Amazon SNS"
+      },
+      {
+        "text": "이 회사는 AWS Organizations 를 사용하여 각 사업부에 대한 별도의 AWS 계정을 관리합니다.",
+        "answerLink": "Amazon SNS"
+      },
+      {
+        "text": "클라우드 거버넌스 팀은 각 사업부가 클라우드 지출에 대한 월별 보고서를 받을 수 있도록 중앙 집중식 솔루션을 원합니다.",
+        "answerLink": "Amazon SNS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 89,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 프로덕션 CloudFormation 스택이 삭제되면 Amazon RDS 데이터베이스 또는 Amazon EBS 볼륨에 저장된 중요한 데이터도 삭제될 수 있다고 우려하고 있습니다.",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "회사에서 AWS CloudFormation 을 사용하여 인프라를 배포하고 있습니다.",
+        "answerLink": "CloudFormation"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 90,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 프라이빗 Amazon EC2 인스턴스로 향하는 퍼블릭 IP 주소 198.51.100.2에서 오는 인바운드 트래픽에 대해 Action = ACCEPT를 보고 있습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "회사에는 NAT 게이트웨이에 대해 활성화된 VPC 흐름 로그가 있습니다.",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

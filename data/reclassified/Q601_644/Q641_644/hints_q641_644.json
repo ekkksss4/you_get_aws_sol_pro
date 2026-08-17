@@ -1,0 +1,98 @@
+[
+  {
+    "qNumber": 641,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 매일 밤 새로운 데이터를 Amazon S3 버킷에 업로드합니다.",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "한 회사가 AWS에서 컨테이너화된 워크로드를 실행하고 있습니다.",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "이 워크로드는 여러 데이터 처리 서비스로 구성되어 있으며, 각 서비스는 Amazon EC2 인스턴스 그룹에서 실행됩니다.",
+        "answerLink": "AWS Fargate"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 642,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "한 회사가 AWS 데이터베이스 계정의 프라이빗 서브넷에 있는 Amazon RDS for PostgreSQL DB 인스턴스에 데이터를 저장합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "이 회사는 DB 인스턴스에 대한 활성 연결 수를 관리해야 합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "서로 다른 VPC에 배포된 애플리케이션들이 서로 다른 AWS 계정에서 이 데이터에 접근합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "모든 계정과 데이터베이스 계정 간의 통신은 비공개로 이루어져야 하며 인터넷을 통해 전송되어서는 안 됩니다.",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 643,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "한 회사가 온프레미스 파일 전송 솔루션을 AWS Transfer Family 로 마이그레이션하고 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "변환이 완료되면 애플리케이션은 메시징 서버의 큐로 메시지를 보냅니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "온프레미스 호스트에는 파일을 수신하는 SFTP 서버, 파일 변환을 수행하는 애플리케이션, 그리고 메시징 서버가 포함되어 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "5분",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 644,
+    "answer": "A, D, E",
+    "highlights": [
+      {
+        "text": "ALB 는 AWS Certificate Manager(ACM) 에 저장된 공개 SSL 인증서를 사용하는 HTTPS 리스너를 사용합니다.",
+        "answerLink": "두 번째 리전의 회사 웹사이트에 대한 새 ACM 인증서를 요청합니다. 두 번째 리전의 ALB를 HTTPS 리스너로 구성합니다. 새 ACM 인증서를 기본 인증서로 설정합니다."
+      },
+      {
+        "text": "웹사이트 데이터는 Amazon Aurora MySQL DB 클러스터에 저장됩니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "회사는 이미 두 번째 리전에 ALB가 있는 ECS 클러스터를 배포했습니다.",
+        "answerLink": "두 번째 리전의 회사 웹사이트에 대한 새 ACM 인증서를 요청합니다. 두 번째 리전의 ALB를 HTTPS 리스너로 구성합니다. 새 ACM 인증서를 기본 인증서로 설정합니다."
+      },
+      {
+        "text": "컨테이너 이미지는 Amazon ECR 에 저장되어 있습니다.",
+        "answerLink": "ECR 리포지토리의 보조 리전으로의 리전 간 복제를 활성화합니다. 기존 이미지를 새 태그와 함께 ECR 리포지토리로 다시 푸시합니다."
+      },
+      {
+        "text": "웹사이트는 리전 간 데이터 복제에 따른 약간의 지연 시간을 허용할 수 있습니다.",
+        "answerLink": "ECR 리포지토리의 보조 리전으로의 리전 간 복제를 활성화합니다. 기존 이미지를 새 태그와 함께 ECR 리포지토리로 다시 푸시합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

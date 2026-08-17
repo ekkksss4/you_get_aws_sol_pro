@@ -27,6 +27,7 @@
 
 ## 개념집
 - [viewer/index4.html](viewer/index4.html): 서비스 사이드바 + 조건/정답 표현 중심의 화면형 개념집
+- [viewer/index5.html](viewer/index5.html): 문제 핵심 형광 + 정답 보기만 표시하는 암기 화면
 - [data/concepts/AWS_CONCEPT_BOOK.md](data/concepts/AWS_CONCEPT_BOOK.md): 서비스별 개념 후보와 문제 조건 연결
 - [data/concepts/questions.deduplicated.json](data/concepts/questions.deduplicated.json): 80% 이상 유사 문항 그룹에서 대표 문항만 남긴 데이터
 - [data/concepts/VERIFICATION.md](data/concepts/VERIFICATION.md): 공식 AWS 문서 검증 상태와 주의사항

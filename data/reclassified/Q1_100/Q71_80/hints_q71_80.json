@@ -1,0 +1,240 @@
+[
+  {
+    "qNumber": 71,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "앱은 us-east-1 리전의 Amazon S3 버킷에 다양한 파일을 업로드합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "1GB",
+        "answerLink": "S3"
+      },
+      {
+        "text": "10GB",
+        "answerLink": "S3"
+      },
+      {
+        "text": "파일 크기는 1GB에서 10GB입니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "솔루션 설계자는 이러한 업로드에 대한 앱의 성능을 개선해야 합니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 72,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "애플리케이션이 us-east-1 리전에서 Amazon RDS for MySQL 다중 AZ DB 인스턴스를 사용하고 있습니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "장애 조치 테스트 후 애플리케이션에서 데이터베이스에 대한 연결이 끊어져 연결을 다시 설정할 수 없습니다.",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 73,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "실시간",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "각 장치는 MQTT 프로토콜을 통해 실시간으로 데이터를 보내고 받을 수 있어야 합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사에서 AWS 클라우드에 솔루션을 구축하고 있습니다.",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 74,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "새로운 회사 정책에 따르면 엔지니어는 승인된 리소스만 프로비저닝할 수 있으며 엔지니어는 AWS CloudFormation 을 사용하여 이러한 리소스를 프로비저닝해야 합니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "솔루션 설계자는 엔지니어가 액세스에 사용하는 IAM 역할에 새로운 제한을 적용하는 솔루션을 만들어야 합니다.",
+        "answerLink": "AWS CloudFormation"
+      },
+      {
+        "text": "한 회사가 단일 AWS 계정에서 여러 워크로드를 실행하고 있습니다.",
+        "answerLink": "AWS CloudFormation"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 75,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "120일",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "15TB",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "가장 비용 효율적이고 설계 요구 사항을 충족하는 스토리지 전략은 무엇입니까?",
+        "answerLink": "Amazon DynamoDB"
+      },
+      {
+        "text": "솔루션 설계자는 1년 동안 스토리지 요구 사항이 약 10-15TB가 될 것이라고 계산합니다.",
+        "answerLink": "Amazon DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 76,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "웹 사이트는 MySQL DB 인스턴스용 Amazon RDS에 데이터를 저장합니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "소매 회사는 여러 AWS 리전에 걸쳐 AWS에서 전자 상거래 웹 사이트를 호스팅하고 있습니다.",
+        "answerLink": "Amazon RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 77,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "온프레미스 네트워크는 AWS Site -To-Site VPN 을 통해 VPC A 에 연결됩니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "은 온프레미스 서버에서 VPC B 로 연결하려고 합니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "온프레미스 서버는 VPC A 에 적절하게 액세스할 수 있습니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "AWS 계정에 VPC A 라는 VPC가 있습니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "Example Corp.은 VPC A와 VPC B를 피어링했습니다.",
+        "answerLink": "VPN"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 78,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "Amazon SES 에서 이메일 메시지를 보내도록 애플리케이션을 수정하려면 회사는 어떻게 해야 합니까?",
+        "answerLink": "Amazon SES"
+      },
+      {
+        "text": "회사는 Amazon Simple Email Service(Amazon SES) 를 사용하고 레거시 SMTP 서버를 폐기하기로 결정합니다.",
+        "answerLink": "Amazon SES"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon SES"
+      },
+      {
+        "text": "한 회사는 최근 플랫폼 변경 전략을 사용하여 온프레미스 데이터 센터에서 AWS 클라우드로의 마이그레이션을 완료했습니다.",
+        "answerLink": "Amazon SES"
+      },
+      {
+        "text": "회사는 SES 한도를 해제했습니다.",
+        "answerLink": "Amazon SES"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 79,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "그러나 인수 회사는 모든 팀에 대해 의미 있는 그룹을 포함하는 비용 보고서를 생성하는 데 어려움을 겪었습니다.",
+        "answerLink": "Amazon Athena"
+      },
+      {
+        "text": "각 회사에는 청구 및 보고 방법이 다른 별도의 AWS 계정이 있습니다.",
+        "answerLink": "Amazon Athena"
+      },
+      {
+        "text": "인수 회사는 모든 계정을 AWS Organizations 의 하나의 조직으로 통합했습니다.",
+        "answerLink": "Amazon Athena"
+      },
+      {
+        "text": "인수 회사의 재무 팀은 자체 관리 애플리케이션을 통해 모든 회사의 비용을 보고할 수 있는 솔루션이 필요합니다.",
+        "answerLink": "Amazon Athena"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 80,
+    "answer": "C, E",
+    "highlights": [
+      {
+        "text": "데이터는 4TB 범용 SSD 볼륨을 사용하는 Amazon RDS MySQL DB 인스턴스에 저장됩니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "API 서버는 지속적으로 오버로드되고 RDS 지표는 높은 쓰기 대기 시간을 나타냅니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "4TB",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "다양한 위치에 있는 IoT 센서는 Application Load Balancer 뒤에서 실행되는 Amazon EC2 인스턴스에 있는 회사의 Node.js API 서버로 데이터를 보냅니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "회사는 AWS에서 IoT 플랫폼을 실행합니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

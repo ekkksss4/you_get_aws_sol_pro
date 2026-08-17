@@ -1,0 +1,240 @@
+[
+  {
+    "qNumber": 121,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "EC2 인스턴스는 전용 VPC의 Auto Scaling 그룹에서 실행됩니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이 회사는 Amazon EC2 인스턴스에서 AWS로의 애플리케이션 마이그레이션을 배포할 계획입니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "회사는 보안 도구를 사용하여 VPC로 들어오고 나가는 모든 패킷을 검사해야 합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "실시간",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 122,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "애플리케이션은 매일 한 번 모든 JSON 레코드를 구문 분석하고 분석을 위해 레코드를 관계형 데이터베이스에 저장합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "센서는 정보를 JSON으로 구문 분석하는 레거시 응용 프로그램에 공급업체의 독점 형식으로 상태 정보를 보냅니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "모든 기기에는 IoT 센서가 있습니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "구문 분석은 간단하지만 각 공급업체마다 고유한 형식이 있습니다.",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 123,
+    "answer": "B, D, F",
+    "highlights": [
+      {
+        "text": "회사는 중앙 네트워크 계정에서 AWS Direct Connect 연결을 설정했습니다.",
+        "answerLink": "Direct Connect"
+      },
+      {
+        "text": "회사는 또한 온프레미스 데이터 센터를 통해 클라우드 리소스를 인터넷으로 라우팅하려고 합니다.",
+        "answerLink": "프라이빗 서브넷만 프로비저닝합니다. 전송 게이트웨이 및 고객 게이트웨이에서 필요한 경로를 열어 AWS의 아웃바운드 인터넷 트래픽이 데이터 센터에서 실행되는 NAT 서비스를 통해 흐를 수 있도록 합니다."
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Direct Connect"
+      },
+      {
+        "text": "이 회사는 가까운 장래에 수백 개의 AWS 계정과 VPC를 갖게 될 것으로 예상합니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "회사 네트워크는 AWS의 리소스에 원활하게 액세스할 수 있어야 하며 모든 VPC와 통신할 수 있어야 합니다.",
+        "answerLink": "프라이빗 서브넷만 프로비저닝합니다. 전송 게이트웨이 및 고객 게이트웨이에서 필요한 경로를 열어 AWS의 아웃바운드 인터넷 트래픽이 데이터 센터에서 실행되는 NAT 서비스를 통해 흐를 수 있도록 합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 124,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "한 회사에 수백 개의 AWS 계정이 있습니다.",
+        "answerLink": "모든 AWS 계정이 모든 기능이 활성화된 AWS Organizations의 조직에 속하는지 확인하십시오."
+      },
+      {
+        "text": "이전에는 사업부가 각자의 AWS 계정에서 자율적으로 예약 인스턴스를 직접 구매하거나 수정했습니다.",
+        "answerLink": "모든 AWS 계정이 모든 기능이 활성화된 AWS Organizations의 조직에 속하는지 확인하십시오."
+      },
+      {
+        "text": "이 프로세스에서는 예약 인스턴스를 구매하거나 수정하려는 모든 사업부가 조달을 위해 전담 팀에 요청을 제출해야 합니다.",
+        "answerLink": "모든 AWS 계정이 모든 기능이 활성화된 AWS Organizations의 조직에 속하는지 확인하십시오."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 125,
+    "answer": "C, D, E",
+    "highlights": [
+      {
+        "text": "최근 RDS 데이터베이스 장애 조치 테스트로 인해 애플리케이션이 40초 동안 중단되었습니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "RDS DB 인스턴스는 다중 AZ 모드로 배포됩니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "회사에서 Amazon RDS for MySQL 데이터베이스를 사용하여 데이터를 저장하는 중요한 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 126,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사는 API 또는 명령줄 도구를 사용하여 고객 계정에 대한 최소 권한 보안 접근을 설정해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "이 서비스를 사용하려면 파트너 회사가 org2라는 별도의 조직에 있는 고객 계정의 AWS 리소스에 액세스할 수 있어야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "AWS 파트너 회사는 org1이라는 조직을 사용하여 AWS Organizations 에서 서비스를 구축하고 있습니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 127,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "배송 회사는 타사 경로 계획 애플리케이션을 AWS로 마이그레이션해야 합니다.",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "경로 맵을 생성하는 데 필요한 시간을 줄이기 위해 각 섹션은 섹션 영역에서만 주문을 처리하는 사용자 지정 구성과 함께 고유한 Docker 컨테이너 집합을 사용합니다.",
+        "answerLink": "AWS Fargate"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Fargate"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 128,
+    "answer": "A, E",
+    "highlights": [
+      {
+        "text": "다른 AWS 계정에서 공유 서비스 VPC는 IPv4 CIDR 블록이 10.10.10.0/24인 us-east-2 리전에 있습니다.",
+        "answerLink": "두 VPC의 IPv4 CIDR 범위가 겹칩니다."
+      },
+      {
+        "text": "애플리케이션은 IPv4 CIDR 블록이 10.10.0.0/16인 us-east-1 리전에 위치한 애플리케이션 VPC의 Amazon EC2 인스턴스 그룹에서 실행됩니다.",
+        "answerLink": "두 VPC의 IPv4 CIDR 범위가 겹칩니다."
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "두 VPC의 IPv4 CIDR 범위가 겹칩니다."
+      },
+      {
+        "text": "소프트웨어 회사는 여러 AWS 계정 및 리전의 리소스를 사용하여 AWS에서 애플리케이션을 호스팅합니다.",
+        "answerLink": "두 VPC의 IPv4 CIDR 범위가 겹칩니다."
+      },
+      {
+        "text": "클라우드 엔지니어가 AWS CloudFormation 을 사용하여 애플리케이션 VPC를 공유 서비스 VPC와 피어링하려고 시도하면 피어링 실패를 나타내는 오류 메시지가 표시됩니다.",
+        "answerLink": "두 VPC의 IPv4 CIDR 범위가 겹칩니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 129,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사의 서버리스 애플리케이션에 대한 외부 감사에서 너무 많은 권한을 부여하는 IAM 정책이 드러났습니다.",
+        "answerLink": "AWS CloudTrail"
+      },
+      {
+        "text": "이러한 정책은 회사의 AWS Lambda 실행 역할에 연결됩니다.",
+        "answerLink": "AWS CloudTrail"
+      },
+      {
+        "text": "솔루션 설계자는 최소한의 노력으로 이 요구 사항을 충족하기 위해 무엇을 해야 합니까?",
+        "answerLink": "AWS CloudTrail"
+      },
+      {
+        "text": "수백 개의 회사 Lambda 함수에는 Amazon S3 버킷 및 Amazon DynamoDB 테이블에 대한 전체 액세스와 같은 광범위한 액세스 권한이 있습니다.",
+        "answerLink": "AWS CloudTrail"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 130,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이러한 EC2 인스턴스의 활용은 데이터베이스를 사용하는 애플리케이션에 따라 다르며 회사는 패턴을 식별하지 않았습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "솔루션 설계자는 회사의 Amazon EC2 인스턴스와 Amazon Elastic Block Store(Amazon EBS) 볼륨을 분석하여 회사가 리소스를 효율적으로 사용하고 있는지 확인해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "이 회사는 능동/수동 구성으로 배포되는 데이터베이스 클러스터를 호스팅하기 위해 여러 개의 대용량 고용량 EC2 인스턴스를 실행하고 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

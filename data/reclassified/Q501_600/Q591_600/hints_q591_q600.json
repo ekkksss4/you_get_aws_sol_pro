@@ -1,0 +1,236 @@
+[
+  {
+    "qNumber": 591,
+    "answer": "C, E",
+    "highlights": [
+      {
+        "text": "데이터는 4TB 범용 SSD 볼륨을 사용하는 Amazon RDS MySQL DB 인스턴스에 저장됩니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "API 서버는 지속적으로 과부하 상태이며, RDS 지표는 높은 쓰기 지연 시간을 나타냅니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "4TB",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "한 회사가 다양한 위치에 있는 AWS IoT 센서를 기반으로 IoT 플랫폼을 운영하고 있으며, 데이터를 회사로 전송합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "Amazon EC2 인스턴스의 Node.js API 서버는 애플리케이션 로드 밸런서 뒤에서 실행됩니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 592,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 애플리케이션은 기본 AWS 관리형 KMS 키로 암호화된 Amazon Aurora MySQL 데이터베이스를 사용합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "이 회사는 데이터베이스 암호화 키를 180일마다 교체하는 솔루션을 구현해야 합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "180일",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "한 회사가 AWS에서 애플리케이션을 실행합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "이 솔루션은 암호화 키가 이 표준을 준수하지 않을 경우 알림을 제공해야 합니다.",
+        "answerLink": "Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 593,
+    "answer": "B, C, E",
+    "highlights": [
+      {
+        "text": "또한 Direct Connect를 통해 온프레미스 DNS 서버를 운영하고 있습니다.",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "한 회사가 단일 리전의 여러 VPC에 있는 EC2에서 워크로드를 실행합니다.",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "모든 EC2 인스턴스는 비공개 통신을 사용하여 internal.company.com을 확인해야 합니다.",
+        "answerLink": "Route 53"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 594,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 회사는 모든 계정에 적용해야 하는 사용자 지정 제어 세트를 정의했습니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "솔루션 아키텍트는 반복 가능한 방식으로 코드형 인프라(IaC)를 사용하여 사용자 지정 제어를 배포하는 솔루션을 설계해야 합니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "한 회사에는 다양한 팀, 애플리케이션 및 환경에 대해 수십 개의 AWS 계정이 있습니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "회사는 계정의 잠재적인 구성 오류로 인해 보안 문제 또는 규정 미준수가 발생할 수 있다는 점을 우려하고 있습니다.",
+        "answerLink": "AWS Control"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 595,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "가장 비용",
+        "answerLink": "S3의 마운트 지점을 사용하여 가격 파일을 EC2에 마운트합니다."
+      },
+      {
+        "text": "EC2 기반 티켓팅 서비스는 시작 시 자주 업데이트되는 가격 파일(S3에 저장됨)을 가져옵니다.",
+        "answerLink": "S3의 마운트 지점을 사용하여 가격 파일을 EC2에 마운트합니다."
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "S3의 마운트 지점을 사용하여 가격 파일을 EC2에 마운트합니다."
+      },
+      {
+        "text": "때때로 EC2의 가격이 오래되어 요금 문제가 발생합니다.",
+        "answerLink": "S3의 마운트 지점을 사용하여 가격 파일을 EC2에 마운트합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 596,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "여러 AWS 계정의 애플리케이션이 별도의 AWS 계정에 있는 PostgreSQL RDS 인스턴스에 비공개로 액세스하는 동시에 연결 수를 관리할 수 있는 방법은 무엇입니까?",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 597,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "한 회사가 애플리케이션 로드 밸런서(ALB) 뒤의 Amazon ECS 에서 전자상거래 웹사이트를 운영하고 있습니다.",
+        "answerLink": "Fargate"
+      },
+      {
+        "text": "회사는 Amazon S3 버킷을 사용하여 백업 데이터를 저장합니다.",
+        "answerLink": "Fargate"
+      },
+      {
+        "text": "웹사이트 도메인은 Amazon Route 53 에 등록되어 있습니다.",
+        "answerLink": "Fargate"
+      },
+      {
+        "text": "웹사이트는 Amazon Aurora MySQL DB 클러스터에 데이터를 저장합니다.",
+        "answerLink": "Fargate"
+      },
+      {
+        "text": "회사는 RPO(복구 시간 목표)가 5분, RTO( 복구 시간 목표)가 15분인 두 번째 AWS 리전에 설정을 다시 생성하려고 합니다.",
+        "answerLink": "Fargate"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 598,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "또한 모든 온프레미스 서버의 NTP 소스 역할을 하는 고정밀 Stratum-0 원자 시계 네트워크 어플라이언스를 보유하고 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "AWS로의 마이그레이션이 완료되면 애플리케이션을 호스팅하는 모든 Amazon EC2 인스턴스의 시계를 온프레미스 원자 시계 네트워크 어플라이언스와 동기화해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "한 회사에서 온프레미스 데이터 분석 애플리케이션을 AWS로 마이그레이션할 계획입니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 온프레미스 데이터 센터에서 AWS로 AWS Direct Connect 연결을 설정했습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 599,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사의 애플리케이션 팀은 법무팀으로부터 인스턴스의 암호화된 Amazon Elastic Block Store(Amazon EBS) 볼륨에서 Amazon S3 버킷으로 데이터를 백업하라는 지시를 받습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "이 회사는 Amazon Linux 2 를 실행하는 Amazon EC2 인스턴스에서 해당 애플리케이션을 호스팅합니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 600,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사가 Amazon EMR 에서 데이터 분석을 위한 애플리케이션을 구축하고 있습니다.",
+        "answerLink": "Amazon EMR"
+      },
+      {
+        "text": "* 데이터 엔지니어: 사용 가능한 소규모 구성 집합에서 EMR 클러스터를 생성합니다.",
+        "answerLink": "Amazon EMR"
+      },
+      {
+        "text": "다음 사용자 그룹은 서로 다른 작업을 수행해야 합니다.",
+        "answerLink": "Amazon EMR"
+      },
+      {
+        "text": "* 관리자: 다양한 구성에서 EMR 클러스터를 프로비저닝합니다.",
+        "answerLink": "Amazon EMR"
+      },
+      {
+        "text": "* 데이터 분석가: 특정 구성으로 EMR 클러스터를 생성합니다.",
+        "answerLink": "Amazon EMR"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

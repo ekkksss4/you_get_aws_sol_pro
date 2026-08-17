@@ -1,0 +1,248 @@
+[
+  {
+    "qNumber": 521,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이러한 EC2 인스턴스는 Systems Manager 및 핵심 계정의 프라이빗 VPC에 있는 패치 소스 리포지토리에 연결되어야 합니다.",
+        "answerLink": "Systems Manager"
+      },
+      {
+        "text": "회사는 AWS Systems Manager 패치 관리자와 핵심 계정의 패치 소스 리포지토리를 사용하여 애플리케이션 계정의 EC2 인스턴스를 패치하려고 합니다.",
+        "answerLink": "Systems Manager"
+      },
+      {
+        "text": "회사는 핵심 계정의 전용 프라이빗 VPC에 패치 소스 저장소로 EC2 인스턴스를 설정했습니다.",
+        "answerLink": "Systems Manager"
+      },
+      {
+        "text": "회사는 현재 애플리케이션 계정의 VPC에 있는 NAT 게이트웨이를 사용하여 인터넷을 통해 인스턴스를 패치합니다.",
+        "answerLink": "Systems Manager"
+      },
+      {
+        "text": "애플리케이션 계정의 EC2 인스턴스는 애플리케이션 데이터가 저장되는 Amazon S3 에 액세스해야 합니다.",
+        "answerLink": "Systems Manager"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 522,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "애플리케이션은 eu-west-1 리전의 한 VPC에 있는 리소스에 액세스할 수 있어야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "두 리전의 VPC에는 겹치는 CIDR 범위가 없습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "그러나 애플리케이션은 다른 VPC에 액세스할 수 없어야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "미국 회사는 us-east-2 지역의 5개 VPC에서 애플리케이션을 호스팅하고 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 523,
+    "answer": "A, C",
+    "highlights": [
+      {
+        "text": "한 여행사는 Amazon Simple Email Service(Amazon SES) 를 사용하여 사용자에게 이메일 알림을 보내는 웹 애플리케이션을 구축했습니다.",
+        "answerLink": "Amazon Data"
+      },
+      {
+        "text": "또한 회사는 수신자, 제목, 보낸 시간을 기준으로 검색할 수 있는 기능도 필요합니다.",
+        "answerLink": "Amazon Athena"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 524,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 활용도가 낮은 개발 EC2 인스턴스를 감지하고 중지해야 합니다.",
+        "answerLink": "AWS Trusted"
+      },
+      {
+        "text": "EC2 인스턴스에는 부서, 사업부 및 환경에 대한 태그가 있습니다.",
+        "answerLink": "AWS Trusted"
+      },
+      {
+        "text": "회사는 AWS 계정 전체에서 Amazon EC2 인스턴스의 비용 효율성을 모니터링하려고 합니다.",
+        "answerLink": "AWS Trusted"
+      },
+      {
+        "text": "개발 EC2 인스턴스는 비용은 높지만 활용도는 낮습니다.",
+        "answerLink": "AWS Trusted"
+      },
+      {
+        "text": "지난 14일 중 4일 이상 동안 일일 평균 CPU 사용률이 10% 이하이고 네트워크 I/O가 5MB 이하인 인스턴스는 활용도가 낮은 것입니다.",
+        "answerLink": "AWS Trusted"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 525,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "애플리케이션은 Network Load Balancer(NLB) 의 대상 그룹에 등록된 20개의 Amazon EC2 온디맨드 인스턴스로 구성됩니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "7일",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "24시간",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "애플리케이션은 무상태이며 하루 24시간, 주 7일 실행됩니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 526,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "다른 애플리케이션은 AWS IoT Core의 센서 데이터를 처리하지 않습니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "애플리케이션은 AWS IoT Core 를 사용하여 수백 개의 장치에서 Amazon S3 데이터 레이크로 데이터를 보냅니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "애플리케이션이 데이터를 수집한 후 30분 이내에 Amazon S3 에서 새로운 센서 데이터를 사용할 수 있어야 합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "30분",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 527,
+    "answer": "A, E",
+    "highlights": [
+      {
+        "text": "데이터 과학자는 별도의 AWS 계정에 있는 VPC의 퍼블릭 서브넷 2개에서 실행되는 Amazon EC2 인스턴스에 대한 분석을 수행합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "데이터는 Amazon S3 데이터 레이크에 저장됩니다.",
+        "answerLink": "s3"
+      },
+      {
+        "text": "EC2 인스턴스에는 이미 Amazon S3에 액세스할 수 있는 권한이 있는 할당된 역할이 있습니다.",
+        "answerLink": "s3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 528,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "온프레미스",
+        "answerLink": "Migration Evaluator 에 대한 액세스를 요청합니다. Migration Evaluator Collector 를 실행하고 데이터를 가져옵니다. 시나리오를 구성합니다. Migration Evaluator 에서 Quick Insights 보고서"
+      },
+      {
+        "text": "웹사이트의 모든 데이터는 온프레미스 PostgreSQL 데이터베이스에 저장됩니다.",
+        "answerLink": "Migration Evaluator 에 대한 액세스를 요청합니다. Migration Evaluator Collector 를 실행하고 데이터를 가져옵니다. 시나리오를 구성합니다. Migration Evaluator 에서 Quick Insights 보고서"
+      },
+      {
+        "text": "웹사이트는 온프레미스 자체 관리형 Kubernetes 클러스터에 배포된 컨테이너를 사용합니다.",
+        "answerLink": "Migration Evaluator 에 대한 액세스를 요청합니다. Migration Evaluator Collector 를 실행하고 데이터를 가져옵니다. 시나리오를 구성합니다. Migration Evaluator 에서 Quick Insights 보고서"
+      },
+      {
+        "text": "또한 회사는 온프레미스 데이터베이스를 PostgreSQL용 Amazon RDS 데이터베이스로 마이그레이션할 예정입니다.",
+        "answerLink": "Migration Evaluator 에 대한 액세스를 요청합니다. Migration Evaluator Collector 를 실행하고 데이터를 가져옵니다. 시나리오를 구성합니다. Migration Evaluator 에서 Quick Insights 보고서"
+      },
+      {
+        "text": "회사는 온프레미스 Kubernetes 클러스터를 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터로 마이그레이션하기로 결정했습니다.",
+        "answerLink": "Migration Evaluator 에 대한 액세스를 요청합니다. Migration Evaluator Collector 를 실행하고 데이터를 가져옵니다. 시나리오를 구성합니다. Migration Evaluator 에서 Quick Insights 보고서"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 529,
+    "answer": "A, E",
+    "highlights": [
+      {
+        "text": "ECS 클러스터는 티켓 자산을 다운로드하기 위해 Amazon S3 버킷에 자주 요청합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "ECS 클러스터와 S3 버킷 간의 트래픽은 NAT 게이트웨이를 통해 흐릅니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "ECS 클러스터와 S3 버킷은 동일한 AWS 리전 및 동일한 AWS 계정에 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "Auto Scaling 그룹은 예측 조정 정책을 사용합니다.",
+        "answerLink": "예측적 조정 정책을 예약된 이벤트에 대한 예약된 조정 정책으로 대체합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 530,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "프런트엔드는 온프레미스 VM에서 실행되는 Java 기반 애플리케이션입니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "회사는 사용자 정보를 Microsoft SQL Server 데이터베이스에 저장합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "솔루션 설계자는 회사가 온프레미스에서 호스팅하는 3계층 애플리케이션을 재설계하고 있습니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

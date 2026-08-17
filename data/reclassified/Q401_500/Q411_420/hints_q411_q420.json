@@ -1,0 +1,228 @@
+[
+  {
+    "qNumber": 411,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "모든 사용자는 다단계 인증(MFA)을 통해 인증되어야 합니다.",
+        "answerLink": "Amazon Cognito"
+      },
+      {
+        "text": "회사는 특정 사용자 목록에만 인터넷에서 애플리케이션에 액세스할 수 있는 기능을 제공해야 합니다.",
+        "answerLink": "Amazon Cognito"
+      },
+      {
+        "text": "ALB(Application Load Balancer) 는 트래픽을 애플리케이션으로 전달합니다.",
+        "answerLink": "Amazon Cognito"
+      },
+      {
+        "text": "회사는 Docker 이미지를 Amazon Elastic Container Service(Amazon ECS) 에 AWS Fargate 서비스로 배포했습니다.",
+        "answerLink": "Amazon Cognito"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 412,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "스택 세트의 템플릿에는 사용자 지정 이름이 있는 IAM 역할이 포함되어 있습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "스택 세트를 생성하면 스택 인스턴스가 성공적으로 생성되지 않습니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "솔루션 아키텍트는 AWS CloudFormation 스택 세트를 사용하여 도구를 배포합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 413,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "애플리케이션은 AWS Lambda 함수에서 실행됩니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "애플리케이션은 읽기 전용 작업을 수행하기 위해 데이터베이스의 복제본 인스턴스에 대한 단기 연결을 여러 개 만듭니다.",
+        "answerLink": "Amazon RDS"
+      },
+      {
+        "text": "회사에는 애플리케이션 데이터베이스로 Amazon Aurora PostgreSQL DB 클러스터를 사용하는 애플리케이션이 있습니다.",
+        "answerLink": "Amazon RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 414,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 아키텍트는 센서가 설치된 후 AWS로 데이터를 전송할 수 있는 기능을 센서에 부여해야 합니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "센서는 설치될 때까지 AWS로 데이터를 보낼 수 없어야 합니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "한 소매업체가 전 세계 모든 매장에 IoT 센서를 탑재하고 있습니다.",
+        "answerLink": "AWS Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 415,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "소프트웨어 엔지니어는 AWS CodePipeline 을 사용하여 빌드 및 배포 프로세스를 관리하기로 결정했습니다.",
+        "answerLink": "CodePipeline"
+      },
+      {
+        "text": "DevOps 팀은 빌드 및 단위 테스트에 Jenkins를 사용하고 있습니다.",
+        "answerLink": "CodePipeline"
+      },
+      {
+        "text": "엔지니어는 배포 중에 잘못된 빌드와 가동 중지 시간에 대한 알림을 받아야 합니다.",
+        "answerLink": "CodePipeline"
+      },
+      {
+        "text": "소프트웨어 엔지니어는 개인 GitHub 저장소를 사용하여 코드를 관리하고 있습니다.",
+        "answerLink": "CodePipeline"
+      },
+      {
+        "text": "한 스타트업 회사는 최근 대규모 전자 상거래 웹사이트를 AWS로 마이그레이션했습니다.",
+        "answerLink": "CodePipeline"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 416,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 애플리케이션 서비스를 위해 AWS Lambda 기능을 사용합니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "회사는 각 테넌트의 리소스 소비에 맞춰 DynamoDB 비용을 각 테넌트에 할당하려고 합니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "회사는 테넌트가 스토리지 계층을 위해 공유하는 Amazon DynamoDB 테이블을 사용합니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "각 테넌트는 Lambda 함수에 대한 각 요청의 일부로 전송되는 고유한 테넌트 ID로 식별됩니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "최소한의 운영 노력으로 각 테넌트의 DynamoDB 비용에 대한 세부적인 보기를 제공하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 417,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사의 보안 팀은 공격자가 유출된 장기 자격 증명을 통해 AWS 계정에 액세스할 수 있다는 점을 우려하고 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "S3 버킷의 기존 객체와 향후 객체를 보호하는 솔루션은 무엇입니까?",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사에는 단일 Amazon S3 버킷에 데이터를 저장하는 애플리케이션이 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 모든 데이터를 1년간 보관해야 합니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 418,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 모든 백엔드 서비스가 인증된 사용자에게만 응답하도록 솔루션을 설계해야 합니다.",
+        "answerLink": "ALB 를 IdP와 통합하여 인증 및 권한 부여를 시행하도록 ALB를 구성합니다. 인증된 사용자만 백엔드 서비스에 액세스하도록 허용합니다."
+      },
+      {
+        "text": "또한 보안 감사는 ALB가 인증되지 않은 사용자의 요청을 수락한다는 것을 보여줍니다.",
+        "answerLink": "ALB 를 IdP와 통합하여 인증 및 권한 부여를 시행하도록 ALB를 구성합니다. 인증된 사용자만 백엔드 서비스에 액세스하도록 허용합니다."
+      },
+      {
+        "text": "두 번째 사용자 지정 원본은 트래픽을 ALB(Application Load Balancer) 로 라우팅합니다.",
+        "answerLink": "ALB 를 IdP와 통합하여 인증 및 권한 부여를 시행하도록 ALB를 구성합니다. 인증된 사용자만 백엔드 서비스에 액세스하도록 허용합니다."
+      },
+      {
+        "text": "이 애플리케이션은 사용자 관리를 위해 OIDC(OpenID Connect) ID 공급자(IdP)와 통합됩니다.",
+        "answerLink": "ALB 를 IdP와 통합하여 인증 및 권한 부여를 시행하도록 ALB를 구성합니다. 인증된 사용자만 백엔드 서비스에 액세스하도록 허용합니다."
+      },
+      {
+        "text": "보안 감사에 따르면 JWT(JSON Web Token) 권한 부여자가 API에 대한 접근을 제공하는 것으로 나타났습니다.",
+        "answerLink": "ALB 를 IdP와 통합하여 인증 및 권한 부여를 시행하도록 ALB를 구성합니다. 인증된 사용자만 백엔드 서비스에 액세스하도록 허용합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 419,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사의 보안 팀은 예방 제어 및 탐지 제어를 배포하여 모든 계정에서 AWS 서비스를 모니터링합니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "회사는 다중 계정 AWS 환경을 관리하고 통제하기 위해 AWS Control Tower 랜딩 존을 생성합니다.",
+        "answerLink": "AWS Organizations"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 420,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 ap-northeast-1 리전의 Amazon S3 버킷으로 이미지를 전송하려고 합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "이 회사에는 모든 기존 소프트웨어 이미지와 새 소프트웨어 이미지를 Amazon S3 로 자동 전송하기 위해 사용자 지정 개발이 필요하지 않은 솔루션이 필요합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "유럽과 아시아에 사무실을 두고 가전 제품을 개발하는 회사는 유럽의 온프레미스에 60TB의 소프트웨어 이미지를 저장했습니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "60TB",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS DataSync"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

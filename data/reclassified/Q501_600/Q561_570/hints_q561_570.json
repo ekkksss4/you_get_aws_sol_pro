@@ -1,0 +1,236 @@
+[
+  {
+    "qNumber": 561,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "설문조사 중에 데이터는 현장 작업자의 기기에서 Amazon S3 버킷으로 업로드됩니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "여러 Amazon EC2 인스턴스에서 실행되는 사용자 지정 애플리케이션이 S3 버킷에서 새 데이터를 폴링합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "이 회사는 S3 데이터를 처리하기 위해 애플리케이션 워크플로를 최적화하려고 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "25분",
+        "answerLink": "S3"
+      },
+      {
+        "text": "처리 소프트웨어가 각 데이터 업로드를 분석하는 데 최대 25분이 걸릴 수 있습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 562,
+    "answer": "A, D, F",
+    "highlights": [
+      {
+        "text": "회사는 지난 90일 동안의 CPU 및 메모리 사용량을 기준으로 EC2 인스턴스의 크기를 조정하는 방법에 대한 권장 사항이 필요합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "이 계정에는 다양한 유형의 워크로드를 실행하는 여러 Amazon EC2 인스턴스가 포함되어 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "한 회사의 AWS Organizations 에 여러 AWS 계정이 있습니다.",
+        "answerLink": "AWS Compute"
+      },
+      {
+        "text": "90일",
+        "answerLink": "AWS Compute"
+      },
+      {
+        "text": "여러 AWS 계정",
+        "answerLink": "AWS Compute"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 563,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 회사는 DNS 서비스로 Amazon Route 53 을 사용합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "이 센서들은 MOTT 프로토콜을 사용하여 사용자 지정 MQTT 브로커에 연결하고 데이터를 전송합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "MQTT 브로커는 단일 Amazon EC2 인스턴스에 데이터를 저장합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "회사는 Amazon DynamoDB에 데이터를 저장합니다.",
+        "answerLink": "Auto Scaling"
+      },
+      {
+        "text": "데이터 양이 너무 많아 MOTT 브로커에 과부하가 걸려 센서 데이터가 손실되는 경우가 여러 번 발생했습니다.",
+        "answerLink": "Auto Scaling"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 564,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "한 회사가 곧 만료될 Savings Plan에 따라 M6i EC2 인스턴스를 사용하여 Amazon EKS에서 Linux 앱을 운영하고 있습니다.",
+        "answerLink": "EKS"
+      },
+      {
+        "text": "만료 후 비용을 절감하고자 합니다.",
+        "answerLink": "ARM64 아키텍처에 맞게 컨테이너를 다시 빌드합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 565,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "Workspaces 는 장애 조치 리전에 배포됩니다.",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "호스팅 영역은 Amazon Route 53에서 사용할 수 있습니다.",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "고가용성",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "Route 53"
+      },
+      {
+        "text": "이제 두 AWS 리전에서 Workspaces의 고가용성을 구축하고자 합니다.",
+        "answerLink": "Route 53"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 566,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "게임의 클라이언트 애플리케이션은 UDP를 사용하여 게임 서버와 통신하며 고정 IP 주소에 연결할 수 있어야 합니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "모바일 게임 회사가 글로벌 시장으로 확장하고 있습니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "이 회사의 게임 서버는 미국 동부 1 리전에서 운영됩니다.",
+        "answerLink": "AWS Global"
+      },
+      {
+        "text": "또한 게임의 네트워크 성능과 글로벌 가용성을 유지하기를 원합니다.",
+        "answerLink": "AWS Global"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 567,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 회사는 Amazon S3 관리형 키(SSE-S3)를 사용하는 서버 측 암호화를 사용하여 S3 버킷의 모든 데이터를 암호화합니다.",
+        "answerLink": "Amazon Made"
+      },
+      {
+        "text": "일부 S3 버킷에는 민감한 데이터가 포함되어 있습니다.",
+        "answerLink": "Amazon Made"
+      },
+      {
+        "text": "한 회사가 하나의 AWS 계정에 있는 여러 Amazon S3 버킷에 애플리케이션 데이터를 저장합니다.",
+        "answerLink": "Amazon Made"
+      },
+      {
+        "text": "이 회사는 S3 버킷에 대한 데이터 인벤토리를 보유하고 있지 않습니다.",
+        "answerLink": "Amazon Made"
+      },
+      {
+        "text": "솔루션 아키텍트는 관리자만 액세스할 수 있는 키로 민감한 데이터를 암호화하는 솔루션을 설계해야 합니다.",
+        "answerLink": "Amazon Made"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 568,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 사이트는 Route 53의 사용자 지정 도메인을 사용합니다.",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "이 회사는 재해 복구 및 글로벌 고객의 빠른 액세스를 위해 두 번째 리전에 스택을 복제하려고 합니다.",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "CloudFormation"
+      },
+      {
+        "text": "한 회사가 EC2, ALB, DynamoDB 를 사용하여 단일 AWS 리전에서 전자상거래 사이트를 호스팅하고 있습니다.",
+        "answerLink": "CloudFormation"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 569,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "데이터는 API Gateway 로 전송되고 Lambda에서 처리되어 DynamoDB에 저장됩니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "사용량이 증가함에 따라 Lambda 지속 시간이 길어지고 DynamoDB PUT 이 rovisionedThroughputExceededException으로 실패했습니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "공익사업 회사가 5분마다 스마트 미터에서 사용 데이터를 수집합니다.",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "5분",
+        "answerLink": "DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 570,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "한 회사에서 Oracle Solaris NFS 스토리지 어레이 사용을 중단하려고 합니다.",
+        "answerLink": "AWS DataSync"
+      },
+      {
+        "text": "이 회사는 인터넷 네트워크 연결을 통해 Amazon S3, Amazon EFS, Amazon FSx for Windows File Server 등 다양한 대상에 대한 신속한 데이터 마이그레이션을 요구합니다.",
+        "answerLink": "AWS DataSync"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

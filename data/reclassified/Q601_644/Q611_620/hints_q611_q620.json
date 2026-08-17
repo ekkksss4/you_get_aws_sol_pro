@@ -1,0 +1,232 @@
+[
+  {
+    "qNumber": 611,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "한 회사에서 매니페스트 파일이 포함된 컨테이너화된 Kubernetes 앱을 AWS로 마이그레이션하고 있습니다.",
+        "answerLink": "Amazon EKS"
+      },
+      {
+        "text": "가장 쉬운 마이그레이션 경로는 무엇입니까?",
+        "answerLink": "Amazon EKS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 612,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이 솔루션은 애플리케이션이 기본 리전에서 작동 중일 때 보조 리전에서 Aurora DB 인스턴스를 실행해서는 안 됩니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "한 회사의 인벤토리 애플리케이션은 단일 AWS 리전의 Amazon Aurora PostgreSQL DB 클러스터에 데이터를 저장합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "5분",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "15분",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "RTO",
+        "answerLink": "Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 613,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션은 Lambda 동시성이 특정 사용률 임계값에 도달하면 Amazon CloudWatch 알람을 사용하여 Amazon SNS 알림을 전송해야 합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "웹 애플리케이션은 보조 리전으로 장애 조치하기 위해 수동 DNS 업데이트가 필요합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "분석 Lambda 함수는 동일한 AWS 계정에서 실행됩니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사는 DNS를 위해 Amazon Route 53 을 사용합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "이 함수로 인해 Lambda 동시성이 평균적으로 현재 할당량의 90%에 도달했습니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 614,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "한 회사에 온프레미스 Oracle 데이터베이스를 사용하는 애플리케이션이 있습니다.",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "AWS 솔루션은 고가용성을 제공해야 하며 데이터베이스에 대해 관리형 서비스를 사용해야 합니다.",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "고가용성",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS DMS"
+      },
+      {
+        "text": "최소한의 다운타임",
+        "answerLink": "AWS DMS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 615,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "학생들은 단일 Amazon SageMaker 머신 러닝 학습 작업을 실행하고 추론 엔드포인트를 배포하기 위해 ml.p2.xlarge 인스턴스에 액세스해야 합니다.",
+        "answerLink": "조직의 관리 계정에서 us-east-1 리전에 할당량 요청 템플릿을 생성합니다. 템플릿 연결을 활성화합니다. ml.p2.xlarge 학습 작업 사용을 위해 apsoutheast-2에 SageMaker 할당량을 추가합니다. 원하는 할당량을 1로 설정합니"
+      },
+      {
+        "text": "계정은 apsoutheast-2 리전에서 프로비저닝되어야 합니다.",
+        "answerLink": "조직의 관리 계정에서 us-east-1 리전에 할당량 요청 템플릿을 생성합니다. 템플릿 연결을 활성화합니다. ml.p2.xlarge 학습 작업 사용을 위해 apsoutheast-2에 SageMaker 할당량을 추가합니다. 원하는 할당량을 1로 설정합니"
+      },
+      {
+        "text": "한 회사에 데이터 과학 교육을 위한 온라인 학습 플랫폼이 있습니다.",
+        "answerLink": "조직의 관리 계정에서 us-east-1 리전에 할당량 요청 템플릿을 생성합니다. 템플릿 연결을 활성화합니다. ml.p2.xlarge 학습 작업 사용을 위해 apsoutheast-2에 SageMaker 할당량을 추가합니다. 원하는 할당량을 1로 설정합니"
+      },
+      {
+        "text": "솔루션 아키텍트는 자동 할당량 증가를 포함하도록 계정 프로비저닝 프로세스를 개선해야 합니다.",
+        "answerLink": "조직의 관리 계정에서 us-east-1 리전에 할당량 요청 템플릿을 생성합니다. 템플릿 연결을 활성화합니다. ml.p2.xlarge 학습 작업 사용을 위해 apsoutheast-2에 SageMaker 할당량을 추가합니다. 원하는 할당량을 1로 설정합니"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 616,
+    "answer": "A, C",
+    "highlights": [
+      {
+        "text": "한 회사가 데이터 과학자 접근을 위해 IAM Identity Center 를 사용합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "각 사용자는 S3 버킷에 있는 자신의 데이터에만 접근할 수 있어야 합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 617,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 아키텍트는 Amazon SNS 주제를 생성하고 해당 주제에 이메일 주소를 구독합니다.",
+        "answerLink": "AWS Budgets"
+      },
+      {
+        "text": "모든 개발 계정의 예상 월별 비용이 임계값을 초과할 때 알림을 제공하는 솔루션이 필요합니다.",
+        "answerLink": "AWS Budgets"
+      },
+      {
+        "text": "여러 팀이 개발 계정을 사용하고 있습니다.",
+        "answerLink": "AWS Budgets"
+      },
+      {
+        "text": "한 회사가 AWS Organizations 의 한 조직에 20개의 계정을 가지고 있습니다.",
+        "answerLink": "AWS Budgets"
+      },
+      {
+        "text": "각 계정은 개발 및 프로덕션의 두 OU에 속해 있습니다.",
+        "answerLink": "AWS Budgets"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 618,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사에는 eu-west-1 리전과 특정 복구 계정으로 복원하는 재해 복구(DR) 계획이 필요합니다.",
+        "answerLink": "원본 계정에 새 백업 저장소를 생성하고 복구 계정에 새 백업 저장소를 생성합니다. 다중 리전 고객 관리형 KMS 키를 사용하여 데이터를 암호화합니다. 백업을 새 백업 저장소로 리디렉션합니다. 복구 계정에서 키에 액세스할 수 있도록 키 정책 문을 구성합"
+      },
+      {
+        "text": "4시간",
+        "answerLink": "원본 계정에 새 백업 저장소를 생성하고 복구 계정에 새 백업 저장소를 생성합니다. 다중 리전 고객 관리형 KMS 키를 사용하여 데이터를 암호화합니다. 백업을 새 백업 저장소로 리디렉션합니다. 복구 계정에서 키에 액세스할 수 있도록 키 정책 문을 구성합"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "원본 계정에 새 백업 저장소를 생성하고 복구 계정에 새 백업 저장소를 생성합니다. 다중 리전 고객 관리형 KMS 키를 사용하여 데이터를 암호화합니다. 백업을 새 백업 저장소로 리디렉션합니다. 복구 계정에서 키에 액세스할 수 있도록 키 정책 문을 구성합"
+      },
+      {
+        "text": "이 회사는 eu-west-2 리전의 여러 Amazon EFS 마운트 지점에서 4시간마다 AWS Backup 을 실행하도록 구성했습니다.",
+        "answerLink": "원본 계정에 새 백업 저장소를 생성하고 복구 계정에 새 백업 저장소를 생성합니다. 다중 리전 고객 관리형 KMS 키를 사용하여 데이터를 암호화합니다. 백업을 새 백업 저장소로 리디렉션합니다. 복구 계정에서 키에 액세스할 수 있도록 키 정책 문을 구성합"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 619,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "별도의 AWS 계정으로 EC2 인스턴스에서 실행되는 내부 애플리케이션만 메타데이터 API에 액세스해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "한 회사가 인터넷 연결 애플리케이션 로드 밸런서(ALB) 뒤의 Amazon EC2 인스턴스에서 메타데이터 API를 호스팅하고 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "모든 내부 EC2 인스턴스는 NAT 게이트웨이를 사용합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "새로운 정책에 따라 내부 애플리케이션 간의 트래픽은 퍼블릭 인터넷을 통해 이동해서는 안 됩니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 620,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "또한 EC2 인스턴스가 액세스하는 인터넷 대상을 식별하려고 합니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "한 회사에 VPC 내 프라이빗 서브넷의 Amazon EC2 인스턴스에서 실행되는 여러 애플리케이션이 있습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "이 회사는 NAT 게이트웨이의 탄력적 네트워크 인터페이스에 대한 VPC 흐름 로그를 이미 생성했습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "이 회사는 인터넷 액세스를 위해 여러 가용 영역에 여러 NAT 게이트웨이를 배포했습니다.",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

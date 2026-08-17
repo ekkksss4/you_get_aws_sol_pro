@@ -1,0 +1,224 @@
+[
+  {
+    "qNumber": 11,
+    "answer": "B, D",
+    "highlights": [
+      {
+        "text": "여러 계정에서 공통 네트워크를 공유",
+        "answerLink": "AWS Organizations 마스터 계정에서 리소스 공유를 활성화"
+      },
+      {
+        "text": "인프라 팀은 이 계정을 사용하여 네트워크를 관리해야 합니다.",
+        "answerLink": "인프라 계정의 AWS Resource Access Manager에서 리소스 공유를 생성"
+      },
+      {
+        "text": "개별 계정은 자신의 네트워크를 관리할 수 없습니다.",
+        "answerLink": "공유 네트워크를 사용할 특정 AWS Organizations OU를 선택"
+      },
+      {
+        "text": "개별 계정은 서브넷 내에서 AWS 리소스를 생성할 수 있어야 합니다.",
+        "answerLink": "리소스 공유와 연결할 각 서브넷을 선택"
+      }
+    ],
+    "memory": "여러 계정이 공통 네트워크를 사용하고 개별 계정의 네트워크 관리를 제한하려면 AWS RAM으로 서브넷을 공유한다. 조직 단위 공유를 위해 Organizations 리소스 공유를 활성화한다."
+  },
+  {
+    "qNumber": 12,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "인터넷을 통과하지 않는 개인 연결 사용을 의무화",
+        "answerLink": "AWS PrivateLink 인터페이스 VPC 엔드포인트"
+      },
+      {
+        "text": "타사 SaaS 애플리케이션도 VPC 내부의 AWS에서 실행됩니다.",
+        "answerLink": "타사 SaaS 애플리케이션이 제공하는 엔드포인트 서비스에 이 엔드포인트를 연결"
+      },
+      {
+        "text": "모든 권한은 최소 권한 원칙을 준수해야 합니다.",
+        "answerLink": "엔드포인트에 대한 접근을 제한하는 보안 그룹"
+      }
+    ],
+    "memory": "VPC 내부에서 실행되는 SaaS에 인터넷 없이 private 연결하려면 AWS PrivateLink Interface VPC Endpoint를 사용한다. 보안 그룹으로 엔드포인트 접근을 최소 권한으로 제한한다."
+  },
+  {
+    "qNumber": 13,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "온프레미스 서버와 Amazon EC2 인스턴스는 다양한 도구를 사용하여 패치를 수행합니다.",
+        "answerLink": "AWS Systems Manager를 사용하여 온프레미스 서버 및 EC2 인스턴스에서 패치를 관리"
+      },
+      {
+        "text": "모든 서버 및 인스턴스의 패치 상태를 보여주는 단일 보고서",
+        "answerLink": "Systems Manager를 사용하여 패치 규정 준수 보고서를 생성"
+      }
+    ],
+    "memory": "온프레미스 서버와 EC2를 하나의 도구로 패치하고 통합 상태 보고서를 만들려면 AWS Systems Manager Patch Manager와 패치 규정 준수 보고서를 사용한다."
+  },
+  {
+    "qNumber": 14,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "EC2 인스턴스는 정기적으로 확장 및 축소됩니다.",
+        "answerLink": "Auto Scaling 수명 주기 후크"
+      },
+      {
+        "text": "로그 파일이 종료된 EC2 인스턴스에서 중앙 S3 버킷으로 복사",
+        "answerLink": "autoscaling:EC2_INSTANCE_TERMINATING 전환에서 AWS Lambda 함수를 호출"
+      },
+      {
+        "text": "15분마다 중앙 Amazon S3 버킷에 복사됩니다.",
+        "answerLink": "AWS Systems Manager 문서의 SendCommand 작업으로 로그 파일을 복사"
+      },
+      {
+        "text": "로그 파일이 누락되었음",
+        "answerLink": "로그 복사 후 CONTINUE를 Auto Scaling 그룹에 전송하여 인스턴스를 종료"
+      }
+    ],
+    "memory": "인스턴스 종료 전에 로그를 보장하려면 Auto Scaling lifecycle hook으로 종료를 일시 중지하고 Lambda가 Systems Manager SendCommand를 실행한 뒤 CONTINUE를 보낸다."
+  },
+  {
+    "qNumber": 15,
+    "answer": "C, E",
+    "highlights": [
+      {
+        "text": "DNS 레코드는 계정 A의 Amazon Route 53 용 프라이빗 호스팅 영역에 저장됩니다.",
+        "answerLink": "계정 A의 프라이빗 호스팅 영역을 계정 B의 새 VPC와 연결하기 위한 권한 부여"
+      },
+      {
+        "text": "회사에서 여러 AWS 계정을 사용하고 있습니다.",
+        "answerLink": "계정 간 프라이빗 호스팅 영역 연결 승인 절차"
+      },
+      {
+        "text": "Amazon EC2 인스턴스에서 db.example.com을 확인할 수 없는 것으로 나타났습니다.",
+        "answerLink": "계정 B의 새 VPC를 계정 A의 호스팅 영역과 연결"
+      },
+      {
+        "text": "계정 A에서 연결 승인을 삭제합니다.",
+        "answerLink": "프라이빗 호스팅 영역과 VPC의 연결을 완료"
+      }
+    ],
+    "memory": "Route 53 private hosted zone이 다른 계정의 VPC에서 조회되지 않으면 호스팅 영역 소유 계정에서 association authorization을 만들고, VPC 계정에서 연결한 뒤 승인을 삭제한다."
+  },
+  {
+    "qNumber": 16,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "이전 사용자 트래픽의 10배",
+        "answerLink": "Amazon CloudFront 배포"
+      },
+      {
+        "text": "피크 시간에 사용자는 사이트에 접속하거나 비디오를 시청하려고 시도하는 동안 버퍼링 및 시간 초과 문제",
+        "answerLink": "비디오 콘텐츠를 Amazon S3에서 제공하는 CloudFront 배포"
+      },
+      {
+        "text": "모든 블로그 콘텐츠를 Amazon EFS 볼륨에 저장",
+        "answerLink": "비디오를 EFS에서 Amazon S3로 마이그레이션"
+      },
+      {
+        "text": "가장 비용 효율적이고 확장 가능한 배포",
+        "answerLink": "Amazon CloudFront와 Amazon S3 조합"
+      }
+    ],
+    "memory": "대량의 반복적인 동영상 요청과 피크 트래픽에는 EFS보다 S3에 영상을 저장하고 CloudFront로 캐시하는 구성이 비용 효율적이고 확장 가능하다."
+  },
+  {
+    "qNumber": 17,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "동일한 AWS 리전에 대한 단일 1Gbps AWS Direct Connect 연결",
+        "answerLink": "두 번째 Direct Connect 연결을 생성"
+      },
+      {
+        "text": "연결에는 단일 VPC에 연결되는 단일 프라이빗 가상 인터페이스",
+        "answerLink": "각 연결에서 새 프라이빗 가상 인터페이스를 생성"
+      },
+      {
+        "text": "동일한 Direct Connect 연결 쌍을 통해 다른 지역에 대한 연결",
+        "answerLink": "Direct Connect 게이트웨이에 두 프라이빗 가상 인터페이스를 연결"
+      },
+      {
+        "text": "동일한 리전에서 중복 Direct Connect 연결을 추가",
+        "answerLink": "Direct Connect 게이트웨이를 단일 VPC에 연결"
+      }
+    ],
+    "memory": "Direct Connect 연결을 중복화하고 여러 리전의 VPC에 확장하려면 두 연결의 private virtual interface를 Direct Connect Gateway에 연결한다."
+  },
+  {
+    "qNumber": 18,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "가변 트래픽이 있는 정적 콘텐츠",
+        "answerLink": "Amazon S3에서 웹 애플리케이션을 호스팅"
+      },
+      {
+        "text": "동영상은 Amazon EBS 볼륨에 저장",
+        "answerLink": "업로드된 동영상을 Amazon S3에 저장"
+      },
+      {
+        "text": "가능한 경우 AWS 관리형 서비스를 사용하여 운영 오버헤드를 줄이고 타사 소프트웨어에 대한 종속성을 제거",
+        "answerLink": "Amazon Rekognition API를 호출하는 AWS Lambda 함수"
+      },
+      {
+        "text": "Amazon SQS 대기열을 처리하기 위해 Auto Scaling 그룹에서 실행되는 EC2 인스턴스",
+        "answerLink": "S3 이벤트 알림을 사용하여 이벤트를 SQS 대기열에 게시"
+      }
+    ],
+    "memory": "정적 웹 콘텐츠와 업로드 동영상은 S3로 관리하고, S3 이벤트-SQS-Lambda-Rekognition으로 처리하면 EC2와 타사 분석 소프트웨어 운영을 줄일 수 있다."
+  },
+  {
+    "qNumber": 19,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "새 함수 버전에 오류가 있는 경우",
+        "answerLink": "Amazon CloudWatch 경보가 트리거되면 롤백"
+      },
+      {
+        "text": "배포하는 시간을 줄이고 오류가 식별되었을 때 이를 감지하고 되돌리는 시간도 줄이고자",
+        "answerLink": "AWS SAM 및 내장 AWS CodeDeploy"
+      },
+      {
+        "text": "Lambda 함수의 새 버전 번호를 생성",
+        "answerLink": "새 Lambda 버전을 배포하고 트래픽을 새 버전으로 점진적으로 이동"
+      },
+      {
+        "text": "오류가 식별되었을 때 이를 감지하고 되돌리는 시간",
+        "answerLink": "트래픽 전 및 트래픽 후 테스트 기능과 CloudWatch 경보를 사용한 자동 롤백"
+      }
+    ],
+    "memory": "Lambda 배포 시간을 줄이고 오류 시 빠르게 되돌리려면 SAM과 CodeDeploy의 점진적 트래픽 이동, 사전/사후 테스트, CloudWatch 기반 자동 롤백을 사용한다."
+  },
+  {
+    "qNumber": 20,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "대량의 보관 문서를 저장",
+        "answerLink": "Amazon S3 버킷"
+      },
+      {
+        "text": "회사 인트라넷을 통해 직원이 문서를 사용할 수 있도록",
+        "answerLink": "S3 인터페이스 엔드포인트"
+      },
+      {
+        "text": "데이터는 대중이 접근할 수 없어야 합니다.",
+        "answerLink": "해당 엔드포인트를 통해서만 접근을 허용하도록 S3 버킷을 구성"
+      },
+      {
+        "text": "요청 수가 적습니다. 가용성과 검색 속도는 회사의 관심사가 아닙니다.",
+        "answerLink": "S3 One Zone-IA 스토리지 클래스를 기본값으로 사용"
+      },
+      {
+        "text": "최저 비용으로",
+        "answerLink": "S3 One Zone-IA와 S3 인터페이스 엔드포인트"
+      }
+    ],
+    "memory": "제공된 정답 A를 기준으로, 대량의 저접근 문서를 S3 One Zone-IA에 저장하고 private endpoint로 접근하는 구성을 연결한다."
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "qNumber": 141,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "30분",
+        "answerLink": "처리 중에 인스턴스에 대한 축소 보호를 구성합니다."
+      },
+      {
+        "text": "1시간",
+        "answerLink": "처리 중에 인스턴스에 대한 축소 보호를 구성합니다."
+      },
+      {
+        "text": "비디오를 처리하는 데 30분이 소요됩니다.",
+        "answerLink": "처리 중에 인스턴스에 대한 축소 보호를 구성합니다."
+      },
+      {
+        "text": "회사는 SQS 대기열에 대한 가시성 제한 시간을 1시간으로 설정했습니다.",
+        "answerLink": "처리 중에 인스턴스에 대한 축소 보호를 구성합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 142,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 VPC에서만 API 세트에 액세스할 수 있도록 솔루션을 설계해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "API는 API Gateway 인증 메커니즘을 사용하는 AWS Lambda 함수를 호출합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "모든 API는 인증된 사용자로 호출해야 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "설계 검토 후 솔루션 설계자는 공용 액세스가 필요하지 않은 API 세트를 식별합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "한 회사에서 리전 엔드포인트와 함께 Amazon API Gateway 를 사용하는 API를 개발했습니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 143,
+    "answer": "B, D",
+    "highlights": [
+      {
+        "text": "날씨 지도는 자주 업데이트되며 정적 HTML 콘텐츠와 함께 Amazon S3에 저장됩니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "us-east-1 성능 문제를 해결하는 단계 조합은 무엇입니까?",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "날씨 서비스는 eu-west-1 리전의 AWS에서 호스팅되는 웹 애플리케이션의 고해상도 날씨 지도를 제공합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "이 회사는 최근 us-east-1 지역의 사용자에게 서비스를 제공하도록 확장했으며 이러한 신규 사용자는 각각의 날씨 지도 보기가 때때로 느리다고 보고합니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 144,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "10TB",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "FSx for Windows File Server 파일 시스템은 10TB 스토리지로 구성됩니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "솔루션 설계자는 회사가 Amazon Workspaces 에서 새 세션을 설정할 수 없는 문제를 조사하고 있습니다.",
+        "answerLink": "Amazon CloudWatch"
+      },
+      {
+        "text": "Amazon Workspaces 환경은 Amazon FSx for Windows File Server 를 프로필 공유 스토리지로 사용하도록 구성됩니다.",
+        "answerLink": "Amazon CloudWatch"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 145,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "그런 다음 파일은 보관을 위해 Amazon S3에 배치됩니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "운전자의 핸드헬드 장치는 FTP를 통해 서명과 사진을 단일 Amazon EC2 인스턴스에 업로드합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "솔루션 설계자는 아카이브가 항상 파일을 수신하고 시스템이 항상 업데이트되도록 확장성을 최대화하는 솔루션을 설계해야 합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "확장성",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "30분",
+        "answerLink": "AWS Transfer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 146,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "애플리케이션의 데이터는 관계형이며 Amazon Aurora MySQL 에 저장됩니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 147,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 추가 내부 처리를 위해 데이터를 다른 S3 버킷으로 보내기 전에 자동으로 PAN을 마스킹해야 합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "약 5,000개의 레코드가 15분마다 일반 텍스트로 전송되고 HTTPS를 통해 서버 측 암호화를 통해 Amazon S3 버킷으로 직접 전달됩니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "회사는 또한 특정 필드를 제거 및 병합한 다음 레코드를 JSON 형식으로 변환해야 합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "또한 향후 추가 피드가 추가될 가능성이 있으므로 모든 디자인을 쉽게 확장할 수 있어야 합니다.",
+        "answerLink": "AWS Glue"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "AWS Glue"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 148,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사에서 마이그레이션할 계획인 온프레미스 애플리케이션은 MySQL 데이터베이스를 데이터 저장소로 사용합니다.",
+        "answerLink": "AWS Replication"
+      },
+      {
+        "text": "회사는 회사의 기본 온프레미스 애플리케이션이 실패하는 경우 AWS를 사용하여 비즈니스 연속성 솔루션을 생성하려고 합니다.",
+        "answerLink": "AWS Replication"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Replication"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Replication"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 회사의 목표를 달성할 수 있는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Replication"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 149,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "단일 AWS 계정을 사용하는 외부 감사자는 회사의 AWS 계정에 액세스해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "솔루션 설계자는 감사자에게 회사의 AWS 계정에 대한 안전한 읽기 전용 액세스 권한을 제공해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "솔루션은 AWS 보안 모범 사례를 준수해야 합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 150,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 온디맨드 용량 모드를 사용하도록 DynamoDB 테이블을 구성했습니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "회사에는 Amazon DynamoDB 를 스토리지 백엔드로 사용하는 지연 시간에 민감한 거래 플랫폼이 있습니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "고가용성",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "새로운 솔루션은 거래 플랫폼의 고가용성을 보장해야 합니다.",
+        "answerLink": "DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "qNumber": 231,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 온프레미스 데이터 센터와 AWS 간에 10Gbps AWS Direct Connect 연결을 설정했습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사는 백업을 Amazon S3 의 보다 강력한 클라우드 스토리지로 이동하려고 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사에는 밤마다 로컬 드라이브에 200GB 내보내기를 작성하는 온프레미스 Microsoft SQL Server 데이터베이스가 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "10Gb",
+        "answerLink": "S3"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 232,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 온프레미스 데이터 센터에서 AWS로의 연결을 설정해야 합니다.",
+        "answerLink": "AWS Direct"
+      },
+      {
+        "text": "회사는 VPC 네트워크 간의 전이 라우팅 기능을 사용하여 서로 다른 AWS 리전에 있는 모든 VPC를 연결해야 합니다.",
+        "answerLink": "AWS Direct"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Direct"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 233,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "마스터 계정에서 솔루션 설계자는 두 멤버 계정의 리소스를 중지하거나 종료할 수 있는 IAM 사용자를 생성해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "통합 결제는 마스터 계정에 연결됩니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 234,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사에서 온프레미스 애플리케이션의 재해 복구를 위해 AWS를 사용하려고 합니다.",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "솔루션은 기본 장애 조치 및 폴백 기능을 지원해야 합니다.",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "5분",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "RTO",
+        "answerLink": "AWS Elastic"
+      },
+      {
+        "text": "15분",
+        "answerLink": "AWS Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 235,
+    "answer": "A, C, F",
+    "highlights": [
+      {
+        "text": "클러스터의 Amazon EC2 인스턴스 수가 100개일 때는 클러스터가 잘 작동했습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "그러나 회사에서 클러스터 크기를 1,000개의 EC2 인스턴스로 늘렸을 때 전반적인 성능은 예상보다 훨씬 낮았습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "한 회사는 Amazon EFS 에 저장된 많은 수의 공유 파일을 생성하는 밀접하게 연결된 워크로드를 위해 AWS에 고성능 컴퓨팅(HPC) 클러스터를 구축했습니다.",
+        "answerLink": "Amazon EFS를 Lustre용 Amazon FSx로 교체합니다."
+      },
+      {
+        "text": "솔루션 설계자가 HPC 클러스터에서 최대 성능을 달성하기 위해 어떤 디자인을 선택해야 합니까?",
+        "answerLink": "HPC 클러스터가 단일 가용 영역 내에서 시작되었는지 확인합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 236,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사의 각 OU에는 고유한 태그 값이 있습니다.",
+        "answerLink": "필요한 태그가 없는 리소스 생성을 거부하려면 SCP를 사용하십시오. 회사에서 각 OU에 할당한 태그 값을 포함하는 태그 정책을 만듭니다. 태그 정책을 OU에 연결합니다."
+      },
+      {
+        "text": "회사에서 AWS Organizations 구조를 설계하고 있습니다.",
+        "answerLink": "필요한 태그가 없는 리소스 생성을 거부하려면 SCP를 사용하십시오. 회사에서 각 OU에 할당한 태그 값을 포함하는 태그 정책을 만듭니다. 태그 정책을 OU에 연결합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 237,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "온프레미스 Kafka 서버는 데이터를 변환한 다음 결과를 Amazon S3 버킷에 객체로 저장합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "솔루션 설계자는 유사한 발생을 방지하기 위해 AWS에서 가용성과 확장성이 뛰어난 새로운 디자인을 생성해야 합니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "회사에는 MQTT(Message Queuing Telemetry Transport) 프로토콜을 사용하여 온프레미스 Apache Kafka 서버로 데이터를 보내는 10,000개 이상의 센서가 있습니다.",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "확장성",
+        "answerLink": "AWS IoT"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS IoT"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 238,
+    "answer": "A, B, D",
+    "highlights": [
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "• 백업 솔루션은 리소스 백업 실패 시 즉시 알림을 보내야 합니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "• 백업은 캡처 직후 하나 이상의 다른 AWS 리전에 복제되어야 합니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "• 백업 솔루션은 AWS 환경 전체에서 단일 백업 상태 소스를 제공해야 합니다.",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 단계 조합은 무엇입니까?",
+        "answerLink": "AWS Backup"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 239,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "• 인바운드 게놈 데이터의 거의 실시간 분석 제공 • 데이터가 유연하고 병렬적이며 내구성이 있는지 확인 • 처리 결과를 데이터 웨어하우스로 전달 이러한 요구 사항을 충족하기 위해 솔루션 설계자는 어떤 전략을 사용해야 합니까?",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "실시간",
+        "answerLink": "Amazon Kinesis"
+      },
+      {
+        "text": "이 장치는 데이터를 처리 및 분석하고 연구원에게 정보를 다시 제공해야 하는 데이터 플랫폼에 매초 8KB의 게놈 데이터를 푸시합니다.",
+        "answerLink": "Amazon Kinesis"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 240,
+    "answer": "B, C, E",
+    "highlights": [
+      {
+        "text": "• AWS 리전 내 고가용성 • 재해 복구를 위해 1분 안에 다른 AWS 리전으로 장애 조치 가능 • 사용자 경험에 미치는 영향을 최소화하면서 가장 효율적인 솔루션 제공 이러한 요구 사항을 충족하는 단계 조합은 무엇입니까?",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "1분",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "고가용성",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "Amazon Route"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

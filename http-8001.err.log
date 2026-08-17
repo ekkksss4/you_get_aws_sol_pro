@@ -1,0 +1,6 @@
+::ffff:127.0.0.1 - - [18/Aug/2026 00:56:29] "GET /viewer/index5.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Aug/2026 00:56:29] "GET /viewer/styles.css HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Aug/2026 00:56:29] "GET /viewer/app5.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Aug/2026 00:56:29] "GET /data/questions/questions.json HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Aug/2026 00:56:29] code 404, message File not found
+::ffff:127.0.0.1 - - [18/Aug/2026 00:56:29] "GET /favicon.ico HTTP/1.1" 404 -

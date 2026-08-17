@@ -1,0 +1,232 @@
+[
+  {
+    "qNumber": 171,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 두 번째 AWS 리전의 리포지토리에 있는 데이터의 백업 복사본을 저장해야 합니다.",
+        "answerLink": "AWS CodeBuild"
+      },
+      {
+        "text": "회사에서 AWS CodeCommit 리포지토리를 사용합니다.",
+        "answerLink": "AWS CodeBuild"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 172,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "각 사업부는 CIDR 범위가 겹치는 여러 VPC로 자체 네트워크를 관리합니다.",
+        "answerLink": "AWS PrivateLink"
+      },
+      {
+        "text": "회사의 마케팅 팀은 새로운 내부 응용 프로그램을 만들었고 다른 모든 비즈니스 단위에서 응용 프로그램에 액세스할 수 있도록 하려고 합니다.",
+        "answerLink": "AWS PrivateLink"
+      },
+      {
+        "text": "사설 IP",
+        "answerLink": "AWS PrivateLink"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS PrivateLink"
+      },
+      {
+        "text": "솔루션은 사설 IP 주소만 사용해야 합니다.",
+        "answerLink": "AWS PrivateLink"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 173,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 데이터 보안 팀의 이메일 주소가 구독된 Amazon Simple Notification Service(Amazon SNS) 주제를 이미 설정했습니다.",
+        "answerLink": "AWS Identity"
+      },
+      {
+        "text": "회사는 새로 취득한 AWS 계정의 보안 태세를 감사해야 합니다.",
+        "answerLink": "AWS Identity"
+      },
+      {
+        "text": "회사의 데이터 보안 팀은 Amazon S3 버킷이 공개적으로 노출될 때만 알림을 요구합니다.",
+        "answerLink": "AWS Identity"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 174,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 포트폴리오를 AWS로 마이그레이션하기 위한 비즈니스 사례를 생성해야 합니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "솔루션 설계자는 AWS로의 마이그레이션을 시작하기 전에 포트폴리오를 더 잘 이해해야 합니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "새로 인수한 회사는 온프레미스 데이터 센터에서 애플리케이션을 실행합니다.",
+        "answerLink": "AWS Migration"
+      },
+      {
+        "text": "솔루션 설계자는 새로 인수한 회사의 애플리케이션 및 데이터베이스 포트폴리오를 평가해야 합니다.",
+        "answerLink": "AWS Migration"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 175,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사에는 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터에서 여러 포드의 ReplicaSet으로 실행되는 애플리케이션이 있습니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "EKS 클러스터에는 여러 가용 영역에 노드가 있습니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "회사는 파일을 백업하고 1년 동안 백업을 보관해야 합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "응용 프로그램은 응용 프로그램의 실행 중인 모든 인스턴스에서 액세스할 수 있어야 하는 많은 작은 파일을 생성합니다.",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 176,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 전화를 받고 자동으로 모든 고객에게 문자 메시지를 통해 관리되는 양방향 양방향 경험 설문 조사를 보내는 고객 서비스 센터를 운영합니다.",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "고객 서비스 센터를 지원하는 애플리케이션은 회사가 온프레미스 데이터 센터에서 호스팅하는 시스템에서 실행됩니다.",
+        "answerLink": "Amazon Connect"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 177,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "회사에서 Amazon Connect 를 사용하여 콜 센터를 구축하고 있습니다.",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "컨택 센터에는 수십 개의 고객 응대 흐름, 수백 명의 사용자 및 수십 개의 청구된 전화 번호가 있습니다.",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "회사의 운영 팀은 AWS 리전 전체에서 재해 복구(DR) 전략을 정의하고 있습니다.",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "RTO",
+        "answerLink": "Amazon Connect"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "Amazon Connect"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 178,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 AWS Data Exchange 를 사용하여 회사가 고객과 데이터를 공유하는 데 사용할 수 있는 데이터 제품을 만들 것입니다.",
+        "answerLink": "AWS Data"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Data"
+      },
+      {
+        "text": "회사는 Amazon Redshift 테이블에서 데이터를 파일로 다운로드하고 FTP를 사용하여 여러 데이터 고객에게 파일을 전송합니다.",
+        "answerLink": "AWS Data"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Data"
+      },
+      {
+        "text": "회사는 여러 소스의 데이터를 관리합니다.",
+        "answerLink": "AWS Data"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 179,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "솔루션 설계자가 이벤트를 처리하는 솔루션을 설계하고 있습니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "솔루션에는 솔루션이 수신하는 이벤트 수에 따라 확장 및 축소할 수 있는 기능이 있어야 합니다.",
+        "answerLink": "Amazon Simple"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 180,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "장치는 RESTful API를 통해 처리 엔진에 정보를 보냅니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "회사는 AWS 클라우드에서 처리 엔진을 실행합니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "API는 예측할 수 없는 트래픽 폭증을 경험합니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "회사는 장치가 처리 엔진으로 보내는 모든 데이터를 처리하는 솔루션을 구현해야 합니다.",
+        "answerLink": "Amazon API"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

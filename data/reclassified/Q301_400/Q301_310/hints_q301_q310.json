@@ -1,0 +1,236 @@
+[
+  {
+    "qNumber": 301,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "한 회사가 AWS Lambda 함수에서 실행될 애플리케이션을 구축하고 있습니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "수백 명의 고객이 응용 프로그램을 사용합니다.",
+        "answerLink": "Amazon API"
+      },
+      {
+        "text": "회사는 각 고객에게 특정 기간 동안 요청 할당량을 제공하려고 합니다.",
+        "answerLink": "Amazon API"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 302,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사는 마이그레이션을 위해 AWS에 대한 10GbpsAWS Direct Connect 연결을 설정했습니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "한 회사는 120개 VMS로 구성된 온프레미스 VMware 클러스터를 AWS로 마이그레이션할 계획입니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "이 회사에는 크기가 10TB인 온프레미스 NFS 서버도 있습니다.",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "10TB",
+        "answerLink": "AWS Application"
+      },
+      {
+        "text": "10Gb",
+        "answerLink": "AWS Application"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 303,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "ALB는 Amazon CloudFront 배포의 사용자 지정 오리진입니다.",
+        "answerLink": "CloudFront"
+      },
+      {
+        "text": "애플리케이션의 데이터 처리 마이크로서비스는 데이터를 해독할 수 있는 유일한 마이크로서비스입니다.",
+        "answerLink": "CloudFront"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 304,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 기존 VPC에 대한 DNS 전략을 결정하고 있습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "VPC 는 10.24.34.0/24 CIDR 블록을 사용하도록 프로비저닝됩니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "VPC 는 DNS용 Amazon Route 53 Resolver 도 사용합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "VPC 내에서 도메인 이름이 올바르게 확인되도록 하기 위해 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "새로운 요구 사항에 따라 DNS 쿼리는 프라이빗 호스팅 영역을 사용해야 합니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 305,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "데이터 분석 회사에는 여러 예약 노드로 구성된 Amazon Redshift 클러스터가 있습니다.",
+        "answerLink": "Amazon Redshift"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "Amazon Redshift"
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon Redshift"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 306,
+    "answer": "A, B",
+    "highlights": [
+      {
+        "text": "한 연구 센터가 AWS 클라우드로 마이그레이션하고 있으며 온프레미스 1PB 객체 스토리지를 Amazon S3 버킷으로 이동했습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "모든 과학자는 단일 IAM 사용자 그룹의 구성원입니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "S3"
+      },
+      {
+        "text": "이러한 보고서를 담당하는 팀은 AWS 경험이 거의 없으며 운영 오버헤드를 최소화하는 즉시 사용 가능한 솔루션을 원합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "100 명의 과학자들이 이 객체 스토리지를 사용하여 업무 관련 문서를 저장하고 있습니다.",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 307,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 Docker 이미지를 Amazon Elastic Container Registry(Amazon ECR) 로 푸시합니다.",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "그러나 회사는 태그가 지정되지 않은 가장 최근의 5개 이미지만 유지하려고 합니다.",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "회사는 태그가 지정된 모든 이미지를 유지하려고 합니다.",
+        "answerLink": "Amazon ECR"
+      },
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "Amazon ECR"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 308,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "7일",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "6시간",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "30일",
+        "answerLink": "AWS Backup"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "AWS Backup"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 309,
+    "answer": "A, C, E",
+    "highlights": [
+      {
+        "text": "계정 아키텍처에 대한 회사의 현재 보안 구성에는 SCP, 리소스 기반 정책, ID 기반 정책, 신뢰 정책 및 세션 정책이 포함됩니다.",
+        "answerLink": "작업을 허용하도록 계정 A에 대한 SCP를 구성합니다."
+      },
+      {
+        "text": "회사는 다중 계정 아키텍처로 AWS Organizations 를 사용하고 있습니다.",
+        "answerLink": "작업을 허용하도록 계정 A에 대한 SCP를 구성합니다."
+      },
+      {
+        "text": "솔루션 아키텍트는 계정 A의 IAM 사용자가 계정 B의 역할을 맡도록 허용해야 합니다.",
+        "answerLink": "작업을 허용하도록 계정 A에 대한 SCP를 구성합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 310,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "한 회사에서 Amazon S3 를 사용하여 온프레미스 파일 스토리지 솔루션을 백업하려고 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사의 온프레미스 파일 스토리지 솔루션은 NFS를 지원하며 회사는 NFS를 지원하는 새로운 솔루션을 원합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사에서는 5일 후에 백업 파일을 보관하려고 합니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "회사에 재해 복구를 위해 보관된 파일이 필요한 경우 회사는 해당 파일을 검색할 때까지 며칠 정도 기다릴 의향이 있습니다.",
+        "answerLink": "S3"
+      },
+      {
+        "text": "5일",
+        "answerLink": "S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

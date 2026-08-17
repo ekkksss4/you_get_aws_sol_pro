@@ -1,0 +1,248 @@
+[
+  {
+    "qNumber": 311,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "회사는 Amazon EC2 인스턴스와 AWS Lambda 함수에서 애플리케이션을 실행합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "EC2 인스턴스는 지속적이고 안정적인 로드를 경험합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "Lambda 함수는 다양하고 예측할 수 없는 로드를 경험합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "애플리케이션에는 Amazon MemoryDB for Redis 클러스터를 사용하는 캐싱 계층이 포함되어 있습니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 312,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "한 회사가 Amazon EC2 인스턴스에서 새로운 온라인 게임을 출시하고 있습니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "솔루션 설계자는 모든 지역의 로드를 처리할 수 있도록 확장할 수 있는 기능을 모든 지역에 제공하는 솔루션을 설계해야 합니다.",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "EC2"
+      },
+      {
+        "text": "또한 사용자는 지연 시간이 가장 짧은 지역에 자동으로 연결해야 합니다.",
+        "answerLink": "EC2"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 313,
+    "answer": "A, C, F",
+    "highlights": [
+      {
+        "text": "회사는 공유 서비스 VPC에서 다른 VPC로의 라우팅을 설정했습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 이 어플라이언스를 공유 서비스 VPC에 배포하고 모든 아웃바운드 인터넷 바인딩 트래픽을 어플라이언스를 통해 라우팅하려고 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "솔루션 아키텍트는 안정성을 우선시하고 단일 AWS 리전 내 방화벽 어플라이언스 간의 장애 조치 시간을 최소화하는 배포 방법을 권장해야 합니다.",
+        "answerLink": "공유 서비스 VPC에 새 게이트웨이 로드 밸런서를 생성합니다. 새 대상 그룹을 생성하고 이를 새 게이트웨이 로드 밸런서에 연결합니다. 각 방화벽 어플라이언스 인스턴스를 대상 그룹에 추가합니다."
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "두 개의 방화벽 어플라이언스를 각각 별도의 가용 영역에 있는 공유 서비스 VPC에 배포합니다."
+      },
+      {
+        "text": "회사는 회사의 AWS 환경에서 나가는 트래픽을 모니터링하고 보호하기 위해 AWS Marketplace 의 타사 방화벽 어플라이언스 솔루션을 배포하고 있습니다.",
+        "answerLink": "공유 서비스 VPC에 새 게이트웨이 로드 밸런서를 생성합니다. 새 대상 그룹을 생성하고 이를 새 게이트웨이 로드 밸런서에 연결합니다. 각 방화벽 어플라이언스 인스턴스를 대상 그룹에 추가합니다."
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 314,
+    "answer": "A, D",
+    "highlights": [
+      {
+        "text": "소프트웨어 공급업체가 새 라이센스 파일을 보내는 데 12시간이 걸립니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "솔루션 아키텍트는 온프레미스 레거시 애플리케이션을 AWS로 마이그레이션해야 합니다.",
+        "answerLink": "부트스트랩 자동화 스크립트를 편집하여 AWS 시스템 관리자 매개 변수 저장소에서 데이터베이스 서버 IP 주소를 읽습니다. 로컬 구성 파일에 값을 삽입합니다."
+      },
+      {
+        "text": "이러한 요구 사항을 고려할 때 AWS의 애플리케이션 서버에 대한 고가용성 아키텍처를 구현하려면 어떤 단계 조합을 취해야 합니까?",
+        "answerLink": "부트스트랩 자동화 스크립트를 편집하여 AWS 시스템 관리자 매개 변수 저장소에서 데이터베이스 서버 IP 주소를 읽습니다. 로컬 구성 파일에 값을 삽입합니다."
+      },
+      {
+        "text": "고가용성",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "12시간",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 315,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "Route 53 은 트래픽을 API Gateway API로 라우팅하는 간단한 라우팅 정책으로 구성됩니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "이 애플리케이션은 Amazon API Gateway 지역 API 및 AWS Lambda 함수를 사용하여 Amazon RDS for MySQL 데이터베이스의 데이터에서 온디맨드 보고서를 생성합니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "이 회사는 Amazon Route 53 을 도메인의 DNS 서비스로 사용하고 있습니다.",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "RDS"
+      },
+      {
+        "text": "데이터베이스 트래픽의 90% 이상이 읽기 전용 트래픽입니다.",
+        "answerLink": "RDS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 316,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "온프레미스",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "각 테스트 환경은 Auto Scaling 그룹에 있는 단일 Amazon EC2 인스턴스로 구성됩니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "소프트웨어 회사는 개발 프로세스의 일부로 풀 요청을 테스트하기 위해 단기 테스트 환경을 만들어야 합니다.",
+        "answerLink": "Transit Gateway"
+      },
+      {
+        "text": "솔루션 아키텍트는 회사가 수동 개입 없이 테스트 환경을 생성하고 삭제할 수 있도록 솔루션을 구현해야 합니다.",
+        "answerLink": "Transit Gateway"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 317,
+    "answer": "A, B, C",
+    "highlights": [
+      {
+        "text": "API 는 호스팅을 위해 지역 API 엔드포인트 및 AWS Lambda 함수와 함께 Amazon API Gateway 를 사용합니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "최소한의 운영 오버헤드",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "공급업체 API의 API 키는 AWS Secrets Manager 에 저장되고 AWS에서 고객 관리형 키로 암호화됩니다.",
+        "answerLink": "새로운 KMS 다중 지역 고객 관리형 키를 생성합니다. 각 범위 내 리전에서 새 KMS 고객 관리형 복제본 키를 생성합니다."
+      },
+      {
+        "text": "솔루션 아키텍트는 회사 API의 API 구성 요소를 변경하여 구성 요소가 활성-활성 구성으로 여러 지역에서 실행될 수 있도록 해야 합니다.",
+        "answerLink": "Amazon Route"
+      },
+      {
+        "text": "API 는 외부 공급업체 API에서 데이터를 검색하고, Amazon DynamoDB 글로벌 테이블에 데이터를 저장하고, DynamoDB 글로벌 테이블에서 데이터를 검색합니다.",
+        "answerLink": "Amazon Route"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 318,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "온라인 소매 회사는 단일 서버의 온프레미스 데이터 센터에서 상태 저장 웹 기반 애플리케이션과 MySQL 데이터베이스를 호스팅합니다.",
+        "answerLink": "Amazon Aurora"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon Aurora"
+      },
+      {
+        "text": "준비 과정에서 회사는 아키텍처의 안정성을 높이기 위해 애플리케이션과 데이터베이스를 AWS로 마이그레이션하려고 합니다.",
+        "answerLink": "Amazon Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 319,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "솔루션은 중앙 집중식 사용자 관리를 회사의 온프레미스 Active Directory와 통합해야 합니다.",
+        "answerLink": "AWS IAM"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "AWS IAM"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS IAM"
+      },
+      {
+        "text": "이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+        "answerLink": "AWS IAM"
+      },
+      {
+        "text": "VPC에 대한 연결은 인터넷을 통해 이루어집니다.",
+        "answerLink": "AWS IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 320,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 저장 중인 모든 새로운 EBS 볼륨을 암호화하는 솔루션을 구현해야 합니다.",
+        "answerLink": "EBS"
+      },
+      {
+        "text": "한 회사의 규정 준수 감사 결과 AWS 계정에서 생성된 일부 Amazon Elastic Block Store(Amazon EBS) 볼륨이 암호화되지 않은 것으로 나타났습니다.",
+        "answerLink": "EBS"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

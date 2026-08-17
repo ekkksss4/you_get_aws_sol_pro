@@ -1,0 +1,244 @@
+[
+  {
+    "qNumber": 61,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "SFTP 서버는 Amazon Route 53 을 사용하여 DNS sftp.example.com에서 연결할 수 있습니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "솔루션 설계자는 SFTP 솔루션의 안정성과 확장성을 개선하기 위해 무엇을 해야 합니까?",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "확장성",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "회사는 VPC의 퍼블릭 서브넷에 있는 Amazon EC2 인스턴스에서 자체 SFTP 서버를 실행합니다.",
+        "answerLink": "AWS Transfer"
+      },
+      {
+        "text": "회사는 SFTP를 통해 매일 밤 여러 제3자로부터 재무 데이터 기록을 받습니다.",
+        "answerLink": "AWS Transfer"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 62,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "회사에서 온프레미스 데이터 센터에서 실행되는 VMware Infrastructure 에서 Amazon EC2 로 애플리케이션을 마이그레이션하려고 합니다.",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 63,
+    "answer": "A, B",
+    "highlights": [
+      {
+        "text": "애플리케이션은 Node.js로 작성되고 AWS Lambda 함수를 사용하여 실행됩니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "새 이미지가 Amazon S3 에 업로드되면 Lambda 함수가 호출됩니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "비디오 처리 회사에는 Amazon S3 버킷에서 이미지를 다운로드하고, 이미지를 처리하고, 변환된 이미지를 두 번째 S3 버킷에 저장하고, Amazon DynamoDB 테이블에서 이미지에 대한 메타데이터를 업데이트하는 애플리케이션이 있습니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "이제 Lambda 함수가 시간 초과 오류로 인해 자주 실패합니다.",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 64,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 회사는 AWS Control Tower 를 사용하여 조직의 랜딩 존을 배포하고 있습니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "회사에는 AWS Organizations 에 조직이 있습니다.",
+        "answerLink": "AWS Control"
+      },
+      {
+        "text": "회사는 회사의 프로덕션 OU에서 유휴 상태에서 암호화되지 않은 Amazon RDS DB 인스턴스를 감지하는 정책을 구현해야 합니다.",
+        "answerLink": "AWS Control"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 65,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "• 온프레미스 환경에서 직접 SSH 액세스가 가능한 EC2 보안 그룹.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "스타트업 회사는 최신 Amazon Linux 2 AMI 를 사용하여 프라이빗 서브넷에서 Amazon EC2 인스턴스 플릿을 호스팅합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "회사는 SSH 액세스에 대한 보안 제어를 강화하고 엔지니어가 실행하는 명령에 대한 감사를 제공해야 합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "• 온프레미스 환경과의 연결을 위한 사이트 간 VPN.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 66,
+    "answer": "B, C, F",
+    "highlights": [
+      {
+        "text": "회사는 개발자에게 AWS 비용을 제한하기 위해 고정된 월 예산을 제공해야 합니다.",
+        "answerLink": "AWS 예산을 사용하여 계정 생성 프로세스의 일부로 각 개발자 계정에 대한 고정 월 예산을 생성합니다."
+      },
+      {
+        "text": "회사에서 배포한 랜딩 존의 일부로 개발자는 회사 이메일 주소를 사용하여 계정을 요청합니다.",
+        "answerLink": "AWS 예산을 사용하여 계정 생성 프로세스의 일부로 각 개발자 계정에 대한 고정 월 예산을 생성합니다."
+      },
+      {
+        "text": "AWS Organizations 를 사용하는 회사는 개발자가 AWS를 실험할 수 있도록 합니다.",
+        "answerLink": "AWS 예산을 사용하여 계정 생성 프로세스의 일부로 각 개발자 계정에 대한 고정 월 예산을 생성합니다."
+      },
+      {
+        "text": "회사는 개발자가 비용이 많이 드는 서비스를 시작하거나 불필요하게 서비스를 실행하지 않도록 하기를 원합니다.",
+        "answerLink": "Amazon Simple"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 67,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "애플리케이션은 배포 패키지를 사용하여 Lambda 함수를 배포합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사는 Lambda 함수와 Aurora 데이터베이스를 Target이라는 새 AWS 계정으로 마이그레이션하려고 합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "애플리케이션 중 하나는 AWS Lambda 기능을 사용하고 인벤토리 데이터를 Amazon Aurora 데이터베이스에 저장합니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사는 Aurora에 대한 자동 백업을 구성했습니다.",
+        "answerLink": "Lambda"
+      },
+      {
+        "text": "회사는 소스라는 AWS 계정에 애플리케이션을 가지고 있습니다.",
+        "answerLink": "Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 68,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "스크립트는 Amazon S3 버킷에서 파일을 수집하고 파일을 처리합니다.",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "5분",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "확장성",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "10분",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "AWS Lambda"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 69,
+    "answer": "C",
+    "highlights": [
+      {
+        "text": "회사는 Amazon EC2 인스턴스의 us-east-1 지역에서 애플리케이션을 시작할 것입니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "회사는 또한 활성-수동 장애 조치를 사용하여 us-west-1 지역의 애플리케이션에 대한 재해 복구 환경을 구현하려고 합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "장애 조치",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "재해 복구",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "북미의 한 금융 서비스 회사는 AWS에서 고객에게 새로운 온라인 웹 애플리케이션을 출시할 계획입니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 70,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "솔루션 설계자는 AWS IAM Identity Center(AWS Single Sign -On)를 사용하여 이 기능을 구현합니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "IT 지원 작업자는 더 이상 Active Directory 와 IAM 사용자 계정을 모두 유지하기를 원하지 않습니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "회사의 IT 지원 작업자는 현재 관리 작업을 위해 콘솔에 액세스하여 직무에 매핑된 명명된 IAM 사용자로 인증합니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "기존 Active Directory 자격 증명을 사용하여 콘솔에 액세스할 수 있기를 원합니다.",
+        "answerLink": "AWS Organizations"
+      },
+      {
+        "text": "가장 비용",
+        "answerLink": "AWS Organizations"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]

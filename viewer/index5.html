@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Question Viewer v5</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="v5">
+  <main class="page">
+    <header class="hero">
+      <h1>AWS Question Viewer v5</h1>
+      <p>문제의 핵심 단서와 정답만 빠르게 확인합니다.</p>
+    </header>
+
+    <section class="controls">
+      <div class="nav">
+        <button id="prevBtn" type="button">이전</button>
+        <span id="progress">0 / 0</span>
+        <button id="nextBtn" type="button">다음</button>
+      </div>
+      <div class="jump">
+        <label for="jumpInput">Q번호 이동</label>
+        <input id="jumpInput" type="number" min="1" />
+        <button id="jumpBtn" type="button">이동</button>
+      </div>
+    </section>
+
+    <section id="status" class="status">데이터를 불러오는 중입니다.</section>
+
+    <article id="card" class="card hidden">
+      <h2 id="qTitle"></h2>
+      <p id="qText" class="question"></p>
+      <ul id="choiceList" class="choices"></ul>
+      <p id="answer" class="answer"></p>
+      <section id="mapping" class="mapping"></section>
+    </article>
+  </main>
+
+  <script src="app5.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+[
+  {
+    "qNumber": 391,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "솔루션 아키텍트는 마스터 계정의 IAM 사용자 Supportl을 사용하여 이메일 주소가 Finance1@example.com인 새 멤버 계정을 생성합니다.",
+        "answerLink": "IAM"
+      },
+      {
+        "text": "새 멤버 계정에 IAM 사용자를 생성하려면 솔루션 아키텍트가 무엇을 해야 합니까?",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 392,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "이 앱은 지역 엔드포인트가 있는 Amazon API Gateway API, AWS Lambda 함수, Amazon Aurora MySQL 서버리스 DB 클러스터로 구성됩니다.",
+        "answerLink": "Amazon ElastiCache"
+      },
+      {
+        "text": "요청 수가 크게 증가하여 산발적인 데이터베이스 메모리 오류가 발생했습니다.",
+        "answerLink": "Amazon ElastiCache"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 393,
+    "answer": "B",
+    "highlights": [
+      {
+        "text": "한 회사가 온프레미스 애플리케이션과 MySQL 데이터베이스를 AWS로 마이그레이션하고 있습니다.",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "회사는 AWS에 1Gbps AWS Direct Connect 연결을 설정했습니다.",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "5TB",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "1Gb",
+        "answerLink": "AWS Database"
+      },
+      {
+        "text": "온프레미스",
+        "answerLink": "AWS Database"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 394,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "클러스터는 여러 가용 영역에 분산되어 있는 여러 Linux Amazon EC2 인스턴스에서 실행됩니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "클러스터의 모든 노드에는 공통 기본 파일 스토리지에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "한 회사가 AWS에 빅 데이터 분석을 위한 새로운 클러스터를 배포하고 있습니다.",
+        "answerLink": "Amazon Elastic"
+      },
+      {
+        "text": "파일 저장소는 가용성이 높아야 하고 복원력이 있어야 하며 POSIX(이동식 운영 체제 인터페이스)와 호환되어야 합니다.",
+        "answerLink": "Amazon Elastic"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 395,
+    "answer": "D",
+    "highlights": [
+      {
+        "text": "Lambda 함수는 Amazon Aurora Serverless VI 데이터베이스에 데이터를 저장합니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "이 솔루션은 여러 가용 영역에 걸쳐 확장되며 재해 복구(DR) 계획이 없습니다.",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "5분",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "1분",
+        "answerLink": "Aurora"
+      },
+      {
+        "text": "RPO",
+        "answerLink": "Aurora"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 396,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "이 회사는 EC2 인스턴스에 대한 탄력적 IP 주소를 반환하는 travel.example.com의 다중 값 레코드가 있는 Amazon Route 53 공용 호스팅 영역을 사용합니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "두 개의 고정 Amazon EC2 인스턴스가 애플리케이션을 제공합니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "애플리케이션은 Amazon DynamoDB를 기본 데이터 스토어로 사용합니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "콘텐츠를 업데이트하는 동안 EC2 인스턴스 및 캐싱 솔루션의 로드가 급격히 증가합니다.",
+        "answerLink": "DynamoDB"
+      },
+      {
+        "text": "회사 직원들은 여행지에 대한 정보를 검색하기 위해 애플리케이션을 사용합니다.",
+        "answerLink": "DynamoDB"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 397,
+    "answer": "B, C, E",
+    "highlights": [
+      {
+        "text": "로드를 처리할 수 있도록 이미지 처리를 확장할 수 있도록 솔루션 설계자는 어떤 작업 조합을 취해야 합니까?",
+        "answerLink": "AWS Lambda"
+      },
+      {
+        "text": "확장할",
+        "answerLink": "Amazon S3"
+      },
+      {
+        "text": "이미지 처리가 완료되면 사용자에게 알림이 전송됩니다.",
+        "answerLink": "Amazon Simple"
+      },
+      {
+        "text": "회사는 맞춤형 모바일 앱을 사용하여 모바일 장치에서 업로드할 이미지 데이터를 저장하고 처리해야 합니다.",
+        "answerLink": "Amazon S3"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 398,
+    "answer": "A",
+    "highlights": [
+      {
+        "text": "모든 데이터는 VPC 내에 저장되어야 합니다.",
+        "answerLink": "VPN"
+      },
+      {
+        "text": "한 회사가 AWS에서 애플리케이션을 구축하고 있습니다.",
+        "answerLink": "VPN"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 399,
+    "answer": "B, E",
+    "highlights": [
+      {
+        "text": "온프레미스",
+        "answerLink": "vpc"
+      },
+      {
+        "text": "한 회사에서 웹 사이트를 온프레미스 데이터 센터에서 AWS로 마이그레이션하려고 합니다.",
+        "answerLink": "vpc"
+      },
+      {
+        "text": "회사의 보안 정책에는 권한과 네트워크 권한이 모범 사례에 따라 최소 권한을 사용하여 구성되어야 한다고 명시되어 있습니다.",
+        "answerLink": "vpc"
+      },
+      {
+        "text": "Solutions Architect 는 보안 요구 사항을 충족하고 Amazon ECS 클러스터에 애플리케이션을 배포한 컨테이너화된 아키텍처를 생성해야 합니다.",
+        "answerLink": "IAM"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  },
+  {
+    "qNumber": 400,
+    "answer": "B, E",
+    "highlights": [
+      {
+        "text": "이 회사는 Amazon Neptune DB 클러스터에 액세스하기 위해 Lambda 함수가 필요한 새로운 기능을 만들었습니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "다음 중 Lambda 함수가 Neptune DB 클러스터 및 DynamoDB 테이블에 액세스하도록 허용하는 솔루션은 무엇입니까?",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "Neptune DB 클러스터는 VPC의 서브넷 3개에 위치합니다.",
+        "answerLink": "VPC"
+      },
+      {
+        "text": "한 회사가 여러 AWS Lambda 함수와 Amazon DynamoDB 테이블로 구성된 서버리스 애플리케이션을 실행하고 있습니다.",
+        "answerLink": "VPC"
+      }
+    ],
+    "memory": "정답 선택지의 서비스와 기능을 먼저 확인한 뒤, 문제 원문에서 해당 선택을 결정하는 조건을 역추적한다."
+  }
+]
