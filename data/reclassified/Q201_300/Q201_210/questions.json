@@ -1,0 +1,272 @@
+[
+  {
+    "qNumber": 201,
+    "question": "솔루션 설계자는 AWS 클라우드에서 호스팅되는 애플리케이션을 개선해야 합니다. 애플리케이션은 과부하 연결이 발생하는 Amazon Aurora MySQL DB 인스턴스를 사용합니다. 대부분의 응용 프로그램 작업은 레코드를 데이터베이스에 삽입합니다. 애플리케이션은 현재 텍스트 기반 구성 파일에 자격 증명을 저장합니다. 솔루션 설계자는 애플리케이션이 현재 연결 로드를 처리할 수 있도록 솔루션을 구현해야 합니다. 솔루션은 자격 증명을 안전하게 유지하고 정기적으로 자격 증명을 자동으로 교체하는 기능을 제공해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "DB 인스턴스 앞에 Amazon RDS 프록시 계층을 배포합니다. 연결 자격 증명을 AWS Secrets Manager에 비밀로 저장합니다."
+      },
+      {
+        "label": "B",
+        "text": "DB 인스턴스 앞에 Amazon RDS 프록시 계층을 배포합니다. AWS Systems Manager Parameter Store에 연결 자격 증명 저장"
+      },
+      {
+        "label": "C",
+        "text": "Aurora 복제본을 생성합니다. 연결 자격 증명을 AWS Secrets Manager에 비밀로 저장"
+      },
+      {
+        "label": "D",
+        "text": "Aurora 복제본을 생성합니다. AWS Systems Manager Parameter Store 에 연결 자격 증명을 저장합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 202,
+    "question": "회사는 전자 상거래 웹 사이트를 위한 DR(재해 복구) 솔루션을 구축해야 합니다. 웹 애플리케이션은 t3.large Amazon EC2 인스턴스 플릿에서 호스팅되며 Amazon RDS for MySQL DB 인스턴스를 사용합니다. EC2 인스턴스는 여러 가용 영역에 걸쳐 확장되는 Auto Scaling 그룹에 있습니다. 재해 발생 시 웹 애플리케이션은 RPO 30 초 및 RTO 10 분으로 보조 환경으로 장애 조치해야 합니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "코드형 인프라(IaC)를 사용하여 DR 지역에서 새 인프라를 프로비저닝합니다. DB 인스턴스에 대한 리전 간 읽기 전용 복제본을 생성합니다. AWS Backup 에서 백업 계획을 설정하여 EC2 인스턴스 및 DB 인스턴스에 대한 교차 리전 백업을 생성합니다. EC2 인스턴스와 DB 인스턴스를 30초마다 DR 지역에 백업하는 cron 표현식을 생성합니다. 최신 EC2 백업에서 EC2 인스턴스를 복구합니다. Amazon Route 53 지리적 위치 라우팅 정책을 사용하여 재해 발생 시 자동으로 DR 리전으로 장애 조치합니다."
+      },
+      {
+        "label": "B",
+        "text": "코드형 인프라(IaC)를 사용하여 DR 지역에서 새 인프라를 프로비저닝합니다. DB 인스턴스에 대한 리전 간 읽기 전용 복제본을 생성합니다. EC2 인스턴스를 DR 지역에 지속적으로 복제하도록 AWS Elastic Disaster Recovery 를 설정합니다. DR 지역에서 최소 용량으로 EC2 인스턴스를 실행합니다. Amazon Route 53 장애 조치 라우팅 정책을 사용하여 재해 발생 시 자동으로 DR 리전으로 장애 조치합니다. Auto Scaling 그룹의 원하는 용량을 늘립니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Backup 에서 백업 계획을 설정하여 EC2 인스턴스 및 DB 인스턴스에 대한 교차 리전 백업을 생성합니다. EC2 인스턴스와 DB 인스턴스를 30초마다 DR 지역에 백업하는 cron 표현식을 생성합니다. 코드형 인프라(IaC)를 사용하여 DR 리전에서 새 인프라를 프로비저닝합니다. 새 인스턴스에서 백업된 데이터를 수동으로 복원합니다. 재해 발생 시 Amazon Route 53 단순 라우팅 정책을 사용하여 DR 리전으로 자동 장애 조치합니다."
+      },
+      {
+        "label": "D",
+        "text": "IaC( 코드형 인프라)를 사용하여 DR 지역에서 새 인프라를 프로비저닝합니다. Amazon Aurora 글로벌 데이터베이스를 생성합니다. EC2 인스턴스를 DR 지역에 지속적으로 복제하도록 AWS Elastic Disaster Recovery 를 설정합니다. DR 지역에서 전체 용량으로 EC2 인스턴스의 Auto Scaling 그룹을 실행합니다. Amazon Route 53 장애 조치 라우팅 정책을 사용하여 재해 발생 시 자동으로 DR 리전으로 장애 조치합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 203,
+    "question": "회사에서 온프레미스 MySQL 데이터베이스를 us-east-1 리전의 Amazon Aurora MySQL로 일회성 마이그레이션을 계획하고 있습니다. 회사의 현재 인터넷 연결은 대역폭이 제한되어 있습니다. 온프레미스 MySQL 데이터베이스의 크기는 60TB입니다. 회사는 현재 인터넷 연결을 통해 데이터를 AWS로 전송하는 데 한 달이 걸릴 것으로 예상합니다. 회사는 데이터베이스를 보다 신속하게 마이그레이션할 마이그레이션 솔루션이 필요합니다. 가장 짧은 시간 내에 데이터베이스를 마이그레이션할 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "온프레미스 데이터 센터와 AWS 간에 1Gbps AWS Direct Connect 연결을 요청합니다. AWS Database Migration Service(AWS DMS) 를 사용하여 온프레미스 MySQL 데이터베이스를 Aurora MySQL로 마이그레이션합니다."
+      },
+      {
+        "label": "B",
+        "text": "현재 인터넷 연결과 함께 AWS DataSync 를 사용하여 온프레미스 데이터 센터와 AWS 간의 데이터 전송을 가속화하십시오. AWS Application Migration Service를 사용하여 온프레미스 MySQL 데이터베이스를 Aurora MySQL로 마이그레이션합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Snowball Edge 디바이스를 주문합니다. S3 인터페이스를 사용하여 Amazon S3 버킷에 데이터를 로드합니다. AWS Database Migration Service(AWS DMS) 를 사용하여 Amazon S3 에서 Aurora MySQL로 데이터를 마이그레이션합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Snowball 디바이스를 주문합니다. Snowball 용 S3 어댑터를 사용하여 Amazon S3 버킷에 데이터를 로드합니다. AWS Application Migration Service 를 사용하여 Amazon S3 에서 Aurora MySQL로 데이터를 마이그레이션합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 204,
+    "question": "회사는 AWS 클라우드에 애플리케이션을 가지고 있습니다. 이 애플리케이션은 20개의 Amazon EC2 인스턴스 플릿에서 실행됩니다. EC2 인스턴스는 영구적이며 연결된 여러 Amazon Elastic Block Store(Amazon EBS) 볼륨에 데이터를 저장합니다. 회사는 별도의 AWS 리전에서 백업을 유지 관리해야 합니다. 회사는 하루 분량의 데이터 손실 없이 영업일 기준 1일 이내에 EC2 인스턴스와 해당 구성을 복구할 수 있어야 합니다. 이 회사는 직원이 제한되어 있으며 운영 효율성과 비용을 최적화하는 백업 솔루션이 필요합니다. 이 회사는 보조 리전에 필요한 네트워크 구성을 배포할 수 있는 AWS CloudFormation 템플릿을 이미 생성했습니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "보조 리전에서 EC2 인스턴스를 다시 생성할 수 있는 두 번째 CloudFormation 템플릿을 생성합니다. AWS Systems Manager Automation Runbook 을 사용하여 매일 다중 볼륨 스냅샷을 실행합니다. 스냅샷을 보조 리전에 복사합니다. 장애가 발생하면 CloudFormation 템플릿을 시작하고 스냅샷에서 EBS 볼륨을 복원하고 사용량을 보조 리전으로 전송합니다."
+      },
+      {
+        "label": "B",
+        "text": "Amazon Data Lifecycle Manager(Amazon DLM) 를 사용하여 EBS 볼륨의 일일 다중 볼륨 스냅샷을 생성합니다. 장애가 발생한 경우 CloudFormation 템플릿을 시작하고 Amazon DLM 을 사용하여 EBS 볼륨을 복원하고 사용량을 보조 리전으로 전송합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Backup 을 사용하여 EC2 인스턴스에 대한 예약된 일일 백업 계획을 생성합니다. 보조 리전의 볼트에 백업을 복사하도록 백업 작업을 구성합니다. 장애가 발생한 경우 CloudFormation 템플릿을 시작하고 백업 볼트에서 인스턴스 볼륨 및 구성을 복원하고 사용량을 보조 리전으로 전송합니다."
+      },
+      {
+        "label": "D",
+        "text": "동일한 크기 및 구성의 EC2 인스턴스를 보조 지역에 배포합니다. 기본 리전에서 보조 리전으로 데이터를 복사하도록 매일 AWS DataSync 를 구성합니다. 장애가 발생한 경우 CloudFormation 템플릿을 시작하고 사용량을 보조 리전으로 전송합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 205,
+    "question": "회사에서 정적 콘텐츠를 호스팅하는 새 웹 사이트를 디자인하고 있습니다. 이 웹사이트는 사용자에게 대용량 파일을 업로드하고 다운로드할 수 있는 기능을 제공합니다. 회사 요구 사항에 따라 모든 데이터는 전송 중 및 유휴 상태에서 암호화되어야 합니다. 솔루션 설계자는 Amazon S3 및 Amazon CloudFront를 사용하여 솔루션을 구축하고 있습니다. 어떤 단계 조합이 암호화 요구 사항을 충족합니까? (3개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "웹 애플리케이션이 사용하는 S3 버킷에 대해 S3 서버 측 암호화를 켭니다."
+      },
+      {
+        "label": "B",
+        "text": "S3 ACL의 읽기 및 쓰기 작업에 대해 \"aws:SecureTransport\": \"true\" 정책 속성을 추가합니다."
+      },
+      {
+        "label": "C",
+        "text": "웹 애플리케이션이 사용하는 S3 버킷에서 암호화되지 않은 작업을 거부하는 버킷 정책을 만듭니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS KMS 키(SSE-KMS)로 서버 측 암호화를 사용하여 CloudFront에서 유휴 암호화를 구성합니다."
+      },
+      {
+        "label": "E",
+        "text": "CloudFront에서 HTTP 요청의 HTTPS 요청으로의 리디렉션을 구성합니다."
+      },
+      {
+        "label": "F",
+        "text": "웹 애플리케이션이 사용하는 S3 버킷에 대해 미리 서명된 URL을 생성할 때 RequireSSL 옵션을 사용하십시오."
+      }
+    ],
+    "answer": "A, C, E",
+    "answers": [
+      "A",
+      "C",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 206,
+    "question": "회사는 Amazon RDS 에서 Microsoft SQL Server DB 인스턴스에 액세스해야 하는 AWS Lambda 함수를 사용하여 서버리스 아키텍처를 구현하고 있습니다. 이 회사는 데이터베이스 시스템의 복제본을 포함하여 개발 및 생산을 위한 별도의 환경을 가지고 있습니다. 회사의 개발자는 개발 데이터베이스의 자격 증명에 액세스할 수 있습니다. 그러나 프로덕션 데이터베이스의 자격 증명은 IT 보안 팀의 IAM 사용자 그룹 구성원만 액세스할 수 있는 키로 암호화해야 합니다. 이 키는 정기적으로 순환되어야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 프로덕션 환경에서 무엇을 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS Key Management Service(AWS KMS) 고객 관리형 키로 암호화된 SecureString 파라미터를 사용하여 AWS Systems Manager Parameter Store 에 데이터베이스 자격 증명을 저장합니다. SecureString 파라미터에 대한 접근을 제공하기 위해 각 Lambda 함수에 역할을 연결합니다. IT 보안 팀만 매개변수와 키에 액세스할 수 있도록 SecureString 매개변수와 고객 관리형 키에 대한 접근을 제한하십시오."
+      },
+      {
+        "label": "B",
+        "text": "AWS Key Management Service(AWS KMS) 기본 Lambda 키를 사용하여 데이터베이스 자격 증명을 암호화합니다. 각 Lambda 함수의 환경 변수에 자격 증명을 저장합니다. Lambda 코드의 환경 변수에서 자격 증명을 로드합니다. IT 보안 팀만 키에 액세스할 수 있도록 KMS 키에 대한 접근을 제한합니다."
+      },
+      {
+        "label": "C",
+        "text": "각 Lambda 함수의 환경 변수에 데이터베이스 자격 증명을 저장합니다. AWS Key Management Service(AWS KMS) 고객 관리형 키를 사용하여 환경 변수를 암호화합니다. IT 보안 팀만 키에 액세스할 수 있도록 고객 관리형 키에 대한 접근을 제한합니다."
+      },
+      {
+        "label": "D",
+        "text": "데이터베이스 자격 증명을 AWS Secrets Manager에 AWS Key Management Service(AWS KMS) 고객 관리형 키와 연결된 암호로 저장합니다. 비밀에 대한 접근을 제공하기 위해 각 Lambda 함수에 역할을 연결합니다. IT 보안 팀만 암호 및 키에 액세스할 수 있도록 암호 및 고객 관리형 키에 대한 접근을 제한합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 207,
+    "question": "온라인 소매 회사는 레거시 온프레미스 .NET 애플리케이션을 AWS로 마이그레이션하고 있습니다. 이 애플리케이션은 부하가 분산된 프런트엔드 웹 서버, 부하가 분산된 애플리케이션 서버 및 Microsoft SQL Server 데이터베이스에서 실행됩니다. 회사는 가능한 경우 AWS 관리형 서비스를 사용하려고 하며 애플리케이션을 다시 작성하고 싶지 않습니다. 솔루션 설계자는 확장 문제를 해결하고 애플리케이션 확장에 따른 라이선스 비용을 최소화하기 위한 솔루션을 구현해야 합니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "웹 계층 및 애플리케이션 계층에 대해 Application Load Balancer 뒤의 Auto Scaling 그룹에 Amazon EC2 인스턴스를 배포합니다. Babelfish 가 켜진 상태에서 Amazon Aurora PostgreSQL 을 사용하여 SQL Server 데이터베이스를 플랫폼을 변경하십시오."
+      },
+      {
+        "label": "B",
+        "text": "AWS Database Migration Service(AWS DMS) 를 사용하여 모든 서버의 이미지를 생성합니다. 온프레미스 가져오기를 기반으로 하는 Amazon EC2 인스턴스를 배포합니다. 웹 계층 및 애플리케이션 계층에 대해 Network Load Balancer 뒤의 Auto Scaling 그룹에 인스턴스를 배포합니다. Amazon DynamoDB를 데이터베이스 계층으로 사용합니다."
+      },
+      {
+        "label": "C",
+        "text": "웹 프런트엔드 계층과 애플리케이션 계층을 컨테이너화합니다. Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를 프로비저닝합니다. 웹 계층 및 애플리케이션 계층에 대한 Network Load Balancer 뒤에 Auto Scaling 그룹을 생성합니다. SQL Server 용 Amazon RDS 를 사용하여 데이터베이스를 호스팅합니다."
+      },
+      {
+        "label": "D",
+        "text": "애플리케이션 기능을 AWS Lambda 기능으로 분리합니다. 웹 프런트엔드 계층 및 애플리케이션 계층에 Amazon API Gateway 를 사용합니다. 데이터를 Amazon S3 로 마이그레이션합니다. Amazon Athena를 사용하여 데이터를 쿼리합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 208,
+    "question": "SaaS(Software-as-a-Service) 공급자는 ALB(Application Load Balancer) 를 통해 API를 노출합니다. ALB 는 us-east-1 지역에 배포된 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터에 연결됩니다. 노출된 API에는 LINK, UNLINK, LOCK 및 UNLOCK과 같은 몇 가지 비표준 REST 메서드 사용이 포함되어 있습니다. 미국 이외 지역의 사용자는 이러한 API에 대해 길고 일관성 없는 응답 시간을 보고하고 있습니다. 솔루션 설계자는 운영 오버헤드를 최소화하는 솔루션으로 이 문제를 해결해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon CloudFront 배포를 추가합니다. ALB를 원본으로 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "Amazon API Gateway 엣지 최적화 API 엔드포인트를 추가하여 API를 노출합니다. ALB 를 대상으로 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Global Accelerator에 액셀러레이터를 추가합니다. ALB를 원본으로 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "두 개의 추가 AWS 지역인 eu-west-1 및 ap-southeast-2에 API를 배포합니다. Amazon Route 53에 지연 시간 기반 라우팅 레코드를 추가합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 209,
+    "question": "회사는 AWS 클라우드에서 IoT 애플리케이션을 실행합니다. 이 회사는 미국의 주택에서 데이터를 수집하는 수백만 개의 센서를 보유하고 있습니다. 센서는 MQTT 프로토콜을 사용하여 사용자 지정 MQTT 브로커에 연결하고 데이터를 보냅니다. MQTT 브로커는 단일 Amazon EC2 인스턴스에 데이터를 저장합니다. 센서는 iot.example.com이라는 도메인을 통해 브로커에 연결됩니다. 이 회사는 Amazon Route 53 을 DNS 서비스로 사용합니다. 회사는 데이터를 Amazon DynamoDB에 저장합니다. 여러 경우에 데이터 양이 MQTT 브로커에 과부하를 일으켜 센서 데이터가 손실되었습니다. 회사는 솔루션의 신뢰성을 향상시켜야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "MQTT 브로커를 위한 ALB(Application Load Balancer) 및 Auto Scaling 그룹을 생성합니다. Auto Scaling 그룹을 ALB의 대상으로 사용합니다. Route 53 의 DNS 레코드를 별칭 레코드로 업데이트합니다. 별칭 레코드가 ALB를 가리키도록 합니다. MQTT 브로커를 사용하여 데이터를 저장합니다."
+      },
+      {
+        "label": "B",
+        "text": "센서 데이터를 수신하도록 AWS IoT Core 를 설정합니다. AWS IoT Core 에 연결할 사용자 지정 도메인을 생성하고 구성합니다. AWS IoT Core Data -ATS 엔드포인트를 가리키도록 Route 53 의 DNS 레코드를 업데이트합니다. 데이터를 저장하도록 AWS IoT 규칙을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "NLB(Network Load Balancer)를 생성합니다. MQTT 브로커를 대상으로 설정합니다. AWS Global Accelerator 액셀러레이터를 생성합니다. NLB를 액셀러레이터의 끝점으로 설정합니다. Route 53의 DNS 레코드를 다중값 응답 레코드로 업데이트합니다. Global Accelerator IP 주소를 값으로 설정합니다. MQTT 브로커를 사용하여 데이터를 저장합니다."
+      },
+      {
+        "label": "D",
+        "text": "센서 데이터를 수신하도록 AWS IoT Greengrass 를 설정합니다. AWS IoT Greengrass 엔드포인트를 가리키도록 Route 53 의 DNS 레코드를 업데이트합니다. 데이터를 저장하기 위해 AWS Lambda 함수를 호출하도록 AWS IoT 규칙을 구성합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 210,
+    "question": "회사에 Linux 기반 Amazon EC2 인스턴스가 있습니다. 사용자는 EC2 SSH 키 쌍과 함께 SSH를 사용하여 인스턴스에 액세스해야 합니다. 각 시스템에는 고유한 EC2 키 쌍이 필요합니다. 회사는 요청 시 모든 EC2 키 쌍을 자동으로 교체하고 키를 안전하게 암호화된 위치에 보관하는 키 교체 정책을 구현하려고 합니다. 회사는 키 순환 중 1분 미만의 다운타임을 허용합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS Secrets Manager 에 모든 키를 저장합니다. AWS Lambda 함수를 호출하여 새 키 쌍을 생성하도록 Secrets Manager 교체 일정을 정의합니다. EC2 인스턴스의 퍼블릭 키를 교체합니다. Secrets Manager에서 프라이빗 키를 업데이트합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Systems Manager 의 기능인 Parameter Store 의 모든 키를 문자열로 저장합니다. 새 키 쌍을 생성하기 위해 AWS Lambda 함수를 호출하도록 Systems Manager 유지 관리 기간을 정의합니다. EC2 인스턴스의 퍼블릭 키를 교체합니다. Parameter Store 에서 프라이빗 키를 업데이트합니다."
+      },
+      {
+        "label": "C",
+        "text": "EC2 키 쌍을 AWS Key Management Service(AWS KMS) 로 가져옵니다. 이러한 키 쌍에 대해 자동 키 순환을 구성합니다. AWS KMS 에서 키 교체를 시작하기 위해 AWS Lambda 함수를 호출하는 Amazon EventBridge 예약 규칙을 생성합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Systems Manager의 기능인 Fleet Manager에 모든 EC2 인스턴스를 추가합니다. Systems Manager 유지 관리 기간을 정의하여 Systems Manager Run Command 문서를 발행하여 새 키 쌍을 생성하고 퍼블릭 키를 Fleet Manager의 모든 인스턴스로 교체합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "qNumber": 621,
+    "question": "한 회사가 온프레미스 데이터 센터에서 Amazon Aurora 클러스터로 2TB MySQL 데이터베이스를 마이그레이션해야 합니다. 데이터베이스는 매분 수백 건의 업데이트를 수신합니다. 온프레미스 데이터베이스 서버는 인터넷을 통해 액세스할 수 없습니다. 마이그레이션 솔루션은 마이그레이션 시작부터 전환(cutover)까지 데이터 손실이 발생하지 않도록 해야 합니다. 마이그레이션은 가능한 한 빨리 시작되어야 하며 가동 중지 시간을 최소화해야 합니다. 다음 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "온프레미스 데이터 센터와 Aurora Duster 를 호스팅하는 VPC 간에 AWS Site -to-Site VPN 연결을 생성합니다. mysqldump 를 사용하여 온프레미스 데이터베이스의 덤프를 생성합니다. 멀티파트 업로드를 사용하여 덤프를 Amazon S3 에 업로드합니다. 적절한 권한이 있는 Amazon EC2 인스턴스를 사용하여 덤프를 Aurora 클러스터로 가져옵니다."
+      },
+      {
+        "label": "B",
+        "text": "온프레미스 데이터 센터와 Aurora 클러스터를 호스팅하는 VPC 간에 AWS Site -to-Site VPN 연결을 생성합니다. AWS DMS 에서 온프레미스 데이터베이스를 소스 엔드포인트로 지정합니다. Aurora Duster를 대상 엔드포인트로 지정합니다. DMS 작업을 지속적 복제로 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "온프레미스 데이터 센터와 Aurora Duster를 호스팅하는 VPC 간에 AWS Direct Connect 연결을 설정합니다. mysqldump 를 사용하여 온프레미스 데이터베이스의 덤프를 생성합니다. 멀티파트 업로드를 사용하여 덤프를 Amazon S3 에 업로드합니다. 적절한 권한이 있는 Amazon EC2 인스턴스를 사용하여 덤프를 Aurora 클러스터로 가져옵니다. 데이터 센터와 Aurora 클러스터 간에 복제를 설정합니다."
+      },
+      {
+        "label": "D",
+        "text": "온프레미스 데이터 센터와 Aurora 클러스터를 호스팅하는 VPC 간에 AWS Direct Connect 연결을 설정합니다. AWS DMS 에서 온프레미스 데이터베이스를 소스 엔드포인트로 지정합니다. Aurora Duster를 대상 엔드포인트로 지정합니다. 지속적 복제를 사용하는 DMS 작업을 구성합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 622,
+    "question": "솔루션 아키텍트는 AWS Organizations 에서 조직에 새 AWS 계정을 자동으로 프로비저닝하는 솔루션을 설계하고 있습니다. 솔루션 아키텍트는 조직에 AWS Control Tower 를 활성화했습니다. 솔루션은 새 AWS 계정을 생성한 후 보안 제어를 활성화하고 청구 경보와 같은 리소스를 생성해야 합니다. 솔루션은 확장 가능해야 합니다. 운영 오버헤드를 최소화하면서 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "조직에 새 AWS 계정을 생성합니다. 새 AWS 계정에 블루프린트를 배포합니다. 청구 경보와 같은 리소스를 생성하는 블루프린트를 정의합니다. 새 AWS 계정을 생성한 후 블루프린트를 적용하도록 AWS Control Tower를 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "조직에 새 AWS 계정을 생성합니다. AWS Cloud Formation 템플릿을 사용하여 계정에 대한 신뢰할 수 있는 액세스를 설정합니다. 새 AWS 계정을 AWS Control Tower 에 등록합니다. AWS Control Tower를 사용하여 리소스를 프로비저닝하고 새 AWS 계정에 블루프린트를 배포합니다."
+      },
+      {
+        "label": "C",
+        "text": "Account Factory에서 AWS Service Catalog를 사용하여 새 AWS 계정 생성을 시작합니다. AWS Lambda 함수를 호출하는 AWS Control Tower 에서 수명 주기 이벤트를 구성합니다. AWSControlTowerExecution 역할을 사용하여 AWS CloudFormation 템플릿을 배포하도록 Lambda 함수를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "Account Factory 를 사용하여 AWS Control Tower 를 통해 새 AWS 계정 생성을 시작합니다. 결제 알람과 같은 리소스를 생성하는 블루프린트를 정의합니다. 새 AWS 계정을 생성한 후 블루프린트를 적용하도록 AWS Control Tower를 구성합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 623,
+    "question": "한 회사가 SaaS(Software as a Service) 애플리케이션과 통합된 AWS 워크로드를 운영하고 있습니다. 이 회사는 SaaS 애플리케이션을 분석하여 사용되지 않는 라이선스를 파악해야 합니다. 운영 오버헤드를 최소화하면서 이 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS License Manager 자동 검색을 사용하여 SaaS 애플리케이션에서 감사 로그를 검색합니다. Amazon Athena를 사용하여 데이터를 분석하고 사용되지 않는 SaaS 라이선스를 파악합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Lambda 함수를 생성하여 SaaS 애플리케이션에서 감사 로그를 검색하고 Amazon S3 에 데이터를 저장합니다. Amazon EMR 을 사용하여 데이터를 분석하고 사용되지 않는 SaaS 라이선스를 파악합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS AppFabric 을 사용하여 SaaS 애플리케이션의 감사 로그를 Amazon S3 로 수집합니다. Amazon Athena를 사용하여 데이터를 분석하고 사용되지 않는 SaaS 라이선스를 파악합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS App Runner 를 사용하여 SaaS 애플리케이션의 감사 로그를 Amazon S3 로 수집합니다. Amazon EMR을 사용하여 데이터를 분석하고 사용되지 않는 SaaS 라이선스를 파악합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 624,
+    "question": "솔루션 아키텍트가 AWS에 단일 VPC를 생성했습니다. VPC 에는 인터넷 게이트웨이 1개와 NAT 게이트웨이 1개가 있습니다. VPC 는 세 개의 가용 영역에 걸쳐 확장됩니다. 각 가용 영역에는 퍼블릭 서브넷 1개와 프라이빗 서브넷 1개가 있습니다. 세 개의 프라이빗 서브넷에는 인터넷에 연결해야 하는 Amazon EC2 인스턴스가 포함됩니다. 이 아키텍처의 네트워크 복원력을 높이는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "각 가용 영역에 NAT 게이트웨이가 있도록 두 개의 NAT 게이트웨이를 추가합니다. 각 프라이빗 서브넷에 대한 라우팅 테이블을 구성하여 서브넷의 가용 영역에 있는 NAT 게이트웨이로 트래픽을 전송합니다."
+      },
+      {
+        "label": "B",
+        "text": "각 가용 영역에 NAT 게이트웨이가 있도록 두 개의 NAT 게이트웨이를 추가합니다. 각 퍼블릭 서브넷에 대한 라우팅 테이블을 구성하여 서브넷의 가용 영역에 있는 NAT 게이트웨이로 트래픽을 전송합니다."
+      },
+      {
+        "label": "C",
+        "text": "각 가용 영역에 인터넷 게이트웨이가 있도록 두 개의 인터넷 게이트웨이를 추가합니다. 각 프라이빗 서브넷에 대한 라우팅 테이블을 구성하여 서브넷의 가용 영역에 있는 인터넷 게이트웨이로 트래픽을 전송합니다."
+      },
+      {
+        "label": "D",
+        "text": "각 가용 영역에 인터넷 게이트웨이가 있도록 두 개의 인터넷 게이트웨이를 추가합니다. 각 퍼블릭 서브넷에 대해 서브넷의 가용 영역에 있는 인터넷 게이트웨이로 트래픽을 전송하는 라우팅 테이블을 구성합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 625,
+    "question": "한 회사가 AWS CloudFormation 스택에 배포된 AWS Lambda 기반 애플리케이션을 구축했습니다. 웹 애플리케이션의 마지막 프로덕션 릴리스에서 몇 분 동안 서비스 중단을 초래하는 문제가 발생했습니다. 솔루션 아키텍트는 카나리 릴리스를 지원하도록 배포 프로세스를 조정해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Lambda 함수의 새 배포 버전마다 별칭을 생성합니다. AWS CLI updatealias 명령에 routing- config 매개변수를 사용하여 로드를 분산합니다."
+      },
+      {
+        "label": "B",
+        "text": "애플리케이션을 새로운 CloudFormation 스택에 배포합니다. Amazon Route 53 가중 라우팅 정책을 사용하여 로드를 분산합니다."
+      },
+      {
+        "label": "C",
+        "text": "Lambda 함수의 새 배포 버전마다 버전을 생성합니다. AWS CLI update -functionconfiguration 명령에 routing-config 매개변수를 사용하여 로드를 분산합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS CodeDeploy 를 구성하고 배포 구성에서 codeDeployDefault.OneAtATime을 사용하여 로드를 분산합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 626,
+    "question": "한 회사가 AWS CloudFormation 템플릿을 사용하여 Amazon ECS 서비스를 프로덕션 환경에 배포합니다. 이 템플릿에는 CloudFormation 스택 이름과 공통 접두사를 사용하여 이름이 지정된 Amazon S3 버킷이 포함되어 있습니다. 이 회사는 동일한 템플릿을 사용하여 개발 및 지속적 통합을 위한 임시 환경을 생성합니다. 개발자는 환경을 성공적으로 생성할 수 있지만, 환경을 삭제하려고 하면 CloudFormation에서 오류가 발생합니다. 개발자는 개발 및 테스트 프로세스의 일부로 동일한 이름의 스택을 삭제하고 다시 생성해야 하는 경우가 많습니다. 솔루션 아키텍트는 이 문제를 해결하기 위해 어떤 단계 조합을 수행해야 합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "특정 S3 버킷에 있는 모든 키를 삭제하는 CloudFormation 사용자 지정 리소스에 AWS Lambda 함수를 연결합니다. 이 사용자 지정 리소스를 애플리케이션의 CloudFormation 템플릿의 일부로 구현합니다."
+      },
+      {
+        "label": "B",
+        "text": "CloudFormation 템플릿에서 S3 버킷 리소스를 수정하여 DeletionPolicy 속성을 Delete로 지정합니다. CloudFormation 삭제 작업을 처리하기 위해 CAPABILITY_DELETE_NONEMPTY 기능을 지정합니다."
+      },
+      {
+        "label": "C",
+        "text": "CloudFormation 템플릿에서 S3 버킷 리소스의 DeletionPolicy 속성을 Retain으로 지정하여 수정합니다. CloudFormation 스택에서 더 이상 소유하지 않는 버킷을 식별하고, 비우고, 삭제하도록 24시간마다 실행되는 AWS Config 사용자 지정 규칙을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "CloudFormation 작업이 버킷의 모든 객체에 대해 s3:DeleteObject 권한을 가진 역할에 의해 호출되는지 확인합니다."
+      },
+      {
+        "label": "E",
+        "text": "CloudFormation 템플릿에서 S3 버킷 리소스를 수정하여 버킷의 모든 객체에 대해 s3:DeleteObject 권한을 부여하는 버킷 정책을 구성합니다."
+      }
+    ],
+    "answer": "A, D",
+    "answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "qNumber": 627,
+    "question": "한 회사가 비즈니스에 필수적인 다계층 애플리케이션을 AWS로 이전하고 있습니다. 아키텍처는 데스크톱 클라이언트 애플리케이션과 서버 인프라로 구성됩니다. 서버 인프라는 온프레미스 데이터 센터에 있으며, 해당 데이터 센터는 애플리케이션 가동 시간 SLA 99.95% 를 유지하는 데 자주 실패합니다. 솔루션 아키텍트는 애플리케이션이 SLA를 충족하거나 초과할 수 있도록 재설계해야 합니다. 이 애플리케이션은 단일 가상 머신에서 실행되는 PostgreSQL 데이터베이스를 포함합니다. 비즈니스 로직 및 프레젠테이션 계층은 여러 가상 머신 간에 로드 밸런싱됩니다. 원격 사용자는 지연 시간에 민감한 이 애플리케이션을 사용할 때 로딩 속도가 느리다고 불평합니다. 다음 중 애플리케이션을 거의 변경하지 않고 가용성 요구 사항을 충족하면서 사용자 경험을 개선하고 비용을 최소화하는 방법은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "데이터베이스를 Amazon EC2 의 PostgreSQL 데이터베이스로 마이그레이션합니다. 애플리케이션 및 프레젠테이션 계층을 애플리케이션 로드 밸런서 뒤에 있는 자동 확장되는 Amazon ECS 컨테이너에서 호스팅합니다. 사용자 경험을 개선하기 위해 각 최종 사용자에게 Amazon WorkSpaces 워크스페이스를 할당합니다."
+      },
+      {
+        "label": "B",
+        "text": "데이터베이스를 Amazon RDS Aurora PostgreSQL 구성으로 마이그레이션합니다. 애플리케이션 및 프레젠테이션 계층을 Application Load Balancer 뒤에 있는 Amazon EC2 인스턴스의 자동 확장 구성으로 호스팅합니다. Amazon AppStream 2.0을 사용하여 사용자 경험을 개선합니다."
+      },
+      {
+        "label": "C",
+        "text": "데이터베이스를 Amazon RDS PostgreSQL 다중 가용 영역 구성으로 마이그레이션합니다. 애플리케이션 및 프레젠테이션 계층을 네트워크 로드 밸런서 뒤에 있는 자동 확장되는 AWS Fargate 컨테이너에 호스팅합니다. Amazon ElastiCache를 사용하여 사용자 경험을 개선합니다."
+      },
+      {
+        "label": "D",
+        "text": "데이터베이스를 최소 두 개의 노드가 있는 Amazon Redshift 클러스터로 마이그레이션합니다. 애플리케이션 및 프레젠테이션 계층을 결합하여 Application Load Balancer 뒤에 있는 자동 확장되는 Amazon ECS 컨테이너에 호스팅합니다. Amazon CloudFront 를 사용하여 사용자 경험을 개선합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 628,
+    "question": "한 회사가 6개월 전에 온프레미스 VM에서 AWS 계정의 Amazon EC2 인스턴스로 애플리케이션을 마이그레이션했습니다. 이제 이 회사는 해당 애플리케이션을 두 번째 AWS 리전에 배포해야 합니다. 향후 2년 동안 애플리케이션의 일부를 AWS Lambda 함수를 사용하도록 재설계할 예정입니다. 회사는 향후 3년 동안 애플리케이션 사용 패턴이 안정적일 것으로 예상합니다. 어떤 전략이 회사의 비용 절감을 극대화할까요?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS Cost Management 에서 매년 절약 플랜 권장 사항을 평가하고, 권장 사항에 따라 1년 컴퓨팅 절약 플랜을 구매합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Compute Optimizer 를 사용하여 절약 플랜 권장 사항을 평가하고, 권장 사항에 따라 3년 EC2 인스턴스 절약 플랜을 구매합니다. Compute Optimizer 를 사용하여 권장 사항에 따라 Lambda 함수를 조정합니다."
+      },
+      {
+        "label": "C",
+        "text": "선불금이 없는 1년 EC2 인스턴스 절약 플랜을 구매하고, 매년 인프라를 검토합니다. 애플리케이션의 일부가 Lambda 함수로 전환됨에 따라 향후 EC2 인스턴스 절약 플랜의 시간당 약정 금액을 줄입니다."
+      },
+      {
+        "label": "D",
+        "text": "선불금 없이 3년 EC2 인스턴스 절약 플랜을 구매합니다. 애플리케이션의 일부가 Lambda 함수로 전환됨에 따라 EC2 인스턴스 절약 플랜의 시간당 약정 금액을 줄입니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 629,
+    "question": "한 회사가 Amazon Redshift 클러스터를 사용하여 다양한 소스에서 데이터를 수집합니다. 수집된 데이터는 분석 및 보고를 위해 다른 내부 애플리케이션과 공유됩니다. 클러스터는 8개의 ra3.4xlarge 노드로 구성되어 있습니다. 데이터 수집은 매일 자정부터 오전 8시까지 3시간 동안 진행됩니다. 클러스터의 평균 CPU 사용률은 데이터 수집 시간 동안 85%입니다. 클러스터는 온디맨드 노드 요금제를 사용하며, 8 시간의 데이터 수집 시간 외에는 일시 중지됩니다. 클러스터에는 스냅샷 기능이 활성화되어 있습니다. 이 회사는 비용 절감을 위해 이 워크로드를 최적화하고자 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "기존 클러스터의 최신 스냅샷을 사용하여 동시성 확장 모드로 8개의 ra3.4xlarge 노드로 구성된 새 Redshift 클러스터를 생성합니다. 내부 애플리케이션이 새 Redshift 클러스터에서 데이터를 가져오도록 수정합니다. 기존 Redshift 클러스터를 종료합니다. 1년 선불 Redshift 예약 노드 8개를 구매합니다."
+      },
+      {
+        "label": "B",
+        "text": "기존 클러스터의 최신 스냅샷을 사용하여 ra3.16xlarge 노드 6개로 구성된 새 Redshift 클러스터를 생성합니다. 자동 스케일링을 활성화합니다. 내부 애플리케이션을 수정하여 새 Redshift 클러스터에서 데이터를 가져오도록 합니다. 기존 Redshift 클러스터를 종료합니다."
+      },
+      {
+        "label": "C",
+        "text": "기존 Redshift 클러스터의 최신 스냅샷을 사용하여 Redshift 처리 장치(RPU) 64 개로 구성된 새 Redshift 서버리스 엔드포인트를 생성합니다. 내부 애플리케이션을 업데이트하여 새 Redshift 서버리스 엔드포인트에서 데이터를 가져오도록 합니다. 기존 Redshift 클러스터를 삭제합니다."
+      },
+      {
+        "label": "D",
+        "text": "기존 Redshift 클러스터에 Redshift Spectrum 을 구성합니다. Redshift Spectrum 이 Amazon S3에 액세스할 수 있도록 IAM 권한을 설정합니다. 기존 클러스터의 데이터를 S3 버킷으로 언로드합니다. 내부 애플리케이션을 업데이트하여 S3 데이터를 쿼리하도록 합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 630,
+    "question": "한 회사가 AWS Cloud Formation 을 사용하여 인프라를 배포하고 있습니다. 이 회사는 프로덕션 Cloud Formation 스택을 삭제할 경우 Amazon RDS 데이터베이스 또는 Amazon EBS 볼륨에 저장된 데이터가 삭제될 수 있다는 점을 우려하고 있습니다. 이러한 방식으로 사용자가 실수로 데이터를 삭제하는 것을 방지하려면 어떻게 해야 할까요?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Cloud Formation 템플릿을 수정하여 RDS 리소스 및 EBS 리소스에 삭제 정책이 유지(Retain)인 DeletionPolicy 속성을 추가합니다."
+      },
+      {
+        "label": "B",
+        "text": "RDS 리소스 및 EBS 리소스의 삭제를 허용하지 않는 스택 정책을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "aws:cloudformation:stack -name 태그가 지정된 RDS 리소스 및 EBS 리소스의 삭제를 거부하도록 IAM 정책을 수정합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Config 규칙을 사용하여 RDS 리소스 및 EBS 리소스의 삭제를 방지합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  }
+]

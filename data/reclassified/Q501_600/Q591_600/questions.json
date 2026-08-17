@@ -1,0 +1,277 @@
+[
+  {
+    "qNumber": 591,
+    "question": "한 회사가 다양한 위치에 있는 AWS IoT 센서를 기반으로 IoT 플랫폼을 운영하고 있으며, 데이터를 회사로 전송합니다. Amazon EC2 인스턴스의 Node.js API 서버는 애플리케이션 로드 밸런서 뒤에서 실행됩니다. 데이터는 4TB 범용 SSD 볼륨을 사용하는 Amazon RDS MySQL DB 인스턴스에 저장됩니다. 회사가 현장에 배치한 센서 수는 시간이 지남에 따라 증가했으며, 향후 크게 증가할 것으로 예상됩니다. API 서버는 지속적으로 과부하 상태이며, RDS 지표는 높은 쓰기 지연 시간을 나타냅니다. 다음 중 어떤 단계를 함께 적용하면 문제를 영구적으로 해결하고 새로운 센서가 프로비저닝됨에 따라 성장할 수 있으며, 동시에 플랫폼의 비용 효율성을 유지할 수 있습니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "볼륨의 IOPS를 개선하기 위해 MySQL 범용 SSD 스토리지의 크기를 6TB로 조정합니다."
+      },
+      {
+        "label": "B",
+        "text": "RDS MySQL DB 인스턴스 대신 Amazon Aurora를 사용하도록 데이터베이스 계층을 재설계하고 읽기 복제본을 추가합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon Kinesis Data Streams와 AWS Lambda를 활용하여 원시 데이터를 수집하고 처리합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS X -Ray를 사용하여 애플리케이션 문제를 분석 및 디버깅하고 부하에 맞춰 API 서버를 추가합니다."
+      },
+      {
+        "label": "E",
+        "text": "RDS MySQL DB 인스턴스 대신 Amazon DynamoDB 를 사용하도록 데이터베이스 계층을 재설계합니다."
+      }
+    ],
+    "answer": "C, E",
+    "answers": [
+      "C",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 592,
+    "question": "한 회사가 AWS에서 애플리케이션을 실행합니다. 이 애플리케이션은 기본 AWS 관리형 KMS 키로 암호화된 Amazon Aurora MySQL 데이터베이스를 사용합니다. 이 회사는 데이터베이스 암호화 키를 180일마다 교체하는 솔루션을 구현해야 합니다. 이 솔루션은 암호화 키가 이 표준을 준수하지 않을 경우 알림을 제공해야 합니다. 다음 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "기존 AWS 관리형 KMS 키의 교체 기간을 180일로 설정합니다. 기존 KMS 키에 대해 cmk- backing-key-rotation-enabled AWS Config 관리형 규칙을 구현합니다. 키 교체가 준수되지 않을 경우 Amazon SNS를 사용하여 보안팀에 알리도록 AWS Config를 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "자동 교체 기간이 180일로 설정된 새 AWS 관리형 KMS 키를 생성합니다. 데이터베이스 스냅샷을 생성합니다. 새 KMS 키를 사용하는 새 Aurora 클러스터에 스냅샷을 복원합니다. AWS Lambda 함수를 사용하여 키 교체 기간을 검증하는 AWS Config 사용자 지정 규칙을 생성합니다. 키 암호화가 준수되지 않을 경우 Amazon SES 를 사용하여 보안팀에 알리도록 AWS Config 를 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "자동 순환 기간이 180일로 설정된 새로운 고객 관리 KMS 키를 생성합니다. 데이터베이스 스냅샷을 생성합니다. 새 KMS 키를 사용하는 새 Aurora 클러스터에 스냅샷을 복원합니다. AWS Lambda 함수를 사용하여 키 순환 기간을 검증하는 AWS Config 사용자 지정 규칙을 생성합니다. 키 암호화가 규정을 준수하지 않을 경우 Amazon SNS를 사용하여 보안팀에 알리도록 AWS Config를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "자동 순환 기간이 180일로 설정된 새로운 고객 관리형 KMS 키를 생성합니다. 데이터베이스를 업데이트하여 암호화에 새 KMS 키를 사용합니다. 새 KMS 키에 대해 cmk- backing-key-rotation-enabled AWS Config 관리형 규칙을 구현합니다. 키 순환 기간이 규정을 준수하지 않을 경우 Amazon SES를 사용하여 보안팀에 알리도록 AWS Config를 구성합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 593,
+    "question": "한 회사가 단일 리전의 여러 VPC에 있는 EC2에서 워크로드를 실행합니다. 또한 Direct Connect를 통해 온프레미스 DNS 서버를 운영하고 있습니다. 모든 EC2 인스턴스는 비공개 통신을 사용하여 internal.company.com을 확인해야 합니다. 솔루션 아키텍트는 무엇을 해야 합니까? (3개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "모든 워크로드 VPC에 Amazon Route 53 인바운드 엔드포인트를 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "하나의 VPC에 Route 53 아웃바운드 엔드포인트를 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "internal.company.com을 온프레미스 DNS로 전달하는 Route 53 전달 규칙을 생성합니다."
+      },
+      {
+        "label": "D",
+        "text": "시스템 유형을 사용하여 Route 53 규칙을 생성합니다."
+      },
+      {
+        "label": "E",
+        "text": "모든 VPC에 규칙을 연결합니다."
+      },
+      {
+        "label": "F",
+        "text": "아웃바운드 엔드포인트가 있는 VPC에만 규칙을 연결합니다."
+      }
+    ],
+    "answer": "B, C, E",
+    "answers": [
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 594,
+    "question": "한 회사에는 다양한 팀, 애플리케이션 및 환경에 대해 수십 개의 AWS 계정이 있습니다. 이 회사는 모든 계정에 적용해야 하는 사용자 지정 제어 세트를 정의했습니다. 회사는 계정의 잠재적인 구성 오류로 인해 보안 문제 또는 규정 미준수가 발생할 수 있다는 점을 우려하고 있습니다. 솔루션 아키텍트는 반복 가능한 방식으로 코드형 인프라(IaC)를 사용하여 사용자 지정 제어를 배포하는 솔루션을 설계해야 합니다. 어떤 솔루션이 운영 오버헤드를 최소화하면서 이러한 요구 사항을 충족할 수 있을까요?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "각 계정에 AWS Config 규칙을 구성하여 사용자 지정 제어와 비교하여 계정 설정을 평가합니다. AWS CloudFormation 템플릿에 AWS Lambda 함수를 정의합니다. 규정을 준수하지 않는 AWS Config 규칙을 수정하도록 Lambda 함수를 프로그래밍합니다. 계정 생성 중에 CloudFormation 템플릿을 스택 세트로 배포합니다. Lambda 함수를 호출하도록 스택 세트를 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Systems Manager 연결을 구성하여 여러 계정의 구성 문제를 수정합니다. AWS::SSM::Association을 사용하여 AWS CloudFormation 템플릿에 원하는 구성 상태를 정의합니다. 계정 생성 시 모든 계정에 CloudFormation 템플릿을 스택 세트로 배포합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Control Tower 가 다중 계정 환경을 설정하고 관리하도록 설정합니다. 보안 모범 사례를 적용하는 블루프린트를 사용합니다. AWS Control Tower 및 CloudFormation 템플릿에 대한 사용자 지정을 사용하여 각 계정에 대한 사용자 지정 제어를 정의합니다. Amazon EventBridge 를 사용하여 계정 프로비저닝 수명 주기 이벤트 중에 AWS Control Tower 에 대한 사용자 지정을 배포합니다."
+      },
+      {
+        "label": "D",
+        "text": "모든 계정에서 AWS Security Hub 를 활성화하여 중앙 관리자 계정에 결과를 집계합니다. 각 계정에서 Amazon EventBridge 규칙, AWS Lambda 함수 및 CloudFormation 스택을 생성하여 Security Hub 결과를 수정하는 AWS CloudFormation 템플릿을 개발합니다. 계정 프로비저닝 중에 CloudFormation 스택을 배포하여 자동 수정을 설정합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 595,
+    "question": "EC2 기반 티켓팅 서비스는 시작 시 자주 업데이트되는 가격 파일(S3에 저장됨)을 가져옵니다. 때때로 EC2의 가격이 오래되어 요금 문제가 발생합니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Lambda는 DynamoDB를 새로운 가격으로 업데이트합니다."
+      },
+      {
+        "label": "B",
+        "text": "Lambda는 Amazon EFS를 업데이트합니다."
+      },
+      {
+        "label": "C",
+        "text": "S3의 마운트 지점을 사용하여 가격 파일을 EC2에 마운트합니다."
+      },
+      {
+        "label": "D",
+        "text": "가격 파일에 다중 연결 EBS 볼륨을 사용합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 596,
+    "question": "여러 AWS 계정의 애플리케이션이 별도의 AWS 계정에 있는 PostgreSQL RDS 인스턴스에 비공개로 액세스하는 동시에 연결 수를 관리할 수 있는 방법은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Transit Gateway + NAT Gateway"
+      },
+      {
+        "label": "B",
+        "text": "RDS Proxy + NLB를 통한 PrivateLink"
+      },
+      {
+        "label": "C",
+        "text": "VPC Peering + Application Load Balancer"
+      },
+      {
+        "label": "D",
+        "text": "VPC Peering + NAT Gateway"
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 597,
+    "question": "한 회사가 애플리케이션 로드 밸런서(ALB) 뒤의 Amazon ECS 에서 전자상거래 웹사이트를 운영하고 있습니다. 이 회사는 컨테이너 이미지를 Amazon ECR 에 저장합니다. 웹사이트는 Amazon Aurora MySQL DB 클러스터에 데이터를 저장합니다. 회사는 Amazon S3 버킷을 사용하여 백업 데이터를 저장합니다. 이 회사는 데이터 변조를 방지해야 합니다. 웹사이트 도메인은 Amazon Route 53 에 등록되어 있습니다. 회사는 RPO(복구 시간 목표)가 5분, RTO( 복구 시간 목표)가 15분인 두 번째 AWS 리전에 설정을 다시 생성하려고 합니다. 회사는 두 번째 리전에 ALB를 생성했습니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Fargate 시작 유형을 사용하는 새 ECS 배포를 생성합니다. 현재 리전의 ECR 저장소를 사용하여 컨테이너 이미지를 저장하고 가져옵니다. Amazon RDS 에 리전 간 읽기 전용 복제본을 설정합니다. 규정 준수 모드에서 백업 볼트를 생성하고 AWS Backup에서 백업 계획을 생성합니다. 기본 리전에 Route 53 기본 레코드를 설정하고 다중값 응답 라우팅 정책을 사용하는 보조 레코드를 설정합니다."
+      },
+      {
+        "label": "B",
+        "text": "Fargate 시작 유형을 사용하는 새 ECS 배포를 생성합니다. 현재 리전의 ECR 저장소를 사용하여 컨테이너 이미지를 저장하고 가져옵니다. Amazon RDS 에서 리전 간 읽기 전용 복제본을 설정합니다. 기본 리전에 Route 53 기본 레코드를 설정하고 장애 조치 라우팅 정책이 적용된 보조 레코드를 설정합니다."
+      },
+      {
+        "label": "C",
+        "text": "ECR 리전 간 복제를 설정합니다. Fargate 시작 유형을 사용하는 새 ECS 배포를 생성합니다. DB 클러스터를 Aurora 글로벌 데이터베이스로 마이그레이션합니다. 규정 준수 모드에서 백업 볼트를 생성하고 AWS Backup 에서 백업 계획을 생성합니다. Amazon S3 에 대한 시점 복구 및 리전 간 복제를 활성화합니다. 기본 리전에 Route 53 기본 레코드를 설정하고 장애 조치 라우팅 정책이 적용된 보조 레코드를 설정합니다."
+      },
+      {
+        "label": "D",
+        "text": "ECR 리전 간 복제를 설정합니다. Fargate 시작 유형을 사용하는 새 ECS 배포를 생성합니다. DB 클러스터를 Aurora 글로벌 데이터베이스로 마이그레이션합니다. 거버넌스 모드에서 백업 볼트를 생성하고 AWS Backup 에서 백업 계획을 생성합니다. 메인 리전에 Route 53 기본 레코드를 설정하고, 지리적 위치 라우팅 정책이 적용된 보조 레코드를 설정합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 598,
+    "question": "한 회사에서 온프레미스 데이터 분석 애플리케이션을 AWS로 마이그레이션할 계획입니다. 이 애플리케이션은 여러 서버에 호스팅되어 있으며 일관된 시스템 시간이 필요합니다. 회사는 온프레미스 데이터 센터에서 AWS로 AWS Direct Connect 연결을 설정했습니다. 또한 모든 온프레미스 서버의 NTP 소스 역할을 하는 고정밀 Stratum-0 원자 시계 네트워크 어플라이언스를 보유하고 있습니다. AWS로의 마이그레이션이 완료되면 애플리케이션을 호스팅하는 모든 Amazon EC2 인스턴스의 시계를 온프레미스 원자 시계 네트워크 어플라이언스와 동기화해야 합니다. 관리 오버헤드를 최소화하면서 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "온프레미스 NTP 서버 주소로 DHCP 옵션 세트를 구성합니다. VPC 에 옵션 세트를 할당합니다. AWS와 온프레미스 네트워크 간에 NTP 트래픽이 허용되는지 확인합니다."
+      },
+      {
+        "label": "B",
+        "text": "169.254.169.123 에서 Amazon Time Sync Service 를 사용하는 사용자 지정 AMI를 생성합니다. 이 AMI를 애플리케이션에 사용합니다. AWS Config를 사용하여 NTP 구성을 감사합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Marketplace 에서 타사 시간 서버를 배포합니다. 온프레미스 원자 시계 네트워크 어플라이언스와 동기화되도록 시간 서버를 구성합니다. 타사 서버가 포함된 VPC의 네트워크 ACL에서 NTP 트래픽이 인바운드로 허용되는지 확인합니다."
+      },
+      {
+        "label": "D",
+        "text": "온프레미스 원자 시계 네트워크 어플라이언스에서 VPC로 IPsec VPN 터널을 생성하여 Direct Connect 연결을 통한 트래픽을 암호화합니다. 터널을 통해 NTP 트래픽을 전달하도록 VPC 라우팅 테이블을 구성합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 599,
+    "question": "한 회사에 비즈니스에 필수적인 레거시 모놀리식 애플리케이션이 있습니다. 이 회사는 Amazon Linux 2 를 실행하는 Amazon EC2 인스턴스에서 해당 애플리케이션을 호스팅합니다. 회사의 애플리케이션 팀은 법무팀으로부터 인스턴스의 암호화된 Amazon Elastic Block Store(Amazon EBS) 볼륨에서 Amazon S3 버킷으로 데이터를 백업하라는 지시를 받습니다. 애플리케이션 팀은 해당 인스턴스의 관리 SSH 키 페어를 가지고 있지 않습니다. 애플리케이션은 사용자에게 계속 서비스를 제공해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon S3 에 쓸 수 있는 권한이 있는 역할을 인스턴스에 연결합니다. AWS Systems Manager 세션 관리자 옵션을 사용하여 인스턴스에 액세스하고 명령을 실행하여 Amazon S3 에 데이터를 복사합니다."
+      },
+      {
+        "label": "B",
+        "text": "재부팅 옵션이 활성화된 인스턴스 이미지를 생성합니다. 이미지에서 새 EC2 인스턴스를 시작합니다. Amazon S3 에 쓸 수 있는 권한이 있는 역할을 새 인스턴스에 연결합니다. 명령을 실행하여 Amazon S3에 데이터를 복사합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon Data Lifecycle Manager(Amazon DLM) 를 사용하여 EBS 볼륨의 스냅샷을 생성합니다. 데이터를 Amazon S3에 복사합니다."
+      },
+      {
+        "label": "D",
+        "text": "인스턴스 이미지를 생성합니다. 이미지에서 새 EC2 인스턴스를 시작합니다. Amazon S3 에 쓸 수 있는 권한이 있는 역할을 새 인스턴스에 연결합니다. Amazon S3 에 데이터를 복사하는 명령을 실행합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 600,
+    "question": "한 회사가 Amazon EMR 에서 데이터 분석을 위한 애플리케이션을 구축하고 있습니다. 다음 사용자 그룹은 서로 다른 작업을 수행해야 합니다. * 관리자: 다양한 구성에서 EMR 클러스터를 프로비저닝합니다. * 데이터 엔지니어: 사용 가능한 소규모 구성 집합에서 EMR 클러스터를 생성합니다. ETL 스크립트를 실행하여 데이터를 처리합니다. * 데이터 분석가: 특정 구성으로 EMR 클러스터를 생성합니다. 데이터에 대해 SQL 쿼리와 Apache Hive 쿼리를 실행합니다. 솔루션 아키텍트는 각 그룹이 권한이 있는 EMR 구성만 시작할 수 있도록 솔루션을 설계해야 합니다. 이 솔루션은 그룹에 필요한 리소스에 대한 최소 권한 액세스만 제공해야 합니다. 또한 그룹에서 생성하는 모든 리소스에 대한 태그 지정 기능을 제공해야 합니다. 다음 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "배포 가능한 Amazon EMR 버전, 클러스터 구성 및 각 사용자 그룹의 권한을 제어하도록 AWS Service Catalog를 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "EMR 클러스터 시작 시 EMR 클러스터에 대한 Kerberos 기반 인증을 구성합니다. Kerberos 보안 구성 및 클러스터별 Kerberos 옵션을 지정합니다."
+      },
+      {
+        "label": "C",
+        "text": "각 사용자 그룹에 대한 IAM 역할을 생성합니다. 역할에 정책을 연결하여 사용자에게 허용되는 작업을 정의합니다. 규정을 준수하지 않는 리소스를 확인하는 AWS Config 규칙을 생성합니다. 규정을 준수하지 않는 리소스를 처리하도록 회사에 알리도록 규칙을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS CloudFormation 을 사용하여 리소스 정책이 연결된 EMR 클러스터를 시작합니다. 규정을 준수하지 않는 리소스를 확인하는 AWS Config 규칙을 생성합니다. 규정을 준수하지 않는 리소스를 처리하도록 회사에 알리도록 규칙을 구성합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  }
+]

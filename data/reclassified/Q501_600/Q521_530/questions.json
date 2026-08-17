@@ -1,0 +1,277 @@
+[
+  {
+    "qNumber": 521,
+    "question": "한 회사가 애플리케이션 계정에서 Amazon EC2 인스턴스 패치를 처리하는 방식을 변경하고 있습니다. 회사는 현재 애플리케이션 계정의 VPC에 있는 NAT 게이트웨이를 사용하여 인터넷을 통해 인스턴스를 패치합니다. 회사는 핵심 계정의 전용 프라이빗 VPC에 패치 소스 저장소로 EC2 인스턴스를 설정했습니다. 회사는 AWS Systems Manager 패치 관리자와 핵심 계정의 패치 소스 리포지토리를 사용하여 애플리케이션 계정의 EC2 인스턴스를 패치하려고 합니다. 회사는 애플리케이션 계정의 모든 EC2 인스턴스가 인터넷에 액세스하지 못하도록 차단해야 합니다. 애플리케이션 계정의 EC2 인스턴스는 애플리케이션 데이터가 저장되는 Amazon S3 에 액세스해야 합니다. 이러한 EC2 인스턴스는 Systems Manager 및 핵심 계정의 프라이빗 VPC에 있는 패치 소스 리포지토리에 연결되어야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "포트 80에서 아웃바운드 트래픽을 차단하는 네트워크 ACL을 생성합니다. 네트워크 ACL을 애플리케이션 계정의 모든 서브넷과 연결합니다. 애플리케이션 계정과 코어 계정에서 사용자 지정 VPN 서버를 실행하는 EC2 인스턴스 하나를 배포합니다. 프라이빗 VPC에 액세스하기 위한 VPN 터널을 만듭니다. 애플리케이션 계정에서 라우팅 테이블을 업데이트합니다."
+      },
+      {
+        "label": "B",
+        "text": "Systems Manager 및 Amazon S3 용 프라이빗 VIF를 생성합니다. 애플리케이션 계정의 VPC에서 NAT 게이트웨이를 삭제합니다. 핵심 계정의 패치 소스 리포지토리 EC2 인스턴스에 액세스하기 위한 전송 게이트웨이를 생성합니다. 핵심 계정의 라우팅 테이블을 업데이트합니다."
+      },
+      {
+        "label": "C",
+        "text": "Systems Manager 및 Amazon S3 용 VPC 엔드포인트를 생성합니다. 애플리케이션 계정의 VPC에서 NAT 게이트웨이를 삭제합니다. 코어 계정의 패치 소스 리포지토리 EC2 인스턴스에 액세스하려면 VPC 피어링 연결을 생성합니다. 두 계정 모두에서 라우팅 테이블을 업데이트합니다."
+      },
+      {
+        "label": "D",
+        "text": "포트 80에서 인바운드 트래픽을 차단하는 네트워크 ACL을 생성합니다. 네트워크 ACL을 애플리케이션 계정의 모든 서브넷과 연결합니다. 핵심 계정의 패치 소스 리포지토리 EC2 인스턴스에 액세스하기 위한 전송 게이트웨이를 생성합니다. 두 계정 모두에서 라우팅 테이블을 업데이트합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 522,
+    "question": "미국(US)의 회사가 유럽의 회사를 인수했습니다. 두 회사 모두 AWS 클라우드를 사용합니다. 미국 회사는 마이크로서비스 아키텍처를 사용하여 새로운 애플리케이션을 구축했습니다. 미국 회사는 us-east-2 지역의 5개 VPC에서 애플리케이션을 호스팅하고 있습니다. 애플리케이션은 eu-west-1 리전의 한 VPC에 있는 리소스에 액세스할 수 있어야 합니다. 그러나 애플리케이션은 다른 VPC에 액세스할 수 없어야 합니다. 두 리전의 VPC에는 겹치는 CIDR 범위가 없습니다. 모든 계정은 이미 AWS Organizations 의 하나의 조직에 통합되어 있습니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "eu-west-1에 하나의 전송 게이트웨이를 생성합니다. us-east-2의 VPC와 eu-west-1의 VPC를 Transit Gateway에 연결합니다. 트래픽이 Transit Gateway를 통해 라우팅되도록 각 VPC에 필요한 경로 항목을 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "각 리전에 하나의 전송 게이트웨이를 생성합니다. 관련 서브넷을 지역 Transit Gateway 에 연결합니다. 트래픽이 지역 Transit Gateway 를 통해 라우팅되도록 각 서브넷에 연결된 라우팅 테이블에 필요한 라우팅 항목을 생성합니다. 두 개의 Transit Gateway를 피어링합니다."
+      },
+      {
+        "label": "C",
+        "text": "모든 VPC 간에 풀 메시 VPC 피어링 연결 구성을 생성합니다. 트래픽이 VPC 피어링 연결을 통해 라우팅되도록 각 VPC에 필요한 경로 항목을 생성합니다."
+      },
+      {
+        "label": "D",
+        "text": "us -east-2의 각 VPC에 대해 eu-west-1의 VPC에 대한 하나의 VPC 피어링 연결을 생성합니다. 트래픽이 VPC 피어링 연결을 통해 라우팅되도록 각 VPC에 필요한 경로 항목을 생성합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 523,
+    "question": "한 여행사는 Amazon Simple Email Service(Amazon SES) 를 사용하여 사용자에게 이메일 알림을 보내는 웹 애플리케이션을 구축했습니다. 회사는 이메일 전달 문제를 해결하는 데 도움이 되도록 로깅을 활성화해야 합니다. 또한 회사는 수신자, 제목, 보낸 시간을 기준으로 검색할 수 있는 기능도 필요합니다. 이러한 요구 사항을 충족하려면 솔루션 설계자가 수행해야 하는 단계 조합은 무엇입니까? (2 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon Data Firehose 를 대상으로 하여 Amazon SES 구성 세트를 생성합니다. Amazon S3 버킷으로 로그를 보내도록 선택합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS CloudTrail 로깅을 활성화합니다. Amazon S3 버킷을 로그 대상으로 지정합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon Athena 를 사용하여 Amazon S3 버킷의 로그에서 수신자, 제목 및 전송 시간을 쿼리합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon CloudWatch 로그 그룹을 생성합니다. 로그 그룹에 로그를 보내도록 Amazon SES 를 구성합니다."
+      },
+      {
+        "label": "E",
+        "text": "Amazon Athena 를 사용하여 Amazon CloudWatch 의 로그에서 수신자, 제목 및 전송 시간을 쿼리합니다."
+      }
+    ],
+    "answer": "A, C",
+    "answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "qNumber": 524,
+    "question": "회사가 AWS로 마이그레이션하여 AWS Business Support를 사용하고 있습니다. 회사는 AWS 계정 전체에서 Amazon EC2 인스턴스의 비용 효율성을 모니터링하려고 합니다. EC2 인스턴스에는 부서, 사업부 및 환경에 대한 태그가 있습니다. 개발 EC2 인스턴스는 비용은 높지만 활용도는 낮습니다. 회사는 활용도가 낮은 개발 EC2 인스턴스를 감지하고 중지해야 합니다. 지난 14일 중 4일 이상 동안 일일 평균 CPU 사용률이 10% 이하이고 네트워크 I/O가 5MB 이하인 인스턴스는 활용도가 낮은 것입니다. 최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "부서, 사업부 및 환경에 대한 태그를 기반으로 EC2 인스턴스 활용도를 모니터링하도록 Amazon CloudWatch 대시보드를 구성합니다. 활용도가 낮은 개발 EC2 인스턴스를 중지하기 위해 AWS Lambda 함수를 호출하는 Amazon EventBridge 규칙을 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "EC2 인스턴스 활용도를 추적하고 활용도가 낮은 인스턴스를 Amazon CloudWatch 에 보고하도록 AWS 시스템 관리자를 구성합니다. 부서, 사업부 및 환경에 대한 태그를 기준으로 CloudWatch 데이터를 필터링합니다. 활용도가 낮은 개발 EC2 인스턴스를 중지하기 위해 AWS Lambda 함수를 호출하는 Amazon EventBridge 규칙을 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Trusted Advisor 에서 보고한 EC2 인스턴스의 낮은 활용도를 감지하는 Amazon EventBridge 규칙을 생성합니다. 부서, 사업부 및 환경에 대한 태그별로 데이터를 필터링하고 활용도가 낮은 개발 EC2 인스턴스를 중지하는 AWS Lambda 함수를 호출하도록 규칙을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "모든 EC2 인스턴스에 대한 사용률 데이터를 검색하기 위해 매일 실행되는 AWS Lambda 함수를 생성합니다. 데이터를 Amazon DynamoDB 테이블에 저장합니다. DynamoDB 테이블을 데이터 소스로 사용하여 활용도가 낮은 개발 EC2 인스턴스를 식별하고 중지하는 Amazon QuickSight 대시보드를 생성합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 525,
+    "question": "한 회사가 향후 3년 동안 진행될 프로젝트를 위해 AWS에서 애플리케이션을 호스팅하고 있습니다. 애플리케이션은 Network Load Balancer(NLB) 의 대상 그룹에 등록된 20개의 Amazon EC2 온디맨드 인스턴스로 구성됩니다. 인스턴스는 두 개의 가용 영역에 분산되어 있습니다. 애플리케이션은 무상태이며 하루 24시간, 주 7일 실행됩니다. 회사는 애플리케이션의 응답 속도가 느린 사용자로부터 신고를 받습니다. 성능 지표에 따르면 일반적인 애플리케이션 사용 중에 인스턴스의 CPU 사용률은 10%입니다. 그러나 바쁜 시간에는 CPU 사용률이 100%로 증가하며 일반적으로 몇 시간 동안 지속됩니다. 회사는 애플리케이션의 느린 응답 문제를 해결하기 위해 새로운 아키텍처가 필요합니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Auto Scaling 그룹을 생성합니다. NLB 의 대상 그룹에 Auto Scaling 그룹을 연결합니다. 최소 용량을 20으로, 원하는 용량을 28로 설정합니다. 인스턴스 20개에 대해 예약 인스턴스를 구매합니다."
+      },
+      {
+        "label": "B",
+        "text": "요청 유형이 요청인 스팟 집합을 생성합니다. TotalTargetCapacity 매개 변수를 20으로 설정합니다. DefaultTargetCapacityType 매개 변수를 On-Demand로 설정합니다. 스팟 집합을 생성할 때 NLB를 지정합니다."
+      },
+      {
+        "label": "C",
+        "text": "요청 유형이 유지인 스팟 집합을 생성합니다. TotalTargetCapacity 매개변수를 20으로 설정합니다. DefaultTargetCapacityType 매개변수를 Spot으로 설정합니다. NLB 를 Application Load Balancer로 교체합니다."
+      },
+      {
+        "label": "D",
+        "text": "Auto Scaling 그룹을 생성합니다. NLB의 대상 그룹에 Auto Scaling 그룹을 연결합니다. 최소 용량을 4로, 최대 용량을 28로 설정합니다. 4개의 인스턴스에 대한 예약 인스턴스를 구매하세요."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 526,
+    "question": "Accompany는 공장에서 센서 데이터를 수집하고 전송하는 애플리케이션을 구축하고 있습니다. 애플리케이션은 AWS IoT Core 를 사용하여 수백 개의 장치에서 Amazon S3 데이터 레이크로 데이터를 보냅니다. 회사는 Amazon S3에 데이터를 로드하기 전에 데이터를 보강해야 합니다. 애플리케이션은 5초마다 센서 데이터를 전송합니다. 애플리케이션이 데이터를 수집한 후 30분 이내에 Amazon S3 에서 새로운 센서 데이터를 사용할 수 있어야 합니다. 다른 애플리케이션은 AWS IoT Core의 센서 데이터를 처리하지 않습니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS IoT Core 에서 주제를 생성하여 센서 데이터를 수집합니다. 데이터를 강화하고 Amazon S3에 데이터를 쓰는 AWS Lambda 함수를 생성합니다. Lambda 함수를 호출하도록 AWS IoT 규칙 작업을 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS IoT Core 기본 수집을 사용하여 센서 데이터를 수집합니다. Amazon Kinesis Data Firehose에 데이터를 쓰도록 AWS IoT 규칙 작업을 구성합니다. Kinesis Data Firehose 버퍼링 간격을 900초로 설정합니다. Kinesis Data Firehose 를 사용하여 AWS Lambda 함수를 호출하여 데이터를 강화하고 Kinesis Data Firehose를 구성하여 데이터를 Amazon S3에 전달합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS IoT Core 에서 주제를 생성하여 센서 데이터를 수집합니다. 데이터를 Amazon Timestream 테이블로 보내도록 AWS IoT 규칙 작업을 구성합니다. Timestream 에서 데이터를 읽는 함수인 AWS Lambda 를 생성합니다. 데이터를 강화하고 Amazon S3 에 데이터를 쓰도록 Lambda 함수를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS loT Core Basic Ingest 를 사용하여 센서 데이터를 수집합니다. Amazon Kinesis Data Streams에 데이터를 쓰도록 AWS IoT 규칙 작업을 구성합니다. Kinesis Data Streams 의 데이터를 처리하고 데이터를 강화하는 소비자 AWS Lambda 함수를 생성합니다. Lambda 함수에서 S3 PutObject API 작업을 호출하여 Amazon S3에 데이터를 씁니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 527,
+    "question": "한 회사가 대규모 IoT 장치 세트에서 데이터를 수집하고 있습니다. 데이터는 Amazon S3 데이터 레이크에 저장됩니다. 데이터 과학자는 별도의 AWS 계정에 있는 VPC의 퍼블릭 서브넷 2개에서 실행되는 Amazon EC2 인스턴스에 대한 분석을 수행합니다. 데이터 과학자는 EC2 인스턴스에서 데이터 레이크에 액세스해야 합니다. EC2 인스턴스에는 이미 Amazon S3에 액세스할 수 있는 권한이 있는 할당된 역할이 있습니다. 회사 정책에 따라 승인된 네트워크만 IoT 데이터에 접근할 수 있도록 허용됩니다. 이러한 요구 사항을 충족하려면 솔루션 설계자가 수행해야 하는 단계 조합은 무엇입니까? (2 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "데이터 과학자의 VPC에 Amazon S3용 게이트웨이 VPC 엔드포인트를 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "데이터 레이크에 대한 데이터 과학자의 AWS 계정에 S3 액세스 포인트를 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "EC2 인스턴스 역할을 업데이트합니다. s3:DataAccessPointArn 조건 키의 값이 유효한 액세스 포인트 ARN인 경우 s3:GetObject 작업을 허용하는 조건이 포함된 정책을 추가합니다."
+      },
+      {
+        "label": "D",
+        "text": "S3 트래픽을 S3 액세스 포인트로 라우팅하도록 VPC 라우팅 테이블을 업데이트합니다."
+      },
+      {
+        "label": "E",
+        "text": "s3:DataAccessPointArn 조건 키의 값이 유효한 액세스 포인트 ARN일 때 s3:GetObject 작업을 허용하는 조건이 포함된 S3 버킷 정책을 추가합니다."
+      }
+    ],
+    "answer": "A, E",
+    "answers": [
+      "A",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 528,
+    "question": "한 회사에서 웹사이트를 AWS로 마이그레이션하려고 합니다. 웹사이트는 온프레미스 자체 관리형 Kubernetes 클러스터에 배포된 컨테이너를 사용합니다. 웹사이트의 모든 데이터는 온프레미스 PostgreSQL 데이터베이스에 저장됩니다. 회사는 온프레미스 Kubernetes 클러스터를 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터로 마이그레이션하기로 결정했습니다. EKS 클러스터는 노드 수가 고정된 EKS 관리형 노드 그룹을 사용합니다. 또한 회사는 온프레미스 데이터베이스를 PostgreSQL용 Amazon RDS 데이터베이스로 마이그레이션할 예정입니다. 솔루션 설계자는 마이그레이션 전에 이 워크로드에 대한 총 소유 비용(TCO)을 추정해야 합니다. 필요한 TCO 정보를 제공하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Migration Evaluator 에 대한 액세스를 요청합니다. Migration Evaluator Collector 를 실행하고 데이터를 가져옵니다. 시나리오를 구성합니다. Migration Evaluator 에서 Quick Insights 보고서를 내보냅니다."
+      },
+      {
+        "label": "B",
+        "text": "온프레미스 데이터베이스용 AWS Database Migration Service(AWS DMS) 를 시작합니다. 평가 보고서를 생성합니다. EKS 마이그레이션 비용에 대한 추정치를 AWS 가격 계산기에서 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS 애플리케이션 마이그레이션 서비스를 초기화합니다. 온프레미스 서버를 원본 서버로 추가합니다. 테스트 인스턴스를 시작합니다. Application Migration Service 에서 TCO 보고서를 출력합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS 클라우드 경제 센터 웹페이지에 액세스하여 AWS 클라우드 가치 프레임워크를 평가합니다. Cloud Value Framework에서 AWS 비용 및 사용 보고서를 생성합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 529,
+    "question": "한 이벤트 회사가 AWS에서 티켓팅 플랫폼을 운영하고 있습니다. 회사의 고객은 플랫폼에서 이벤트를 구성하고 예약합니다. 이벤트로 인해 플랫폼에 대한 트래픽이 크게 증가합니다. 회사는 각 고객의 행사 날짜와 시간을 알고 있습니다. 이 회사는 Amazon Elastic Container Service(Amazon ECS) 클러스터에서 플랫폼을 실행합니다. ECS 클러스터는 Auto Scaling 그룹에 속한 Amazon EC2 온디맨드 인스턴스로 구성됩니다. Auto Scaling 그룹은 예측 조정 정책을 사용합니다. ECS 클러스터는 티켓 자산을 다운로드하기 위해 Amazon S3 버킷에 자주 요청합니다. ECS 클러스터와 S3 버킷은 동일한 AWS 리전 및 동일한 AWS 계정에 있습니다. ECS 클러스터와 S3 버킷 간의 트래픽은 NAT 게이트웨이를 통해 흐릅니다. 회사는 플랫폼의 가용성을 저하시키지 않으면서 플랫폼 비용을 최적화해야 합니다. 이러한 요구 사항을 충족하는 단계 조합은 무엇입니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "S3 버킷에 대한 게이트웨이 VPC 엔드포인트를 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "스팟 인스턴스의 Auto Scaling 그룹을 사용하는 다른 ECS 용량 공급자를 추가합니다. 기존 용량 공급자 전략과 동일한 가중치를 갖도록 새 용량 공급자 전략을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "예약된 조정 정책 기간 동안 해당 인스턴스 유형에 대한 온디맨드 용량 예약을 생성합니다."
+      },
+      {
+        "label": "D",
+        "text": "S3 버킷에서 S3 Transfer Acceleration을 활성화합니다."
+      },
+      {
+        "label": "E",
+        "text": "예측적 조정 정책을 예약된 이벤트에 대한 예약된 조정 정책으로 대체합니다."
+      }
+    ],
+    "answer": "A, E",
+    "answers": [
+      "A",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 530,
+    "question": "솔루션 설계자는 회사가 온프레미스에서 호스팅하는 3계층 애플리케이션을 재설계하고 있습니다. 이 응용 프로그램은 사용자 프로필을 기반으로 개인화 된 권장 사항을 제공합니다. 회사에는 이미 AWS 계정이 있으며 애플리케이션을 호스팅하도록 VPC를 구성했습니다. 프런트엔드는 온프레미스 VM에서 실행되는 Java 기반 애플리케이션입니다. 회사는 물리적 애플리케이션 서버에서 개인화 모델을 호스팅하고 TensorFlow를 사용하여 모델을 구현합니다. 개인화 모델은 인공 지능 및 기계 학습(AI/ML)을 사용합니다. 회사는 사용자 정보를 Microsoft SQL Server 데이터베이스에 저장합니다. 웹 애플리케이션은 데이터베이스에서 사용자 프로필을 읽고 권장 사항을 제공하는 개인화 모델을 호출합니다. 회사는 재설계된 애플리케이션을 AWS로 마이그레이션하려고 합니다. 최소한의 운영 오버헤드로 이 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS Server Migration Service(AWS SMS) 를 사용하여 온프레미스 물리적 애플리케이션 서버와 웹 애플리케이션 VM을 AWS로 마이그레이션합니다. AWS Database Migration Service(AWS DMS)를 사용하여 SQL Server 데이터베이스를 SQL Server용 Amazon RDS로 마이그레이션합니다."
+      },
+      {
+        "label": "B",
+        "text": "개인화 모델을 내보냅니다. 모델 아티팩트를 Amazon S3 에 저장합니다. 모델을 Amazon SageMaker에 배포하고 엔드포인트를 생성합니다. AWS Elastic Beanstalk 에서 Java 애플리케이션을 호스팅합니다. AWS Database Migration Service(AWS DMS) 를 사용하여 SQL Server 데이터베이스를 SQL Server용 Amazon RDS로 마이그레이션합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Application Migration Service 를 사용하여 온프레미스 개인화 모델 및 VM을 Auto Scaling 그룹의 Amazon EC2 인스턴스로 마이그레이션합니다. AWS Database Migration Service(AWS DMS)를 사용하여 SQL Server 데이터베이스를 EC2 인스턴스로 마이그레이션합니다."
+      },
+      {
+        "label": "D",
+        "text": "개인화 모델 및 Java 애플리케이션을 컨테이너화합니다. Amazon Elastic Kubernetes Service(Amazon EKS) 관리형 노드 그룹을 사용하여 모델 및 애플리케이션을 Amazon EKS 에 배포합니다. VPC 에서 노드 그룹을 호스팅합니다. AWS Database Migration Service(AWS DMS) 를 사용하여 SQL Server 데이터베이스를 SQL Server용 Amazon RDS로 마이그레이션합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  }
+]

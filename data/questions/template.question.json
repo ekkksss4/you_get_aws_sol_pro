@@ -1,0 +1,26 @@
+{
+  "qNumber": 1,
+  "question": "문제 원문을 입력하세요.",
+  "choices": [
+    {
+      "label": "A",
+      "text": "선택지 A"
+    },
+    {
+      "label": "B",
+      "text": "선택지 B"
+    },
+    {
+      "label": "C",
+      "text": "선택지 C"
+    },
+    {
+      "label": "D",
+      "text": "선택지 D"
+    }
+  ],
+  "answer": "A",
+  "answers": [
+    "A"
+  ]
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "qNumber": 601,
+    "question": "한 회사가 프로덕션 계정에서 40개의 RDS for MySQL 데이터베이스 백업을 AWS Organizations 내 중앙 백업 계정으로 복사해야 합니다. 데이터베이스는 기본 AWS 관리형 KMS 암호화 키를 사용합니다. 백업은 WORM(Write Once Read Many) 백업 계정에 저장해야 합니다. 교차 계정 백업을 활성화하는 올바른 방법은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "고객 관리형 KMS 키로 데이터베이스를 복원하고 AWS Backup 을 사용하여 교차 계정 볼트 공유를 수행합니다."
+      },
+      {
+        "label": "B",
+        "text": "기본 KMS 키를 중앙 계정과 공유하고 중앙 계정에 백업 볼트를 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "Lambda 함수를 사용하여 스냅샷을 해독하고 중앙 계정으로 복사합니다."
+      },
+      {
+        "label": "D",
+        "text": "Lambda 함수를 사용하여 기본 KMS 키를 사용하여 계정 간에 스냅샷을 공유하고 다시 암호화합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 602,
+    "question": "한 회사가 학생들을 위해 단기 AWS 계정을 프로비저닝 합니다. 각 계정은 학습 및 추론을 위해 ml.p2.xlarge SageMaker 인스턴스에 액세스해야 합니다. 기본 할당량으로는 충분하지 않습니다. 계정 프로비저닝 중에 할당량 증가를 어떻게 자동화해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "inus-east-1에 할당량 요청 템플릿을 생성하고, 템플릿 연결을 활성화하고, ap-southeast-2에 ml.p2.xlarge 학습 및 엔드포인트 사용에 대한 할당량을 추가합니다."
+      },
+      {
+        "label": "B",
+        "text": "ap-southeast-2에 ml.p2.xlarge 학습 웜 풀 할당량을 사용합니다."
+      },
+      {
+        "label": "C",
+        "text": "us-east-1의 SageMaker 할당량에 대한 템플릿을 ap-southeast-2에 생성합니다."
+      },
+      {
+        "label": "D",
+        "text": "us-east-1에 웜 풀 할당량을 사용합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 603,
+    "question": "IoT 센서는 사설 CA의 인증서를 사용하여 제조됩니다. 물리적 설치 후에만 AWS에 연결해야 합니다. 설계자는 어떻게 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "등록 전에 일련 번호를 검증하기 위해 Lambda a를 사전 프로비저닝 후크로 사용합니다."
+      },
+      {
+        "label": "B",
+        "text": "Step Functions를 사용하여 프로비저닝 전에 검증합니다."
+      },
+      {
+        "label": "C",
+        "text": "Lambda 후크를 사용하되 CA를 등록하고 자동 등록을 활성화합니다."
+      },
+      {
+        "label": "D",
+        "text": "프로비저닝 템플릿을 사용하고 검증 없이 인증서를 클레임합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 604,
+    "question": "VPC는 각각 퍼블릭 서브넷과 프라이빗 서브넷을 가진 세 개의 가용 영역에 걸쳐 있습니다. NAT 게이트웨이와 인터넷 게이트웨이가 하나씩 있습니다. 프라이빗 EC2 인스턴스는 인터넷에 연결되어야 합니다. 설계자는 어떻게 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "NAT 게이트웨이를 두 개 더 추가합니다(가용 영역당 하나씩). 각 프라이빗 서브넷이 해당 가용 영역의 NAT 게이트웨이를 사용하도록 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "NAT 게이트웨이를 두 개 더 추가하고 퍼블릭 서브넷을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "가용 영역당 인터넷 게이트웨이를 추가하고 프라이빗 서브넷을 라우팅합니다."
+      },
+      {
+        "label": "D",
+        "text": "가용 영역당 인터넷 게이트웨이를 추가하고 퍼블릭 서브넷을 구성합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 605,
+    "question": "한 회사가 AWS로 마이그레이션 중이며, 마이그레이션 규모를 적절히 조정하고 계획을 수립하기 위해 물리적 및 가상 서버, 앱, 데이터베이스 관계를 파악해야 합니다. 설계자는 어떻게 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "에이전트리스 컬렉터와 함께 마이그레이션 평가기를 사용합니다."
+      },
+      {
+        "label": "B",
+        "text": "디스커버리 에이전트 및 전략 권장 사항과 함께 마이그레이션 허브를 사용합니다."
+      },
+      {
+        "label": "C",
+        "text": "에이전트리스 컬렉터 및 마이그레이션 서비스와 함께 마이그레이션 허브를 사용합니다."
+      },
+      {
+        "label": "D",
+        "text": "마이그레이션 허브 가져오기 도구를 사용합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 606,
+    "question": "한 회사가 보조 리전에서 애플리케이션을 복제하고 있습니다. 이 애플리케이션은 DynamoDB와 RDS for MySQL을 사용합니다. 보조 리전은 재해 발생 시 독립적으로 작동해야 합니다. 설계자는 어떻게 해야 할까요?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "DynamoDB 글로벌 테이블과 RDS 읽기 전용 복제본을 사용합니다."
+      },
+      {
+        "label": "B",
+        "text": "DAX와 읽기 전용 복제본을 사용합니다."
+      },
+      {
+        "label": "C",
+        "text": "보조 리전에서 대기 리전과 함께 글로벌 테이블과 RDS 다중 AZ를 사용합니다."
+      },
+      {
+        "label": "D",
+        "text": "Streams와 Lambda를 사용하여 데이터를 복사합니다. 읽기 전용 복제본을 사용합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 607,
+    "question": "한 회사에는 Amazon S3 버킷에 .csv 파일로 거래를 저장하는 판매 시스템이 있습니다. 이 S3 버킷은 S3 Intelligent -Tiering을 사용하도록 구성되어 있습니다. 대부분의 .csv 파일은 크기가 64KB에서 100KB 사이입니다. 데이터 처리 시 .csv 파일의 모든 행과 열을 읽어야 합니다. 회사는 데이터를 5년 동안 보관해야 합니다. 회사는 매일 수백만 개의 csv 파일을 저장합니다. 회사는 csv 파일의 저장 및 쿼리 비용을 최소화해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS Glue 작업을 생성하여 .csv 파일을 Apache Parquet 형식으로 변환합니다. Amazon S3 를 사용하여 .csv 파일이 도착할 때마다 AWS Glue 작업을 호출합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Glue 작업을 생성하여 .csv 파일을 압축합니다. AWS Glue 작업을 매시간 예약하여 이전 시간의 파일을 하나의 .csv 파일로 압축합니다."
+      },
+      {
+        "label": "C",
+        "text": ".csv 파일을 Apache Parquet 형식으로 변환하는 AWS Lambda 함수를 생성합니다. .csv 파일이 도착할 때마다 Amazon S3를 사용하여 Lambda 함수를 호출합니다."
+      },
+      {
+        "label": "D",
+        "text": ".csv 파일을 압축하는 AWS Lambda 함수를 생성합니다. .csv 파일이 도착할 때마다 Amazon S3를 사용하여 Lambda 함수를 호출합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 608,
+    "question": "어떤 애플리케이션이 CloudFront, App Runner, 그리고 두 개의 S3 버킷(정적 자산용 하나, 사용자 업로드 콘텐츠용 하나)을 사용합니다. 사용자 콘텐츠는 30일 후 거의 액세스되지 않습니다. 사용자는 유럽에만 있습니다. 이 회사는 어떻게 비용을 최적화할 수 있습니까? (두개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "30일 후 S3 객체를 만료시킵니다."
+      },
+      {
+        "label": "B",
+        "text": "30일 후 S3 콘텐츠를 Glacier Deep Archive로 전환합니다."
+      },
+      {
+        "label": "C",
+        "text": "App Runner와 함께 스팟 인스턴스를 사용합니다."
+      },
+      {
+        "label": "D",
+        "text": "Aurora 읽기 전용 복제본에 자동 크기 조정을 추가합니다."
+      },
+      {
+        "label": "E",
+        "text": "CloudFront 가격 등급 200(유럽 및 미국만 해당)을 사용합니다."
+      }
+    ],
+    "answer": "B, E",
+    "answers": [
+      "B",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 609,
+    "question": "한 회사가 규정 준수를 위해 일부 Oracle 데이터베이스를 AWS로 마이그레이션하고 다른 데이터베이스는 온프레미스에 유지해야 합니다. 온프레미스 데이터베이스에는 공간 데이터가 포함되어 있으며 Cron 작업이 실행됩니다. 솔루션은 AWS에서 온프레미스 데이터를 외래 테이블로 쿼리할 수 있어야 합니다.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "DynamoDB, SCT, Lambda 를 사용합니다. 공간 데이터를 S3로 이동하고 Athena를 사용하여 쿼리합니다."
+      },
+      {
+        "label": "B",
+        "text": "Oracle 액세스에는 SQL Server용 RDS와 AWS Glue 크롤러를 사용합니다."
+      },
+      {
+        "label": "C",
+        "text": "Application Migration Service와 함께 EC2 호스팅 Oracle을 사용합니다. Cron 액세스에는 Step Functions를 사용합니다."
+      },
+      {
+        "label": "D",
+        "text": "DMS 및 SCT와 함께 RDS for PostgreSQL 을 사용합니다. PostgreSQL 외래 데이터 래퍼를 사용합니다. Direct Connect를 통해 연결합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 610,
+    "question": "한 회사가 Amazon S3 에 정적 웹사이트를 저장합니다. AWS Lambda 함수는 S3 버킷에서 콘텐츠를 검색하여 웹사이트로 제공합니다. Application Load Balancer(ALB) 는 수신 트래픽을 Lambda 함수로 전달합니다. Amazon CloudFront 배포는 요청을 ALB로 라우팅합니다. 이 회사는 ALB의 HTTPS 리스너에 AWS Certificate Manager(ACM) 인증서를 설정했습니다. 회사는 모든 사용자가 HTTPS를 통해 웹사이트와 통신하도록 요구합니다. HTTP 사용자는 오류를 수신해서는 안 됩니다. 다음 요구 사항을 충족하는 단계 조합은 무엇입니까? (3개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "백엔드 시스템으로의 패스스루를 위해 포트 443에서 TCP 리스너를 사용하여 ALB를 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "aws:SecureTransport 요청이 false인 경우 S3 버킷에 대한 액세스를 거부하는 S3 버킷 정책을 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "S3 버킷에서 HTTP-HTTPS 리디렉션을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "CloudFront에 대해 오리진 프로토콜 정책을 HTTPS 전용으로 설정합니다."
+      },
+      {
+        "label": "E",
+        "text": "CloudFront의 뷰어 프로토콜 정책을 HTTPS 전용으로 설정합니다."
+      },
+      {
+        "label": "F",
+        "text": "CloudFront의 뷰어 프로토콜 정책을 HTTP를 HTTPS로 리디렉션으로 설정합니다."
+      }
+    ],
+    "answer": "D, E, F",
+    "answers": [
+      "D",
+      "E",
+      "F"
+    ]
+  }
+]

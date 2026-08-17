@@ -1,0 +1,272 @@
+[
+  {
+    "qNumber": 71,
+    "question": "비디오 스트리밍 회사는 최근 비디오 공유를 위한 모바일 앱을 출시했습니다. 앱은 us-east-1 리전의 Amazon S3 버킷에 다양한 파일을 업로드합니다. 파일 크기는 1GB에서 10GB입니다. 호주에서 앱에 액세스하는 사용자는 오랜 시간이 걸리는 업로드를 경험했습니다. 때때로 이러한 사용자를 위해 파일이 완전히 업로드되지 않습니다. 솔루션 설계자는 이러한 업로드에 대한 앱의 성능을 개선해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까? (두 가지를 선택하세요.)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "S3 버킷에서 S3 Transfer Acceleration 을 활성화합니다. 업로드에 Transfer Acceleration 엔드포인트를 사용하도록 앱을 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "각 리전에서 업로드를 수신하도록 S3 버킷을 구성합니다. S3 교차 리전 복제를 사용하여 파일을 배포 S3 버킷에 복사합니다."
+      },
+      {
+        "label": "C",
+        "text": "가장 가까운 S3 버킷 리전으로 업로드를 라우팅하도록 지연 시간 기반 라우팅으로 Amazon Route 53을 설정합니다."
+      },
+      {
+        "label": "D",
+        "text": "동영상 파일을 청크로 나누도록 앱을 구성합니다. 멀티파트 업로드를 사용하여 파일을 Amazon S3로 전송합니다."
+      },
+      {
+        "label": "E",
+        "text": "업로드하기 전에 파일에 임의의 접두사를 추가하도록 앱을 수정합니다."
+      }
+    ],
+    "answer": "A, D",
+    "answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "qNumber": 72,
+    "question": "애플리케이션이 us-east-1 리전에서 Amazon RDS for MySQL 다중 AZ DB 인스턴스를 사용하고 있습니다. 장애 조치 테스트 후 애플리케이션에서 데이터베이스에 대한 연결이 끊어져 연결을 다시 설정할 수 없습니다. 애플리케이션을 다시 시작한 후 애플리케이션이 연결을 다시 설정했습니다. 솔루션 설계자는 응용 프로그램이 다시 시작할 필요 없이 데이터베이스에 대한 연결을 다시 설정할 수 있도록 솔루션을 구현해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon Aurora MySQL Serverless v1 DB 인스턴스를 생성합니다. RDS DB 인스턴스를 Aurora Serverless v1 DB 인스턴스로 마이그레이션합니다. Aurora 리더 엔드포인트를 가리키도록 애플리케이션의 연결 설정을 업데이트합니다."
+      },
+      {
+        "label": "B",
+        "text": "RDS 프록시를 생성합니다. 기존 RDS 엔드포인트를 대상으로 구성합니다. RDS 프록시 엔드포인트를 가리키도록 애플리케이션의 연결 설정을 업데이트합니다."
+      },
+      {
+        "label": "C",
+        "text": "2 노드 Amazon Aurora MySQL DB 클러스터를 생성합니다. RDS DB 인스턴스를 Aurora DB 클러스터로 마이그레이션합니다. RDS 프록시를 생성합니다. 기존 RDS 엔드포인트를 대상으로 구성합니다. RDS 프록시 엔드포인트를 가리키도록 애플리케이션의 연결 설정을 업데이트합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon S3 버킷을 생성합니다. AWS Database Migration Service(AWS DMS) 를 사용하여 데이터베이스를 Amazon S3 로 내보냅니다. S3 버킷을 데이터 저장소로 사용하도록 Amazon Athena를 구성합니다. 애플리케이션용 최신 ODBC(Open Database Connectivity) 드라이버를 설치합니다. Athena 엔드포인트를 가리키도록 애플리케이션의 연결 설정 업데이트"
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 73,
+    "question": "회사에서 AWS 클라우드에 솔루션을 구축하고 있습니다. 수천 또는 장치가 솔루션에 연결되어 데이터를 전송합니다. 각 장치는 MQTT 프로토콜을 통해 실시간으로 데이터를 보내고 받을 수 있어야 합니다. 각 장치는 고유한 X.509 인증서를 사용하여 인증해야 합니다. 최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS IoT Core 를 설정합니다. 각 디바이스에 대해 해당 Amazon MQ 대기열을 생성하고 인증서를 프로비저닝합니다. 각 디바이스를 Amazon MQ에 연결합니다."
+      },
+      {
+        "label": "B",
+        "text": "NLB(Network Load Balancer) 를 생성하고 AWS Lambda 권한 부여자로 구성합니다. Auto Scaling 그룹의 Amazon EC2 인스턴스에서 MQTT 브로커를 실행합니다. Auto Scaling 그룹을 NLConnect 각 장치를 NLB에 대한 대상으로 설정합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS IoT Core 를 설정합니다. 각 디바이스에 대해 해당 AWS IoT 사물을 생성하고 인증서를 프로비저닝합니다. 각 디바이스를 AWS IoT Core에 연결합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon API Gateway HTTP API 및 NLB(Network Load Balancer) 를 설정합니다. API 게이트웨이와 NLB 간의 통합을 생성합니다. HTTP API 에서 상호 TLS 인증 권한 부여자를 구성합니다. NLB 가 대상으로 하는 Amazon EC2 인스턴스에서 MQTT 브로커를 실행합니다. 각 장치를 NLB에 연결합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 74,
+    "question": "한 회사가 단일 AWS 계정에서 여러 워크로드를 실행하고 있습니다. 새로운 회사 정책에 따르면 엔지니어는 승인된 리소스만 프로비저닝할 수 있으며 엔지니어는 AWS CloudFormation 을 사용하여 이러한 리소스를 프로비저닝해야 합니다. 솔루션 설계자는 엔지니어가 액세스에 사용하는 IAM 역할에 새로운 제한을 적용하는 솔루션을 만들어야 합니다. 솔루션 설계자는 솔루션을 생성하기 위해 무엇을 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "승인된 리소스가 포함된 AWS CloudFormation 템플릿을 Amazon S3 버킷에 업로드합니다. Amazon S3 및 AWS CloudFormation 에 대한 액세스만 허용하도록 엔지니어의 IAM 역할에 대한 IAM 정책을 업데이트합니다. AWS CloudFormation 템플릿을 사용하여 리소스를 프로비저닝합니다."
+      },
+      {
+        "label": "B",
+        "text": "승인된 리소스 및 AWS CloudFormation 의 프로비저닝만 허용하는 권한으로 엔지니어의 IAM 역할에 대한 IAM 정책을 업데이트합니다. AWS CloudFormation 템플릿을 사용하여 승인된 리소스로 스택을 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS CloudFormation 작업만 허용하는 권한으로 엔지니어의 IAM 역할에 대한 IAM 정책을 업데이트합니다. 승인된 리소스를 프로비저닝할 수 있는 권한이 있는 새 IAM 정책을 생성하고 정책을 새 IAM 서비스 역할에 할당합니다. 스택 생성 중에 AWS CloudFormation 에 IAM 서비스 역할을 할당합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS CloudFormation 스택에서 리소스를 프로비저닝합니다. 자체 AWS CloudFormation 스택에 대한 액세스만 허용하도록 엔지니어의 IAM 역할에 대한 IAM 정책을 업데이트합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 75,
+    "question": "솔루션 설계자는 회사에서 곧 출시할 새 애플리케이션의 데이터 저장 및 검색 아키텍처를 설계하고 있습니다. 이 애플리케이션은 전 세계 디바이스에서 분당 수백만 개의 작은 레코드를 수집하도록 설계되었습니다. 각 레코드는 크기가 4KB 미만이며 짧은 대기 시간으로 검색할 수 있는 내구성 있는 위치에 저장해야 합니다. 데이터는 일시적이며 회사는 데이터를 120일 동안만 저장해야 하며 그 이후에는 데이터를 삭제할 수 있습니다. 솔루션 설계자는 1년 동안 스토리지 요구 사항이 약 10-15TB가 될 것이라고 계산합니다. 가장 비용 효율적이고 설계 요구 사항을 충족하는 스토리지 전략은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "인덱싱된 검색이 가능하도록 각 수신 레코드를 Amazon S3 버킷에 단일 .csv 파일로 저장하도록 애플리케이션을 설계합니다. 120일보다 오래된 데이터를 삭제하도록 수명 주기 정책을 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "각 수신 레코드를 규모에 맞게 구성된 Amazon DynamoDB 테이블에 저장하도록 애플리케이션을 설계합니다. 120일보다 오래된 레코드를 삭제하도록 DynamoDB TTL(Time to Live) 기능을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon RDS MySQL 데이터베이스의 단일 테이블에 각 수신 레코드를 저장하도록 애플리케이션을 설계합니다. 쿼리를 실행하는 야간 cron 작업을 실행하여 120일보다 오래된 레코드를 삭제합니다."
+      },
+      {
+        "label": "D",
+        "text": "수신 레코드를 Amazon S3 버킷에 쓰기 전에 일괄 처리하도록 애플리케이션을 설계합니다. 배치의 레코드 목록을 포함하도록 객체의 메타데이터를 업데이트하고 Amazon S3 메타데이터 검색 기능을 사용하여 데이터를 검색합니다. 120 일 후에 데이터를 삭제하도록 수명 주기 정책을 구성합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 76,
+    "question": "소매 회사는 여러 AWS 리전에 걸쳐 AWS에서 전자 상거래 웹 사이트를 호스팅하고 있습니다. 회사는 온라인 구매를 위해 웹 사이트가 항상 작동하기를 원합니다. 웹 사이트는 MySQL DB 인스턴스용 Amazon RDS에 데이터를 저장합니다. 데이터베이스에 가장 높은 가용성을 제공하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon RDS 에서 자동 백업을 구성합니다. 중단 시 자동 백업을 독립 실행형 DB 인스턴스로 승격합니다. 데이터베이스 트래픽을 승격된 DB 인스턴스로 보냅니다. 승격된 DB 인스턴스를 원본으로 하는 대체 읽기 전용 복제본을 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "Amazon RDS 에서 전역 테이블 및 읽기 전용 복제본을 구성합니다. 리전 간 범위를 활성화합니다. 중단된 경우 AWS Lambda 를 사용하여 한 리전에서 다른 리전으로 읽기 전용 복제본을 복사하십시오."
+      },
+      {
+        "label": "C",
+        "text": "Amazon RDS 에서 전역 테이블 및 자동 백업을 구성합니다. 중단된 경우 AWS Lambda 를 사용하여 한 리전에서 다른 리전으로 읽기 전용 복제본을 복사하십시오."
+      },
+      {
+        "label": "D",
+        "text": "Amazon RDS 에서 읽기 전용 복제본을 구성합니다. 중단의 경우 리전 간 및 읽기 전용 복제본을 독립 실행형 DB 인스턴스로 승격합니다. 데이터베이스 트래픽을 승격된 DB 인스턴스로 보냅니다. 승격된 DB 인스턴스를 원본으로 하는 대체 읽기 전용 복제본을 생성합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 77,
+    "question": "Example Corp. 에는 온프레미스 데이터 센터와 Example Corp. AWS 계정에 VPC A 라는 VPC가 있습니다. 온프레미스 네트워크는 AWS Site -To-Site VPN 을 통해 VPC A 에 연결됩니다. 온프레미스 서버는 VPC A 에 적절하게 액세스할 수 있습니다. Example Corp 은 방금 VPC B 라는 이름의 VPC가 있는 AnyCompany를 인수했습니다. 이러한 네트워크 간에 IP 주소가 겹치지 않습니다. Example Corp.은 VPC A와 VPC B를 피어링했습니다. Example Corp. 은 온프레미스 서버에서 VPC B 로 연결하려고 합니다. Example Corp. 은 네트워크 ACL 및 보안 그룹을 적절하게 설정했습니다. 최소한의 운영 노력으로 이 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "전송 게이트웨이를 생성합니다. Site-to-Site VPN, VPC A 및 VPC B를 운송 게이트웨이(Transit Gateway)에 연결합니다. 다른 모든 네트워크에 대한 IP 범위 경로를 추가하려면 모든 네트워크에 대한 전송 게이트웨이 경로 테이블을 업데이트하십시오."
+      },
+      {
+        "label": "B",
+        "text": "전송 게이트웨이를 생성합니다. 온프레미스 네트워크와 VPC B 간에 Site-to-Site VPN 연결을 생성하고 VPN 연결을 전송 게이트웨이에 연결합니다. 트래픽을 피어링된 VPC로 전달하는 경로를 추가하고 VPC A와 B에 대한 클라이언트 액세스 권한을 부여하는 권한 부여 규칙을 추가합니다."
+      },
+      {
+        "label": "C",
+        "text": "세 네트워크 모두에 대해 Site-to-Site VPN 및 두 VPC의 라우팅 테이블을 업데이트합니다. 세 네트워크 모두에 대해 BGP 전파를 구성합니다. BGP 전파가 완료될 때까지 최대 5분 동안 기다립니다."
+      },
+      {
+        "label": "D",
+        "text": "VPC A 와 VPC B 를 포함하도록 Site-to-Site VPN 의 가상 프라이빗 게이트웨이 정의를 수정합니다. 두 VPC 간에 가상 프라이빗 휴양지의 두 라우터를 분할합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 78,
+    "question": "한 회사는 최근 플랫폼 변경 전략을 사용하여 온프레미스 데이터 센터에서 AWS 클라우드로의 마이그레이션을 완료했습니다. 마이그레이션된 서버 중 하나는 중요한 애플리케이션이 의존하는 레거시 SMTP(Simple Mail Transfer Protocol) 서비스를 실행하고 있습니다. 애플리케이션은 회사 고객에게 아웃바운드 이메일 메시지를 보냅니다. 레거시 SMTP 서버는 TLS 암호화를 지원하지 않으며 TCP 포트 25를 사용합니다. 애플리케이션은 SMTP만 사용할 수 있습니다. 회사는 Amazon Simple Email Service(Amazon SES) 를 사용하고 레거시 SMTP 서버를 폐기하기로 결정합니다. 회사는 SES 도메인을 생성하고 검증했습니다. 회사는 SES 한도를 해제했습니다. Amazon SES 에서 이메일 메시지를 보내도록 애플리케이션을 수정하려면 회사는 어떻게 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "TLS 래퍼를 사용하여 Amazon SES 에 연결하도록 애플리케이션을 구성합니다. ses:SendEmail 및 ses:SendRawEmail 권한이 있는 IAM 역할을 생성합니다. Amazon EC2 인스턴스에 IAM 역할을 연결합니다."
+      },
+      {
+        "label": "B",
+        "text": "STARTTLS 를 사용하여 Amazon SES 에 연결하도록 애플리케이션을 구성합니다. Amazon SES SMTP 자격 증명을 얻습니다. 자격 증명을 사용하여 Amazon SES로 인증합니다."
+      },
+      {
+        "label": "C",
+        "text": "SES API 를 사용하여 이메일 메시지를 보내도록 애플리케이션을 구성합니다. ses:SendEmail 및 ses:SendRawEmail 권한이 있는 IAM 역할을 생성합니다. Amazon SES에 대한 서비스 역할로 IAM 역할을 사용합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS SDK 를 사용하여 이메일 메시지를 보내도록 애플리케이션을 구성합니다. Amazon SES 에 대한 IAM 사용자를 생성합니다. API 액세스 키를 생성합니다. 액세스 키를 사용하여 Amazon SES로 인증합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 79,
+    "question": "한 회사가 최근에 다른 여러 회사를 인수했습니다. 각 회사에는 청구 및 보고 방법이 다른 별도의 AWS 계정이 있습니다. 인수 회사는 모든 계정을 AWS Organizations 의 하나의 조직으로 통합했습니다. 그러나 인수 회사는 모든 팀에 대해 의미 있는 그룹을 포함하는 비용 보고서를 생성하는 데 어려움을 겪었습니다. 인수 회사의 재무 팀은 자체 관리 애플리케이션을 통해 모든 회사의 비용을 보고할 수 있는 솔루션이 필요합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "조직에 대한 AWS 비용 및 사용 보고서를 생성합니다. 보고서에서 태그 및 비용 범주를 정의합니다. Amazon Athena 에서 테이블을 생성합니다. Athena 테이블을 기반으로 Amazon QuickSight 데이터 세트를 생성합니다. 재무 팀과 데이터 세트를 공유합니다."
+      },
+      {
+        "label": "B",
+        "text": "조직에 대한 AWS 비용 및 사용 보고서를 생성합니다. 보고서에서 태그 및 비용 범주를 정의합니다. 재무 부서에서 보고서 작성에 사용할 특수 템플릿을 AWS Cost Explorer 에서 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Price List Query API 에서 지출 정보를 수신하는 Amazon QuickSight 데이터 세트를 생성합니다. 재무 팀과 데이터 세트를 공유합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Price List Query API 를 사용하여 계정 지출 정보를 수집합니다. 재무 부서에서 보고서 작성에 사용할 특수 템플릿을 AWS Cost Explorer에서 생성합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 80,
+    "question": "회사는 AWS에서 IoT 플랫폼을 실행합니다. 다양한 위치에 있는 IoT 센서는 Application Load Balancer 뒤에서 실행되는 Amazon EC2 인스턴스에 있는 회사의 Node.js API 서버로 데이터를 보냅니다. 데이터는 4TB 범용 SSD 볼륨을 사용하는 Amazon RDS MySQL DB 인스턴스에 저장됩니다. 회사가 현장에 배치한 센서의 수는 시간이 지남에 따라 증가했으며 크게 증가할 것으로 예상됩니다. API 서버는 지속적으로 오버로드되고 RDS 지표는 높은 쓰기 대기 시간을 나타냅니다. 다음 중 이 플랫폼을 비용 효율적으로 유지하면서 문제를 영구적으로 해결하고 새로운 센서가 프로비저닝됨에 따라 성장을 가능하게 하는 단계는 무엇입니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "MySQL 범용 SSD 스토리지의 크기를 6TB로 조정하여 볼륨의 IOPS를 개선합니다."
+      },
+      {
+        "label": "B",
+        "text": "RDS MySQL DB 인스턴스 대신 Amazon Aurora 를 사용하고 읽기 전용 복제본을 추가하도록 데이터베이스 계층을 재설계합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon Kinesis Data Streams 및 AWS Lambda 를 활용하여 원시 데이터를 수집하고 처리합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS X -Ray를 사용하여 애플리케이션 문제를 분석 및 디버깅하고 부하에 맞게 API 서버를 더 추가합니다."
+      },
+      {
+        "label": "E",
+        "text": "RDS MySQL DB 인스턴스 대신 Amazon DynamoDB 를 사용하도록 데이터베이스 계층을 재설계합니다."
+      }
+    ],
+    "answer": "C, E",
+    "answers": [
+      "C",
+      "E"
+    ]
+  }
+]

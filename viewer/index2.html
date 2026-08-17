@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Question Viewer v2</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="v2">
+  <main class="page">
+    <header class="hero">
+      <h1>AWS Question Viewer v2</h1>
+      <p>재분류용 화면입니다. 100문제/10문제 배치 디렉토리 구조를 기준으로 정리합니다.</p>
+    </header>
+
+    <section class="controls">
+      <div class="nav">
+        <button id="prevBtn" type="button">이전</button>
+        <span id="progress">0 / 0</span>
+        <button id="nextBtn" type="button">다음</button>
+      </div>
+
+      <div class="jump">
+        <label for="jumpInput">Q번호 이동</label>
+        <input id="jumpInput" type="number" min="1" />
+        <button id="jumpBtn" type="button">이동</button>
+        <button id="highlightBtn" type="button">연결 형광 ON</button>
+      </div>
+    </section>
+
+    <section id="status" class="status">데이터를 불러오세요.</section>
+
+    <article id="card" class="card hidden">
+      <h2 id="qTitle"></h2>
+      <p id="qText" class="question"></p>
+      <ul id="choiceList" class="choices"></ul>
+      <p id="answer" class="answer"></p>
+      <section id="mapping" class="mapping"></section>
+    </article>
+  </main>
+
+  <script src="questions.data.js"></script>
+  <script src="app2.js"></script>
+</body>
+</html>

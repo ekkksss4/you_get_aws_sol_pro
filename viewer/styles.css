@@ -1,0 +1,285 @@
+:root {
+  --bg: #f2efe8;
+  --panel: #fffdf8;
+  --ink: #222018;
+  --muted: #6d6657;
+  --accent: #0f766e;
+  --accent-2: #d97706;
+  --line: #e7e0d2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 10% 10%, #fff7e9 0%, transparent 35%),
+    radial-gradient(circle at 90% 0%, #e8f6f5 0%, transparent 32%),
+    var(--bg);
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 18px 48px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.2px;
+}
+
+.hero p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.controls {
+  margin-top: 22px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  display: grid;
+  gap: 10px;
+}
+
+.v2 .controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.v2 .nav {
+  flex: 0 0 auto;
+}
+
+.v2 .jump {
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+button,
+.file-picker {
+  border: 0;
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.14s ease, opacity 0.14s ease;
+}
+
+button:hover,
+.file-picker:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+#prevBtn,
+#nextBtn,
+#jumpBtn {
+  background: var(--accent-2);
+}
+
+#highlightBtn {
+  background: #b45309;
+}
+
+#fileInput {
+  display: none;
+}
+
+.nav,
+.jump {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#progress {
+  min-width: 78px;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+#jumpInput {
+  width: 110px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.status {
+  margin-top: 14px;
+  color: var(--muted);
+}
+
+.card {
+  margin-top: 14px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  animation: rise 0.25s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.question {
+  margin-top: 10px;
+  line-height: 1.55;
+}
+
+.choices {
+  margin: 14px 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 8px;
+}
+
+.answer {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.correct-choice {
+  font-weight: 700;
+  background: linear-gradient(90deg, #fff8c2 0%, #fffdf8 82%);
+  border-left: 4px solid #f59e0b;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+.hl {
+  background: #fff59d;
+  border-radius: 3px;
+  padding: 0 1px;
+}
+
+.hl-block {
+  display: inline;
+  background: #fff3a3;
+  border-radius: 4px;
+  padding: 0 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.mapping {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+}
+
+.mapping h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.mapping-row {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.mapping-arrow {
+  color: #8a5a00;
+  font-weight: 700;
+  margin: 0 6px;
+}
+
+.v3 .controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.v3 .jump {
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.clue-box {
+  margin: 14px 0 10px;
+  padding: 14px;
+  border: 1px solid #f0d69b;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #fff7d6 0%, #fffdf8 100%);
+}
+
+.clue-box__eyebrow {
+  margin: 0 0 10px;
+  color: #8a5a00;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.clue-box__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.clue-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #fff0b3;
+  color: #6c4a00;
+  font-weight: 800;
+}
+
+.choices--single {
+  padding-left: 0;
+}
+
+.correct-choice--v3 {
+  list-style: none;
+  font-size: 1.04rem;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav,
+  .jump {
+    flex-wrap: wrap;
+  }
+
+  .v2 .jump {
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  .v3 .jump {
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "qNumber": 391,
+    "question": "금융 회사는 새로운 디지털 지갑 애플리케이션을 위해 별도의 AWS 계정을 생성해야 합니다. 회사는 AWS Organizations 를 사용하여 계정을 관리합니다. 솔루션 아키텍트는 마스터 계정의 IAM 사용자 Supportl을 사용하여 이메일 주소가 Finance1@example.com인 새 멤버 계정을 생성합니다. 새 멤버 계정에 IAM 사용자를 생성하려면 솔루션 아키텍트가 무엇을 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "초기 AWS Organizations 이메일에서 보낸 64자 암호를 사용하여 AWS 계정 루트 사용자 자격 증명으로 AWS Management Console에 로그인합니다. 필요에 따라 IAM 사용자를 설정합니다."
+      },
+      {
+        "label": "B",
+        "text": "마스터 계정에서 역할을 전환하여 새 회원 계정의 계정 ID로 OrganizationAccountAccessRole 역할을 맡습니다. 필요에 따라 IAM 사용자를 설정합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Management Console 로그인 페이지로 이동합니다. \" 루트 계정 자격 증명을 사용하여 로그인\"을 선택하십시오. 이메일 주소 Finance1@example.com과 마스터 계정의 루트 비밀번호를 사용하여 로그인하세요. 필요에 따라 IAM 사용자를 설정합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Management Console 로그인 페이지로 이동합니다. 새 회원 계정의 계정 ID와 Supportl IAM 자격 증명을 사용하여 로그인합니다. 필요에 따라 IAM 사용자를 설정합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 392,
+    "question": "자동차 렌탈 회사는 모바일 앱에 데이터를 제공하기 위해 서버리스 REST API 를 구축했습니다. 이 앱은 지역 엔드포인트가 있는 Amazon API Gateway API, AWS Lambda 함수, Amazon Aurora MySQL 서버리스 DB 클러스터로 구성됩니다. 회사는 최근 파트너사의 모바일 앱에 API를 오픈했습니다. 요청 수가 크게 증가하여 산발적인 데이터베이스 메모리 오류가 발생했습니다. API 트래픽 분석에 따르면 클라이언트는 짧은 시간 내에 동일한 쿼리에 대해 여러 HTTP GET 요청을 하고 있는 것으로 나타났습니다. 업무 시간 동안 트래픽이 집중되며 휴일 및 기타 행사 기간에는 트래픽이 급증합니다. 회사는 솔루션과 관련된 비용 증가를 최소화하면서 추가 사용량을 지원하는 능력을 향상시켜야 합니다. 이러한 요구 사항을 충족하는 전략은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "API Gateway 지역 엔드포인트를 엣지 최적화 엔드포인트로 변환합니다. 프로덕션 단계에서 캐싱을 활성화합니다."
+      },
+      {
+        "label": "B",
+        "text": "Redis 캐시용 Amazon ElastiCache 를 구현하여 데이터베이스 호출 결과를 저장합니다. 캐시를 사용하도록 Lambda 함수를 수정합니다."
+      },
+      {
+        "label": "C",
+        "text": "Aurora Serverless DB 클러스터 구성을 수정하여 사용 가능한 최대 메모리 양을 늘립니다."
+      },
+      {
+        "label": "D",
+        "text": "API Gateway 프로덕션 단계에서 조절을 활성화합니다. 수신 통화를 제한하려면 속도와 버스트 값을 설정하세요."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 393,
+    "question": "한 회사가 온프레미스 애플리케이션과 MySQL 데이터베이스를 AWS로 마이그레이션하고 있습니다. 애플리케이션은 매우 민감한 데이터를 처리하며 데이터베이스에 새로운 데이터가 지속적으로 업데이트됩니다. 데이터는 인터넷을 통해 전송되어서는 안 됩니다. 또한 회사는 전송 중인 데이터와 저장 중인 데이터를 암호화해야 합니다. 데이터베이스 크기는 5TB입니다. 회사는 이미 MySQL DB 인스턴스용 Amazon RDS 에 데이터베이스 스키마를 생성했습니다. 회사는 AWS에 1Gbps AWS Direct Connect 연결을 설정했습니다. 회사는 또한 공개 VIF와 비공개 VIF를 설정했습니다. 솔루션 아키텍트는 가동 중지 시간을 최소화하면서 데이터를 AWS로 마이그레이션하는 솔루션을 설계해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "데이터베이스 백업을 수행하십시오. 백업 파일을 AWS Snowball Edge Storage Optimized 디바이스에 복사합니다. 백업을 Amazon S3 로 가져옵니다. 유휴 암호화에는 Amazon S3 관리형 암호화 키(SSE-S3)를 사용한 서버 측 암호화를 사용합니다. 전송 중 암호화에는 TLS를 사용합니다. Amazon S3에서 DB 인스턴스로 데이터를 가져옵니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Database Migration Service(AWS DMS)를 사용하여 데이터를 AWS로 마이그레이션합니다. 프라이빗 서브넷에 DMS 복제 인스턴스를 생성합니다. AWS DMS용 VPC 엔드포인트를 생성합니다. 전체 로드와 변경 데이터 캡처(CDC)를 사용하여 온프레미스 데이터베이스에서 DB 인스턴스로 데이터를 복사하도록 DMS 작업을 구성합니다. 유휴 암호화에는 AWS Key Management Service(AWS KMS) 기본 키를 사용합니다. 전송 중 암호화에는 TLS를 사용합니다."
+      },
+      {
+        "label": "C",
+        "text": "데이터베이스 백업을 수행합니다. AWS DataSync 를 사용하여 백업 파일을 Amazon S3 로 전송합니다. 유휴 암호화에는 Amazon S3 관리형 암호화 키(SSE-S3)를 사용한 서버 측 암호화를 사용합니다. 전송 중 암호화에는 TLS를 사용합니다. Amazon S3 에서 DB 인스턴스로 데이터를 가져옵니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon S3 파일 게이트웨이를 사용하십시오. AWS PrivateLink 를 사용하여 Amazon S3에 대한 비공개 연결을 설정합니다. 데이터베이스 백업을 수행합니다. 백업 파일을 Amazon S3 에 복사합니다. 유휴 암호화에는 Amazon S3 관리형 암호화 키(SSE-S3)를 사용한 서버 측 암호화를 사용합니다. 전송 중 암호화에는 TLS를 사용합니다. Amazon S3 에서 DB 인스턴스로 데이터를 가져옵니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 394,
+    "question": "한 회사가 AWS에 빅 데이터 분석을 위한 새로운 클러스터를 배포하고 있습니다. 클러스터는 여러 가용 영역에 분산되어 있는 여러 Linux Amazon EC2 인스턴스에서 실행됩니다. 클러스터의 모든 노드에는 공통 기본 파일 스토리지에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다. 파일 저장소는 가용성이 높아야 하고 복원력이 있어야 하며 POSIX(이동식 운영 체제 인터페이스)와 호환되어야 합니다. 높은 수준의 처리량을 수용해야 합니다. 이러한 요구 사항을 충족하는 스토리지 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon S3 버킷에 연결된 AWS Storage Gateway 파일 게이트웨이 NFS 파일 공유를 프로비저닝합니다. Duster의 각 EC2 인스턴스에 NFS 파일 공유를 탑재합니다."
+      },
+      {
+        "label": "B",
+        "text": "범용 성능 모드를 사용하는 새로운 Amazon Elastic File System(Amazon EFS) 파일 시스템을 프로비저닝합니다. 클러스터의 각 EC2 인스턴스에 EFS 파일 시스템을 탑재합니다."
+      },
+      {
+        "label": "C",
+        "text": "io2 볼륨 유형을 사용하는 새로운 Amazon Elastic Block Store(Amazon EBS) 볼륨을 프로비저닝합니다. 클러스터의 모든 EC2 인스턴스에 EBS 볼륨을 연결합니다."
+      },
+      {
+        "label": "D",
+        "text": "최대 I/O 성능 모드를 사용하는 새로운 Amazon Elastic File System(Amazon EFS) 파일 시스템을 프로비저닝합니다. 클러스터의 각 EC2 인스턴스에 EFS 파일 시스템을 탑재합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 395,
+    "question": "한 회사가 AWS에서 SaaS(Software as a Service) 솔루션을 호스팅합니다. 솔루션에는 HTTPS 엔드포인트를 제공하는 Amazon API Gateway API가 있습니다. API는 컴퓨팅을 위해 AWS Lambda 함수를 사용합니다. Lambda 함수는 Amazon Aurora Serverless VI 데이터베이스에 데이터를 저장합니다. 이 회사는 AWS Serverless Application Model(AWS SAM) 을 사용하여 솔루션을 배포했습니다. 이 솔루션은 여러 가용 영역에 걸쳐 확장되며 재해 복구(DR) 계획이 없습니다. 솔루션 아키텍트는 다른 AWS 리전에서 솔루션을 복구할 수 있는 DR 전략을 설계해야 합니다. 이 솔루션의 R TO는 5분, RPO는 1분입니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 무엇을 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "대상 리전에 Aurora Serverless VI 데이터베이스의 읽기 전용 복제본을 생성하십시오. AWS SAM을 사용하여 Runbook을 생성하여 대상 리전에 솔루션을 배포합니다. 재해 발생 시 읽기 전용 복제본을 기본 복제본으로 승격합니다."
+      },
+      {
+        "label": "B",
+        "text": "Aurora Serverless VI 데이터베이스를 소스 지역과 대상 지역 전체에 걸쳐 확장되는 표준 Aurora MySQL 글로벌 데이터베이스로 변경합니다. AWS SAM 을 사용하여 Runbook을 생성하여 대상 리전에 솔루션을 배포합니다."
+      },
+      {
+        "label": "C",
+        "text": "대상 지역에 여러 라이터 인스턴스가 있는 Aurora Serverless VI DB 클러스터를 생성합니다. 대상 지역에서 솔루션을 시작합니다. 활성-수동 구성에서 작동하도록 두 지역 솔루션을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "Aurora Serverless VI 데이터베이스를 소스 지역과 대상 지역 전체에 걸쳐 확장되는 표준 Aurora MySQL 글로벌 데이터베이스로 변경합니다. 대상 지역에서 솔루션을 시작합니다. 활성- 수동 구성에서 작동하도록 두 지역 솔루션을 구성합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 396,
+    "question": "한 회사가 여행사 체인을 소유하고 있으며 AWS 클라우드에서 애플리케이션을 실행하고 있습니다. 회사 직원들은 여행지에 대한 정보를 검색하기 위해 애플리케이션을 사용합니다. 목적지 콘텐츠는 매년 4회 업데이트됩니다. 두 개의 고정 Amazon EC2 인스턴스가 애플리케이션을 제공합니다. 이 회사는 EC2 인스턴스에 대한 탄력적 IP 주소를 반환하는 travel.example.com의 다중 값 레코드가 있는 Amazon Route 53 공용 호스팅 영역을 사용합니다. 애플리케이션은 Amazon DynamoDB를 기본 데이터 스토어로 사용합니다. 회사는 캐싱 솔루션으로 자체 호스팅 Redis 인스턴스를 사용합니다. 콘텐츠를 업데이트하는 동안 EC2 인스턴스 및 캐싱 솔루션의 로드가 급격히 증가합니다. 이러한 부하 증가로 인해 여러 차례 가동 중지 시간이 발생했습니다. 솔루션 설계자는 애플리케이션의 가용성이 높고 콘텐츠 업데이트로 생성되는 로드를 처리할 수 있도록 애플리케이션을 업데이트해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "DynamoDB Accelerator(DAX) 를 인 메모리 캐시로 설정합니다. DAX 를 사용하도록 애플리케이션을 업데이트합니다. EC2 인스턴스에 대한 Auto Scaling 그룹을 생성합니다. ALB(Application Load Balancer) 를 생성합니다. Auto Scaling 그룹을 ALB의 대상으로 설정합니다. ALB의 DNS 별칭을 대상으로 하는 단순 라우팅 정책을 사용하도록 Route 53 레코드를 업데이트합니다. 콘텐츠가 업데이트되기 전에 EC2 인스턴스에 대한 예약된 조정을 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "Redis 용 Amazon ElastiCache 를 설정합니다. ElastiCache 를 사용하도록 애플리케이션을 업데이트합니다. EC2 인스턴스에 대한 Auto Scaling 그룹을 생성합니다. Amazon CloudFront 배포를 생성하고 Auto Scaling 그룹을 배포의 원본으로 설정합니다. CloudFront 배포의 DNS 별칭을 대상으로 하는 단순 라우팅 정책을 사용하도록 Route 53 레코드를 업데이트합니다. 콘텐츠가 업데이트되기 전에 EC2 인스턴스를 수동으로 확장합니다."
+      },
+      {
+        "label": "C",
+        "text": "Memcached 용 Amazon ElastiCache 를 설정합니다. ElastiCache 를 사용하도록 애플리케이션을 업데이트합니다. EC2 인스턴스에 대한 Auto Scaling 그룹을 생성합니다. ALB(Application Load Balancer)를 생성합니다. Auto Scaling 그룹을 ALB의 대상으로 설정합니다. ALB 의 DNS 별칭을 대상으로 하는 단순 라우팅 정책을 사용하도록 Route 53 레코드를 업데이트합니다. 콘텐츠가 업데이트되기 전에 애플리케이션에 대한 예약된 크기 조정을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "DynamoDB Accelerator(DAX) 를 인 메모리 캐시로 설정합니다. DAX 를 사용하도록 애플리케이션을 업데이트합니다. EC2 인스턴스에 대한 Auto Scaling 그룹을 생성합니다. Amazon CloudFront 배포를 생성하고 Auto Scaling 그룹을 배포의 원본으로 설정합니다. CloudFront 배포의 DNS 별칭을 대상으로 하는 단순 라우팅 정책을 사용하도록 Route 53 레코드를 업데이트합니다. 콘텐츠가 업데이트되기 전에 EC2 인스턴스를 수동으로 확장합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 397,
+    "question": "회사는 맞춤형 모바일 앱을 사용하여 모바일 장치에서 업로드할 이미지 데이터를 저장하고 처리해야 합니다. 주중 오전 8시부터 오후 5시 사이에 사용량이 가장 많아 분당 수천 건의 업로드가 발생합니다. 그 외에는 앱을 거의 사용하지 않습니다. 이미지 처리가 완료되면 사용자에게 알림이 전송됩니다. 로드를 처리할 수 있도록 이미지 처리를 확장할 수 있도록 솔루션 설계자는 어떤 작업 조합을 취해야 합니까? (3개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "모바일 소프트웨어의 파일을 Amazon S3 에 직접 업로드합니다. S3 이벤트 알림을 사용하여 Amazon MQ 대기열에 메시지를 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "모바일 소프트웨어의 파일을 Amazon S3 에 직접 업로드합니다. S3 이벤트 알림을 사용하여 Amazon Simple Queue Service(Amazon SQS) 표준 대기열에 메시지를 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "대기열에서 메시지를 사용할 수 있을 때 이미지 처리를 수행하도록 AWS Lambda 함수를 호출합니다."
+      },
+      {
+        "label": "D",
+        "text": "S3 배치 작업 작업을 호출하여 대기열에서 메시지를 사용할 수 있을 때 이미지 처리를 수행합니다."
+      },
+      {
+        "label": "E",
+        "text": "처리가 완료되면 Amazon Simple 알림 서비스(Amazon SNS) 를 사용하여 모바일 앱에 푸시 알림을 보냅니다."
+      },
+      {
+        "label": "F",
+        "text": "처리가 완료되면 Amazon Simple Email Service(Amazon SES) 를 사용하여 모바일 앱에 푸시 알림을 보냅니다."
+      }
+    ],
+    "answer": "B, C, E",
+    "answers": [
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 398,
+    "question": "한 회사가 AWS에서 애플리케이션을 구축하고 있습니다. 애플리케이션은 분석을 위해 Amazon Elasticsearch Service(Amazon ES) 클러스터에 로그를 보냅니다. 모든 데이터는 VPC 내에 저장되어야 합니다. 회사의 개발자 중 일부는 집에서 일합니다. 다른 개발자들은 세 곳의 회사 사무실에서 근무합니다. 개발자는 Amazon ES 에 액세스하여 로컬 개발 시스템에서 직접 로그를 분석하고 시각화해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS 클라이언트 VPN 엔드포인트를 구성하고 설정합니다. 클라이언트 VPN 엔드포인트를 VPC의 서브넷과 연결합니다. 클라이언트 VPN 셀프 서비스 포털을 구성합니다. 개발자에게 클라이언트 VPN용 클라이언트를 사용하여 연결하도록 지시합니다."
+      },
+      {
+        "label": "B",
+        "text": "전송 게이트웨이를 생성하고 이를 VPC에 연결합니다. AWS 사이트 간 VPN을 생성합니다. 운송 게이트웨이(Transit Gateway) 에 대한 연결을 생성합니다. 개발자에게 OpenVPN 클라이언트를 사용하여 연결하도록 지시합니다."
+      },
+      {
+        "label": "C",
+        "text": "전송 게이트웨이를 생성하고 이를 VPC에 연결합니다. AWS Direct Connect 연결을 주문하세요. Direct Connect 연결에 퍼블릭 VIF를 설정합니다. 퍼블릭 VIF를 전송 게이트웨이와 연결합니다. 개발자에게 Direct Connect 연결에 연결하도록 지시합니다."
+      },
+      {
+        "label": "D",
+        "text": "VPC 의 퍼블릭 서브넷에서 배스천 호스트를 생성하고 구성합니다. 회사 CIDR 범위에서 SSH 접근을 허용하도록 배스천 호스트 보안 그룹을 구성합니다. 개발자에게 SSH를 사용하여 연결하도록 지시합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 399,
+    "question": "한 회사에서 웹 사이트를 온프레미스 데이터 센터에서 AWS로 마이그레이션하려고 합니다. 동시에 가용성과 비용 효율성을 개선하기 위해 웹사이트를 컨테이너화된 마이크로서비스 기반 아키텍처로 마이그레이션하려고 합니다. 회사의 보안 정책에는 권한과 네트워크 권한이 모범 사례에 따라 최소 권한을 사용하여 구성되어야 한다고 명시되어 있습니다. Solutions Architect 는 보안 요구 사항을 충족하고 Amazon ECS 클러스터에 애플리케이션을 배포한 컨테이너화된 아키텍처를 생성해야 합니다. 요구 사항을 충족하려면 배포 후 어떤 단계가 필요합니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "브리지 네트워크 모드를 사용하여 작업을 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "awsvpc 네트워크 모드를 사용하여 작업을 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon EC2 인스턴스에 보안 그룹을 적용하고 EC2 인스턴스에 대한 IAM 역할을 사용하여 다른 리소스에 액세스합니다."
+      },
+      {
+        "label": "D",
+        "text": "작업에 보안 그룹을 적용하고 시작 시 IAM 자격 증명을 컨테이너에 전달하여 다른 리소스에 액세스합니다."
+      },
+      {
+        "label": "E",
+        "text": "작업에 보안 그룹을 적용하고 작업에 IAM 역할을 사용하여 다른 리소스에 액세스합니다."
+      }
+    ],
+    "answer": "B, E",
+    "answers": [
+      "B",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 400,
+    "question": "한 회사가 여러 AWS Lambda 함수와 Amazon DynamoDB 테이블로 구성된 서버리스 애플리케이션을 실행하고 있습니다. 이 회사는 Amazon Neptune DB 클러스터에 액세스하기 위해 Lambda 함수가 필요한 새로운 기능을 만들었습니다. Neptune DB 클러스터는 VPC의 서브넷 3개에 위치합니다. 다음 중 Lambda 함수가 Neptune DB 클러스터 및 DynamoDB 테이블에 액세스하도록 허용하는 솔루션은 무엇입니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Neptune VPC 에 3개의 퍼블릭 서브넷을 생성하고 인터넷 게이트웨이를 통해 트래픽을 라우팅합니다. 세 개의 새로운 퍼블릭 서브넷에서 Lambda 함수를 호스팅합니다."
+      },
+      {
+        "label": "B",
+        "text": "Neptune VPC 에 3개의 프라이빗 서브넷을 생성하고 NAT 게이트웨이를 통해 인터넷 트래픽을 라우팅합니다. 세 개의 새로운 프라이빗 서브넷에서 Lambda 함수를 호스팅합니다."
+      },
+      {
+        "label": "C",
+        "text": "VPC 외부에서 Lambda 함수를 호스팅합니다. Lambda 함수의 IP 범위에서 접근을 허용하도록 Neptune 보안 그룹을 업데이트합니다."
+      },
+      {
+        "label": "D",
+        "text": "VPC 외부에서 Lambda 함수를 호스팅합니다. Neptune 데이터베이스에 대한 VPC 엔드포인트를 생성하고 Lambda 함수가 VPC 엔드포인트를 통해 Neptune에 액세스하도록 합니다."
+      },
+      {
+        "label": "E",
+        "text": "Neptune VPC 에 3개의 프라이빗 서브넷을 생성합니다. 세 개의 새로운 격리된 서브넷에서 Lambda 함수를 호스팅합니다. DynamoDB 용 VPC 엔드포인트를 생성하고 DynamoDB 트래픽을 VPC 엔드포인트로 라우팅합니다."
+      }
+    ],
+    "answer": "B, E",
+    "answers": [
+      "B",
+      "E"
+    ]
+  }
+]

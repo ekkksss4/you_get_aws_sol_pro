@@ -1,0 +1,297 @@
+[
+  {
+    "qNumber": 501,
+    "question": "회사는 단일 Amazon EC2 인스턴스에서 웹 애플리케이션을 실행합니다. 최종 사용자는 CPU 사용률이 지속적으로 95%를 초과하는 최대 사용 시간 동안 애플리케이션 성능 저하를 경험합니다. 사용자 데이터 스크립트는 EC2 인스턴스에 필수 사용자 지정 패키지를 설치합니다. 인스턴스를 시작하는 프로세스는 몇 분 정도 걸립니다. 회사는 혼합 인스턴스 그룹, 다양한 CPU 및 최대 용량 제한이 있는 Auto Scaling 그룹을 생성하고 있습니다. Auto Scaling 그룹은 다양한 구성 옵션에 시작 템플릿을 사용합니다. 회사는 Auto Scaling 중에 새 인스턴스가 시작될 때 애플리케이션 지연 시간을 줄여야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "예측 확장 정책을 사용하십시오. 인스턴스 유지 관리 정책을 사용하여 사용자 데이터 스크립트를 실행합니다. 기본 인스턴스 준비 시간을 0초로 설정합니다."
+      },
+      {
+        "label": "B",
+        "text": "동적 조정 정책을 사용하십시오. 수명 주기 후크를 사용하여 사용자 데이터 스크립트를 실행합니다. 기본 인스턴스 준비 시간을 0초로 설정합니다."
+      },
+      {
+        "label": "C",
+        "text": "예측 확장 정책을 사용하십시오. Auto Scaling 그룹에 대해 웜 풀을 활성화합니다. 인스턴스 유지 관리 정책을 사용하여 사용자 데이터 스크립트를 실행합니다."
+      },
+      {
+        "label": "D",
+        "text": "동적 조정 정책을 사용하십시오. Auto Scaling 그룹에 대해 웜 풀을 활성화합니다. 수명 주기 후크를 사용하여 사용자 데이터 스크립트를 실행합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 502,
+    "question": "회사는 온프레미스 데이터베이스를 Amazon RDS 로 마이그레이션해야 합니다. 이 회사는 현재 Microsoft SQL Server, MySQL 및 Oracle 데이터베이스를 혼합하여 사용하고 있습니다. 일부 데이터베이스에는 사용자 정의 스키마와 저장 프로시저가 있습니다. 회사는 마이그레이션을 위해 어떤 단계 조합을 취해야 합니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Migration Evaluator Quick Insights 를 사용하여 원본 데이터베이스를 분석하고 마이그레이션해야 하는 저장 프로시저를 식별합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Application Migration Service 를 사용하여 소스 데이터베이스를 분석하고 마이그레이션해야 하는 저장 프로시저를 식별합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS SCT(AWS Schema Conversion Tool) 를 사용하여 소스 데이터베이스에서 필요한 변경 사항을 분석합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Database Migration Service(AWS DMS) 를 사용하여 소스 데이터베이스를 Amazon RDS로 마이그레이션합니다."
+      },
+      {
+        "label": "E",
+        "text": "AWS DataSync를 사용하여 소스 데이터베이스의 데이터를 Amazon RDS로 마이그레이션합니다."
+      }
+    ],
+    "answer": "C, D",
+    "answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "qNumber": 503,
+    "question": "한 회사가 블로그 플랫폼을 AWS로 마이그레이션하고 있습니다. 회사의 온프레미스 서버는 AWS Site-to-Site VPN 연결을 통해 AWS에 연결됩니다. 블로그 콘텐츠는 여러 작성자에 의해 하루에 여러 번 업데이트되며 NAS(Network-Attached Storage) 서버의 파일 공유를 통해 제공됩니다. 회사는 콘텐츠 업데이트를 지연하지 않고 블로그 플랫폼을 마이그레이션해야 합니다. 이 회사는 Application Load Balancer 뒤에서 블로그 플랫폼을 실행하기 위해 여러 가용 영역에 Amazon EC2 인스턴스를 배포했습니다. 또한 회사는 가능한 한 빨리 200TB의 보관 데이터를 온프레미스 서버에서 Amazon S3로 이동해야 합니다. 이러한 요구 사항을 충족하는 정류장 조합은 무엇입니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon EventBridge 에서 주간 크론 작업을 생성합니다. cron 작업을 사용하여 AWS Lambda 함수를 호출하여 NAS 서버에서 EC2 인스턴스를 업데이트합니다."
+      },
+      {
+        "label": "B",
+        "text": "콘텐츠 액세스를 위해 공유할 EC2 인스턴스용 Amazon Elastic Block Store(Amazon EBS) 다중 연결 볼륨을 구성합니다. 매주 EBS 볼륨을 NAS 서버와 동기화하는 코드를 작성합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon Elastic File System(Amazon EFS) 파일 시스템을 온프레미스 서버에 탑재하여 NAS 서버 역할을 합니다. 블로그 데이터를 EFS 파일 시스템에 복사합니다. 콘텐츠를 제공하기 위해 EFS 파일 시스템을 C2 인스턴스에 마운트합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Snowball Edge Storage Optimized 디바이스를 주문하십시오. 정적 데이터 아티팩트를 장치에 복사합니다. 디바이스를 AWS로 배송합니다."
+      },
+      {
+        "label": "E",
+        "text": "AWS Snowcons SSD 장치를 주문하십시오. 정적 데이터 아티팩트를 장치에 복사합니다. 디바이스를 AWS로 배송합니다."
+      }
+    ],
+    "answer": "C, D",
+    "answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "qNumber": 504,
+    "question": "회사는 레거시 온프레미스 애플리케이션을 AWS로 마이그레이션할 계획입니다. 애플리케이션은 PostgreSQL 데이터베이스를 사용하여 Apache Tomcat 에서 실행되는 Java 웹 애플리케이션입니다. 회사는 소스 코드에 액세스할 수 없지만 애플리케이션 JAR(Java Archive) 파일을 배포할 수 있습니다. 매달 말에 애플리케이션의 트래픽이 증가했습니다. 최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "여러 가용 영역에서 Amazon EC2 인스턴스를 시작합니다. Amazon Elastic File System(Amazon EFS) 탑재 지점을 사용하여 모든 인스턴스에 Tomcat 및 PostgreSQL을 배포합니다. AWS Step Functions를 사용하여 트래픽 증가에 맞춰 확장할 수 있는 추가 EC2 인스턴스를 배포합니다."
+      },
+      {
+        "label": "B",
+        "text": "여러 AWS 지역에 걸쳐 Auto Scaling 그룹에 Amazon Elastic Kubernetes Service(Amazon EKS)를 프로비저닝합니다. 컨테이너 이미지에 Tomcat 및 PostgreSQL을 배포합니다. 증가된 트래픽에 맞춰 확장하려면 Network Load Balancer를 사용하세요."
+      },
+      {
+        "label": "C",
+        "text": "Java 애플리케이션을 Python 기반 컨테이너로 리팩터링합니다. 애플리케이션 로직에 AWS Lambda 함수를 사용합니다. Amazon DynamoDB 글로벌 테이블에 애플리케이션 데이터를 저장합니다. AWS Storage Gateway와 Lambda 동시성을 사용하여 트래픽 증가에 맞춰 확장합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Elastic Beanstalk를 사용하여 여러 가용 영역에서 자동 확장 기능을 갖춘 Tomcat 서버를 배포합니다. PostgreSQL 용 Amazon RDS 데이터베이스에 애플리케이션 데이터를 저장합니다. 트래픽 증가에 맞춰 확장하려면 Amazon CloudFront와 Application Load Balancer를 배포하세요."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 505,
+    "question": "한 회사가 온프레미스 IoT 플랫폼을 AWS로 마이그레이션하고 있습니다. 플랫폼은 다음 구성 요소로 구성됩니다. • 수집 및 처리된 모든 IoT 데이터를 위한 데이터 저장소인 MongoDB 클러스터. • MQTT(Message Queuing Telemetry Transport) 를 사용하여 5분마다 IoT 장치에 연결하여 데이터를 수집하는 애플리케이션입니다. • 정기적으로 작업을 실행하여 IoT 데이터로부터 보고서를 생성하는 애플리케이션입니다. 작업 실행을 완료하는 데 120~600초가 걸립니다. • 웹 서버에서 실행되는 웹 애플리케이션. 최종 사용자는 웹 애플리케이션을 사용하여 일반 대중이 액세스할 수 있는 보고서를 생성합니다. 회사는 성능을 유지하면서 운영 오버헤드를 줄이기 위해 플랫폼을 AWS로 마이그레이션해야 합니다. 최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 단계 조합은 무엇입니까? (3개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AUS Lambda 작업으로 AWS Step Functions 상태 머신을 생성하여 보고서를 준비하고 Amazon S3에 보고서를 작성합니다. 보고서를 제공하기 위해 S3 오리진이 있는 Amazon CloudFront 배포를 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Lambda 함수를 생성합니다. IoT 장치에 연결하도록 Lambda 함수를 프로그래밍합니다. 데이터를 처리하고 데이터 저장소에 데이터를 씁니다. 처리를 위해 메시지를 임시로 저장하도록 Lambda 계층을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "보고서를 준비하기 위해 Amazon EC2 인스턴스로 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를 구성합니다. 보고서를 제공하기 위해 EKS 클러스터에 수신 컨트롤러를 만듭니다."
+      },
+      {
+        "label": "D",
+        "text": "IoT 장치를 AWS IoT Core에 연결하여 메시지를 게시합니다. 메시지가 수신되면 실행되는 AWS IoT 규칙을 생성합니다. AWS Lambda 함수를 호출하도록 규칙을 구성합니다. 디바이스 메시지 데이터를 구문 분석, 변환 및 데이터 스토어에 저장하도록 Lambda 함수를 프로그래밍합니다."
+      },
+      {
+        "label": "E",
+        "text": "MongoDB 클러스터를 Amazon DocumentDB(MongoDB 호환 가능)로 마이그레이션합니다."
+      },
+      {
+        "label": "F",
+        "text": "MongoDB 클러스터를 Amazon EC2 인스턴스로 마이그레이션합니다."
+      }
+    ],
+    "answer": "A, D, E",
+    "answers": [
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 506,
+    "question": "회사에서는 Amazon API Gateway API 를 생성하고 해당 API를 외부 개발 팀과 공유합니다. API 는 AWS Lambda 함수를 사용하며 Production이라는 단계에 배포됩니다. 외부 개발팀은 API의 유일한 소비자입니다. API 는 특정 시점에 사용량이 갑자기 증가하여 비용 증가에 대한 우려를 낳습니다. 회사는 Lambda 기능을 재작업하지 않고도 비용과 사용량을 제한해야 합니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Lambda 함수에 직접 요청하는 대신 Amazon Simple Queue Service(Amazon SQS) 대기열로 요청을 보내도록 API를 구성합니다. 대기열의 메시지를 사용하고 요청을 처리하도록 Lambda 함수를 업데이트합니다. 새 메시지가 도착할 때 Lambda 함수를 호출하도록 대기열을 설정합니다."
+      },
+      {
+        "label": "B",
+        "text": "각 Lambda 함수에 대해 프로비저닝된 동시성을 구성합니다. AWS Application Auto Scaling 을 사용하여 Lambda 함수를 대상으로 등록합니다. API 사용량의 변화에 맞춰 용량을 늘리거나 줄이는 확장 일정을 설정합니다."
+      },
+      {
+        "label": "C",
+        "text": "API Gateway API 키와 AWS WAF 지역 웹 ACL을 생성합니다. 웹 ACL을 프로덕션 단계와 연결합니다. 웹 ACL에 비율 기반 규칙을 추가합니다. 규칙에서 X-API-Key 헤더를 사용하는 비율 제한과 사용자 지정 요청 집계를 지정합니다. API 키를 외부 개발팀과 공유하세요."
+      },
+      {
+        "label": "D",
+        "text": "API Gateway API Key 및 사용 계획을 수립합니다. 사용량 계획에서 제한 및 할당량을 정의합니다. 사용량 계획을 프로덕션 단계 및 API 키와 연결합니다. API 키를 외부 개발팀과 공유하세요."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 507,
+    "question": "엔터테인먼트 회사는 Auto Scaling 그룹에 속한 Linux Amazon EC2 인스턴스 집합에서 티켓팅 서비스를 호스팅합니다. 티켓팅 서비스는 가격 파일을 사용합니다. 가격 파일은 S3 Standard 스토리지가 있는 Amazon S3 버킷에 저장됩니다. 제3자가 호스팅하는 중앙 가격 책정 솔루션이 가격 파일을 업데이트합니다. 가격 파일은 1~15분마다 업데이트되며 수천 개의 항목이 있습니다. 가격 파일은 인스턴스가 시작될 때 각 EC2 인스턴스에 다운로드됩니다. EC2 인스턴스는 때때로 고객에게 잘못된 요금을 부과할 수 있는 오래된 가격 정보를 사용합니다. 이 문제를 가장 비용 효율적으로 해결할 수 있는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "가격 파일이 업데이트될 때마다 Amazon DynamoDB 테이블을 새로운 가격으로 업데이트하는 AWS Lambda 함수를 생성하십시오. 가격을 조회하기 위해 DynamoDB를 사용하도록 티켓팅 서비스 업데이트"
+      },
+      {
+        "label": "B",
+        "text": "파일이 업데이트될 때마다 Amazon Elastic File System(Amazon EFS) 파일 공유를 가격 파일로 업데이트하는 AWS Lambda 함수를 생성합니다. Amazon EFS 를 사용하여 가격 파일에 액세스하도록 티켓팅 서비스를 업데이트합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon S3용 탑재 지점을 EC2 인스턴스의 AMI에 로드합니다. 가격 파일이 포함된 S3 버킷을 탑재하도록 Amazon S3 용 탑재 지점을 구성합니다. $3 객체에 액세스하기 위한 마운트 지점과 경로를 가리키도록 티켓팅 서비스를 업데이트합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon Elastic Block Store(Amazon EBS) 볼륨을 생성합니다. EBS 다중 연결을 사용하여 모든 EC2 인스턴스에 볼륨을 연결합니다. 새 EC2 인스턴스가 시작되면 EBS 볼륨의 가격 파일을 업데이트하도록 새 인스턴스를 구성합니다. 새로운 로컬 소스를 가리키도록 티켓팅 서비스를 업데이트하세요."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 508,
+    "question": "회사에 Auto Scaling 그룹의 Amazon EC2 인스턴스를 사용하는 애플리케이션이 있습니다. 품질 보증(QA) 부서는 애플리케이션을 테스트하기 위해 다수의 단기 환경을 시작해야 합니다. 애플리케이션 환경은 현재 AWS CloudFormation 템플릿을 사용하여 부서 관리자가 시작합니다. 스택을 시작하기 위해 관리자는 CloudFormation, EC2 및 Auto Scaling API 를 사용할 수 있는 권한이 있는 역할을 사용합니다. 관리자는 테스터가 자신의 환경을 시작할 수 있도록 허용하고 싶지만 각 사용자에게 광범위한 권한을 부여하고 싶지 않습니다. 이러한 목표를 달성할 수 있는 설정은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS CloudFormation 템플릿을 Amazon S3 에 업로드합니다. QA 부서의 사용자에게 관리자 역할을 맡을 수 있는 권한을 부여하고 템플릿과 템플릿이 생성하는 리소스에 대한 권한을 제한하는 정책을 추가합니다. CloudFormation 콘솔에서 템플릿을 시작하도록 사용자를 교육합니다."
+      },
+      {
+        "label": "B",
+        "text": "환경 템플릿에서 AWS Service Catalog 제품을 생성합니다. 기존 역할이 있는 제품에 실행 제약 조건을 추가합니다. QA 부서의 사용자에게 AWS Service Catalog API 만 사용할 수 있는 권한을 부여합니다. AWS Service Catalog 콘솔에서 템플릿을 시작하도록 사용자를 교육합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS CloudFormation 템플릿을 Amazon S3 에 업로드합니다. 템플릿과 템플릿이 생성하는 리소스에 대한 권한을 제한하는 조건으로 QA 부서의 사용자에게 CloudFormation 및 S3 API 를 사용할 수 있는 권한을 부여합니다. CloudFormation 콘솔에서 템플릿을 시작하도록 사용자를 교육합니다."
+      },
+      {
+        "label": "D",
+        "text": "환경 템플릿에서 AWS Elastic Beanstalk 애플리케이션을 생성합니다. QA 부서의 사용자에게 Elastic Beanstalk 권한만 사용할 수 있는 권한을 부여하세요. Elastic Beanstalk CLI 를 사용하여 Elastic Beanstalk 환경을 시작하도록 사용자를 교육하고 기존 역할을 서비스 역할로 환경에 전달합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 509,
+    "question": "회사는 전자상거래 웹사이트에 단일 AWS 리전을 사용하고 있습니다. 웹 사이트에는 ALB(Application Load Balancer) 뒤에 있는 여러 Amazon EC2 인스턴스에서 실행되는 웹 애플리케이션이 포함되어 있습니다. 웹사이트에는 Amazon DynamoDB 테이블도 포함되어 있습니다. Amazon Route 53 의 사용자 지정 도메인 이름은 ALB에 연결됩니다. 회사는 AWS Certificate Manager(ACM) 에서 SSL/TLS 인증서를 생성하고 해당 인증서를 ALB에 연결했습니다. 회사는 설계의 일부로 콘텐츠 전달 네트워크를 사용하지 않습니다. 회사는 재해 복구를 제공하고 향후 성장을 계획하며 사용자에게 향상된 액세스 시간을 제공하기 위해 전체 애플리케이션 스택을 두 번째 지역에 복제하려고 합니다. 솔루션 설계자는 이러한 목표를 달성하고 관리 오버헤드를 최소화하는 솔루션을 구현해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계 조합을 수행해야 합니까? (3 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "현재 인프라 설계를 위한 AWS CloudFormation 템플릿을 생성합니다. 지역을 포함한 중요한 시스템 값에 매개변수를 사용합니다. CloudFormation 템플릿을 사용하여 두 번째 지역에 새 인프라를 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Management Console 을 사용하여 첫 번째 지역의 기존 인프라 설계를 문서화하고 두 번째 지역에 새 인프라를 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "가중치 기반 라우팅을 사용하도록 애플리케이션에 대한 Route 53 호스팅 영역 레코드를 업데이트합니다. 트래픽의 50%를 각 지역의 ALB로 보냅니다."
+      },
+      {
+        "label": "D",
+        "text": "애플리케이션이 지연 시간 기반 라우팅을 사용하도록 Route 53 호스팅 영역 레코드를 업데이트합니다. 각 지역의 ALB로 트래픽을 보냅니다."
+      },
+      {
+        "label": "E",
+        "text": "DynamoDB 스트림을 활성화하여 기존 DynamoDB 테이블의 구성을 업데이트합니다. 두 번째 리전을 추가하여 글로벌 테이블을 생성합니다."
+      },
+      {
+        "label": "F",
+        "text": "새 DynamoDB 테이블을 생성합니다. 새 테이블에 대해 DynamoDB 스트림을 활성화합니다. 두 번째 리전을 추가하여 글로벌 테이블을 생성합니다. 일회성 작업으로 기존 DynamoDB 테이블의 데이터를 새 테이블에 복사합니다."
+      }
+    ],
+    "answer": "A, D, E",
+    "answers": [
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 510,
+    "question": "한 회사는 데이터 과학자가 업무 관련 문서를 저장할 수 있도록 단일 Amazon S3 버킷을 생성하려고 합니다. 회사는 AWS IAM Identity Center 를 사용하여 모든 사용자를 인증합니다. 데이터 과학자를 위한 그룹이 만들어졌습니다. 회사는 데이터 과학자에게 자신의 작업에만 액세스할 수 있는 권한을 부여하려고 합니다. 또한 회사는 각 사용자가 어떤 문서에 액세스했는지 보여주는 월별 보고서를 생성하려고 합니다. 이러한 요구 사항을 충족하는 단계 조합은 무엇입니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "데이터 과학자에게 사용자 이름 태그와 일치하는 S3 버킷 접두사에 대한 액세스 권한을 부여하는 사용자 지정 IAM ID 센터 권한 세트를 생성합니다. 정책을 사용하여 ${aws:PrincipalTag/userName}/* 조건이 있는 경로에 대한 액세스를 제한합니다."
+      },
+      {
+        "label": "B",
+        "text": "Amazon S3 읽기 액세스 및 쓰기 액세스 권한이 있는 데이터 과학자 그룹에 대한 IAM 자격 증명 센터 역할을 생성합니다. IAM 자격 증명 센터 역할에 대한 액세스를 허용하는 S3 버킷 정책을 추가합니다."
+      },
+      {
+        "label": "C",
+        "text": "S3 데이터 이벤트를 기록하고 로그를 S3 버킷에 전달하도록 AWS CloudTrail 을 구성합니다. Amazon Athena 를 사용하여 Amazon S3 의 CloudTrail 로그에 대한 쿼리를 실행하고 보고서를 생성합니다."
+      },
+      {
+        "label": "D",
+        "text": "S3 관리 이벤트를 CloudWatch에 기록하도록 AWS CloudTrail을 구성합니다. Amazon Athena의 CloudWatch 커넥터를 사용하여 로그를 쿼리하고 보고서를 생성합니다."
+      },
+      {
+        "label": "E",
+        "text": "EMRFS(EMR 파일 시스템)에 대한 S3 액세스 로깅을 활성화합니다. Amazon S3 Select 를 사용하여 로그를 쿼리하고 보고서를 생성합니다."
+      }
+    ],
+    "answer": "A, C",
+    "answers": [
+      "A",
+      "C"
+    ]
+  }
+]

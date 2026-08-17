@@ -1,0 +1,267 @@
+[
+  {
+    "qNumber": 141,
+    "question": "회사는 Auto Scaling 그룹의 Amazon EC2 인스턴스를 사용하여 AWS Cloud 에서 비디오를 처리하고 있습니다. 비디오를 처리하는 데 30분이 소요됩니다. Amazon Simple Queue Service(Amazon SQS) 대기열의 비디오 수에 따라 여러 EC2 인스턴스가 확장 및 축소됩니다. 회사는 대상 배달 못한 편지 대기열과 maxReceiveCount를 1로 지정하는 리드라이브 정책으로 SQS 대기열을 구성했습니다. 회사는 SQS 대기열에 대한 가시성 제한 시간을 1시간으로 설정했습니다. 이 회사는 배달 못한 편지 대기열에 메시지가 있을 때 개발 팀에 알리도록 Amazon CloudWatch 경보를 설정했습니다. 하루 동안 여러 번. 개발 팀은 메시지가 배달 못한 편지 대기열에 있고 비디오가 처리되지 않았다는 알림을 받습니다. 조사 결과 애플리케이션 로그에서 오류가 발견되지 않았습니다. 회사는 이 문제를 어떻게 해결할 수 있습니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "EC2 인스턴스에 대한 종료 방지 기능을 켭니다."
+      },
+      {
+        "label": "B",
+        "text": "SQS 대기열의 가시성 제한 시간을 3시간으로 업데이트합니다."
+      },
+      {
+        "label": "C",
+        "text": "처리 중에 인스턴스에 대한 축소 보호를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "리드라이브 정책을 업데이트하고 maxReceiveCount를 0으로 설정합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 142,
+    "question": "한 회사에서 리전 엔드포인트와 함께 Amazon API Gateway 를 사용하는 API를 개발했습니다. API는 API Gateway 인증 메커니즘을 사용하는 AWS Lambda 함수를 호출합니다. 설계 검토 후 솔루션 설계자는 공용 액세스가 필요하지 않은 API 세트를 식별합니다. 솔루션 설계자는 VPC에서만 API 세트에 액세스할 수 있도록 솔루션을 설계해야 합니다. 모든 API는 인증된 사용자로 호출해야 합니다. 최소한의 노력으로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "내부 Application Load Balancer(ALB) 를 생성합니다. 대상 그룹을 만듭니다. 호출할 Lambda 함수를 선택합니다. ALB DNS 이름을 사용하여 VPC에서 API를 호출합니다."
+      },
+      {
+        "label": "B",
+        "text": "API Gateway에서 API와 연결된 DNS 항목을 제거합니다. Amazon Route 53에서 호스팅 영역을 생성합니다. 호스팅 영역에서 CNAME 레코드를 생성합니다. CNAME 레코드로 API Gateway 에서 API를 업데이트합니다. CNAME 레코드를 사용하여 VPC에서 API를 호출합니다."
+      },
+      {
+        "label": "C",
+        "text": "API 게이트웨이에서 리전에서 프라이빗으로 API 엔드포인트를 업데이트합니다. VPC 에서 인터페이스 VPC 엔드포인트 생성리소스 정책을 생성하고 API에 연결합니다. VPC 엔드포인트를 사용하여 VPC에서 API를 호출합니다."
+      },
+      {
+        "label": "D",
+        "text": "VPC 내부에 Lambda 함수 배포 EC2 인스턴스를 프로비저닝하고 Apache 서버를 설치합니다. Apache 서버에서 Lambda 함수를 호출합니다. EC2 인스턴스의 내부 CNAME 레코드를 사용하여 VPC에서 API를 호출합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 143,
+    "question": "날씨 서비스는 eu-west-1 리전의 AWS에서 호스팅되는 웹 애플리케이션의 고해상도 날씨 지도를 제공합니다. 날씨 지도는 자주 업데이트되며 정적 HTML 콘텐츠와 함께 Amazon S3에 저장됩니다. 웹 애플리케이션은 Amazon CloudFront가 전면에 있습니다. 이 회사는 최근 us-east-1 지역의 사용자에게 서비스를 제공하도록 확장했으며 이러한 신규 사용자는 각각의 날씨 지도 보기가 때때로 느리다고 보고합니다. us-east-1 성능 문제를 해결하는 단계 조합은 무엇입니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "eu-west-1에서 S3 버킷에 대한 AWS Global Accelerator 엔드포인트를 구성합니다. us-east- 1에서 TCP 포트 80 및 443에 대한 엔드포인트 그룹을 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "us -east-1에서 새 S3 버킷을 생성합니다. eu -west-1의 S3 버킷에서 동기화하도록 S3 교차 리전 복제를 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "Lambda@Edge를 사용하여 us-east-1에서 S3 Transfer Acceleration 엔드포인트를 사용하도록 북미에서 요청을 수정합니다."
+      },
+      {
+        "label": "D",
+        "text": "Lambda@Edge를 사용하여 북미에서 us-east-1의 S3 버킷을 사용하도록 요청을 수정합니다."
+      },
+      {
+        "label": "E",
+        "text": "us -east-1에 대한 AWS Global Accelerator 엔드포인트를 CloudFront 배포의 오리진으로 구성합니다. Lambda@Edge를 사용하여 북미에서 새 오리진을 사용하도록 요청을 수정합니다."
+      }
+    ],
+    "answer": "B, D",
+    "answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "qNumber": 144,
+    "question": "솔루션 설계자는 회사가 Amazon Workspaces 에서 새 세션을 설정할 수 없는 문제를 조사하고 있습니다. 초기 분석 결과 문제에 사용자 프로필이 관련되어 있음이 나타납니다. Amazon Workspaces 환경은 Amazon FSx for Windows File Server 를 프로필 공유 스토리지로 사용하도록 구성됩니다. FSx for Windows File Server 파일 시스템은 10TB 스토리지로 구성됩니다. 솔루션 설계자는 파일 시스템이 최대 용량에 도달했음을 발견합니다. 솔루션 설계자는 사용자가 다시 액세스할 수 있는지 확인해야 합니다. 솔루션은 또한 문제가 다시 발생하지 않도록 방지해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "이전 사용자 프로필을 제거하여 공간을 만듭니다. 사용자 프로필을 Amazon FSx for Lustre 파일 시스템으로 마이그레이션합니다."
+      },
+      {
+        "label": "B",
+        "text": "update -file-system 명령을 사용하여 용량을 늘립니다. 여유 공간을 모니터링하는 Amazon CloudWatch 지표를 구현합니다. Amazon EventBridge 를 사용하여 AWS Lambda 함수를 호출하여 필요에 따라 용량을 늘립니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon CloudWatch 에서 FreeStorageCapacity 지표를 사용하여 파일 시스템을 모니터링합니다. AWS Step Functions를 사용하여 필요에 따라 용량을 늘립니다."
+      },
+      {
+        "label": "D",
+        "text": "이전 사용자 프로필을 제거하여 공간을 만듭니다. Windows 파일 서버 파일 시스템용 추가 FSx를 만듭니다. 사용자의 50%가 새 파일 시스템을 사용하도록 사용자 프로필 리디렉션을 업데이트합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 145,
+    "question": "국제 배송 회사는 AWS에서 배송 관리 시스템을 호스팅합니다. 드라이버는 시스템을 사용하여 배송 확인을 업로드합니다. 확인에는 수령인의 서명 또는 수령인과 함께 패키지 사진이 포함됩니다. 운전자의 핸드헬드 장치는 FTP를 통해 서명과 사진을 단일 Amazon EC2 인스턴스에 업로드합니다. 각 핸드헬드 장치는 로그인한 사용자를 기반으로 디렉토리에 파일을 저장하며 파일 이름은 배송 번호와 일치합니다. 그런 다음 EC2 인스턴스는 배달 정보를 가져오기 위해 중앙 데이터베이스를 쿼리한 후 파일에 메타데이터를 추가합니다. 그런 다음 파일은 보관을 위해 Amazon S3에 배치됩니다. 회사가 확장됨에 따라 운전자는 시스템이 연결을 거부하고 있다고 보고합니다. 이러한 문제에 대한 응답으로 연결 끊김 및 메모리 문제로 인해 FTP 서버에 문제가 발생했습니다. 시스템 엔지니어는 cron 작업을 예약하여 30분마다 EC2 인스턴스를 재부팅합니다. 청구 팀은 파일이 아카이브에 항상 있는 것은 아니며 중앙 시스템이 항상 업데이트되는 것은 아니라고 보고합니다. 솔루션 설계자는 아카이브가 항상 파일을 수신하고 시스템이 항상 업데이트되도록 확장성을 최대화하는 솔루션을 설계해야 합니다. 핸드헬드 장치는 수정할 수 없으므로 회사에서 새 애플리케이션을 배포할 수 없습니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "기존 EC2 인스턴스의 AMI를 생성합니다. Application Load Balancer 뒤에 EC2 인스턴스의 Auto Scaling 그룹을 생성합니다. 최소 3개의 인스턴스를 포함하도록 Auto Scaling 그룹을 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Transfer Family를 사용하여 파일을 Amazon Elastic File System(Amazon EFS)에 배치하는 FTP 서버를 생성합니다. EFS 볼륨을 기존 EC2 인스턴스에 마운트합니다. EC2 인스턴스가 파일 처리를 위한 새 경로를 가리킵니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Transfer Family 를 사용하여 파일을 Amazon S3 에 배치하는 FTP 서버를 생성합니다. Amazon Simple Notification Service(Amazon SNS) 를 통해 S3 이벤트 알림을 사용하여 AWS Lambda 함수를 호출합니다. 메타데이터를 추가하고 전달 시스템을 업데이트하도록 Lambda 함수를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "파일을 Amazon S3 에 직접 배치하도록 핸드헬드 장치를 업데이트합니다. Amazon Simple Queue Service(Amazon SQS) 를 통해 S3 이벤트 알림을 사용하여 AWS Lambda 함수를 호출합니다. 메타데이터를 추가하고 전달 시스템을 업데이트하도록 Lambda 함수를 구성합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 146,
+    "question": "회사가 AWS 클라우드에서 애플리케이션을 실행하고 있습니다. 애플리케이션은 Amazon Elastic Container Service(Amazon ECS) 클러스터의 컨테이너에서 실행됩니다. ECS 작업은 Fargate 시작 유형을 사용합니다. 애플리케이션의 데이터는 관계형이며 Amazon Aurora MySQL 에 저장됩니다. 규제 요구 사항을 충족하려면 애플리케이션 장애 시 애플리케이션이 별도의 AWS 리전으로 복구할 수 있어야 합니다. 장애가 발생해도 데이터가 손실되지 않습니다. 최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "다른 리전에서 Aurora 복제본을 프로비저닝합니다."
+      },
+      {
+        "label": "B",
+        "text": "데이터를 다른 지역으로 지속적으로 복제하도록 AWS DataSync를 설정합니다."
+      },
+      {
+        "label": "C",
+        "text": "다른 리전으로 데이터를 지속적으로 복제하도록 AWS DMS(AWS Database Migration Service)를 설정합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon Data Lifecycle Manager(Amazon DLM)를 사용하여 5분마다 스냅샷을 예약합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 147,
+    "question": "금융 서비스 회사는 신용 카드 서비스 파트너로부터 정기적인 데이터 피드를 받습니다. 약 5,000개의 레코드가 15분마다 일반 텍스트로 전송되고 HTTPS를 통해 서버 측 암호화를 통해 Amazon S3 버킷으로 직접 전달됩니다. 이 피드에는 민감한 신용 카드 기본 계정 번호(PAN) 데이터가 포함되어 있습니다. 회사는 추가 내부 처리를 위해 데이터를 다른 S3 버킷으로 보내기 전에 자동으로 PAN을 마스킹해야 합니다. 회사는 또한 특정 필드를 제거 및 병합한 다음 레코드를 JSON 형식으로 변환해야 합니다. 또한 향후 추가 피드가 추가될 가능성이 있으므로 모든 디자인을 쉽게 확장할 수 있어야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "각 레코드를 추출하여 Amazon SQS 대기열에 기록하는 파일 전송 시 AWS Lambda 함수를 호출합니다. 새 메시지가 SQS 대기열에 도착하면 다른 Lambda 함수를 호출하여 레코드를 처리하고 결과를 Amazon S3 의 임시 위치에 씁니다. SQS 대기열이 비어 있으면 최종 Lambda 함수를 호출하여 레코드를 JSON 형식으로 변환하고 내부 처리를 위해 결과를 다른 S3 버킷으로 보냅니다."
+      },
+      {
+        "label": "B",
+        "text": "각 레코드를 추출하여 Amazon SQS 대기열에 기록하는 파일 전송 시 AWS Lambda 함수를 호출합니다. SQS 대기열에 메시지가 포함된 경우 단일 인스턴스로 자동 확장되도록 AWS Fargate 컨테이너 애플리케이션을 구성합니다. 애플리케이션이 각 레코드를 처리하고 레코드를 JSON 형식으로 변환하도록 합니다. 대기열이 비어 있으면 내부 처리를 위해 결과를 다른 S3 버킷으로 보내고 AWS Fargate 인스턴스를 축소합니다."
+      },
+      {
+        "label": "C",
+        "text": "데이터 피드 형식을 기반으로 AWS Glue 크롤러 및 사용자 지정 분류자를 생성하고 일치시킬 테이블 정의를 구축합니다. 파일 전송 시 AWS Lambda 함수를 호출하여 처리 및 변환 요구 사항에 따라 전체 레코드를 변환하는 AWS Glue ETL 작업을 시작합니다. 출력 형식을 JSON으로 정의합니다. 완료되면 ETL 작업이 내부 처리를 위해 결과를 다른 S3 버킷으로 보내도록 합니다."
+      },
+      {
+        "label": "D",
+        "text": "데이터 피드 형식을 기반으로 AWS Glue 크롤러 및 사용자 지정 분류자를 생성하고 일치시킬 테이블 정의를 구축합니다. 파일 전송에 대해 Amazon Athena 쿼리를 수행하여 처리 및 변환 요구 사항에 따라 전체 레코드를 변환하는 Amazon EMR ETL 작업을 시작합니다. 출력 형식을 JSON으로 정의합니다. 완료되면 내부 처리를 위해 결과를 다른 S3 버킷으로 보내고 EMR 클러스터를 축소합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 148,
+    "question": "회사는 회사의 기본 온프레미스 애플리케이션이 실패하는 경우 AWS를 사용하여 비즈니스 연속성 솔루션을 생성하려고 합니다. 애플리케이션은 다른 애플리케이션도 실행하는 물리적 서버에서 실행됩니다. 회사에서 마이그레이션할 계획인 온프레미스 애플리케이션은 MySQL 데이터베이스를 데이터 저장소로 사용합니다. 회사의 모든 온프레미스 애플리케이션은 Amazon EC2 와 호환되는 운영 체제를 사용합니다. 최소한의 운영 오버헤드로 회사의 목표를 달성할 수 있는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "MySQL 서버를 포함한 소스 서버에 AWS Replication Agent 를 설치합니다. 모든 서버에 대한 복제를 설정합니다. 일반 훈련을 위한 테스트 인스턴스를 시작합니다. 실패 이벤트의 경우 워크로드를 장애 조치하기 위해 테스트 인스턴스로 컷오버합니다."
+      },
+      {
+        "label": "B",
+        "text": "MySQL 서버를 포함하여 소스 서버에 AWS Replication Agent 를 설치합니다. 대상 AWS 리전에서 AWS Elastic Disaster Recovery 를 초기화합니다. 시작 설정을 정의합니다. 가장 최근 시점부터 장애 조치(failover) 및 폴백(fallback)을 자주 수행합니다."
+      },
+      {
+        "label": "C",
+        "text": "데이터베이스를 호스팅할 AWS DMS(AWS Database Migration Service) 복제 서버와 대상 Amazon Aurora MySQL DB 클러스터를 생성합니다. DMS 복제 작업을 생성하여 기존 데이터를 대상 DB 클러스터에 복사합니다. 데이터 동기화를 유지하기 위해 로컬 AWS Schema Conversion Tool(AWS SCT) 변경 데이터 캡처(CDC) 작업을 생성합니다. 호환되는 기본 AMI로 시작하여 나머지 소프트웨어를 EC2 인스턴스에 설치합니다."
+      },
+      {
+        "label": "D",
+        "text": "온프레미스에 AWS Storage Gateway Volume Gateway 를 배포합니다. 모든 온프레미스 서버에 볼륨을 탑재합니다. 애플리케이션과 MySQL 데이터베이스를 새 볼륨에 설치합니다. 정기적으로 스냅샷을 찍습니다. 호환되는 기본 AMI로 시작하여 EC2 인스턴스에 모든 소프트웨어를 설치합니다. EC2 인스턴스에서 볼륨 게이트웨이를 시작합니다. 최신 스냅샷에서 볼륨을 복원합니다. 실패 이벤트의 경우 EC2 인스턴스에 새 볼륨을 탑재합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 149,
+    "question": "회사는 재무 정보에 대한 규제 감사를 받습니다. 단일 AWS 계정을 사용하는 외부 감사자는 회사의 AWS 계정에 액세스해야 합니다. 솔루션 설계자는 감사자에게 회사의 AWS 계정에 대한 안전한 읽기 전용 액세스 권한을 제공해야 합니다. 솔루션은 AWS 보안 모범 사례를 준수해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "회사의 AWS 계정에서 계정의 모든 리소스에 대한 리소스 정책을 생성하여 감사자의 AWS 계정에 대한 액세스 권한을 부여합니다. 리소스 정책에 고유한 외부 ID를 할당합니다."
+      },
+      {
+        "label": "B",
+        "text": "회사의 AWS 계정에서 감사자의 AWS 계정을 신뢰하는 IAM 역할을 생성합니다. 필요한 권한이 있는 IAM 정책을 생성합니다. 정책을 역할에 연결합니다. 역할의 신뢰 정책에 고유한 외부 ID를 할당합니다."
+      },
+      {
+        "label": "C",
+        "text": "회사의 AWS 계정에서 IAM 사용자를 생성합니다. 필요한 IAM 정책을 IAM 사용자에게 연결합니다. IAM 사용자에 대한 API 액세스 키를 생성합니다. 감사자와 액세스 키를 공유합니다."
+      },
+      {
+        "label": "D",
+        "text": "회사의 AWS 계정에서 필요한 권한이 있는 IAM 그룹을 생성합니다. 각 감사자에 대해 회사 계정에 IAM 사용자를 만듭니다. IAM 그룹에 IAM 사용자를 추가합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 150,
+    "question": "회사에는 Amazon DynamoDB 를 스토리지 백엔드로 사용하는 지연 시간에 민감한 거래 플랫폼이 있습니다. 회사는 온디맨드 용량 모드를 사용하도록 DynamoDB 테이블을 구성했습니다. 솔루션 설계자는 거래 플랫폼의 성능을 개선하기 위한 솔루션을 설계해야 합니다. 새로운 솔루션은 거래 플랫폼의 고가용성을 보장해야 합니다. 최소 대기 시간으로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2 노드 DynamoDB Accelerator(DAX) 클러스터를 생성합니다. DAX 를 사용하여 데이터를 읽고 쓰도록 애플리케이션을 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "3 노드 DynamoDB Accelerator(DAX) 클러스터를 생성합니다. DAX 를 사용하여 데이터를 읽고 DynamoDB 테이블에 직접 데이터를 쓰도록 애플리케이션을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "3 노드 DynamoDB Accelerator(DAX) 클러스터를 생성합니다. DynamoDB 테이블에서 직접 데이터를 읽고 DAX를 사용하여 데이터를 쓰도록 애플리케이션을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "단일 노드 DynamoDB Accelerator(DAX) 클러스터를 생성합니다. DAX 를 사용하여 데이터를 읽고 DynamoDB 테이블에 직접 데이터를 쓰도록 애플리케이션을 구성합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  }
+]

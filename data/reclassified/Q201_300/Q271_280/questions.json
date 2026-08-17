@@ -1,0 +1,282 @@
+[
+  {
+    "qNumber": 271,
+    "question": "회사는 웹 호스팅, 데이터베이스 API 서비스 및 비즈니스 로직을 위해 현재 로드 밸런싱된 Amazon EC2 인스턴스 플릿이 있는 소매 주문 웹 애플리케이션을 리팩터링하려고 합니다. 회사는 실패한 주문을 유지하는 동시에 운영 비용을 최소화하는 메커니즘을 갖춘 분리되고 확장 가능한 아키텍처를 만들어야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "데이터베이스 API 서비스를 위해 Amazon API Gateway 와 함께 웹 호스팅에 Amazon S3 를 사용하십시오. 주문 대기열에 Amazon Simple Queue Service(Amazon SQS)를 사용합니다. 실패한 주문을 유지하기 위해 Amazon SQS 긴 폴링과 함께 비즈니스 로직에 Amazon Elastic Container Service(Amazon ECS)를 사용합니다."
+      },
+      {
+        "label": "B",
+        "text": "데이터베이스 API 서비스를 위해 Amazon API Gateway 와 함께 웹 호스팅에 AWS Elastic Beanstalk를 사용합니다. 주문 대기열에 Amazon MQ 를 사용합니다. 실패한 주문을 유지하려면 Amazon S3 Glacier Deep Archive와 함께 비즈니스 로직에 AWS Step Functions를 사용하십시오."
+      },
+      {
+        "label": "C",
+        "text": "데이터베이스 API 서비스를 위해 AWS AppSync 와 함께 웹 호스팅에 Amazon S3 를 사용하십시오. 주문 대기열에 Amazon Simple Queue Service(Amazon SQS)를 사용합니다. 실패한 주문을 유지하기 위해 Amazon SQS 데드 레터 대기열과 함께 비즈니스 로직에 AWS Lambda 를 사용합니다."
+      },
+      {
+        "label": "D",
+        "text": "데이터베이스 API 서비스를 위해 AWS AppSync 와 함께 웹 호스팅에 Amazon Lightsail 을 사용합니다. 주문 대기열에 Amazon Simple Email Service(Amazon SES) 를 사용합니다. 실패한 주문을 유지하기 위해 Amazon OpenSearch Service 와 함께 비즈니스 로직에 Amazon Elastic Kubernetes Service(Amazon EKS)를 사용합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 272,
+    "question": "회사는 us-east-1 리전의 AWS에서 웹 애플리케이션을 호스팅합니다. 애플리케이션 서버는 Application Load Balancer 뒤의 3개 가용 영역에 분산되어 있습니다. 데이터베이스는 Amazon EC2 인스턴스의 MySQL 데이터베이스에서 호스팅됩니다. 솔루션 설계자는 RTO가 5분 미만이고 RPO가 1분 미만인 AWS 서비스를 사용하여 리전 간 데이터 복구 솔루션을 설계해야 합니다. 솔루션 설계자는 us-west-2에 애플리케이션 서버를 배포하고 Amazon Route 53 상태 확인 및 us-west-2에 대한 DNS 장애 조치를 구성했습니다. 솔루션 설계자는 어떤 추가 단계를 수행해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "us -west-2에 교차 리전 읽기 전용 복제본이 있는 Amazon RDS for MySQL 인스턴스로 데이터베이스를 마이그레이션합니다."
+      },
+      {
+        "label": "B",
+        "text": "기본 데이터베이스는 us-east-1에, 보조 데이터베이스는 us-west-2에 있는 Amazon Aurora 글로벌 데이터베이스로 데이터베이스를 마이그레이션합니다."
+      },
+      {
+        "label": "C",
+        "text": "다중 AZ 배포를 통해 MySQL 인스턴스용 Amazon RDS 로 데이터베이스를 마이그레이션합니다."
+      },
+      {
+        "label": "D",
+        "text": "us-west-2의 Amazon EC2 인스턴스에 MySQL 대기 데이터베이스를 생성합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 273,
+    "question": "회사에서 AWS Organizations 를 사용하여 여러 계정을 관리하고 있습니다. 규제 요구 사항으로 인해 회사는 리소스 배포가 허용되는 특정 AWS 리전으로 특정 멤버 계정을 제한하려고 합니다. 계정의 리소스는 태그가 지정되고 그룹 표준을 기반으로 적용되며 최소한의 구성으로 중앙에서 관리되어야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 무엇을 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "특정 멤버 계정에 AWS Config 규칙을 생성하여 리전을 제한하고 태그 정책을 적용합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Billing and Cost Management 콘솔의 마스터 계정에서 특정 멤버 계정에 대한 리전을 비활성화하고 루트에 태그 정책을 적용합니다."
+      },
+      {
+        "label": "C",
+        "text": "특정 구성원 계정을 루트와 연결합니다. 조건을 사용하여 태그 정책 및 SCP를 적용하여 리전을 제한합니다."
+      },
+      {
+        "label": "D",
+        "text": "특정 회원 계정을 새 OU와 연결합니다. 조건을 사용하여 태그 정책 및 SCP를 적용하여 리전을 제한합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 274,
+    "question": "회사에는 보고서를 생성하고 Amazon S3 버킷에 저장하는 애플리케이션이 있습니다. 사용자가 보고서에 액세스하면 애플리케이션은 사용자가 보고서를 다운로드할 수 있도록 서명된 URL을 생성합니다. 회사의 보안 팀은 파일이 공개되어 있으며 누구나 인증 없이 다운로드할 수 있음을 발견했습니다. 회사는 문제가 해결될 때까지 새로운 보고서 생성을 중단했습니다. 애플리케이션의 정상적인 워크플로에 영향을 주지 않고 보안 문제를 즉시 해결할 일련의 조치는 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "인증되지 않은 사용자에 대해 모두 거부 정책을 적용하는 AWS Lambda 함수를 생성합니다. Lambda 함수를 호출하는 예약된 이벤트를 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Trusted Advisor 버킷 권한 확인을 검토하고 권장 조치를 구현합니다."
+      },
+      {
+        "label": "C",
+        "text": "버킷의 모든 객체에 프라이빗 ACL을 배치하는 스크립트를 실행합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon S3 의 퍼블릭 액세스 차단 기능을 사용하여 버킷에서 IgnorePublicAcIs 옵션을 TRUE로 설정합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 275,
+    "question": "한 회사에서 Oracle 데이터베이스용 Amazon RDS 를 다른 AWS 계정의 RDS for PostgreSQL DB 인스턴스로 마이그레이션할 계획입니다. 솔루션 설계자는 다운타임이 필요하지 않고 마이그레이션을 완료하는 데 필요한 시간을 최소화하는 마이그레이션 전략을 설계해야 합니다. 마이그레이션 전략은 모든 기존 데이터와 마이그레이션 중에 생성된 모든 새 데이터를 복제해야 합니다. 대상 데이터베이스는 마이그레이션 프로세스 완료 시 소스 데이터베이스와 동일해야 합니다. 모든 애플리케이션은 현재 Oracle DB 인스턴스용 RDS와의 통신을 위한 엔드포인트로 Amazon Route 53 CNAME 레코드를 사용합니다. RDS for Oracle DB 인스턴스는 프라이빗 서브넷에 있습니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계 조합을 수행해야 합니까? (3 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "대상 계정에서 PostgreSQL DB 인스턴스용 새 RDS를 생성합니다. AWS Schema Conversion Tool(AWS SCT) 을 사용하여 원본 데이터베이스에서 대상 데이터베이스로 데이터베이스 스키마를 마이그레이션합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Schema Conversion Tool(AWS SCT) 을 사용하여 원본 데이터베이스의 스키마 및 초기 데이터를 사용하여 대상 계정에 PostgreSQL DB 인스턴스용 새 RDS를 생성합니다."
+      },
+      {
+        "label": "C",
+        "text": "두 AWS 계정의 VPC 간에 VPC 피어링을 구성하여 대상 계정에서 두 DB 인스턴스에 대한 연결을 제공합니다. 대상 계정의 VPC에서 데이터베이스 포트의 트래픽을 허용하도록 각 DB 인스턴스에 연결된 보안 그룹을 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "원본 DB 인스턴스가 대상 계정의 VPC에서 연결을 제공하기 위해 공개적으로 액세스할 수 있도록 일시적으로 허용합니다. 대상 계정의 VPC에서 데이터베이스 포트의 트래픽을 허용하도록 각 DB 인스턴스에 연결된 보안 그룹을 구성합니다."
+      },
+      {
+        "label": "E",
+        "text": "대상 계정에서 AWS Database Migration Service(AWS DMS) 를 사용하여 원본 데이터베이스에서 대상 데이터베이스로의 전체 로드 및 변경 데이터 캡처(CDC) 마이그레이션을 수행합니다. 마이그레이션이 완료되면 대상 DB 인스턴스 엔드포인트를 가리키도록 CNAME 레코드를 변경합니다."
+      },
+      {
+        "label": "F",
+        "text": "대상 계정에서 AWS Database Migration Service(AWS DMS)를 사용하여 원본 데이터베이스에서 대상 데이터베이스로 변경 데이터 캡처(CDC) 마이그레이션을 수행합니다. 마이그레이션이 완료되면 대상 DB 인스턴스 엔드포인트를 가리키도록 CNAME 레코드를 변경합니다."
+      }
+    ],
+    "answer": "A, C, E",
+    "answers": [
+      "A",
+      "C",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 276,
+    "question": "회사는 이벤트 기반 아키텍처를 사용하여 주문 시스템을 구현했습니다. 초기 테스트 중에 시스템이 주문 처리를 중지했습니다. 추가 로그 분석 결과 Amazon Simple Queue Service(Amazon SQS) 표준 대기열의 주문 메시지 하나가 백엔드에서 오류를 일으키고 모든 후속 주문 메시지를 차단하는 것으로 나타났습니다. 대기열의 가시성 제한 시간은 30초로 설정되고 백엔드 처리 제한 시간은 10초로 설정됩니다. 솔루션 설계자는 잘못된 주문 메시지를 분석하고 시스템이 후속 메시지를 계속 처리하는지 확인해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계를 수행해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "가시성 제한 시간과 일치하도록 백엔드 처리 제한 시간을 30초로 늘립니다."
+      },
+      {
+        "label": "B",
+        "text": "잘못된 메시지를 자동으로 제거하기 위해 대기열의 가시성 제한 시간을 줄입니다."
+      },
+      {
+        "label": "C",
+        "text": "새 SQS FIFO 대기열을 배달 못한 편지 대기열로 구성하여 잘못된 메시지를 격리합니다."
+      },
+      {
+        "label": "D",
+        "text": "새 SQS 표준 대기열을 배달 못한 편지 대기열로 구성하여 잘못된 메시지를 격리합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 277,
+    "question": "한 회사에서 AWS Step Functions 를 사용하여 기계 학습 모델의 야간 재훈련을 자동화했습니다. 워크플로는 AWS Lambda 를 사용하는 여러 단계로 구성됩니다. 각 단계는 다양한 이유로 실패할 수 있으며 모든 실패로 인해 전체 워크플로가 실패합니다. 검토 결과 회사가 실패를 인지하지 못한 채 재교육이 연속으로 여러 번 실패했음이 밝혀졌습니다. 솔루션 설계자는 재교육 프로세스에서 모든 유형의 실패에 대해 알림을 보내도록 워크플로를 개선해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계 조합을 수행해야 합니까? (3 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "팀의 메일링 리스트를 대상으로 하는 \"이메일\" 유형의 구독으로 Amazon Simple Notification Service(Amazon SNS) 주제를 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "입력 인수를 SNS 주제로 전달하는 \"이메일\"이라는 작업을 만듭니다."
+      },
+      {
+        "label": "C",
+        "text": "\"ErrorEquals\": [ \"States.ALL\" ] 및 \"Next\": \"Email\" 문이 있는 모든 작업, 맵 및 병렬 상태에 Catch 필드를 추가합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon Simple Email Service(Amazon SES) 에 새 이메일 주소를 추가합니다. 이메일 주소를 확인하십시오."
+      },
+      {
+        "label": "E",
+        "text": "입력 인수를 SES 이메일 주소로 전달하는 \"이메일\"이라는 작업을 만듭니다."
+      },
+      {
+        "label": "F",
+        "text": "\"ErrorEquals\": [ \"States.Runtime\" ] 및 \"Next\": \"Email\" 문이 있는 모든 작업, 맵 및 병렬 상태에 Catch 필드를 추가합니다."
+      }
+    ],
+    "answer": "A, B, C",
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "qNumber": 278,
+    "question": "회사에서 VPC 내부의 Amazon EC2 인스턴스에 새로운 프라이빗 인트라넷 서비스를 배포할 계획입니다. AWS Site -to-Site VPN 은 VPC를 회사의 온프레미스 네트워크에 연결합니다. 새 서비스는 기존 온프레미스 서비스와 통신해야 합니다. 온프레미스 서비스는 company.example DNS 영역에 있는 호스트 이름을 사용하여 액세스할 수 있습니다. 이 DNS 영역은 전적으로 온프레미스에서 호스팅되며 회사의 사설 네트워크에서만 사용할 수 있습니다. 솔루션 설계자는 새 서비스가 기존 서비스와 통합하기 위해 company.example 도메인의 호스트 이름을 확인할 수 있는지 확인해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon Route 53 에서 company.example에 대한 빈 프라이빗 영역을 생성합니다. Route 53 의 새 비공개 영역에 대한 신뢰할 수 있는 이름 서버를 가리키는 회사의 온프레미스 company.example 영역에 추가 NS 레코드를 추가합니다."
+      },
+      {
+        "label": "B",
+        "text": "VPC 의 DNS 호스트 이름을 켭니다. Amazon Route 53 Resolver 로 새로운 아웃바운드 엔드포인트를 구성합니다. company.example 에 대한 요청을 온프레미스 이름 서버로 전달하는 확인자 규칙을 만듭니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon Route 53 Resolver를 사용하여 새로운 인바운드 해석기 엔드포인트를 구성하는 VPC에 대한 DNS 호스트 이름을 켭니다. company.example 에 대한 요청을 새 해석기로 전달하도록 온프레미스 DNS 서버를 구성합니다(&T)."
+      },
+      {
+        "label": "D",
+        "text": "AWS Systems Manager 를 사용하여 필요한 호스트 이름이 포함된 호스트 파일을 설치할 실행 문서를 구성합니다. 인스턴스가 실행 중 상태에 들어갈 때 Amazon EventBridge 규칙을 사용하여 문서를 실행합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 279,
+    "question": "회사는 AWS CloudFormation 을 사용하여 전송 게이트웨이에 모두 연결된 여러 VPC 내에 애플리케이션을 배포합니다. 퍼블릭 인터넷으로 트래픽을 전송하는 각 VPC는 공유 서비스 VPC를 통해 트래픽을 전송해야 합니다. VPC 내의 각 서브넷은 기본 VPC 라우팅 테이블을 사용하고 트래픽은 전송 게이트웨이로 라우팅됩니다. 전송 게이트웨이는 모든 VPC 연결에 기본 라우팅 테이블을 사용합니다. 보안 감사 결과 VPC 내에 배포된 Amazon EC2 인스턴스가 회사의 다른 VPC에 배포된 EC2 인스턴스와 통신할 수 있는 것으로 나타났습니다. 솔루션 설계자는 VPC 간의 트래픽을 제한해야 합니다. 각 VPC는 미리 정의되고 제한된 승인된 VPC 세트와만 통신할 수 있어야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 무엇을 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "승인된 VPC에 대한 아웃바운드 트래픽만 허용하도록 VPC 내 각 서브넷의 네트워크 ACL을 업데이트합니다. 기본 거부 규칙을 제외한 모든 거부 규칙을 제거합니다."
+      },
+      {
+        "label": "B",
+        "text": "승인되지 않은 VPC 내에서 사용되는 보안 그룹에 대한 아웃바운드 트래픽을 거부하도록 VPC 내에서 사용되는 모든 보안 그룹을 업데이트합니다."
+      },
+      {
+        "label": "C",
+        "text": "각 VPC 연결에 대한 전용 운송 게이트웨이(Transit Gateway) 라우팅 테이블을 생성합니다. 승인된 VPC로만 트래픽을 라우팅합니다."
+      },
+      {
+        "label": "D",
+        "text": "전송 게이트웨이를 통해 승인된 VPC로만 트래픽을 라우팅하도록 각 VPC의 기본 라우팅 테이블을 업데이트합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 280,
+    "question": "회사에는 패키지화되어 사용자의 Windows 컴퓨터에 배포되는 Windows 기반 데스크톱 응용 프로그램이 있습니다. 이 회사는 최근 Linux 운영 체제가 설치된 시스템을 주로 사용하는 직원이 있는 다른 회사를 인수했습니다. 인수 회사는 Windows 기반 데스크톱 애플리케이션을 AWS로 마이그레이션하고 다시 호스팅하기로 결정했습니다. 모든 직원은 애플리케이션을 사용하기 전에 인증을 받아야 합니다. 인수 회사는 온프레미스에서 Active Directory 를 사용하지만 모든 직원을 위해 AWS에서 애플리케이션에 대한 접근을 관리하는 간소화된 방법을 원합니다. 최소한의 개발 노력으로 AWS에서 애플리케이션을 다시 호스팅하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "모든 직원을 위해 Amazon Workspaces 가상 데스크톱을 설정하고 프로비저닝합니다. Amazon Cognito 자격 증명 풀을 사용하여 인증을 구현합니다. 프로비저닝된 Workspaces 가상 데스크톱에서 애플리케이션을 실행하도록 직원에게 지시합니다."
+      },
+      {
+        "label": "B",
+        "text": "Windows 기반 Amazon EC2 인스턴스의 Auto Scaling 그룹을 생성합니다. 각 EC2 인스턴스를 회사의 Active Directory 도메인에 가입시킵니다. 온프레미스에서 실행 중인 Active Directory 를 사용하여 인증을 구현합니다. Windows 원격 데스크톱을 사용하여 애플리케이션을 실행하도록 직원에게 지시합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon AppStream 2.0 이미지 빌더를 사용하여 애플리케이션과 필요한 구성을 포함하는 이미지를 생성합니다. 이미지 실행을 위한 동적 플릿 Auto Scaling 정책으로 AppStream 2.0 온디맨드 플릿을 프로비저닝합니다. AppStream 2.0 사용자 풀을 사용하여 인증을 구현합니다. 직원들에게 브라우저 기반 AppStream 2.0 스트리밍 세션을 시작하여 애플리케이션에 액세스하도록 지시합니다."
+      },
+      {
+        "label": "D",
+        "text": "웹 기반 애플리케이션으로 실행되도록 애플리케이션을 리팩터링하고 컨테이너화합니다. 단계 조정 정책을 사용하여 AWS Fargate 의 Amazon Elastic Container Service(Amazon ECS) 에서 애플리케이션을 실행합니다. Amazon Cognito 사용자 풀을 사용하여 인증을 구현합니다. 직원들에게 브라우저에서 애플리케이션을 실행하도록 지시합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  }
+]

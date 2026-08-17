@@ -1,0 +1,297 @@
+[
+  {
+    "qNumber": 121,
+    "question": "금융 회사는 웹 애플리케이션을 온프레미스에서 AWS로 마이그레이션할 계획입니다. 회사는 타사 보안 도구를 사용하여 애플리케이션에 대한 인바운드 트래픽을 모니터링합니다. 이 회사는 지난 15년 동안 이 보안 도구를 사용해 왔으며 이 도구에는 공급업체에서 제공하는 클라우드 솔루션이 없습니다. 회사의 보안 팀은 보안 도구를 AWS 기술과 통합하는 방법에 대해 우려하고 있습니다. 이 회사는 Amazon EC2 인스턴스에서 AWS로의 애플리케이션 마이그레이션을 배포할 계획입니다. EC2 인스턴스는 전용 VPC의 Auto Scaling 그룹에서 실행됩니다. 회사는 보안 도구를 사용하여 VPC로 들어오고 나가는 모든 패킷을 검사해야 합니다. 이 검사는 실시간으로 이루어져야 하며 애플리케이션의 성능에 영향을 미치지 않아야 합니다. 솔루션 설계자는 AWS 리전 내에서 가용성이 높은 대상 아키텍처를 AWS에서 설계해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계 조합을 수행해야 합니까? (2 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "기존 VPC의 새 Auto Scaling 그룹에 있는 EC2 인스턴스에 보안 도구를 배포합니다."
+      },
+      {
+        "label": "B",
+        "text": "Network Load Balancer 뒤에 웹 애플리케이션을 배포합니다."
+      },
+      {
+        "label": "C",
+        "text": "보안 도구 인스턴스 앞에 Application Load Balancer를 배포합니다."
+      },
+      {
+        "label": "D",
+        "text": "트래픽을 보안 도구로 리디렉션하기 위해 각 가용 영역에 게이트웨이 로드 밸런서를 프로비저닝합니다."
+      },
+      {
+        "label": "E",
+        "text": "VPC 간의 통신을 용이하게 하기 위해 전송 게이트웨이를 프로비저닝합니다."
+      }
+    ],
+    "answer": "A, D",
+    "answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "qNumber": 122,
+    "question": "회사에서 다른 공급업체로부터 가전제품을 구입했습니다. 모든 기기에는 IoT 센서가 있습니다. 센서는 정보를 JSON으로 구문 분석하는 레거시 응용 프로그램에 공급업체의 독점 형식으로 상태 정보를 보냅니다. 구문 분석은 간단하지만 각 공급업체마다 고유한 형식이 있습니다. 애플리케이션은 매일 한 번 모든 JSON 레코드를 구문 분석하고 분석을 위해 레코드를 관계형 데이터베이스에 저장합니다. 회사는 더 빠르게 제공하고 비용을 최적화할 수 있는 새로운 데이터 분석 솔루션을 설계해야 합니다. 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "IoT 센서를 AWS IoT Core 에 연결합니다. AWS Lambda 함수를 호출하여 정보를 구문 분석하고 .csv 파일을 Amazon에 저장하는 규칙을 설정합니다. S3 AWS Glue 를 사용하여 파일을 분류합니다. 분석을 위해 Amazon Athena 및 Amazon QuickSight를 사용합니다."
+      },
+      {
+        "label": "B",
+        "text": "애플리케이션 서버를 AWS Fargate 로 마이그레이션하면 IoT 센서에서 정보를 수신하고 정보를 관계형 형식으로 구문 분석합니다. 분석을 위해 구문 분석된 정보를 Amazon Redshlft 에 저장합니다."
+      },
+      {
+        "label": "C",
+        "text": "SFTP 서버용 AWS 전송을 생성합니다. SFTP 를 통해 정보를 .csv 파일로 서버에 전송하도록 IoT 센서 코드를 업데이트합니다. AWS Glue 를 사용하여 파일을 분류합니다. Amazon Athena 를 사용하여 분석하십시오."
+      },
+      {
+        "label": "D",
+        "text": "AWS Snowball Edge 를 사용하여 IoT 센서에서 직접 데이터를 수집하여 로컬 분석을 수행합니다. 정기적으로 데이터를 Amazon Redshift로 수집하여 글로벌 분석을 수행합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 123,
+    "question": "회사에서 일부 애플리케이션을 AWS로 마이그레이션하고 있습니다. 이 회사는 네트워킹 및 보안 전략을 확정한 후 신속하게 애플리케이션을 마이그레이션하고 현대화하려고 합니다. 회사는 중앙 네트워크 계정에서 AWS Direct Connect 연결을 설정했습니다. 이 회사는 가까운 장래에 수백 개의 AWS 계정과 VPC를 갖게 될 것으로 예상합니다. 회사 네트워크는 AWS의 리소스에 원활하게 액세스할 수 있어야 하며 모든 VPC와 통신할 수 있어야 합니다. 회사는 또한 온프레미스 데이터 센터를 통해 클라우드 리소스를 인터넷으로 라우팅하려고 합니다. 이러한 요구 사항을 충족하는 단계 조합은 무엇입니까? (3개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "중앙 계정에서 Direct Connect 게이트웨이를 생성합니다. 각 계정에서 Direct Connect 게이트웨이와 모든 가상 프라이빗 게이트웨이의 계정 ID를 사용하여 연결 제안을 생성합니다."
+      },
+      {
+        "label": "B",
+        "text": "중앙 네트워크 계정에서 Direct Connect 게이트웨이와 전송 게이트웨이를 생성합니다. 전송 VIF를 사용하여 전송 게이트웨이를 Direct Connect 게이트웨이에 연결합니다."
+      },
+      {
+        "label": "C",
+        "text": "인터넷 게이트웨이를 제공합니다. 인터넷 게이트웨이를 서브넷에 연결합니다. 게이트웨이를 통한 인터넷 트래픽을 허용합니다."
+      },
+      {
+        "label": "D",
+        "text": "전송 게이트웨이를 다른 계정과 공유합니다. 운송 게이트웨이(Transit Gateway) 에 VPC를 연결합니다."
+      },
+      {
+        "label": "E",
+        "text": "필요에 따라 VPC 피어링을 프로비저닝합니다."
+      },
+      {
+        "label": "F",
+        "text": "프라이빗 서브넷만 프로비저닝합니다. 전송 게이트웨이 및 고객 게이트웨이에서 필요한 경로를 열어 AWS의 아웃바운드 인터넷 트래픽이 데이터 센터에서 실행되는 NAT 서비스를 통해 흐를 수 있도록 합니다."
+      }
+    ],
+    "answer": "B, D, F",
+    "answers": [
+      "B",
+      "D",
+      "F"
+    ]
+  },
+  {
+    "qNumber": 124,
+    "question": "한 회사에 수백 개의 AWS 계정이 있습니다. 이 회사는 최근 새로운 예약 인스턴스를 구매하고 기존 예약 인스턴스를 수정하기 위한 중앙 집중식 내부 프로세스를 구현했습니다. 이 프로세스에서는 예약 인스턴스를 구매하거나 수정하려는 모든 사업부가 조달을 위해 전담 팀에 요청을 제출해야 합니다. 이전에는 사업부가 각자의 AWS 계정에서 자율적으로 예약 인스턴스를 직접 구매하거나 수정했습니다. 솔루션 설계자는 가능한 한 가장 안전한 방법으로 새 프로세스를 시행해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계 조합을 수행해야 합니까? (2 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "모든 AWS 계정이 모든 기능이 활성화된 AWS Organizations의 조직에 속하는지 확인하십시오."
+      },
+      {
+        "label": "B",
+        "text": "AWS Config 를 사용하여 ec2:PurchaseReservedInstancesOffering 작업 및 ec2:ModifyReservedInstances 작업에 대한 접근을 거부하는 IAM 정책의 연결에 대해 보고합니다."
+      },
+      {
+        "label": "C",
+        "text": "각 AWS 계정에서 ec2:PurchaseReservedInstancesOffering 작업 및 ec2:ModifyReservedInstances 작업을 거부하는 IAM 정책을 생성합니다."
+      },
+      {
+        "label": "D",
+        "text": "ec2:PurchaseReservedInstancesOffering 작업 및 ec2:ModifyReservedInstances 작업을 거부하는 SCP를 생성합니다. SCP를 조직의 각 OU에 연결합니다."
+      },
+      {
+        "label": "E",
+        "text": "모든 AWS 계정이 통합 결제 기능을 사용하는 AWS Organizations 의 조직에 속해 있는지 확인합니다."
+      }
+    ],
+    "answer": "A, D",
+    "answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "qNumber": 125,
+    "question": "회사에서 Amazon RDS for MySQL 데이터베이스를 사용하여 데이터를 저장하는 중요한 애플리케이션을 실행하고 있습니다. RDS DB 인스턴스는 다중 AZ 모드로 배포됩니다. 최근 RDS 데이터베이스 장애 조치 테스트로 인해 애플리케이션이 40초 동안 중단되었습니다. 솔루션 설계자는 중단 시간을 20초 미만으로 줄이기 위한 솔루션을 설계해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 어떤 단계 조합을 수행해야 합니까? (3 개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "데이터베이스 앞에서 Amazon ElastiCache for Memcached 사용합니다."
+      },
+      {
+        "label": "B",
+        "text": "데이터베이스 앞에서 Redis용 Amazon ElastiCache 사용합니다."
+      },
+      {
+        "label": "C",
+        "text": "데이터베이스 앞에서 RDS Proxy를 사용합니다."
+      },
+      {
+        "label": "D",
+        "text": "데이터베이스를 Amazon Aurora MySQL로 마이그레이션합니다."
+      },
+      {
+        "label": "E",
+        "text": "Amazon Aurora 복제본을 생성합니다."
+      },
+      {
+        "label": "F",
+        "text": "RDS for MySQL 읽기 전용 복제본 생성합니다."
+      }
+    ],
+    "answer": "C, D, E",
+    "answers": [
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 126,
+    "question": "AWS 파트너 회사는 org1이라는 조직을 사용하여 AWS Organizations 에서 서비스를 구축하고 있습니다. 이 서비스를 사용하려면 파트너 회사가 org2라는 별도의 조직에 있는 고객 계정의 AWS 리소스에 액세스할 수 있어야 합니다. 회사는 API 또는 명령줄 도구를 사용하여 고객 계정에 대한 최소 권한 보안 접근을 설정해야 합니다. org1이 org2의 리소스에 액세스하도록 허용하는 가장 안전한 방법은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "고객은 로그인하여 필요한 작업을 수행하기 위해 파트너사에 AWS 계정 액세스 키를 제공해야 합니다."
+      },
+      {
+        "label": "B",
+        "text": "고객은 IAM 사용자를 생성하고 IAM 사용자에게 필요한 권한을 할당해야 합니다. 그런 다음 고객은 파트너 회사에 자격 증명을 제공하여 로그인하고 필요한 작업을 수행해야 합니다."
+      },
+      {
+        "label": "C",
+        "text": "고객은 IAM 역할을 생성하고 IAM 역할에 필요한 권한을 할당해야 합니다. 그런 다음 파트너 회사는 필요한 작업을 수행하기 위해 접근을 요청할 때 IAM 역할의 Amazon 리소스 이름(ARN)을 사용해야 합니다."
+      },
+      {
+        "label": "D",
+        "text": "고객은 IAM 역할을 생성하고 IAM 역할에 필요한 권한을 할당해야 합니다. 그런 다음 파트너 회사는 필요한 작업을 수행하기 위한 접근을 요청할 때 IAM 역할의 신뢰 정책에 있는 외부 ID를 포함하여 IAM 역할의 Amazon 리소스 이름(ARN)을 사용해야 합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 127,
+    "question": "배송 회사는 타사 경로 계획 애플리케이션을 AWS로 마이그레이션해야 합니다. 타사는 공용 레지스트리에서 지원되는 Docker 이미지를 제공합니다. 경로 맵을 생성하는 데 필요한 만큼의 컨테이너에서 이미지를 실행할 수 있습니다. 회사는 배송 기사가 허브에서 고객까지 최단 거리를 이동할 수 있도록 배송 영역을 공급 허브가 있는 구역으로 구분했습니다. 경로 맵을 생성하는 데 필요한 시간을 줄이기 위해 각 섹션은 섹션 영역에서만 주문을 처리하는 사용자 지정 구성과 함께 고유한 Docker 컨테이너 집합을 사용합니다. 회사는 실행 중인 컨테이너 수에 따라 리소스를 비용 효율적으로 할당할 수 있는 기능이 필요합니다. 최소한의 운영 오버헤드로 이러한 요구 사항을 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon EC2 에서 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를 생성합니다. Amazon EKS CLI 를 사용하여 포드에 사용자 지정 태그를 할당하는 --tags 옵션을 사용하여 포드에서 계획 애플리케이션을 시작합니다."
+      },
+      {
+        "label": "B",
+        "text": "AWS Fargate 에서 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를 생성합니다. Amazon EKS CLI를 사용하여 계획 애플리케이션을 시작합니다. AWS CLI tag-resource API 호출을 사용하여 포드에 사용자 지정 태그를 할당합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon EC2 에서 Amazon Elastic Container Service(Amazon ECS) 클러스터를 생성합니다. run-tasks가 true로 설정된 AWS CLI 를 사용하여 --tags 옵션을 사용하여 사용자 지정 태그를 작업에 할당함으로써 계획 애플리케이션을 시작합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Fargate 에서 Amazon Elastic Container Service(Amazon ECS) 클러스터를 생성합니다. AWS CLI run -task 명령을 사용하고 enableECSManagedTags를 true로 설정하여 계획 애플리케이션을 시작합니다. --tags 옵션을 사용하여 작업에 사용자 지정 태그를 할당합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 128,
+    "question": "소프트웨어 회사는 여러 AWS 계정 및 리전의 리소스를 사용하여 AWS에서 애플리케이션을 호스팅합니다. 애플리케이션은 IPv4 CIDR 블록이 10.10.0.0/16인 us-east-1 리전에 위치한 애플리케이션 VPC의 Amazon EC2 인스턴스 그룹에서 실행됩니다. 다른 AWS 계정에서 공유 서비스 VPC는 IPv4 CIDR 블록이 10.10.10.0/24인 us-east-2 리전에 있습니다. 클라우드 엔지니어가 AWS CloudFormation 을 사용하여 애플리케이션 VPC를 공유 서비스 VPC와 피어링하려고 시도하면 피어링 실패를 나타내는 오류 메시지가 표시됩니다. 어떤 요인이 이 오류를 일으킬 수 있습니까? (2개 선택)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "두 VPC의 IPv4 CIDR 범위가 겹칩니다."
+      },
+      {
+        "label": "B",
+        "text": "VPC가 동일한 지역에 있지 않습니다."
+      },
+      {
+        "label": "C",
+        "text": "하나 또는 두 계정 모두 인터넷 게이트웨이에 대한 액세스 권한이 없습니다."
+      },
+      {
+        "label": "D",
+        "text": "VPC 중 하나가 AWS Resource Access Manager를 통해 공유되지 않았습니다."
+      },
+      {
+        "label": "E",
+        "text": "피어 수락자 계정의 IAM 역할에 올바른 권한이 없습니다."
+      }
+    ],
+    "answer": "A, E",
+    "answers": [
+      "A",
+      "E"
+    ]
+  },
+  {
+    "qNumber": 129,
+    "question": "회사의 서버리스 애플리케이션에 대한 외부 감사에서 너무 많은 권한을 부여하는 IAM 정책이 드러났습니다. 이러한 정책은 회사의 AWS Lambda 실행 역할에 연결됩니다. 수백 개의 회사 Lambda 함수에는 Amazon S3 버킷 및 Amazon DynamoDB 테이블에 대한 전체 액세스와 같은 광범위한 액세스 권한이 있습니다. 회사는 각 기능이 작업을 완료하는 데 필요한 최소한의 권한만 갖기를 원합니다. 솔루션 설계자는 각 Lambda 함수에 필요한 권한을 결정해야 합니다. 솔루션 설계자는 최소한의 노력으로 이 요구 사항을 충족하기 위해 무엇을 해야 합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Lambda 함수를 프로파일링하고 AWS API 호출을 검색하도록 Amazon CodeGuru를 설정합니다. 각 Lambda 함수에 필요한 API 호출 및 리소스의 인벤토리를 생성합니다. 각 Lambda 함수에 대한 새 IAM 액세스 정책을 생성합니다. 새 정책을 검토하여 회사의 비즈니스 요구 사항을 충족하는지 확인하십시오."
+      },
+      {
+        "label": "B",
+        "text": "AWS 계정에 대한 AWS CloudTrail 로깅을 켭니다. AWS Identity and Access Management Access Analyzer 를 사용하여 CloudTrail 로그에 기록된 활동을 기반으로 IAM 액세스 정책을 생성합니다. 생성된 정책을 검토하여 회사의 비즈니스 요구 사항을 충족하는지 확인하십시오."
+      },
+      {
+        "label": "C",
+        "text": "AWS 계정에 대한 AWS CloudTrail 로깅을 켭니다. CloudTrail 로그를 구문 분석하고 Lambda 실행 역할별로 AWS API 호출을 검색하고 요약 보고서를 생성하는 스크립트를 생성합니다. 보고서를 검토합니다. 각 Lambda 함수에 대해 더 제한적인 권한을 제공하는 IAM 액세스 정책을 만듭니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS 계정에 대한 AWS CloudTrail 로깅을 켭니다. CloudTrail 로그를 Amazon S3로 내보냅니다. Amazon EMR 을 사용하여 Amazon S3 에서 CloudTrail 로그를 처리하고 각 실행 역할에서 사용하는 API 호출 및 리소스에 대한 보고서를 생성합니다. 각 역할에 대한 새 IAM 액세스 정책을 생성합니다. 생성된 역할을 S3 버킷으로 내보냅니다. 생성된 정책을 검토하여 회사의 비즈니스 요구 사항을 충족하는지 확인합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 130,
+    "question": "솔루션 설계자는 회사의 Amazon EC2 인스턴스와 Amazon Elastic Block Store(Amazon EBS) 볼륨을 분석하여 회사가 리소스를 효율적으로 사용하고 있는지 확인해야 합니다. 이 회사는 능동/수동 구성으로 배포되는 데이터베이스 클러스터를 호스팅하기 위해 여러 개의 대용량 고용량 EC2 인스턴스를 실행하고 있습니다. 이러한 EC2 인스턴스의 활용은 데이터베이스를 사용하는 애플리케이션에 따라 다르며 회사는 패턴을 식별하지 않았습니다. 솔루션 설계자는 환경을 분석하고 결과에 따라 조치를 취해야 합니다. 이러한 요구 사항을 가장 비용 효율적으로 충족하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS Systems Manager OpsCenter 를 사용하여 대시보드를 생성합니다. EC2 인스턴스 및 해당 EBS 볼륨과 연결된 Amazon CloudWatch 지표에 대한 시각화를 구성합니다. 대시보드를 주기적으로 검토하고 사용 패턴을 식별합니다. 지표의 피크를 기준으로 EC2 인스턴스의 크기를 조정합니다."
+      },
+      {
+        "label": "B",
+        "text": "EC2 인스턴스 및 해당 EBS 볼륨에 대한 Amazon CloudWatch 세부 모니터링을 켭니다. 메트릭을 기반으로 하는 대시보드를 만들고 검토합니다. 사용 패턴을 식별합니다. 지표의 피크를 기준으로 EC2 인스턴스의 크기를 조정합니다."
+      },
+      {
+        "label": "C",
+        "text": "각 EC2 인스턴스에 Amazon CloudWatch 에이전트를 설치합니다. AWS Compute Optimizer 를 켜고 최소 12시간 동안 실행합니다. Compute Optimizer 의 권장 사항을 검토하고 지시에 따라 EC2 인스턴스의 크기를 조정합니다."
+      },
+      {
+        "label": "D",
+        "text": "AWS Enterprise Support 플랜에 가입합니다. AWS Trusted Advisor 를 켭니다. 12 시간을 기다립니다. Trusted Advisor 의 권장 사항을 검토하고 지시에 따라 EC2 인스턴스의 크기를 조정합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  }
+]

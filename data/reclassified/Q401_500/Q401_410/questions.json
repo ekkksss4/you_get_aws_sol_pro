@@ -1,0 +1,236 @@
+[
+  {
+    "qNumber": 401,
+    "question": "회사는 회사 데이터 센터에서 실행되는 애플리케이션을 위한 재해 복구(DR) 솔루션을 설계하려고 합니다. 애플리케이션은 SMB 파일 공유에 쓰고 두 번째 파일 공유에 복사본을 만듭니다. 두 파일 공유는 모두 데이터 센터에 있습니다. 애플리케이션은 메타데이터 파일과 이미지 파일이라는 두 가지 유형의 파일을 사용합니다. 회사는 복사본을 AWS에 저장하려고 합니다. 회사는 재해가 발생할 경우 SMB를 사용하여 데이터 센터나 AWS의 데이터에 액세스할 수 있는 능력이 필요합니다. 데이터 사본은 거의 액세스되지 않지만 5분 이내에 사용 가능해야 합니다.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon S3 스토리지를 사용하여 AWS Outposts 를 배포합니다. Outposts 에서 Windows Amazon EC2 인스턴스를 파일 서버로 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "Amazon FSx 파일 게이트웨이를 배포합니다. SSD 스토리지를 사용하는 Windows 파일 서버 다중 AZ 파일 시스템용 Amazon FSx를 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon S3 파일 게이트웨이를 배포합니다. 메타데이터 파일에 Amazon S3 Standard - Infrequent Access(S3 Standard -IA)를 사용하고 이미지 파일에 S3 Glacier Deep Archive 를 사용하도록 S3 파일 게이트웨이를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon S3 파일 게이트웨이를 배포합니다. 메타데이터 파일 및 이미지 파일에 Amazon S3 Standard-Infrequent Access(S3 Standard-IA)를 사용하도록 S3 파일 게이트웨이를 구성합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 402,
+    "question": "한 회사에서는 예상치 못한 재해가 발생할 경우 400명의 직원을 원격 근무 환경으로 이동할 수 있는 솔루션을 만들고 있습니다. 사용자 데스크탑에는 Windows와 Linux 운영 체제가 혼합되어 있습니다. 웹 브라우저, 메일 클라이언트 등 다양한 유형의 소프트웨어가 각 데스크톱에 설치됩니다. 솔루션 설계자는 직원이 기존 ID 자격 증명을 사용할 수 있도록 회사의 온프레미스 Active Directory와 통합할 수 있는 솔루션을 구현해야 합니다. 솔루션은 다중 인증(MFA)을 제공해야 하며 기존 데스크탑의 사용자 경험을 복제해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "클라우드 데스크톱 서비스에는 Amazon WorkSpaces 를 사용하십시오. 온프레미스 네트워크에 대한 VPN 연결을 설정합니다. AD 커넥터를 생성하고 온프레미스 Active Directory 에 연결합니다. AWS Management Console을 사용하여 Amazon WorkSpaces에 대한 MFA를 활성화합니다."
+      },
+      {
+        "label": "B",
+        "text": "Amazon AppStream 2.0 을 애플리케이션 스트리밍 서비스로 사용하십시오. 직원을 위한 데스크탑 보기를 구성하십시오. 온프레미스 네트워크에 대한 VPN 연결을 설정합니다. 온프레미스에 AD FS(Active Directory Federation Services) 를 설정합니다. VPN 연결을 통해 VPC 네트워크를 AD FS에 연결합니다."
+      },
+      {
+        "label": "C",
+        "text": "클라우드 데스크톱 서비스에는 Amazon WorkSpaces 를 사용하십시오. 온프레미스 네트워크에 대한 VPN 연결을 설정합니다. AD 커넥터를 생성하고 온프레미스 Active Directory 에 연결합니다. MFA용 RADIUS 서버를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon AppStream 2.0을 애플리케이션 스트리밍 서비스로 사용하십시오. 온프레미스에 Active Directory Federation Services 를 설정합니다. AppStream 2.0 에 대한 사용자 액세스 권한을 부여하도록 MFA를 구성합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 403,
+    "question": "한 회사에서 Amazon Connect 연락 센터를 배포했습니다. 연락 센터 상담원은 컴퓨터에서 생성된 수많은 통화를 보고하고 있습니다. 회사는 이러한 통화로 인한 비용 및 생산성 영향을 우려하고 있습니다. 회사는 상담원이 해당 통화를 스팸으로 표시하고 향후 상담원에게 전달되는 번호를 자동으로 차단할 수 있는 솔루션을 원합니다. 이러한 요구 사항을 충족하는 가장 운영 효율적인 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "UpdateContactAttributes API 를 호출하는 AWS Lambda 함수를 호출하는 플래그 호출 버튼을 추가하여 CCP(Contact Control Panel) 를 사용자 지정합니다. Amazon DynamoDB 테이블을 사용하여 스팸 번호를 저장합니다. 업데이트된 속성을 찾고 Lambda 함수를 사용하여 DynamoDB 테이블을 읽고 쓰도록 고객 응대 흐름을 수정합니다."
+      },
+      {
+        "label": "B",
+        "text": "스팸 전화를 찾는 Amazon Connect 규칙용 콘택트 렌즈를 사용합니다. Amazon DynamoDB 테이블을 사용하여 스팸 번호를 저장합니다. 규칙을 찾고 AWS Lambda 함수를 호출하여 DynamoDB 테이블을 읽고 쓰도록 고객 응대 흐름을 수정합니다."
+      },
+      {
+        "label": "C",
+        "text": "Amazon DynamoDB 테이블을 사용하여 스팸 번호를 저장합니다. 상담원이 CCP(Contact Control Panel) 에서 스팸 전화를 연결할 수 있는 빠른 연결을 만듭니다. DynamoDB 테이블에 쓰기 위해 AWS Lambda 함수를 호출하도록 빠른 연결 고객 응대 흐름을 수정합니다."
+      },
+      {
+        "label": "D",
+        "text": "발신자 입력을 요청하도록 초기 고객 응대 흐름을 수정합니다. 에이전트가 입력을 받지 못한 경우 에이전트는 발신자를 스팸으로 표시해야 합니다. Amazon DynamoDB 테이블을 사용하여 스팸 번호를 저장합니다. AWS Lambda 함수를 사용하여 DynamoDB 테이블을 읽고 씁니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 404,
+    "question": "한 회사는 회사 전체 공장 전체에 습도, 빛과 같은 환경 매개변수에 대한 정보를 수집하기 위해 센서를 장착했습니다. 회사는 AWS 클라우드의 데이터를 실시간으로 스트리밍하고 분석해야 합니다. 매개변수 중 하나라도 허용 가능한 범위를 벗어나면 공장 운영팀은 즉시 알림을 받아야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "데이터를 Amazon Kinesis Data Firehose 전송 스트림으로 스트리밍합니다. AWS Step Functions를 사용하여 Kinesis Data Firehose 전송 스트림의 데이터를 사용하고 분석합니다. Amazon Simple 알림 서비스(Amazon SNS)를 사용하여 운영팀에 알립니다."
+      },
+      {
+        "label": "B",
+        "text": "데이터를 Amazon Managed Streaming for Apache Kafka(Amazon MSK) 클러스터로 스트리밍합니다. Amazon MSK 에서 트리거를 설정하여 AWS Fargate 작업을 호출하여 데이터를 분석합니다. Amazon Simple Email Service(Amazon SES) 를 사용하여 운영 팀에 알립니다."
+      },
+      {
+        "label": "C",
+        "text": "데이터를 Amazon Kinesis 데이터 스트림으로 스트리밍합니다. Kinesis 데이터 스트림을 사용하고 데이터를 분석하는 AWS Lambda 함수를 생성합니다. Amazon Simple 알림 서비스(Amazon SNS)를 사용하여 운영팀에 알립니다."
+      },
+      {
+        "label": "D",
+        "text": "데이터를 Amazon Kinesis Data Analytics 애플리케이션으로 스트리밍합니다. I-Jse는 데이터를 소비하고 분석하기 위해 Amazon Elastic Container Service(Amazon ECS) 에서 자동으로 확장되고 컨테이너화된 서비스입니다. Amazon Simple Email Service(Amazon SES) 를 사용하여 운영 팀에 알립니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  },
+  {
+    "qNumber": 405,
+    "question": "한 회사가 워크로드를 위해 Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터 배포를 준비하고 있습니다. 회사는 클러스터가 예측할 수 없는 수의 상태 비저장 포드를 지원할 것으로 기대합니다. 워크로드가 사용하는 복제본 수를 자동으로 확장하므로 짧은 기간 동안 많은 포드가 생성됩니다. 노드 복원력을 극대화하는 솔루션은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "별도의 시작 템플릿을 사용하여 워크로드 노드 그룹과 별개인 두 번째 클러스터에 EKS 제어 플레인을 배포합니다."
+      },
+      {
+        "label": "B",
+        "text": "워크로드 노드 그룹을 업데이트합니다. 더 적은 수의 노드 그룹과 더 큰 인스턴스를 노드 그룹에 사용하세요."
+      },
+      {
+        "label": "C",
+        "text": "워크로드 노드 그룹의 컴퓨팅 용량이 프로비저닝되지 않은 상태로 유지되도록 Kubernetes Cluster Autoscaler를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "가용 영역을 기반으로 하는 토폴로지 분산 제약 조건을 사용하도록 워크로드를 구성합니다."
+      }
+    ],
+    "answer": "D",
+    "answers": [
+      "D"
+    ]
+  },
+  {
+    "qNumber": 407,
+    "question": "회사에는 AWS Organizations 의 조직에 속한 AWS 계정이 있습니다. 회사는 Amazon EC2 사용량을 지표로 추적하려고 합니다. 회사의 아키텍처 팀은 EC2 사용량이 지난 30일 동안의 평균 EC2 사용량보다 10% 이상 높은 경우 매일 알림을 받아야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "조직의 마스터 계정에서 AWS 예산을 구성합니다. EC2 실행 시간의 사용 유형을 지정합니다. 일일 기간을 지정합니다. AWS Cost Explorer 에서 지난 30일 동안 보고된 평균 사용량보다 10% 더 높게 예산 금액을 설정합니다. 사용량 임계값이 충족되면 아키텍처 팀에 알리도록 경고를 구성합니다."
+      },
+      {
+        "label": "B",
+        "text": "조직의 마스터 계정에서 AWS 비용 이상 탐지를 구성합니다. AWS 서비스의 모니터 유형을 구성합니다. Amazon EC2 필터를 적용합니다. 사용량이 지난 30일 동안의 평균 사용량보다 10% 많은 경우 아키텍처 팀에 알리도록 경고 구독을 구성합니다."
+      },
+      {
+        "label": "C",
+        "text": "조직의 마스터 계정에서 AWS Trusted Advisor 를 활성화합니다. EC2 사용량이 지난 30일 동안 보고된 평균 사용량보다 10% 더 많은 경우 아키텍처 팀에 알리도록 비용 최적화 권고 경고를 구성합니다."
+      },
+      {
+        "label": "D",
+        "text": "조직의 마스터 계정에서 Amazon Detective 를 구성합니다. Detective 가 10%가 넘는 사용 이상을 식별한 경우 아키텍처 팀에 알리도록 EC2 사용 이상 경고를 구성합니다."
+      }
+    ],
+    "answer": "A",
+    "answers": [
+      "A"
+    ]
+  },
+  {
+    "qNumber": 408,
+    "question": "한 전자 상거래 회사는 IT 인프라를 개편하고 있으며 AWS 서비스를 사용할 계획입니다. 회사의 CIO는 솔루션 설계자에게 간단하고 가용성이 높으며 느슨하게 결합된 주문 처리 애플리케이션을 설계해 달라고 요청했습니다. 애플리케이션은 주문을 Amazon DynamoDB 테이블에 저장하기 전에 수신하고 처리하는 역할을 담당합니다. 애플리케이션에는 산발적인 트래픽 패턴이 있으며 마케팅 캠페인 중에 확장하여 지연을 최소화하면서 주문을 처리할 수 있어야 합니다. 다음 중 요구 사항을 충족하기 위한 가장 신뢰할 수 있는 접근 방식은 무엇입니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Amazon EC2 호스팅 데이터베이스에서 주문을 받고 EC2 인스턴스를 사용하여 처리합니다."
+      },
+      {
+        "label": "B",
+        "text": "Amazon SQS 대기열에서 주문을 받고 AWS Lambda 함수를 호출하여 처리합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Step Functions 프로그램을 사용하여 주문을 받고 Amazon ECS 컨테이너를 시작하여 처리합니다."
+      },
+      {
+        "label": "D",
+        "text": "Amazon Kinesis Data Streams에서 주문을 받고 Amazon EC2 인스턴스를 사용하여 처리합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 409,
+    "question": "한 회사가 PostgreSQL용 Amazon RDS 데이터베이스에 액세스하는 AWS Lambda 함수를 배포하고 있습니다. 회사는 QA 환경과 프로덕션 환경에서 Lambda 기능을 시작해야 합니다. 회사는 애플리케이션 코드 내에서 자격 증명을 노출해서는 안 되며 비밀번호를 자동으로 교체해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "두 환경 모두에 대한 데이터베이스 자격 증명을 AWS Systems Manager Parameter Store 에 저장하십시오. AWS Key Management Service(AWS KMS) 키를 사용하여 자격 증명을 암호화합니다. Lambda 함수의 애플리케이션 코드 내에서 Python용 AWS SDK(Bot03) 를 사용하여 Parameter Store 매개변수에서 자격 증명을 가져옵니다. Parameter Store 파라미터에 대한 접근을 제공하기 위해 Lambda 함수에 역할을 추가합니다."
+      },
+      {
+        "label": "B",
+        "text": "QA 환경과 프로덕션 환경에 대한 고유한 키 항목을 사용하여 AWS Secrets Manager 의 두 환경에 대한 데이터베이스 자격 증명을 저장합니다. 회전을 켭니다. Lambda 함수의 환경 변수로 Secrets Manager 키에 대한 참조를 제공합니다."
+      },
+      {
+        "label": "C",
+        "text": "AWS Key Management Service(AWS KMS) 에 두 환경 모두에 대한 데이터베이스 자격 증명을 저장합니다. 회전을 켭니다. Lambda 함수에 대한 환경 변수로 AWS KMS 에 저장된 자격 증명에 대한 참조를 제공합니다."
+      },
+      {
+        "label": "D",
+        "text": "QA 환경과 프로덕션 환경을 위해 별도의 S3 버킷을 생성합니다. S3 버킷에 대해 AWS KMS 키(SSE-KMS)를 사용하여 서버 측 암호화를 활성화합니다. 각 Lambda 함수의 애플리케이션 코드에 함수의 해당 환경에 대한 올바른 자격 증명을 가져오는 기능을 제공하는 객체 명명 패턴을 사용합니다. 각 Lambda 함수의 실행 역할에 Amazon S3 에 대한 액세스 권한을 부여합니다."
+      }
+    ],
+    "answer": "B",
+    "answers": [
+      "B"
+    ]
+  },
+  {
+    "qNumber": 410,
+    "question": "한 회사가 AWS Control Tower 를 사용하여 AWS Organizations 에 속한 조직의 AWS 계정을 관리하고 있습니다. 회사에는 계정이 포함된 OU가 있습니다. 회사는 OU 계정의 신규 또는 기존 Amazon EC2 인스턴스가 퍼블릭 IP 주소를 얻지 못하도록 방지해야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "AWS 시스템 관리자를 사용하도록 OU의 각 계정에 있는 모든 인스턴스를 구성합니다. 시스템 관리자 자동화 Runbook을 사용하여 퍼블릭 IP 주소가 인스턴스에 연결되는 것을 방지합니다."
+      },
+      {
+        "label": "B",
+        "text": "OU 계정의 인스턴스에 퍼블릭 IP 주소가 있는지 확인하기 위해 AWS Control Tower 사전 제어를 구현합니다. ssociatePubIicIpAddress 속성을 False로 설정합니다. OU 에 사전 제어를 연결합니다."
+      },
+      {
+        "label": "C",
+        "text": "공용 IP 주소가 있는 인스턴스의 시작을 방지하는 SCP를 생성합니다. 또한 기존 인스턴스에 공용 IP 주소가 연결되지 않도록 SCP를 구성합니다. SCP를 OU에 연결합니다."
+      },
+      {
+        "label": "D",
+        "text": "퍼블릭 IP 주소가 있는 인스턴스를 감지하는 AWS Config 사용자 지정 규칙을 생성합니다. AWS Lambda 함수를 사용하여 인스턴스에서 퍼블릭 IP 주소를 분리하는 해결 작업을 구성합니다."
+      }
+    ],
+    "answer": "C",
+    "answers": [
+      "C"
+    ]
+  }
+]

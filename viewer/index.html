@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Question Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <h1>AWS Question Viewer</h1>
+      <p>문제와 보기를 화면에서 빠르게 확인하고 번호 단위로 이동합니다.</p>
+    </header>
+
+    <section class="controls">
+      <button id="loadSampleBtn" type="button">샘플 데이터 로드</button>
+      <label class="file-picker" for="fileInput">JSON 파일 불러오기</label>
+      <input id="fileInput" type="file" accept="application/json" />
+
+      <div class="nav">
+        <button id="prevBtn" type="button">이전</button>
+        <span id="progress">0 / 0</span>
+        <button id="nextBtn" type="button">다음</button>
+      </div>
+
+      <div class="jump">
+        <label for="jumpInput">Q번호 이동</label>
+        <input id="jumpInput" type="number" min="1" />
+        <button id="jumpBtn" type="button">이동</button>
+        <button id="highlightBtn" type="button">연결 형광 ON</button>
+      </div>
+    </section>
+
+    <section id="status" class="status">데이터를 불러오세요.</section>
+
+    <article id="card" class="card hidden">
+      <h2 id="qTitle"></h2>
+      <p id="qText" class="question"></p>
+      <ul id="choiceList" class="choices"></ul>
+      <p id="answer" class="answer"></p>
+    </article>
+  </main>
+
+  <script src="questions.data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
