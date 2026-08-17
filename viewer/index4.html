@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Concept Book</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="v4">
+  <main class="concept-app">
+    <aside class="concept-sidebar">
+      <div class="concept-brand">
+        <span class="concept-kicker">AWS SAP-C02</span>
+        <h1>Concept Book</h1>
+        <p>서비스 특성과 정답 표현을 빠르게 회독합니다.</p>
+      </div>
+      <label class="concept-search-label" for="conceptSearch">서비스 찾기</label>
+      <input id="conceptSearch" class="concept-search" type="search" placeholder="예: S3, Lambda, Route 53" />
+      <nav id="serviceList" class="service-list" aria-label="AWS 서비스 목록"></nav>
+    </aside>
+
+    <section class="concept-main">
+      <header class="concept-header">
+        <div>
+          <span class="concept-kicker">SERVICE PLAYBOOK</span>
+          <h2 id="serviceTitle">서비스를 선택하세요</h2>
+        </div>
+        <span id="serviceCount" class="concept-count"></span>
+      </header>
+      <div id="serviceContent" class="concept-content">
+        <div class="concept-empty">왼쪽에서 서비스를 선택하면 개념과 문제 연결이 표시됩니다.</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="concepts.data.js"></script>
+  <script src="app4.js"></script>
+</body>
+</html>

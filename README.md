@@ -15,6 +15,7 @@
 ## 폴더 구조
 - `docs/`: 학습 계획, 규칙, 진행 기록
 - `data/questions/`: 문제 데이터(JSON)
+- `data/concepts/`: 서비스 개념 후보, 기능 연결, 중복 그룹, 개념집
 - `viewer/`: 문제/보기 표시 화면
 - `src/`: 스크립트 및 도구 코드
 
@@ -23,6 +24,15 @@
 2. [docs/PDF_TO_JSON.md](docs/PDF_TO_JSON.md)의 형식으로 문제 JSON을 준비합니다.
 3. [viewer/index.html](viewer/index.html)을 열고 JSON 파일을 불러옵니다.
 4. 이전/다음/번호 이동으로 문제와 보기를 확인합니다.
+
+## 개념집
+- [viewer/index4.html](viewer/index4.html): 서비스 사이드바 + 조건/정답 표현 중심의 화면형 개념집
+- [data/concepts/AWS_CONCEPT_BOOK.md](data/concepts/AWS_CONCEPT_BOOK.md): 서비스별 개념 후보와 문제 조건 연결
+- [data/concepts/questions.deduplicated.json](data/concepts/questions.deduplicated.json): 80% 이상 유사 문항 그룹에서 대표 문항만 남긴 데이터
+- [data/concepts/VERIFICATION.md](data/concepts/VERIFICATION.md): 공식 AWS 문서 검증 상태와 주의사항
+
+개념집 재생성:
+`C:/Users/ekkks/AppData/Local/Programs/Python/Python312/python.exe src/build_concept_book.py`
 
 ## 현재 포함된 샘플
 - [data/questions/questions.sample.json](data/questions/questions.sample.json)

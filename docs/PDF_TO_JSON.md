@@ -58,3 +58,8 @@ JSON 구조(배열)
 뷰어 연동 방식
 - `viewer/index.html`은 `viewer/questions.data.js`를 먼저 읽고 자동 로드
 - 데이터가 없으면 `data/questions/questions.json`을 fetch로 재시도
+
+개념집 생성
+- `src/build_concept_book.py`는 현재 JSON에서 서비스/기능 후보, 문제 조건-정답 조합, 80% 유사 문항 그룹을 추출합니다.
+- 결과는 `data/concepts/`에 생성됩니다.
+- 공식 AWS 문서 링크는 포함하지만, 링크 본문과 덤프 정답의 최종 대조는 [data/concepts/VERIFICATION.md](../data/concepts/VERIFICATION.md)의 상태를 확인하며 별도로 수행해야 합니다.
