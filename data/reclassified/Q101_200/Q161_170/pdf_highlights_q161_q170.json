@@ -1,0 +1,382 @@
+[
+  {
+    "qNumber": 161,
+    "highlights": [
+      {
+        "text": "여러 대상 그룹이 있으며 경로 기반 라우팅을 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "URL 경로를 기반으로 요청을 전달합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "IP 주소를 기반으로 하는 허용 목록을 사용하여 온프레미스 방화벽 어플라이언스를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "배포할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "NLB(Network Load Balancer)를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "하나의 정적 IP",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "주소와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "NLB에 대한 ALB 유형 대상 그룹을 생성하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 162,
+    "highlights": [
+      {
+        "text": "ALB는 Amazon CloudFront 배포의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "오리진입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ALB에 직접 액세스하지 못하도록 하는 솔루션이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CloudFront에 대해서만 AWS 관리형 접두사 목록의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ALB에 보안 그룹 규칙을 추가하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "트래픽을 허용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 163,
+    "highlights": [
+      {
+        "text": "회사는 전송 중 암호화를 사용하도록 ElastiCache를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자는 인증 없이 캐시에 액세스할 수 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "구성하지 않았습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자 인증을 요구하고 회사가 엔드투엔드 암호화를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AUTH 토큰을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Secrets Manager에 토큰을 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 164,
+    "highlights": [
+      {
+        "text": "인스턴스 시작",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시스템 사용자의 대기 시간이 길어지는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실패를 보고했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "속성 기반 인스턴스 유형 선택을 사용하는 새로운 시작 템플릿 버전을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 시작",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "템플릿 버전을 사용하도록 Auto Scaling 그룹을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 165,
+    "highlights": [
+      {
+        "text": "S3 API를 지원하기 위해 많은 문서를 생성하는 처리 서버를 즉시",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "업데이트할 수 없음을 발견했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "30분 이내에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "파일에 대한 빠른 로컬 액세스가 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다운로드할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3 파일 게이트웨이를 설정하고 문서 저장소에 연결된 파일 공유를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "NFS를 사용하여 Amazon EC2 인스턴스에 파일 공유를 탑재합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RefreshCache",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 166,
+    "highlights": [
+      {
+        "text": "다른 여러 마이크로 서비스는 민감한 데이터의 일부 사본을 다른 스토리지 서비스에 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중앙 사용자 서비스가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자를 삭제하는 즉시 다른 모든 마이크로 서비스도 데이터 복사본을 즉시 삭제해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자 지정 Amazon EventBridge",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 마이크로 서비스에 대한 EventBridge 규칙을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "생성하여 사용자 삭제 이벤트 패턴과 일치시키고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 167,
+    "highlights": [
+      {
+        "text": "외부 고객은 웹 애플리케이션에 연결해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 모든 외부 고객에게 IP 주소를 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Global Accelerator 표준 가속기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 168,
+    "highlights": [
+      {
+        "text": "개발용 AWS 계정이 몇 개 있고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "유휴 상태의 Amazon Elastic Block Store(Amazon EBS) 암호화를 현재 프로덕션 계정과",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "빌트인 청사진과 가드레일을 포함하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "향후 프로덕션 계정에만 적용해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사의 마스터 계정에서 새로운 AWS Control Tower 랜딩 존을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Organizations에서 조직에 가입하도록 기존 계정을 초대합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로덕션 OU에 대한 가드레일을 생성하여 EBS 암호화를 감지합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 169,
+    "highlights": [
+      {
+        "text": "애플리케이션 계층: RPO 2분. 30분의 RTO",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스 계층: 5분의 RPO. 30분의 RTO",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "장애 조치 후",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최적의 대기 시간을 보장해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS DB 인스턴스에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Elastic Disaster Recovery를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "대한 리전 간 읽기 전용 복제본을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Global Accelerator 엔드포인트를 생성하고 엔드포인트를 ALB와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 170,
+    "highlights": [
+      {
+        "text": "비용을 최적화하고 단일 AWS 계정에서 Amazon EC2 인스턴스의 크기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스가 CPU, 메모리 및 네트워크 메트릭을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "적절하게 조정하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기반으로 최적화되었는지",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "메모리 메트릭 수집을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon CloudWatch 에이전트를 설치하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Compute Optimizer를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  }
+]

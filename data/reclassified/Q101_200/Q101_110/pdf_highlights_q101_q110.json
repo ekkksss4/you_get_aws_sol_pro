@@ -1,0 +1,357 @@
+[
+  {
+    "qNumber": 101,
+    "highlights": [
+      {
+        "text": "페타바이트",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "마케팅 팀은 마케팅 AWS 계정에서 QuickSight 접근을 제공하기 위해",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "QuickSight용 IAM 서비스 역할을 이미 생성했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "마케팅",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "계정에서 판매 계정의 IAM 역할을 맡아 S3 버킷에 액세스합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "QuickSight 로트를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "업데이트하여 영업 계정의 새 IAM 역할과 신뢰 관계를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 102,
+    "highlights": [
+      {
+        "text": "Always On",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "이기종 데이터베이스 마이그레이션을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Schema Conversion Tool을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 103,
+    "highlights": [
+      {
+        "text": "프로덕션 계정의 S3 버킷에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹 애플리케이션의 다른",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "자산을 로드해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "부분을 노출시키지",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로덕션 계정에서 S3 버킷에 대한 읽기 및 쓰기 접근을 허용하는 새 IAM 정책을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로덕션 계정에서 역할을 생성하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개발 계정을 신뢰할 수",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 정책을 역할에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "있는 엔터티로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개발 계정에서 디자인 팀의 모든 IAM 사용자를 포함하는 그룹을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로덕션 계정의 역할에 대한 sts:AssumeRole",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 104,
+    "highlights": [
+      {
+        "text": "성능 병목 현상이",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "85%보다",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "부하 분산 환경 유형을 사용하도록 기존 환경의 용량 구성을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "평균 CPU 사용률이 5분 동안 85%를 초과하는 경우 실행될 확장 규칙을 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 105,
+    "highlights": [
+      {
+        "text": "매달 마지막 3일 동안 속도가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "느려집니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "월말에 로드를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "처리하기 위해 몇 가지 추가 읽기 전용 복제본을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 106,
+    "highlights": [
+      {
+        "text": "복잡한 종속성이 있는 Java 애플리케이션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서버를 유지 관리하기 위한 관리 오버헤드를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최소화하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Fargate의 Amazon Elastic Container Service(Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS App2Container를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ECS)로 애플리케이션을 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 107,
+    "highlights": [
+      {
+        "text": "Lambda 함수와 API 게이트웨이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "리전에 대한 장애",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "엔드포인트는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조치를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Lambda 함수와 API 게이트웨이 엔드포인트를 us-west-2 리전에 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "장애 조치",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "라우팅 정책을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 108,
+    "highlights": [
+      {
+        "text": "통합 청구를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "다른 부서가 RI 할인을 공유할 수 없도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Billing and Cost Management 콘솔에서. 조직의 마스터 계정 사용 10 HR 부서 프로덕션",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 계정에 대한 RI 공유를 끕니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 109,
+    "highlights": [
+      {
+        "text": "일부 EC2 인스턴스가 비정상으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "표시되어 종료되고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "문제를 해결하기 위해 EC2 인스턴스에 대한 액세스 권한을 어떻게 얻어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Auto Scaling 그룹의 종료 프로세스를 일시 중지합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 110,
+    "highlights": [
+      {
+        "text": "여러 AWS 계정에서 AWS WAF 규칙을 관리하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "계정은 AWS Organizations의 서로 다른 OU에서 관리됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "필요에 따라 관리형 AWS WAF 규칙 세트에서 계정 또는 OU를 추가하거나 제거할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 계정에서 비준수 AWS WAF 규칙을 자동으로 업데이트하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "수정하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Firewall Manager를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Systems Manager Parameter Store 파라미터를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Lambda 함수를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EventBridge",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "호출하여 Firewall Manager 관리 계정에서 보안 정책을 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  }
+]

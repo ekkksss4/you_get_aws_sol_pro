@@ -1,0 +1,407 @@
+[
+  {
+    "qNumber": 211,
+    "highlights": [
+      {
+        "text": "ESXi",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 구성 관리 데이터베이스가 없으며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비용 효율적인 마이그레이션을 계획할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비활성 서버를 식별합니다. 마이그레이션 목록에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비활성 서버를 제거하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 AWS Migration Hub로 가져옵니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 212,
+    "highlights": [
+      {
+        "text": "제한된 수의 동시",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Lambda 함수 호출 수가 너무",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결을 지원하는 온프레미스 SQL 데이터베이스에 데이터를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "많으면 데이터베이스가 충돌하고 애플리케이션 가동 중지 시간이 발생합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Service(Amazon SQS) 대기열에 데이터를 씁니다. 대기열에서 읽고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기존 데이터베이스에 쓰도록 Lambda 함수를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스가 지원하는 연결 수보다",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "적은 Lambda 함수에 대해 예약된 동시성 제한을 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 213,
+    "highlights": [
+      {
+        "text": "Grafana 데이터",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사가 보존하고 싶은 대시보드를 만들기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "위해 시간과 노력을 투자했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 Amazon CloudWatch 데이터 원본을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon 관리형 Grafana 작업 공간을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 214,
+    "highlights": [
+      {
+        "text": "데이터베이스는 Linux 서버에서 실행되는 Oracle DB 인스턴스에 상주합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "매년 데이터베이스 암호를 순환해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스를 Oracle용 Amazon RDS로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Secrets Manager에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호를 저장합니다. 자동 회전을 켭니다. 연간 순환 일정을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 215,
+    "highlights": [
+      {
+        "text": "여러 팀으로 구성된 회사의 AWS 계정 구조를 설계하고 있습니다. 모든 팀은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "동일한 AWS 리전에서 작업합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크에서 들어오고 나가는 총 트래픽이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "50Mbps",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC와 필수 서브넷을 프로비저닝하는 AWS CloudFormation 템플릿을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "공유",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서비스 계정에 템플릿을 배포합니다. AWS Resource Access Manager를 사용하여 서브넷을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "공유합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 네트워크 연결을 위해 AWS Site-to-Site VPN을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 216,
+    "highlights": [
+      {
+        "text": "인터넷으로 향하는 모든 아웃바운드 트래픽에 대해",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중앙에서 관리되는 규칙 기반 필터링을 추가할 수 있는 기능이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "아웃바운드 트래픽의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "초과하지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최대 부하는 각 가용 영역에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "25Gbps를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "인터넷으로의 아웃바운드 트래픽을 위한 새 VPC를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "규칙 기반 필터링을 위해 AWS Network",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Firewall 방화벽을 사용하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 217,
+    "highlights": [
+      {
+        "text": "일반적인 취약성 공격에 대해 인바운드 요청을 필터링해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "거부된 요청은 타사 감사 응용 프로그램으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 리소스는 가용성이 높아야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션의 AMI를 사용하여 다중 AZ Auto Scaling 그룹을 구성합니다. ALB(Application",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Load Balancer)를 생성하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "타사 감사",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션의 대상으로 Amazon Kinesis Data Firehose를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "WebACL 및 ALB를 사용하여 AWS WAF를 생성한 다음 Kinesis Data Firehose를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대상으로 선택하여 로깅을 활성화합니다. WAF를 구독자로 선택하여 AWS Marketplace에서 AWS",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "관리형 규칙을 구독합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 218,
+    "highlights": [
+      {
+        "text": "EC2 인스턴스에서 실행되는 일부 이전 마이크로서비스는 이 새로운 API를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "호출해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 공용 인터넷에서 API에 액세스하는 것을 원하지 않으며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "독점 데이터가 공용 인터넷을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "통과하는 것을 원하지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "API 게이트웨이에 대한 인터페이스 VPC 엔드포인트를 생성하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC 엔드포인트에서의 액세스만 허용하도록 API",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "API Gateway 끝점 유형을 비공개로 변경합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Gateway에 리소스 정책을 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 219,
+    "highlights": [
+      {
+        "text": "엔지니어가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스의 보안 설정을 비준수로 변경하면",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시스템에서 알림을 보내야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 보안 그룹에서 AWS Config를 활성화하여 비준수 변경 사항을 추적합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Service(Amazon SNS) 주제를 통해 변경 사항을 알림으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 220,
+    "highlights": [
+      {
+        "text": "ReadProvisionedThroughputExceeded",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "스트림을 리샤딩하여 스트림의 샤드 수를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "팬아웃 기능이 향상된 소비자를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "소비자 논리에서 오류 재시도 및 지수 백오프 메커니즘을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  }
+]

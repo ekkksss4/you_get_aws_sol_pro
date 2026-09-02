@@ -1,0 +1,427 @@
+[
+  {
+    "qNumber": 281,
+    "highlights": [
+      {
+        "text": "HDFS(Hadoop Distributed File System)에",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3에 데이터를 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Glue",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Athena를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 282,
+    "highlights": [
+      {
+        "text": "AWS Billing and Cost Management의 세부 정보에 대한 가시성을 높여야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전체에 일관된 태깅 전략은 없지만 일관된 태깅과 함께 AWS CloudFormation을 사용하여 모든",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 기존 및 향후 DynamoDB 테이블과",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인프라를 배포해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS 인스턴스에 대한 비용 센터 번호와 프로젝트 ID 번호가 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Editor를 사용하여 기존 리소스에 태그를 지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비용 할당 태그를 생성하여 비용",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Tag Editor를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "SCP를 사용하여 리소스에 비용 센터 및 프로젝트 ID가 없는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "센터 및 프로젝트 ID를 정의합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "리소스 생성을 제한합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 283,
+    "highlights": [
+      {
+        "text": "세 개의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서로 다른 계정에 S3 버킷을 생성했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터가 인터넷을 통해 이동하지 않고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 AWS에 대한 기존 전용 연결이 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비공개로 데이터를 보내야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 클라우드에서 네트워킹 계정을 설정합니다. 네트워킹 계정에서 프라이빗 VPC를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "생성합니다. 온프레미스 환경과 프라이빗 VPC 간의 프라이빗 VIF로 AWS Direct Connect 연결을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워킹 계정에서 Amazon S3 인터페이스 엔드포인트를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 284,
+    "highlights": [
+      {
+        "text": "100,000개의",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "80,000개의",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "테이블에 대해 Dynamo DB Auto Scaling을 활성화합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 285,
+    "highlights": [
+      {
+        "text": "GET /posts/{postId}: 게시물 세부정보 가져오기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "GET /users/{userId}: 사용자 세부 정보 가져오기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "GET /comments/{commentId}: 댓글 세부정보 가져오기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "댓글 섹션에서 주제에 대해 적극적으로 논의하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "댓글을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실시간으로 표시하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자 경험을 개선하려면",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS AppSync를 사용하고 WebSocket을 활용하여 의견을 전달합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 286,
+    "highlights": [
+      {
+        "text": "AWS Organizations의 조직에서 중앙 집중식으로 수백 개의 AWS 계정을 관리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 액세스 포인트는 인터넷이 아닌 VPC 내에서만 액세스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직의 루트 수준에서 SCP를 생성하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "s3:AccessPointNetworkOrigin",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "s3:CreateAccessPoint",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 287,
+    "highlights": [
+      {
+        "text": "블루/그린 배포 방법을 사용하여 AWS Elastic Beanstalk 내에서 애플리케이션",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "환경을 업데이트해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "환경 URL 교환 옵션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 288,
+    "highlights": [
+      {
+        "text": "전 세계적으로 최대 10,000명의 사용자가 이미지를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "업로드합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "업로드된 이미지에 텍스트가 오버레이되어 회사 웹사이트에 게시됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "업로드된 이미지를 Amazon S3 버킷에 저장하고 Amazon Simple Queue Service(Amazon SQS)",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대기열에 메시지를 보내도록 S3 버킷 이벤트 알림을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대기열 깊이에 대한 Amazon CloudWatch 지표를 사용하여 EC2 인스턴스를 확장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CloudFront를 활성화하고 오리진이 처리된 이미지를 포함하는 S3 버킷이 되도록 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 289,
+    "highlights": [
+      {
+        "text": "유럽의 고객이 데이터를 사용할 수 있도록 해야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "높은 애플리케이션 대기 시간 또는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "오래된 데이터를 허용하지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "유럽 고객과 미국 고객은 데이터베이스에 기록해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "두 고객 그룹 모두 다른 그룹의 업데이트를 실시간으로 확인해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS for MySQL DB 인스턴스를 Amazon Aurora MySQL DB 클러스터로 변환합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "eu-west-",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "1을 DB 클러스터에 보조 리전으로 추가합니다. DB 클러스터에서 쓰기 전달을 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "eu-",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "west-1에 애플리케이션을 배포합니다. eu-west-1에서 Aurora MySQL 엔드포인트를 사용하도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 290,
+    "highlights": [
+      {
+        "text": "고객은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "탄력적 IP 주소를 통해 SFTP 서버에 연결하고 인증을 위해 SSH를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스에는 모든 고객 IP 주소에서 접근을 허용하는 연결된 보안 그룹도",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가용성을 개선하고 인프라 관리의 복잡성을 최소화하며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC에서 호스팅하는 인터넷 연결",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "엔드포인트로 Transfer Family 서버를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "구성합니다. SFTP 탄력적 IP 주소를 새 엔드포인트와",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "고객 IP 주소가 있는 보안 그룹을 새 엔드포인트에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Transfer Family",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서버가 S3 버킷을 가리키도록 합니다. SFTP 서버의 모든 파일을 S3 버킷으로 동기화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  }
+]

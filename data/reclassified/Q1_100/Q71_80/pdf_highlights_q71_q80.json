@@ -1,0 +1,307 @@
+[
+  {
+    "qNumber": 71,
+    "highlights": [
+      {
+        "text": "1GB에서 10GB입니다.",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "호주에서",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 버킷에서 S3 Transfer Acceleration을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "동영상 파일을 청크로 나누도록 앱을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 72,
+    "highlights": [
+      {
+        "text": "응용 프로그램이 다시 시작할 필요 없이 데이터베이스에 대한 연결을 다시",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "설정할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS 프록시를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 73,
+    "highlights": [
+      {
+        "text": "MQTT 프로토콜을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "X.509 인증서를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS IoT Core를 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 디바이스에 대해 해당 AWS IoT 사물을 생성하고 인증서를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로비저닝합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 74,
+    "highlights": [
+      {
+        "text": "승인된 리소스만 프로비저닝할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS CloudFormation을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용하여 이러한 리소스를 프로비저닝해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS CloudFormation 작업만 허용하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "스택 생성 중에 AWS CloudFormation에 IAM 서비스",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "역할을 할당합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 75,
+    "highlights": [
+      {
+        "text": "4KB 미만이며",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "120일 동안만",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "DynamoDB TTL(Time to Live)",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 76,
+    "highlights": [
+      {
+        "text": "항상 작동하기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "MySQL DB",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스용 Amazon RDS에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중단의 경우 리전 간 및 읽기 전용",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "읽기 전용 복제본을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "복제본을 독립 실행형 DB 인스턴스로 승격합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 77,
+    "highlights": [
+      {
+        "text": "Example Corp.에는",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크 간에 IP 주소가 겹치지",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AnyCompany를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Site-to-Site VPN, VPC A 및 VPC B를 운송 게이트웨이(Transit",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전송 게이트웨이를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Gateway)에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 78,
+    "highlights": [
+      {
+        "text": "레거시 SMTP",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "포트 25를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "STARTTLS를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 79,
+    "highlights": [
+      {
+        "text": "청구 및 보고 방법이 다른 별도의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 계정이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "의미 있는 그룹을 포함하는 비용 보고서를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "태그 및 비용 범주를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Athena 테이블을 기반으로 Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Athena에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "QuickSight",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 80,
+    "highlights": [
+      {
+        "text": "Node.js",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "4TB",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "센서의 수는 시간이 지남에 따라 증가했으며 크게 증가할 것으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "예상됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS 지표는 높은 쓰기 대기 시간을 나타냅니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Kinesis Data Streams 및 AWS Lambda를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS MySQL DB 인스턴스 대신 Amazon DynamoDB를 사용하도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  }
+]

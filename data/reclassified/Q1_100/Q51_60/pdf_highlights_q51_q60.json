@@ -1,0 +1,262 @@
+[
+  {
+    "qNumber": 51,
+    "highlights": [
+      {
+        "text": "개인 식별 정보(PII)를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS KMS 관리형 암호화 키(SSE-KMS)를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호화되지 않은 PutObject 요청을 거부하도록",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 52,
+    "highlights": [
+      {
+        "text": "www.example.com의 A 레코드를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "가용성이 높고 내결함성이 있도록 애플리케이션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CloudFront 배포를 업데이트하고 새 AL에 대한 두 번째 오리진을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "하나의 오리진을 기본으로, 하나의 오리진을 보조로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 53,
+    "highlights": [
+      {
+        "text": "내부 IP 주소 범위 목록을 중앙에서 관리해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC 접두사 목록을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "다른 모든 계정과 공유하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 54,
+    "highlights": [
+      {
+        "text": "CSV 보고서를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "ExportLambdaFunctionRecommendations",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 55,
+    "highlights": [
+      {
+        "text": "팀 리소스에는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션과 팀을 나타내는 태그가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "귀속되는 비용을 결정해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "12개월의 비용을 비교하고 향후 12개월의 비용을 예측하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자 정의 비용 할당 태그를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비용 범주를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비용 탐색기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 56,
+    "highlights": [
+      {
+        "text": "하나의 공개 CIDR 블록만",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "퍼블릭 IP 주소 블록을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "탄력적 IP 주소를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC의 NAT 게이트웨이에 할당합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 57,
+    "highlights": [
+      {
+        "text": "1111-1111-1111을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "개발자에게 IAM 엔터티에 Amazon S3 권한을 추가하도록",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 58,
+    "highlights": [
+      {
+        "text": "Linux",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "SSH 키 쌍이",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3에 쓰기 권한이 있는 인스턴스에 역할을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Systems Manager",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Session Manager 옵션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스에 대한 액세스 권한을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3에 데이터를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "복사하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 59,
+    "highlights": [
+      {
+        "text": "대상 계정의 사용자가 소스 버킷의 콘텐츠를 나열하고 소스 버킷의 객체를 읽을 수 있도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "버킷 정책을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대상 계정에서 IAM 정책을 생성합니다. 대상 계정의 사용자가 소스 버킷의 콘텐츠를 나열하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "객체를 가져오고 콘텐츠를 나열하고 객체를 넣고 대상 버킷에서 objectACL을 설정할 수 있도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "정책을 구성합니다. 정책을 사용자에게 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대상 계정의 사용자로 aws s3 sync 명령을 실행합니다. 데이터를 복사할 원본 및 대상 버킷을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 60,
+    "highlights": [
+      {
+        "text": "카나리아 릴리스를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "update-alias",
+        "color": "#5379ff",
+        "opacity": 0.4
+      }
+    ]
+  }
+]
