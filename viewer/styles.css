@@ -276,6 +276,32 @@ button:hover,
   font-weight: 800;
 }
 
+.v6 .question {
+  line-height: 1.7;
+}
+
+.v6 .choices {
+  padding-left: 0;
+}
+
+.v6 .correct-choice--v6 {
+  list-style: none;
+  font-weight: 700;
+  background: linear-gradient(90deg, #fff8c2 0%, #fffdf8 82%);
+  border-left: 4px solid #f59e0b;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.pdf-highlight {
+  background-color: var(--highlight-color);
+  background-color: color-mix(in srgb, var(--highlight-color) calc(var(--highlight-opacity) * 100%), transparent);
+  border-radius: 2px;
+  padding: 0 1px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .v4 {
   min-height: 100vh;
   background: #f4f1ea;
