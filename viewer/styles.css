@@ -565,18 +565,155 @@ button:hover,
     display: block;
   }
 
-  .concept-sidebar {
-    position: static;
-    height: auto;
-  }
-
-  .service-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .concept-main {
     padding: 28px 18px 44px;
   }
+}
+
+/* ==========================================================================
+   v8 Concept Book Specific Styles
+   ========================================================================== */
+.concept-filter-group {
+  margin-bottom: 16px;
+}
+
+.concept-select {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 9px 10px;
+  border: 1px solid #4b7475;
+  border-radius: 8px;
+  color: #f8f4e9;
+  background: #0f3035;
+  font-size: 0.85rem;
+}
+
+.service-item-badges {
+  display: flex;
+  gap: 4px;
+}
+
+.badge-ans-hl {
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #5c3c00;
+  background: #f0d69b;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.badge-tot-hl {
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #2b5658;
+  background: #b9d3d0;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.docs-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #fff !important;
+  background: #0f766e;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.docs-btn:hover {
+  background: #0d5f58;
+}
+
+.phrase-bank-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  line-height: 1.8;
+}
+
+.phrase-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2c068;
+  background: #fff3c4;
+  color: #2c2500;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.phrase-tag small {
+  color: #8c6a00;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.trigger-box {
+  padding: 14px 16px;
+  border-left: 4px solid #d08b17;
+  border-radius: 0 8px 8px 0;
+  background: #fff8e6;
+  color: #3d3100;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.qnum-badge-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.qnum-badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid #cfd8d6;
+  background: #eef4f3;
+  color: #173f43;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.example-card-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.example-card {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e7e0d3;
+  background: #faf7ef;
+}
+
+.example-qnum {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #173f43;
+  color: #f8f4e9;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.example-text {
+  margin: 0;
+  color: #333;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.margin-top-14 {
+  margin-top: 14px;
+}
 
   .concept-grid {
     grid-template-columns: 1fr;
