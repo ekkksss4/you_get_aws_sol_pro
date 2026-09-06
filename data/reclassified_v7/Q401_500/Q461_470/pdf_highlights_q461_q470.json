@@ -1,0 +1,665 @@
+[
+  {
+    "qNumber": 461,
+    "highlights": [
+      {
+        "text": "CMS에는 파일 시스템용 영구 NFS 호환 스토리지가 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "예측할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "수 없는 트래픽 증가에 대응하여 Amazon EC2 인스턴스 2개에서 EC2 인스턴스 30개로 확장할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 손실을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹사이트를 변경할 필요가 없어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "방지해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Elastic File System(Amazon EFS) 파일 시스템을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Application Load",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "및",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Scaling 그룹을 사용하여 CMS를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Beanstalk에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Balancer",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Elastic",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Auto",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "사용하여 EFS 파일 시스템을 EC2 인스턴스에 탑재합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": ".ebextensions를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Beanstalk 환경과 별도로 Amazon Aurora MySQL 데이터베이스를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 462,
+    "highlights": [
+      {
+        "text": "중요한 애플리케이션에 대한 재해 복구를 구현해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3 버킷에 저장된 처리된 문서를 출력합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "재무팀은 보고서를 실행하기 위해 데이터베이스에 직접 쿼리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "리소스를 소비하고 애플리케이션 성능에 부정적인 영향을 미칩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "재해 발생 시 복원력을 제공할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "손실을 최소화하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "별도의 리전에 RDS DB 인스턴스의 읽기 전용 복제본을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "읽기 전용 복제본에 대해",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "쿼리를 실행하도록 재무팀에 지시합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "원래 S3 버킷에서 별도 리전의 새 S3",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AMI를 별도의 리전에 복사합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "버킷으로 S3 교차 리전 복제(CRR)를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "재해 발생 시 읽기 전용 복제본을 독립형 DB",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "인스턴스로 승격하세요. AMI에서 EC2 인스턴스를 시작하고 ALB를 생성하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 463,
+    "highlights": [
+      {
+        "text": "AWS",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Direct Connect(DX) 및 IPSec VPN을 사용하여 AWS에 연결됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결이 인터넷을 통과할 수 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS를 사용하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다른 회사에 서비스를 제공하기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC 종단점 서비스를 생성하고 이를 Network Load Balancer 뒤에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "TCP 트래픽을 허용하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "DX를 통해 서비스를 사용할 수 있도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "호스팅하고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 464,
+    "highlights": [
+      {
+        "text": "관리자 역할만",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "IAM 작업을 사용할 수 있도록 허용되는 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사 전체의 모든 AWS 계정에 액세스할 수 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 AWS 계정에 적용되는 SCP를 생성하여 관리자 역할이 있는 사용자를 제외한 모든",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "루트 OU에 SCP를 적용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사용자에 대한 IAM 작업을 거부합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 465,
+    "highlights": [
+      {
+        "text": "AWS Organizations의 조직을 사용하여 여러 AWS 계정을 관리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "공유 서비스",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "계정의 VPC에 전송 게이트웨이를 연결했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개발 계정의 리소스를 자주 삭제하고 다시 생성할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "팀 연결을 다시 생성할 수",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "예정입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "있는 기능을 개발 팀에 제공하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "공유 서비스 계정에서 전송 게이트웨이에 대한 자동 수락을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Resource Access",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Manager(AWS RAM)를 사용하여 공유 서비스 계정의 전송 게이트웨이 리소스를 개발 계정과",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "개발 계정에 전송 게이트웨이 연결을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "공유합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 466,
+    "highlights": [
+      {
+        "text": "총 소유 비용(TCO) 보고서를 생성해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VM에 추가 소프트웨어를 설치할 수도 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "검색 데이터는 자동으로 AWS Migration Hub로 가져와야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스에 Migration Evaluator 에이전트",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "없는 수집기를 설치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "TCO 보고서를 생성하도록 마이그레이션 평가기를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 467,
+    "highlights": [
+      {
+        "text": "가장",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가장 가까운 지역에서 게임 자산을 가져와야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가까운 지역에서 게임 평가를 사용할 수 없게 되면 다른 지역에서 게임 평가를 가져와야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 ALB에 대해 Amazon Route 53 상태 확인을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "두 개의 ALB를 가리키는 Route",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "대상 상태 평가 값을 예(YES)로 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "53 지연 별칭 레코드를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 468,
+    "highlights": [
+      {
+        "text": "Amazon Athena를 사용하여 VPC 흐름 로그를 쿼리하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "수집된 토그 수가 증가함에 따라 시간이 지남에 따라 쿼리 성능이 저하됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC 흐름 로그가 사용하는 저장 공간을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "줄여야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "파일을 Apache Parquet 형식으로 저장하도록 VPC 흐름 로그 구성을 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "로그",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "파일에 대해 시간별 파티션을 지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 469,
+    "highlights": [
+      {
+        "text": "회사는 온프레미스 인프라와 AWS 간에 전용 연결을 설정하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "여러 VPC와",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 인프라를 연결하기 위한 전송 게이트웨이와 Direct Connect 게이트웨이가 포함되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Direct Connect 연결을 사용하여 전송 VIF를 통해 VPC 리소스에 연결해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전송 VIF를 통해 온프레미스 네트워크 접두사를 광고합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "전송 VIF를 통해 Direct Connect 게이트웨이에서 온프레미스 네트워크로 VPC 접두사를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "반대합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 470,
+    "highlights": [
+      {
+        "text": "애플리케이션에 대한 액세스는 회사",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 향후 6개월 내에 지점을 추가로 추가하는 것을 고려하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지점으로만 제한되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지점의 공용 주소 목록을 사용하여 IP 액세스 제어 그룹 규칙을 만듭니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "IP 액세스 제어",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "그룹을 Workspaces 디렉터리와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  }
+]

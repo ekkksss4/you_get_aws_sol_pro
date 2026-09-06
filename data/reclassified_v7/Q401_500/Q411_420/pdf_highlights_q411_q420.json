@@ -1,0 +1,638 @@
+[
+  {
+    "qNumber": 411,
+    "highlights": [
+      {
+        "text": "회사는 Docker 이미지를 Amazon Elastic Container Service(Amazon ECS)에 AWS",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Fargate 서비스로 배포했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "특정 사용자 목록에만 인터넷에서 애플리케이션에 액세스할 수 있는 기능을 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션을 변경할 수 없으며 애플리케이션을 ID 공급자와 통합할 수도 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 사용자는 다단계 인증(MFA)을 통해 인증되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Cognito에서 사용자 풀을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "MFA를 요구하도록 풀을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon Cognito 호스팅 UI를 통해",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "인증을 요구하도록 ALB에서 리스너 규칙을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 412,
+    "highlights": [
+      {
+        "text": "이전에 사용되지 않은 여러 AWS 리전에 새로운 보안 도구를 배포할 준비를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "스택 세트의 템플릿에는 사용자 지정 이름이 있는 IAM 역할이 포함되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 관련 계정에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "지역을 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "새",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "스택 세트를 생성하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "CAPABILITY_NAMED_IAM",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 413,
+    "highlights": [
+      {
+        "text": "애플리케이션은 AWS Lambda 함수에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "읽기 전용 작업을 수행하기 위해 데이터베이스의 복제본 인스턴스에 대한 단기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "여러",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "만듭니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "너무 많은 연결이 설정되고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "트래픽이 많은 기간의 빈도는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "예측할 수 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon RDS 프록시를 사용하여 DB 클러스터에 대한 프록시를 생성하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "프록시에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "프록시 엔드포인트에 연결하도록 Lambda 함수를 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "읽기 전용 끝점을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 414,
+    "highlights": [
+      {
+        "text": "고유 일련 번호가 포함된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인증서를 발급합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "X.509",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "센서가 설치된 후 AWS로 데이터를 전송할 수 있는 기능을 센서에 부여해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "센서는 설치될 때까지 AWS로 데이터를 보낼 수 없어야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "일련번호를 검증할 수 있는 AWS Lambda 함수를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS IoT Core 프로비저닝",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "매개변수 섹션에 SerialNumber 매개변수를 포함합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Lambda 함수를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "템플릿을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사전 프로비저닝 후크로 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Allow-auto-registration",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 415,
+    "highlights": [
+      {
+        "text": "소프트웨어 엔지니어는 개인 GitHub 저장소를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DevOps 팀은 빌드 및 단위 테스트에 Jenkins를 사용하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "코드를 관리하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로덕션 변경 사항이 사용자에게 원활하게 전달되고 중대한 문제가 발생할 경우",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "롤백될 수 있는지 확인해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS CodePipeline을 사용하여 빌드 및 배포 프로세스를 관리하기로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "GitHub 웹훅을 사용하여 CodePipeline 파이프라인을 트리거합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS CodeBuild용 Jenkins",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "플러그인을 사용하여 단위 테스트를 수행합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS CodeDeploy를 사용하여 블루/그린 배포로 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 416,
+    "highlights": [
+      {
+        "text": "회사는 테넌트가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "스토리지 계층을 위해 공유하는 Amazon DynamoDB 테이블을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 테넌트의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "리소스 소비에 맞춰 DynamoDB 비용을 각 테넌트에 할당하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 테넌트의 DynamoDB 비용에 대한 세부적인 보기를 제공하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 트랜잭션에 대해 DynamoDB에서 소비된 테넌트 ID와 RCU 및 WCU 수를 Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "CloudWatch Logs에 기록하도록 Lambda 함수를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "기록된 용량 단위와 AWS Cost",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Explorer API의 전체 DynamoDB 비용을 사용하여 테넌트 비용을 계산하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 417,
+    "highlights": [
+      {
+        "text": "회사는 모든",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 1년간 보관해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사의 보안 팀은 공격자가 유출된 장기 자격 증명을 통해",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 계정에 액세스할 수 있다는 점을 우려하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "향후 객체를 보호하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 버킷의 기존 객체와",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "보안 팀만 액세스할 수 있는 새 AWS 계정을 생성하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "S3 버전 관리 및 S3 객체 잠금을 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "기본 보존 기간을 1년으로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "기존 데이터를 모두",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "기존 S3 버킷에서 새 S3 버킷으로의 복제를 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "복사하려면 S3 배치 복제 작업을 생성하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 418,
+    "highlights": [
+      {
+        "text": "OIDC(OpenID Connect) ID 공급자(IdP)와 통합됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "보안 감사는 ALB가 인증되지 않은 사용자의 요청을 수락한다는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 백엔드 서비스가 인증된 사용자에게만 응답하도록 솔루션을 설계해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ALB를 IdP와 통합하여 인증 및 권한 부여를 시행하도록 ALB를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "인증된 사용자만",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "백엔드 서비스에 액세스하도록 허용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 419,
+    "highlights": [
+      {
+        "text": "예방 제어 및 탐지 제어를 배포하여 모든 계정에서 AWS 서비스를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 계정의 보안 상태를 중앙 집중식으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모니터링합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Organizations의 조직에 대해 AWS Security Hub를 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "하나의 AWS 계정을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Security Hub의 위임된 관리자로 지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 420,
+    "highlights": [
+      {
+        "text": "유럽의 온프레미스에 60TB의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "소프트웨어 이미지를 저장했습니다. 회사는 ap-northeast-1 리전의 Amazon S3 버킷으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전송 중에 암호화되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이미지를 전송하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 기존 소프트웨어 이미지와 새 소프트웨어 이미지를 Amazon S3로 자동",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전송하기 위해 사용자 지정 개발이 필요하지 않은 솔루션이 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이미지를 S3 버킷으로 전송하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS DataSync 에이전트를 배포하고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  }
+]

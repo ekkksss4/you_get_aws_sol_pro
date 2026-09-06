@@ -1,0 +1,755 @@
+[
+  {
+    "qNumber": 331,
+    "highlights": [
+      {
+        "text": "매일 밤 마운트된 NFS 파일 시스템에 수천 개의 이미지를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "System(Amazon EFS) 파일",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시스템이 탑재된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Direct Connect 연결을 설정했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새로 생성된 온프레미스 이미지를 EFS 파일 시스템에 복제하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "NFS 파일 시스템에 액세스할 수 있는 온프레미스 서버에 AWS DataSync 에이전트를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "프라이빗 VIF를 사용하여 Direct Connect 연결을 통해 Amazon EFS용 AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "24시간마다 EFS 파일 시스템에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "PrivateLink 인터페이스 VPC 엔드포인트로 데이터를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이미지를 보내도록 DataSync 예약 작업을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 332,
+    "highlights": [
+      {
+        "text": "ALB(Application Load Balancer)로 라우팅하는 Amazon CloudFront 배포로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "구성됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최근 보안 감사에서는 CloudFront와",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ALB 엔드포인트를 모두 사용하여 웹",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션에 액세스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CloudFront",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "엔드포인트를 통해서만 웹 애플리케이션에 액세스할 수 있도록 요구합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ALB 보안 그룹 수신을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "CloudFront 관리형 접두사 목록에서만",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "수신을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 333,
+    "highlights": [
+      {
+        "text": "컨테이너 이미지는 ECR에 저장됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RTO가 24시간 이하,",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RPO가 8시간 이하인 재해 복구 SLA를 고객에게 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "두 지역의 ECR에 Docker 이미지를 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "스냅샷을 보조 지역에 복사하여 8시간마다",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "RDS 스냅샷을 예약합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "오류가 발생하는 경우 AWS CloudFormation을 사용하여 보조 지역에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "ALB, EC2, ECS 및 RDS 리소스를 배포하고,",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 334,
+    "highlights": [
+      {
+        "text": "일관된 관리 및 보안 기준을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "제공해야 하지만 다양한 AWS 계정 내의 다양한 규정 준수 요구 사항에 대한 유연성을 허용해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AD FS(Active Directory Federation Services)",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "기존 온프레미스",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직에서 AWS Control Tower를 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "SCP에 포함된 제어(가드레일)를 검토합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "필요한 영역은 AWS Config를 확인하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS IAM Identity Center(AWS Single Sign-On)를 온프레미스 AD",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "필요에 따라 OUS를 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "FS 서버에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 335,
+    "highlights": [
+      {
+        "text": "전 세계적으로 최초로 배포될",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "예정입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹사이트의 일부에는 정적 콘텐츠가 포함되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "거의 모든 트래픽은 읽기 전용입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 판이 출시되면 인터넷 트래픽이 크게 급증할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전 세계 사용자의 시스템 응답 시간을 줄이기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "물리적 교차 리전 복제를 위해 Aurora 글로벌 데이터베이스를 사용하십시오. 정적 콘텐츠 및",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "리소스에 대해 리전 간 복제와 함께 Amazon S3를 사용하십시오. 전 세계 지역에 웹 및",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "애플리케이션 계층을 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "지연 시간 기반 라우팅 및 Amazon CloudFront 배포 기능을 갖춘 Amazon Route 53을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "소개합니다. 웹 및 애플리케이션 계층이 각각 Auto Scaling 그룹에 있는지 확인합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 336,
+    "highlights": [
+      {
+        "text": "Amazon EC2 인스턴스는 게임 애플리케이션을 호스팅하며 항상 사용 가능해야 합니다. EC2",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스는 일년 내내 실행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "분석 애플리케이션은 문제 없이 중단되었다가 재개될 수 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가장 비용 효율적으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온라인 게임 애플리케이션 인스턴스에 대한 EC2 인스턴스 Savings Plan을 구매합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "분석",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "애플리케이션에 스팟 인스턴스를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 337,
+    "highlights": [
+      {
+        "text": "수백 개의 프로덕션 AWS 계정에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 모든 기능이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "활성화된 AWS Organizations를 사용하며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "랜섬웨어",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "권한 있는 사용자 자격 증명 위반에 대해 복원력을 가져야 한다는 새로운",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "정책을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지정된 비프로덕션 계정에서 AWS Backup",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "사용하여 교차 계정 백업을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "볼트를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "수정을 제한하는 SCP를 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "볼트",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Backup",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "규정 준수 모드에서 AWS Backup",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Lock을 구현합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Vault",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 338,
+    "highlights": [
+      {
+        "text": "AWS 계정의 Amazon CloudWatch 로그를 하나의 중앙 로깅 계정으로 집계해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중앙 로깅 계정은 로그를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "처리하고, 로그를 표준 출력 형식으로 정규화하고, 추가 처리를 위해 출력 로그를 보안 도구로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "스트리밍합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "수집해야 하는 대량의 로깅 데이터를 처리할 수 있는 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "로깅 솔루션은 예상",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "부하에 따라 확장되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Control Tower 설계를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중앙 로깅 계정에 대상 Amazon Kinesis 데이터 스트림을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon CloudWatch Logs에 Amazon Kinesis 데이터 스트림에 데이터를 추가할 수 있는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "권한을 부여하는 IAM 역할을 생성합니다. 신뢰 정책을 만듭니다. IAM 역할에 신뢰 정책을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "지정합니다. 각 회원 계정에서 각 로그 그룹에 대한 구독 필터를 생성하여 Kinesis 데이터",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "스트림으로 데이터를 보냅니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Lambda 함수를 생성합니다. 중앙 로깅 계정의 로그를 정규화하고 보안 도구에 로그를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "쓰도록 Lambda 함수를 프로그래밍합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 339,
+    "highlights": [
+      {
+        "text": "Microsoft SQL Server 데이터베이스 서버로 구성됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "500TB의 데이터를 소비하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VMware VM에 배포됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "500TB의",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "10Gbps AWS Direct Connect",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Direct Connect 연결은 현재 다른 서비스에서 사용되지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결을 설정했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가동 중지 시간을 최소화하면서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS SMS(AWS Server Migration Service) 복제 작업을 사용하여 애플리케이션 서버 VM을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS DMS(AWS Database Migration Service) 복제 인스턴스를 사용하여 데이터베이스를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "Amazon RDS DB 인스턴스로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 340,
+    "highlights": [
+      {
+        "text": "AWS 계정에는 수백 개의 VPC가 포함되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Site-to-Site VPN 연결은 이미 단일 AWS 계정에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 네트워크에 연결하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 어떤 VPC가 다른 VPC와 통신할 수 있는지 제어하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "설정되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 계정에서 전송 게이트웨이를 생성하십시오. AWS Resource Access Manager(AWS RAM)를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "사용하여 계정 간에 전송 게이트웨이를 공유합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "모든 VPC 및 VPN에 대한 연결을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "운송 게이트웨이(Transit Gateway) 라우팅 테이블을 설정합니다. VPC 및 VPN을 라우팅",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "테이블과 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  }
+]

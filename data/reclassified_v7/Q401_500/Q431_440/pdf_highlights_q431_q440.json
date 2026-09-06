@@ -1,0 +1,578 @@
+[
+  {
+    "qNumber": 431,
+    "highlights": [
+      {
+        "text": "중앙 집중식 애플리케이션 프런트 엔드는 확장성을 위해",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "NLB(Network Load Balancer)로 구성됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비즈니스 단위 VPC CIDR 블록 중",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "일부는 공유 VPC와 겹치고 일부는 서로 겹칩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중앙 집중식 애플리케이션에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크 연결은 승인된 비즈니스 단위 VPC에서만 허용되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "엔드포인트",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "VPC 엔드포인트 서비스를 생성하고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "승인을 요구하는 옵션을 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "각 사업부",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "승인된 엔드포인트 요청을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "VPC에 VPC 엔드포인트를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "수락합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 432,
+    "highlights": [
+      {
+        "text": "온프레미스 자체 관리형 Kubernetes 클러스터에 배포된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "컨테이너 배포를 정의하는 모든 매니페스트는 소스 제어에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 데이터는 PostgreSQL 데이터베이스에 저장됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "오픈 소스 컨테이너 이미지",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "저장소는 온프레미스 환경과 함께 실행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "새로운 Amazon Elastic Container Registry(Amazon ECR)",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "리포지토리에 복사합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "온프레미스에서 EKS 클러스터로 매니페스트를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Aurora PostgreSQL DB 클러스터를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 433,
+    "highlights": [
+      {
+        "text": "콘테스트는 다양한 기간 동안 진행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "콘테스트가 끝난 후 콘테스트의 데이터를 보관할 필요가 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "콘테스트 참가작의 스토리지를 Amazon DynamoDB로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "코드를 AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Lambda 함수로 다시 작성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "콘테스트 종료 시 각 항목이 만료되도록 각 항목의 DynamoDB",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "TTL 속성을 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 434,
+    "highlights": [
+      {
+        "text": "프라이빗 서브넷에 Amazon EC2 인스턴스 세트를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "배포하여 투명한 프록시 역할을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "해당 EC2 인스턴스를 기본 경로로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용하도록 모든 서브넷의 경로 테이블을 수정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프록시 소프트웨어를 실행하는 EC2 인스턴스에서 소스/대상 확인을 비활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 435,
+    "highlights": [
+      {
+        "text": "수동으로 생성된 VPC의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 인프라를 자동으로 관리해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 CloudFormation 템플릿을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "생성합니다. CloudFormation 콘솔에서 기존 리소스를 가져와 새 스택을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 436,
+    "highlights": [
+      {
+        "text": "공개 다운로드할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 릴리스 패키지의 크기는 약 5GB입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전 세계",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자의 위치에 관계없이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자가 새 릴리스를 다운로드할 것으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "향상된 다운로드 성능과 낮은 전송 비용을 제공하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "게임 파일을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "S3 버킷에 업로드합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "웹 사이트에는 Amazon CloudFront를 사용하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "게임 다운로드 URL을 게시합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 437,
+    "highlights": [
+      {
+        "text": "EC2 인스턴스에서 실행되는 MySQL 데이터베이스에 저장됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹 사이트는 하나의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "퍼블릭 서브넷이 있는 다른 VPC에 있는 단일 EC2 인스턴스의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "트래픽 폭주로 인해 웹사이트가 여러 차례 중단되었습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Application Load Balancer 뒤에 여러 EC2 인스턴스가 있는 Auto Scaling 그룹에 Tomcat",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "서버를 배치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "하나의",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Aurora 복제본을 사용하여 MySQL 데이터베이스를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Aurora로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "웹사이트 VPC의 다른 가용 영역에 추가 퍼블릭 서브넷을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 439,
+    "highlights": [
+      {
+        "text": "기존 AWS 계정에서 동일한 AWS 리전의 새",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 계정으로 마이그레이션하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DNS 컷오버를 수행하기 전에 데이터베이스 서비스 중단을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최소화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기존 Aurora 데이터베이스의 스냅샷을 찍습니다. 새 AWS 계정과 스냅샷을 공유합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "스냅샷의 새 계정에 Aurora DB 클러스터를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "새 AWS 계정에 Aurora DB 클러스터를 생성합니다. AWS Database Migration Service(AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DMS)를 사용하여 두 Aurora DB 클러스터 간에 데이터를 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 440,
+    "highlights": [
+      {
+        "text": "50개의 VPC에서 호스팅됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "50개 VPC 모두가 서로 통신할 수 있어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 고객의 VPC에서 회사의 관리 VPC로 단방향 액세스가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "미디어 소프트웨어 솔루션에 대한 라이선스를 검증하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC의 수는 솔루션이 성장함에 따라 계속해서 늘어날",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "것입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "운송 게이트웨이(Transit",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "전송 게이트웨이를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Gateway)에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "라이선스 검증을 위해 컴퓨팅 리소스를 가리키는 NLB(Network Load Balancer)를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  }
+]

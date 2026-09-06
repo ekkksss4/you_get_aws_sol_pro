@@ -1,0 +1,649 @@
+[
+  {
+    "qNumber": 531,
+    "highlights": [
+      {
+        "text": "데이터를 처리한 후 Amazon Aurora",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대기질이 좋지 않은 기간에는 센서에서 데이터를 더 자주 전송합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스에 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 데이터 처리 및 저장 전에 데이터 손실이 발생하지 않도록 이 기간 동안 데이터를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "버퍼링해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Kinesis 데이터 스트림을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "대상으로 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Fargate 시작 유형으로 Amazon ECS 클러스터에서 실행되는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "애플리케이션을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 532,
+    "highlights": [
+      {
+        "text": "SecretsManagerReadWnte",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "SecretsManagerReadWnte 정책을 애플리케이션에 필요한 Secrets Manager 작업에 대한 최소",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "권한 접근을 제공하는 새 정책으로 교체해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Identity and Access Management Access Analyzer에서 분석기를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 533,
+    "highlights": [
+      {
+        "text": "데이터베이스 백업을 격리된 AWS 계정에 저장해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "백업을 위한 중앙 WORM(write-once,",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Organizations를 사용하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "read-many) 계정을 만들었습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Service(AWS KMS) 키로 암호화됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스 백업을 중앙 계정에 성공적으로 복사할까요?",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Backup에 대한 Organizations 신뢰할 수 있는 액세스 및 백업 정책을 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "백업 볼트에 대한 KMS 키를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "만들고 프로덕션 계정과 키를 공유합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "스냅샷에서 데이터베이스를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "복원하고 공유된 KMS 키를 새 DB 인스턴스에 적용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 534,
+    "highlights": [
+      {
+        "text": "회사의 보안 정책에 따라 파트너는 회사가 소유한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "도메인에서만 리소스에 접근할 수 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Route 53 Resolver DNS 방화벽 도메인 목록을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "모든 요청을 차단하는 높은 숫자 값을 가진 규칙으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "허용",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "목록의 도메인에 대한 요청을 허용하는 낮은 숫자 값을 갖는 규칙을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 535,
+    "highlights": [
+      {
+        "text": "7일",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "90일 동안 백업을 유지하는 수명 주기 구성",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "후에 EFS 백업을 콜드 스토리지로 전환하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "규칙이 포함되어 있습니다. 한 달 후 회사는 EFS 스토리지 비용을 검토하고 EFS 백업 비용이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EFS 백업 콜드 스토리지는 EFS 웜 백업 스토리지 비용의 거의 두 배를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "증가했음을 확인했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "1일 후 EFS 백업을 콜드 스토리지로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "백업 보존 기간을 30일로 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 536,
+    "highlights": [
+      {
+        "text": "레거시 라이브러리 및 기타 종속성으로 인해",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기본 이미지 크기는 수십 기가바이트입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가장 낮은 컨테이너 시작",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시간을 제공하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기본 이미지가",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AMI 기반 Amazon EC2 인스턴스에서 Amazon Elastic Container",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "포함된 AMI를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Service(Amazon ECS)를 사용하여 워크로드를 실행합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 537,
+    "highlights": [
+      {
+        "text": "각 IAM 그룹에는 구성원이 계정 전체에서 특정 역할을 맡을 수 있도록 허용하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "정책이 첨부되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "역할에는 각 계정의 각 사용자 그룹에 예상되는 활동에 대한 적절한 정책이 포함되어 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 관련 계정은 단일 OU 내에 존재합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 IAM에 존재하는 권한과 일치하도록 IAM Identity Center에 이미 새로운 사용자 및 그룹을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "생성했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기존 권한을 구현하기 위해 IAM ID 센터를 어떻게 사용해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 계정에 있는 관련 기존 IAM 역할을 해당 권한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "각 그룹에 대해 새 권한 집합을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "그룹이 역할을 수임할 수 있도록 허용하는 새 고객 관리 정책을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "집합에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 538,
+    "highlights": [
+      {
+        "text": "실제 서버 사용량, 시스템 성능 및 실행 중인 프로세스 측정",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시스템 구성 목록 확인",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시스템 간 네트워크 연결 세부 정보 파악",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 워크로드 내 애플리케이션 구성 요소 및 종속성 분석",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS로부터 EC2 인스턴스 크기 조정 권장 사항 수신",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "물리적 머신과 VM에 AWS Application Discovery Agent를 설치하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Migration Hub를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "인스턴스 권장 사항을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 539,
+    "highlights": [
+      {
+        "text": "정적 React 기반",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "단일 페이지 애플리케이션(SPA),",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Node.js",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 예측할 수 없는 속도로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스는 읽기 중심입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스의 스토리지를 확장해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인프라 관리를 줄이고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "확장성을 높이기 위해 아키텍처를 현대화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스를 Amazon Aurora",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "웹 파일을 Amazon S3 버킷에 복사하고 웹 호스팅을 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "MySQL로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "API 코드를 AWS Lambda 함수에 복사합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon API",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Gateway를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 540,
+    "highlights": [
+      {
+        "text": "회사는 서버 측 JavaScript 라이브러리를 사용하여 Ui를 개발했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 계층은 MySQL 데이터베이스에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 애플리케이션을 재설계하기를 원하지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 최소한의 개발로 애플리케이션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS로 플랫폼을 변경하는 솔루션이 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가용성이 높아야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Docker 이미지에 UI 및 비즈니스 로직 구축",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Fargate 시작 유형과 함께 Amazon Elastic",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Container",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Service(Amazon ECS)를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Application Load Balancer가 있는 UI 및 비즈니스 논리",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "애플리케이션을 호스팅합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "데이터베이스를 Amazon RDS for MySQL 다중 AZ DB 인스턴스로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  }
+]

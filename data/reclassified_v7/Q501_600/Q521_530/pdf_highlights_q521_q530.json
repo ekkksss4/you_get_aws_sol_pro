@@ -1,0 +1,616 @@
+[
+  {
+    "qNumber": 521,
+    "highlights": [
+      {
+        "text": "핵심 계정의 전용 프라이빗 VPC에 패치 소스 저장소로 EC2 인스턴스를 설정했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 EC2",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스가 인터넷에 액세스하지 못하도록 차단해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스는 애플리케이션 데이터가 저장되는 Amazon S3에 액세스해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "핵심 계정의 프라이빗 VPC에 있는 패치",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스는 Systems Manager 및",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "소스 리포지토리에 연결되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션 계정의",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Systems Manager 및 Amazon S3용 VPC 엔드포인트를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "코어 계정의 패치 소스 리포지토리 EC2 인스턴스에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "VPC에서 NAT 게이트웨이를 삭제합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "액세스하려면 VPC 피어링 연결을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 522,
+    "highlights": [
+      {
+        "text": "us-east-2 지역의 5개 VPC에서 애플리케이션을 호스팅하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "eu-west-1 리전의 한 VPC에 있는 리소스에 액세스할 수 있어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "그러나 애플리케이션은 다른 VPC에 액세스할 수 없어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "eu-west-1의 VPC에 대한 하나의 VPC 피어링 연결을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 523,
+    "highlights": [
+      {
+        "text": "이메일 전달 문제를 해결하는 데 도움이 되도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "수신자, 제목, 보낸 시간을 기준으로 검색할 수 있는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "로깅을 활성화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기능도",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Data Firehose를 대상으로 하여 Amazon SES 구성 세트를 생성합니다. Amazon S3",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "버킷으로 로그를 보내도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon Athena를 사용하여 Amazon S3 버킷의 로그에서 수신자, 제목 및 전송 시간을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "쿼리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 524,
+    "highlights": [
+      {
+        "text": "활용도가 낮은 개발 EC2 인스턴스를 감지하고 중지해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지난 14일 중 4일 이상",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "동안 일일 평균 CPU 사용률이 10% 이하이고 네트워크 I/O가 5MB 이하인 인스턴스는 활용도가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "낮은 것입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Trusted Advisor에서 보고한 EC2 인스턴스의 낮은 활용도를 감지하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "EventBridge 규칙을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Lambda 함수를 호출하도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 525,
+    "highlights": [
+      {
+        "text": "향후 3년 동안 진행될",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "하루 24시간, 주 7일 실행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "일반적인 애플리케이션 사용 중에 인스턴스의 CPU 사용률은 10%입니다. 그러나 바쁜 시간에는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CPU 사용률이 100%로 증가하며 일반적으로 몇 시간 동안 지속됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가장 비용 효율적으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Auto Scaling 그룹을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "최소",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "용량을 4로, 최대 용량을 28로 설정합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "4개의 인스턴스에 대한 예약 인스턴스를 구매하세요.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 526,
+    "highlights": [
+      {
+        "text": "5초마다 센서 데이터를 전송합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 수집한 후 30분",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이내에 Amazon S3에서 새로운 센서 데이터를 사용할 수 있어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다른 애플리케이션은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS IoT Core의 센서 데이터를 처리하지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS IoT Core 기본 수집을 사용하여 센서 데이터를 수집합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Kinesis Data Firehose 버퍼링",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "간격을 900초로 설정합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 527,
+    "highlights": [
+      {
+        "text": "데이터 과학자는 별도의 AWS 계정에 있는 VPC의 퍼블릭 서브넷 2개에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실행되는 Amazon EC2 인스턴스에 대한 분석을 수행합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 과학자는 EC2 인스턴스에서 데이터 레이크에 액세스해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사 정책에 따라 승인된 네트워크만 IoT 데이터에 접근할 수 있도록 허용됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 과학자의 VPC에 Amazon S3용 게이트웨이 VPC 엔드포인트를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "키의 값이 유효한 액세스 포인트 ARN일",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "s3:DataAccessPointArn 조건 키의",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "S3 버킷 정책을 추가합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 528,
+    "highlights": [
+      {
+        "text": "마이그레이션 전에 이 워크로드에 대한 총 소유 비용(TCO)을 추정해야",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "필요한 TCO 정보를 제공하는 솔루션은",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Migration Evaluator에 대한 액세스를 요청합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Migration Evaluator에서 Quick Insights 보고서를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 529,
+    "highlights": [
+      {
+        "text": "회사는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 고객의 행사 날짜와 시간을 알고 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Auto",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Scaling 그룹은 예측 조정 정책을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ECS 클러스터는 티켓 자산을 다운로드하기 위해 Amazon S3 버킷에 자주 요청합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "트래픽은 NAT 게이트웨이를 통해 흐릅니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "플랫폼 비용을 최적화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 버킷에 대한 게이트웨이 VPC 엔드포인트를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "예측적 조정 정책을 예약된 이벤트에 대한 예약된 조정 정책으로 대체합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 530,
+    "highlights": [
+      {
+        "text": "프런트엔드는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 VM에서 실행되는 Java 기반 애플리케이션입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "물리적 애플리케이션",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서버에서 개인화 모델을 호스팅하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용하여 모델을 구현합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개인화 모델은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "TensorFlow를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "인공 지능 및 기계 학습(AI/ML)을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 사용자 정보를 Microsoft SQL Server",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스에 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모델을 Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "SageMaker에 배포하고 엔드포인트를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Beanstalk에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Elastic",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Java",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Database Migration Service(AWS DMS)를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "애플리케이션을 호스팅합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "SQL Server용 Amazon RDS로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  }
+]

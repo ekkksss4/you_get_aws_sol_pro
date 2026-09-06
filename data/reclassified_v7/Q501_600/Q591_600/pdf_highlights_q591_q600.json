@@ -1,0 +1,341 @@
+[
+  {
+    "qNumber": 592,
+    "highlights": [
+      {
+        "text": "기본 AWS 관리형 KMS 키로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호화된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호화된 Amazon Aurora MySQL 데이터베이스를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호화 키를 180일마다 교체하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호화 키가 이 표준을 준수하지 않을 경우 알림을 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "자동 순환 기간이 180일로 설정된 새로운 고객 관리 KMS 키를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "데이터베이스",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "스냅샷을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "새 KMS 키를 사용하는 새 Aurora 클러스터에 스냅샷을 복원합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Lambda 함수를 사용하여 키 순환 기간을 검증하는 AWS Config 사용자 지정 규칙을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 594,
+    "highlights": [
+      {
+        "text": "다양한 팀, 애플리케이션 및 환경에 대해 수십 개의 AWS 계정이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "잠재적인 구성 오류로 인해 보안 문제 또는 규정 미준수가 발생할 수 있다는 점을 우려하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "코드형 인프라(IaC)를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자 지정",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "반복 가능한 방식으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "제어를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "오버헤드를 최소화하면서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Control Tower가 다중 계정 환경을 설정하고 관리하도록 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Control Tower 및 CloudFormation 템플릿에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사용자 지정을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사용자 지정 제어를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon EventBridge를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사용하여 계정 프로비저닝 수명 주기 이벤트 중에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 596,
+    "highlights": [
+      {
+        "text": "여러 AWS 계정의 애플리케이션이 별도의 AWS 계정에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결 수를 관리할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비공개로 액세스하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS Proxy + NLB를 통한 PrivateLink",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 597,
+    "highlights": [
+      {
+        "text": "Amazon S3 버킷을 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "백업 데이터를 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 변조를 방지해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RPO(복구 시간 목표)가 5분, RTO(복구 시간",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "목표)가 15분인 두 번째 AWS 리전에 설정을 다시 생성하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ECR 리전 간 복제를 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "규정 준수 모드에서 백업",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Aurora 글로벌 데이터베이스로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "볼트를 생성하고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon S3에 대한 시점 복구 및",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "리전 간 복제를 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 598,
+    "highlights": [
+      {
+        "text": "AWS로 AWS Direct Connect 연결을 설정했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Stratum-0 원자 시계",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 Amazon EC2 인스턴스의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "원자 시계",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "시계를 온프레미스",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크 어플라이언스와 동기화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DHCP 옵션 세트를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "VPC에 옵션 세트를 할당합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "온프레미스 네트워크 간에 NTP 트래픽이 허용되는지 확인합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  }
+]

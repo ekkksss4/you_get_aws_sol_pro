@@ -1,0 +1,642 @@
+[
+  {
+    "qNumber": 341,
+    "highlights": [
+      {
+        "text": "AWS Fargate에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실행되는 AWS Lambda 함수와 Amazon Elastic Container Service(Amazon ECS) 컨테이너를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "장기간 사용되지 않은 후 갑자기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "장기간",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "로드를 처리할 수 없는 메모리 최적화 DB",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "트래픽이 크게 증가하거나 감소합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Aurora Serverless v1로",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Compute Savings Plan을",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 342,
+    "highlights": [
+      {
+        "text": "데이터베이스 사용은 읽기 중심입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "정적 콘텐츠는 자주",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "업데이트되므로 각 EBS 볼륨에 복사해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션의 로드는 하루 종일 변경됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용량이 많은 시간에는 애플리케이션이 들어오는 요청을 모두 처리할 수 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Elastic File System(Amazon EFS)",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS Application",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "리더 DB 인스턴스를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Auto Scaling",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "데이터베이스를 Amazon Aurora MySQL Serverless v2로 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 343,
+    "highlights": [
+      {
+        "text": "적절한 권한이 있는 AWS 사용자 또는 역할만 새로운 Amazon API Gateway",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "엔드포인트에 액세스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "요청의 대기 시간을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "분석하고 서비스 맵을 생성하기 위해 각 요청에 대한 엔드투엔드 보기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인증을 AWS_IAM으로 설정하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "실행-api:Invoke 권한을 부여합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "서명으로 요청에 서명하도록 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS X-Ray를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 344,
+    "highlights": [
+      {
+        "text": "CloudFormation 템플릿의 최근 리소스 변경으로 인해 계획되지 않은 가동 중지 시간이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "발생했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가동 중지 시간이 발생할 가능성을 줄이기 위해 CI/CD",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "파이프라인을 어떻게 개선해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CodeBuild를 사용하여 자동화된 테스트를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "CloudFormation",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "CodeDeploy를 사용하면",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "변경 세트를 사용하여 배포 전에 변경 사항을 평가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "블루/그린 배포 패턴을 활용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 345,
+    "highlights": [
+      {
+        "text": "탄력성을 유지하기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "us-west-1 리전의 활성-수동",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "위해 동적으로 확장되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "구성에서 재해 복구 기능이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ALB에서 제공하는 Auto Scaling 그룹의 일부로 여러 AZ에 EC2 인스턴스를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "us-west-1 리전에 동일한 솔루션을 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "장애 조치 라우팅 정책과 상태 확인이 활성화된 Amazon Route 53 레코드 세트를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 346,
+    "highlights": [
+      {
+        "text": "MSMQ(Microsoft Message",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Queuing)를 사용하여 비동기적으로 서로 통신합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "컨테이너화된 .NET Core 구성 요소로의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "복잡한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "오케스트레이션이 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워킹 및 호스트 구성을 완전히 제어할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스 모델은 강력한 관계형입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon EC2 시작 유형을 사용하여 Amazon Elastic Container Service(Amazon ECS)에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Amazon Aurora MySQL Serverless v2에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Amazon Simple Queue Service(Amazon SQS)를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 347,
+    "highlights": [
+      {
+        "text": "배치 그룹에 새 인스턴스를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "추가하려고 시도합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "용량 부족 오류를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "배치 그룹의 모든 인스턴스를 중지하고 시작합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 348,
+    "highlights": [
+      {
+        "text": "갑작스러운 트래픽 증가를 관리하기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "위해 Auto Scaling 그룹을 구현했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "결과적으로 Auto Scaling 그룹은 인스턴스를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최신 보안 업데이트에는 재부팅이 필요했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "종료하고 패치가 적용되지 않은 새 인스턴스로 교체했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Auto Scaling 그룹 앞에 Elastic Load Balancer를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "대상 그룹 상태 확인이 정상으로 반환되도록 모니터링을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AMI를 패치하고, 시작 구성을 업데이트하고, Auto Scaling 인스턴스 새로 고침을 호출하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "자동화 스크립트를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 349,
+    "highlights": [
+      {
+        "text": "SageMaker 인스턴스는 인터넷에 대한 액세스 권한이 없거나",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인터넷에서 액세스할 수 없는 VPC에 배포됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인터페이스 VPC 엔드포인트는 Amazon S3 및 SageMaker API에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Python 패키지를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "접근을 제공합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "업데이트하기 위해 PyPl(Python Package Index) 리포지토리에 액세스해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "SageMaker 인스턴스가 인터넷에서 격리된 상태를 유지하도록 보장하면서 PyPI",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "저장소에 대한 접근을 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CodeArtifact 도메인 및 리포지토리를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "CodeArtifact 리포지토리에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "외부 연결을 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "public:pypi에",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "CodeArtifact에 대한 VPC 엔드포인트를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 350,
+    "highlights": [
+      {
+        "text": "데이터 계층으로 MYSQL DB 인스턴스용 Amazon RDS가 있으며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon CloudWatch",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "별도의 지역에 애플리케이션",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "경보는 Amazon EventBridge 규칙을 호출합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "오류로부터 복구하는 데 필요한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "복구를 제공하도록",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시간을 최소화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "별도의 지역에 있는 Fargate에 두 번째 ECS 클러스터와 ECS 서비스를 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "별도의",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "리전에서 RDS DB 인스턴스의 리전 간 읽기 전용 복제본을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "읽기 전용 복제본을 기본",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "데이터베이스에 할당하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Route 53을 업데이트하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  }
+]

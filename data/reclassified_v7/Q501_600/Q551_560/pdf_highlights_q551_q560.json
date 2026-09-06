@@ -1,0 +1,140 @@
+[
+  {
+    "qNumber": 551,
+    "highlights": [
+      {
+        "text": "사용자 세션을 저장하고 액세스하는 데 관련된 지연 시간을 최소화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon ElastiCache for Redis 클러스터를 만듭니다. Redis 캐시에 사용자 세션을 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 552,
+    "highlights": [
+      {
+        "text": ".NET Framework 애플리케이션을 현대화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션을 마이크로서비스로 컨테이너화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션 계층의 운영 체제 패치와 스토리지를 제어합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹 서버에 대한 부하 분산을 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션을 고가용성으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS App2Container를 사용하여 애플리케이션을 컨테이너화된 애플리케이션으로 변환합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Auto Scaling 그룹의 Amazon EC2 인스턴스에서 ECS 클러스터를 실행합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "부하 분산 장치를 배치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다중 AZ 배포가 있는 SOL Server용 Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS를 사용하여 데이터베이스를 호스팅합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 554,
+    "highlights": [
+      {
+        "text": "가격 파일은 1~15분마다 업데이트되며 수천 개의 행 항목을 포함합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스는 때때로 오래된 가격 정보를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용하여 고객에게 잘못된 요금이 부과될 수 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3용 Mountpoint를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "S3 버킷을 마운트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 557,
+    "highlights": [
+      {
+        "text": "트래픽이 많을 때 앱은 세션 읽기/쓰기로 인해 지연 시간을 겪습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지연 시간을 줄이는 가장 좋은 방법은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Redis용 ElastiCache를 사용하여 세션을 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  }
+]

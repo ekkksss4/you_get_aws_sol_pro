@@ -1,0 +1,681 @@
+[
+  {
+    "qNumber": 511,
+    "highlights": [
+      {
+        "text": "애플리케이션은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새로 업로드된 파일에 대해 Amazon Elastic File System(Amazon EFS) 파일 시스템을 폴링합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 파일이 감지되면 애플리케이션은 파일에서 데이터를 추출하고 논리를 실행하여 파일을 처리할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Docker 컨테이너 이미지를 선택합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 처리에는 최대 2시간이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "컨테이너를 실행하는 EC2 인스턴스를 제거하기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Fargate",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Lambda 함수로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "작업으로 실행되도록 처리를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "파일 업로드 스토리지를 Amazon S3 버킷으로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "실행할 컨테이너 선택 로직을 추출합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "S3 이벤트 알림을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 512,
+    "highlights": [
+      {
+        "text": "MAM(미디어 자산 관리) 시스템에서",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "자동화된 방식으로 이러한 비디오의 메타데이터를 강화하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사물, 풍경 항목, 사람 얼굴 등 영상",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "속 정보를 기반으로 검색할 수 있어야 합니다. 각 인물의 이미지가 포함된 동영상에 등장한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "카탈로그가 제공됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인물의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "얼굴이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "포함된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "MAM 솔루션 비디오 콘텐츠를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "현재 파일 시스템에서 직접 이동하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기존 시스템에 대한 중단을 최소화하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Storage Gateway, 파일 게이트웨이 어플라이언스를 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon Rekognition에서 컬렉션을 구축하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "S3 파일에서 비디오를 가져오고, 필요한 메타데이터를 검색하고,",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 513,
+    "highlights": [
+      {
+        "text": "AWS Organizations의 조직에서 여러 계정을 포함하는 AWS 환경의 비용을 최적화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새로운 서버리스 워크로드를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "더 EC2 인스턴스가 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "3년",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가장 많은 비용을 절감할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전체 선결제로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "마스터 계정에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "3년 컴퓨팅 절약 계획을 구입하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 514,
+    "highlights": [
+      {
+        "text": "전 세계적으로 고객에게 서비스를 제공하는 정적 콘텐츠 배포 플랫폼을 운영하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지리적으로 고객과 가장 가까운 AWS 리전의 콘텐츠를 제공하여 플랫폼의 성능과",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최소한의 지연 시간과 공용 인터넷 노출 없이 온프레미스",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "안정성을 향상시키려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 Amazon S3로 라우팅해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 다중 지역 액세스 포인트",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS PrivateLink 및 AWS Direct Connect를 사용하여 다중 지역 액세스 포인트에",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 515,
+    "highlights": [
+      {
+        "text": "수백 개의 VMware VM에서 실행되는 많은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 VM은 공통 공유 파일이 포함된 공유 Windows 폴더로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션을 보유하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "구성됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "규정 준수 팀에서는 각 VM에 대한 모든 소프트웨어 설치 및 수정에 대해 변경 요청을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "제출하고 승인해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Application Migration Service 에이전트 없는 어플라이언스를 VMware vCenter에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon FSx for Windows File Server 파일",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "시스템에 복사합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "다시 매핑합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 516,
+    "highlights": [
+      {
+        "text": "AWS Organizations의 조직에 여러 AWS 계정이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "SQL을 사용하여 중앙 위치에서 데이터를 쿼리해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "위임된 관리자 계정을 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "데이터 스토어를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS CloudTrail Lake",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "CloudTrail Lake에서 데이터를 쿼리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 517,
+    "highlights": [
+      {
+        "text": "웹 애플리케이션에 대한 사용자 인증을 통합된 방식으로 구현하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 이미",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사의 다른 애플리케이션에 대해 OAuth 토큰을 발급하는 타사 ID 공급자를 사용하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ID 공급자의 토큰을 검증하도록 API",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Gateway Lambda 권한 부여자를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Authorization 헤더에 토큰을 포함하도록 웹 애플리케이션을 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 518,
+    "highlights": [
+      {
+        "text": "암호화되지 않은 여러 Amazon Elastic Block Store(Amazon EBS) 볼륨이 EC2",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스에 연결되어 있음을 발견했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EBS 볼륨을 암호화하기 위한 자동화된 솔루션을 구현해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호화되지 않은 EBS 볼륨을 생성하지 못하도록 방지해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "자동 수정",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS Config 관리 규칙을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS 시스템 관리자",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "작업을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "새 EBS 볼륨을 암호화하도록 EBS 암호화에 대한 AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "자동화 Runbook을 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "계정 설정을 수정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 519,
+    "highlights": [
+      {
+        "text": "워크로드가 허용되는 최대 ECS 작업 수에 도달할 수 있다는 점을 우려하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Fargate가 최대 작업 수의 80%에 도달하면 개발 팀에 알리는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS/Usage",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "지표 네임스페이스에 게시된 서비스 할당량을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon CloudWatch를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "수학 표현식 metric/SERVICE_QUOTA(metric)*100이 80보다 큰 경우",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "모니터링합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 520,
+    "highlights": [
+      {
+        "text": "회사는 CVE를 식별하기 위해 Lambda 기능과 Lambda 계층의 자동 스캔을 구현해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "잠재적인 데이터 유출 및 기타 취약점을 감지하기 위해 자동화된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "코드 스캔은 모든 Lambda 함수가 아닌 선택한 Lambda 함수에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "코드 스캔을 받아야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대해서만 수행되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Inspector를 활성화하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "자동화된 CVE 스캔을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon Inspector에서 Lambda 표준 스캐닝 및 Lambda 코드 스캐닝을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "함수에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "코드 스캔이 필요하지",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "않은",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "태그를 지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "Lambda",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "InspectorCodeExclusion 키와 LambdaCodeScanning 값을 포함합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,455 @@
+[
+  {
+    "qNumber": 201,
+    "highlights": [
+      {
+        "text": "애플리케이션은 과부하 연결이 발생하는 Amazon Aurora MySQL DB 인스턴스를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "자격 증명을 안전하게 유지하고 정기적으로 자격 증명을 자동으로 교체하는 기능을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DB 인스턴스 앞에 Amazon RDS 프록시 계층을 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "연결 자격 증명을 AWS Secrets",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Manager에 비밀로 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 202,
+    "highlights": [
+      {
+        "text": "t3.large Amazon",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "RPO 30초 및 RTO 10분으로 보조 환경으로 장애 조치해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DB 인스턴스에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "대한 리전 간 읽기 전용 복제본을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon Route 53 장애 조치 라우팅 정책을 사용하여 재해 발생 시",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "자동으로 DR 리전으로 장애 조치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "qNumber": 203,
+    "highlights": [
+      {
+        "text": "온프레미스 MySQL 데이터베이스를 us-east-1 리전의 Amazon Aurora MySQL로 일회성",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "마이그레이션을 계획하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "현재 인터넷 연결은 대역폭이 제한되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "60TB입니다.",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스를 보다",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "신속하게 마이그레이션할 마이그레이션 솔루션이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Snowball Edge 디바이스를 주문합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Database Migration Service(AWS DMS)를 사용하여 Amazon S3에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Aurora MySQL로 데이터를 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 204,
+    "highlights": [
+      {
+        "text": "별도의 AWS 리전에서 백업을 유지 관리해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 하루 분량의 데이터 손실",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "없이 영업일 기준 1일 이내에 EC2 인스턴스와 해당 구성을 복구할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Backup을 사용하여 EC2 인스턴스에 대한 예약된 일일 백업 계획을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "보조",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "리전의 볼트에 백업을 복사하도록 백업 작업을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 205,
+    "highlights": [
+      {
+        "text": "모든 데이터는 전송 중 및 유휴 상태에서 암호화되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "설계자는 Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 및 Amazon CloudFront를 사용하여 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹 애플리케이션이 사용하는 S3 버킷에 대해 S3 서버 측 암호화를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "웹 애플리케이션이 사용하는 S3 버킷에서 암호화되지 않은 작업을 거부하는 버킷 정책을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "CloudFront에서 HTTP 요청의 HTTPS 요청으로의 리디렉션을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 206,
+    "highlights": [
+      {
+        "text": "프로덕션",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스의 자격 증명은 IT 보안 팀의 IAM 사용자 그룹 구성원만 액세스할 수 있는 키로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "암호화해야 합니다. 이 키는 정기적으로 순환되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스 자격 증명을 AWS Secrets Manager에 AWS Key Management Service(AWS KMS)",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "고객 관리형 키와 연결된 암호로 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "IT 보안 팀만 암호 및 키에 액세스할 수 있도록 암호 및 고객 관리형",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "키에 대한 접근을 제한합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 207,
+    "highlights": [
+      {
+        "text": "부하가 분산된 프런트엔드 웹 서버, 부하가 분산된 애플리케이션 서버 및",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Microsoft SQL Server 데이터베이스에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션 확장에 따른 라이선스 비용을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "확장 문제를 해결하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최소화하기 위한 솔루션을 구현해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹 계층 및 애플리케이션 계층에 대해 Application Load Balancer 뒤의 Auto Scaling 그룹에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon EC2 인스턴스를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon Aurora PostgreSQL을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Babelfish가",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "사용하여 SQL Server 데이터베이스를 플랫폼을 변경하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 208,
+    "highlights": [
+      {
+        "text": "LINK, UNLINK, LOCK 및 UNLOCK과",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "비표준 REST 메서드",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Global Accelerator에 액셀러레이터를 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 209,
+    "highlights": [
+      {
+        "text": "데이터 양이 MQTT 브로커에 과부하를 일으켜 센서 데이터가 손실되었습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "센서 데이터를 수신하도록 AWS IoT Core를 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS IoT Core Data-ATS 엔드포인트를 가리키도록 Route 53의",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DNS 레코드를 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 210,
+    "highlights": [
+      {
+        "text": "각 시스템에는 고유한 EC2 키 쌍이 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "키 순환 중 1분 미만의 다운타임을 허용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Secrets Manager에 모든 키를 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "EC2 인스턴스의 퍼블릭 키를 교체합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Secrets Manager 교체 일정을 정의합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Secrets Manager에서 프라이빗 키를 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  }
+]
