@@ -1,0 +1,630 @@
+[
+  {
+    "qNumber": 231,
+    "highlights": [
+      {
+        "text": "200GB 내보내기를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 백업을 Amazon S3의 보다 강력한 클라우드 스토리지로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 온프레미스 데이터 센터와 AWS 간에 10Gbps AWS Direct Connect",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이동하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결을 설정했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 S3 버킷을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS Storage Gateway",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "파일 게이트웨이를 배포합니다. 새 SMB 파일 공유를 만듭니다. 야간 데이터베이스 내보내기를 새",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "SMB 파일 공유에 씁니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 232,
+    "highlights": [
+      {
+        "text": "회사는 VPC 네트워크",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "간의 전이 라우팅 기능을 사용하여 서로 다른 AWS 리전에 있는 모든 VPC를 연결해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크 아웃바운드 트래픽 비용을 줄이고 대역폭 처리량을 늘리고 최종",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자에게 일관된 네트워크 경험을 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전송 VIF를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "온프레미스 데이터 센터와 AWS 간에 AWS Direct Connect 연결을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "각 리전에서 전송 게이트웨이를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "프로비저닝하고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "사용하여 Direct Connect 게이트웨이를 다른 모든 VPC에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 233,
+    "highlights": [
+      {
+        "text": "마스터 계정에서 솔루션 설계자는 두 멤버",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "계정의 리소스를 중지하거나 종료할 수 있는 IAM 사용자를 생성해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "마스터 계정에서 IAM 사용자를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "멤버 계정에서 최소 권한 액세스 권한이 있는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "교차 계정 역할을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "신뢰 정책을 사용하여 IAM 사용자에게 역할에 대한 액세스 권한을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "부여합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 234,
+    "highlights": [
+      {
+        "text": "수백 대의 Windows 기반 서버를 보유하고 있습니다. 모든 서버는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "공통 공유를 마운트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기본 장애 조치 및 폴백 기능을 지원해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사의 RTO는 15분이고 RPO는 5분입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Elastic Disaster Recovery를 사용하여 온프레미스 서버를 복제합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS DataSync를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "사용하여 Windows 파일 서버용 Amazon FSx 파일 시스템에 데이터를 복제합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "재해 발생 시 온프레미스 서버를 AWS로 장애 조치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Elastic",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Disaster Recovery를 사용하여 새 서버 또는 기존 서버로 장애 복구합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 235,
+    "highlights": [
+      {
+        "text": "밀접하게 연결된 워크로드를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "위해 AWS에 고성능 컴퓨팅(HPC)",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "클러스터를 구축했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "컴퓨팅(HPC)",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "클러스터 크기를 1,000개의",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스로 늘렸을 때 전반적인 성능은 예상보다 훨씬 낮았습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "HPC 클러스터에서 최대 성능을 달성하기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "HPC 클러스터가 단일 가용 영역 내에서 시작되었는지 확인합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "EFA(Elastic Fabric Adapter)가 활성화된 EC2 인스턴스 유형을 선택합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon EFS를 Lustre용 Amazon FSx로 교체합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 236,
+    "highlights": [
+      {
+        "text": "회사는 사용자가 새 리소스를 만들 때 특정 값이 있는 태그를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사의 각 OU에는 고유한 태그 값이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "요구합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "필요한 태그가 없는 리소스 생성을 거부하려면 SCP를 사용하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "태그 정책을 OU에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 237,
+    "highlights": [
+      {
+        "text": "MQTT(Message Queuing Telemetry Transport) 프로토콜을 사용하여 온프레미스 Apache",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Kafka 서버로 데이터를 보내는 10,000개 이상의 센서가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 Kafka 서버는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 변환한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3 버킷에 객체로 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서버를 복원하는 동안 센서 데이터를 손실했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Kinesis Data Firehose 전송 스트림에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS IoT Core를 배포하고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Lambda 함수를 사용하여 데이터 변환을 처리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 238,
+    "highlights": [
+      {
+        "text": "백업은 사용자 정의 일일, 주간 및 월간 요구 사항에 따라 유지되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "백업은 캡처 직후 하나 이상의 다른 AWS 리전에 복제되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 환경 전체에서 단일 백업 상태 소스를 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "즉시 알림을 보내야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 보존 요구 사항에 대한 백업 규칙을 사용하여 AWS Backup 계획을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "백업을 다른 지역으로 복사하도록 AWS Backup 계획을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Service(Amazon SNS) 주제를 추가하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "BACKUP_JOB_COMPLETED",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 239,
+    "highlights": [
+      {
+        "text": "인바운드 게놈 데이터의 거의 실시간 분석 제공",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터가 유연하고 병렬적이며 내구성이 있는지 확인",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "처리 결과를 데이터 웨어하우스로 전달",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Kinesis Data Streams를 사용하여 인바운드 센서 데이터를 수집하고,",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Kinesis",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon EMR을 사용하여 Amazon Redshift 클러스터에 결과를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "클라이언트로 데이터를 분석하고,",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 240,
+    "highlights": [
+      {
+        "text": "NoSQL 데이터 계층.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 리전 내 고가용성",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "재해 복구를 위해 1분 안에 다른 AWS 리전으로 장애 조치 가능",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자 경험에 미치는 영향을 최소화하면서 가장 효율적인 솔루션 제공",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Route 53 장애 조치 라우팅",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "기본 지역에서 재해 복구 지역으로의 장애 조치를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "TTL(Time to Live)을 30초로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "정책을 사용하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "선택한 두 리전에서 데이터에 액세스할 수 있도록 Amazon DynamoDB 내에서 전역 테이블을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "리전의 여러 가용 영역에서 웹 및 애플리케이션 계층에 대해 Auto Scaling 그룹을 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "상시 대기 모델을 구현합니다. 최소 서버 수에는 영역 예약 인스턴스를 사용하고 추가 리소스에는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "온디맨드 인스턴스를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  }
+]

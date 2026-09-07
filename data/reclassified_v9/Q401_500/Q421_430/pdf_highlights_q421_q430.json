@@ -1,0 +1,555 @@
+[
+  {
+    "qNumber": 421,
+    "highlights": [
+      {
+        "text": "애플리케이션 로그에는 오류가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "발생하면 DynamoDB가 호출된다는 내용이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "테이블에 DynamoDB 자동 조정을 구현합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 422,
+    "highlights": [
+      {
+        "text": "중요한 데이터를 위한 파일 스토리지에 대한 액세스가 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "HTTP 요청 기반",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중복성을 위해 3개의 Linux VM에서 실행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "라우팅을 갖춘 로드 밸런서가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "3개의 가용 영역에 있는 Amazon EC2 인스턴스로 애플리케이션을 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "파일",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "저장에는 Amazon Elastic File System(Amazon EFS)을 사용합니다. 세 개의 EC2 인스턴스 모두에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "파일 스토리지를 탑재합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Application Load Balancer를 사용하여 트래픽을 EC2 인스턴스로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "전달합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 423,
+    "highlights": [
+      {
+        "text": "VM 간의 네트워크",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "종속성에 대한 정보를 수집해야 합니다. 정보는 호스트 IP 주소, 호스트 이름 및 네트워크 연결",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "정보를 자세히 설명하는 다이어그램 형식이어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 애플리케이션 검색 서비스를 사용하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS Migration Hub 홈 AWS 지역을 선택합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "데이터 수집을 위해 온프레미스 서버에 AWS Application Discovery Agent를 설치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Migration",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Hub 네트워크 다이어그램을 사용할 수 있도록 Application Discovery Service에 권한을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "부여합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 424,
+    "highlights": [
+      {
+        "text": "피크 기간 동안 응답 시간이 느려지는 것을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "확장 가능한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "성능과 가용성을 개선해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스를 Amazon Aurora로 마이그레이션하고 Aurora 복제본을 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "데이터베이스 연결 풀을 관리하도록 Amazon RDS 프록시를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 425,
+    "highlights": [
+      {
+        "text": "공유 스토리지에 Amazon S3 버킷을 사용하는 솔루션을 구현해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "코드가 다시 작성될",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "때까지 애플리케이션은 SMB를 통해 데이터에 계속 액세스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션용 S3 버킷을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "온프레미스 VM에 새로운 AWS Storage Gateway 파일",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "게이트웨이를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 426,
+    "highlights": [
+      {
+        "text": "백엔드",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "API를 호출하여 데이터베이스의 데이터와 비교하여 바코드 데이터의 유효성을 검사합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "단일 테이블에 기록하여 바코드가 사용된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "것으로 표시합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "세계 3개 AWS 지역에서 데이터베이스를 호스팅할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가장 낮은 대기 시간으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon DynamoDB 글로벌 테이블에서 데이터베이스를 호스팅합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Amazon CloudFront",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "배포를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Lambda@Edge 함수와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 427,
+    "highlights": [
+      {
+        "text": "ALB는 3개의 퍼블릭",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서브넷에서 실행되고,",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "ALB를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "유일한 오리진으로 사용하는 Amazon CloudFront 배포판을 배포했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "원본 보안을 강화하기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Secrets Manager에 임의의 문자열을 저장합니다. 자동 비밀 교체를 위한 AWS Lambda",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "함수를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "사용자 지정 HTTP 헤더로 임의 문자열을 삽입하도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "CloudFront를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "사용자 지정 헤더에 대한 문자열 일치 규칙을 사용하여 AWS WAF 웹",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "ACL 규칙을 생성합니다. 웹 ACL을 ALB와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 428,
+    "highlights": [
+      {
+        "text": "미국을 포함하여 여러 공개",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 지역에 회사의 중요 데이터를 저장할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "공용 인터넷을 통과해서는 안 된다고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비용 효율적인 고가용성",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사 본사에서 AWS 리전까지 두 개의 AWS Direct Connect 연결을 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Direct Connect Gateway를 사용하여 다른 AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "리전의 데이터에 액세스합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 429,
+    "highlights": [
+      {
+        "text": "VMware vSphere VM에서 Windows Server를 실행하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 환경을 사용할 수 없게 되는 경우",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "재해 복구",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "일시적으로 AWS에서 애플리케이션을 호스팅할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이벤트가 완료된 후 애플리케이션이 온프레미스 호스팅으로 돌아가기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RPO는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "5분입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 탄력적 재해 복구를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Elastic Disaster Recovery를 사용하여 복제된 볼륨을 사용하는 EC2 인스턴스를 시작하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 430,
+    "highlights": [
+      {
+        "text": "데이터",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "분석을 중앙 집중화하기 위한 요구 사항을 충족하기 위해 S3 버킷을 eu-north-1에 유지합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 리전에서 S3 버킷으로 데이터가 도착할 때",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "상당한 지연이 있음을 발견했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지연 시간을 가장 많이 개선할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "두 개의 새로운 리전 각각에 S3 버킷을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "eu-north-1의 S3 버킷에 데이터를 복제하도록 S3 교차 리전",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "복제를 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  }
+]

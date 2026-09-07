@@ -1,0 +1,646 @@
+[
+  {
+    "qNumber": 381,
+    "highlights": [
+      {
+        "text": "사용자가 장바구니에 항목을 추가하는 동안 오류 및 시간",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "초과가 발생했다고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "로그가 수집되기 전에 일부 웹 서버가 종료되었으며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Aurora",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지표가 쿼리 성능 분석에 충분하지 않았습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "피크 트래픽 이벤트 중에 애플리케이션 성능 가시성을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon CloudWatch Logs에 느린 쿼리 및 오류 로그를 게시하도록 Aurora MySQL DB",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "클러스터를 구성하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS X-Ray SDK를 구현하여 EC2 인스턴스에서 들어오는 HTTP 요청을 추적하고 Java용 X-",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Ray SDK를 사용하여 SQL 쿼리 추적을 구현합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "EC2 인스턴스에 Amazon CloudWatch Logs 에이전트를 설치하고 구성하여 Apache 로그를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "CloudWatch Logs로 보냅니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 382,
+    "highlights": [
+      {
+        "text": "Amazon DynamoDB를 데이터 스토어로 사용하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "성수기에는 애플리케이션 읽기 및 쓰기 트래픽이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "느립니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "백엔드 서비스에 Auto Scaling 그룹을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "DynamoDB Auto Scaling을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 383,
+    "highlights": [
+      {
+        "text": "CPU와 같은 지표를 수집하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "메모리, 디스크 사용률",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 인스턴스에서 실행",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중인 프로세스에 대한 인벤토리가 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크 연결을 모니터링하여 서버",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "간의 통신을 매핑하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Application Discovery Service를 사용하고 데이터 센터의 각 가상 머신에 데이터 수집",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "에이전트를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 384,
+    "highlights": [
+      {
+        "text": "NLB(Network Load Balancer) 뒤의 Amazon EC2 인스턴스에서 실행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "고객이 IP 주소를 허용 목록에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "추가할 수 있도록 애플리케이션에 대한 고정 IP 주소를 고객에게 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가까운 지역으로 자동 라우팅해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 추가 지역에서 NLB에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Global Accelerator 표준 액셀러레이터를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "표준",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "가속기 엔드포인트를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 385,
+    "highlights": [
+      {
+        "text": "SAML과의 연동을 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개발자에게 AWS 계정의 리소스를 관리할 수 있는 권한을 부여합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개발 단위는 프로덕션",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "워크로드를 공통 프로덕션 계정에 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "개발 단위 구성원이 다른 개발 단위에 속한 EC2 인스턴스를 종료하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사고가 발생하지 않도록 방지하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사건이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Security Token Service(AWS STS)",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DevelopmentUnit의",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "aws:PrincipalTag/DevelopmentUnit에",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "개발자가 맡은 IAM 역할에 대한 IAM 정책을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "StringNotEquals",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 386,
+    "highlights": [
+      {
+        "text": "사용자가 승인되지 않은 서비스를 프로비저닝할 수 없도록 AWS 인프라를 시작할 때",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자에게 최소 권한 접근을 제공합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중앙 계정을 사용하여 인프라 서비스 생성을 관리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Organizations의 여러 계정에 인프라 서비스를 배포하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자가 시작한 모든 인프라에 태그를 적용하는 기능을 제공합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중앙 AWS 계정에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "생성된 포트폴리오에 각 템플릿을 AWS Service Catalog 제품으로 업로드합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "조직 구조와 공유하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "사용자 IAM 역할이",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "권한만 갖도록 허용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "ServiceCatalogEndUserAccess",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "시작 제약 조건을 적용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS Service Catalog TagOption 라이브러리를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "제품 또는 포트폴리오에 TagOption을 적용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 387,
+    "highlights": [
+      {
+        "text": "매일 한 번",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실행되어 지난 24시간 동안의 AWS WAF 로그 데이터를 반환하는 Amazon Athena 쿼리를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "시간이 지남에 따라 동일한 쿼리를 실행하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "쿼리 시간이 계속해서 증가하지 않도록 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데 더 많은 시간이 걸립니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "설계해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "날짜 및 시간별로 데이터를 분할하도록 Kinesis Data Firehose 구성 및 Athena 테이블 정의를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "수정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "관련 파티션을 보려면 Athena 쿼리를 변경하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 388,
+    "highlights": [
+      {
+        "text": "ALB(Application Load Balancer) 뒤에 있는 Auto Scaling 그룹의 Amazon EC2",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "특정 국가의 사용자만",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스에서 실행되는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "차단된 액세스 요청을 기록하는 기능이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션에 액세스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지정된 국가에서 발생하지 않는 요청을 차단하도록 AWS Shield를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Shield를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "ALB와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 389,
+    "highlights": [
+      {
+        "text": "데이터 손상이나 데이터 손실 시 다시 생성할 수 없는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "규정 준수 요구 사항에 따라 데이터는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중요한 비즈니스 크리티컬 데이터가 포함되어",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "공용 인터넷을 통해 이동해서는 안 됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "재해 복구(DR) 목적으로 데이터를 다른 AWS 리전에 복사하는 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DR 지역에 FSx for Windows File Server 파일 시스템을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "VPC 피어링을 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "기본 지역의 VPC와 DR 지역의 VPC 간의 연결을 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS PrivateLink와 인터페이스 VPC",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "엔드포인트를 사용하여 통신하도록 AWS DataSync를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 390,
+    "highlights": [
+      {
+        "text": "5분 미만의 RPO와 10분 미만의 RTO가 필요한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스가 약 10TB의 데이터를 저장할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "보조 지역으로 장애 조치할 수 있는 기능을 제공할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "보조 지역에 지역 간 읽기 전용 복제본이 있는 Amazon RDS 인스턴스를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "오류가",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "발생하면 읽기 전용 복제본을 기본 복제본으로 승격하세요.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  }
+]

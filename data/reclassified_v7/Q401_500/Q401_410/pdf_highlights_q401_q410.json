@@ -425,11 +425,6 @@
     "qNumber": 409,
     "highlights": [
       {
-        "text": "AWS Key Management Service(AWS KMS)에",
-        "color": "#ddf300",
-        "opacity": 0.4
-      },
-      {
         "text": "회사는 QA 환경과 프로덕션 환경에서 Lambda 기능을 시작해야",
         "color": "#ddf300",
         "opacity": 0.4

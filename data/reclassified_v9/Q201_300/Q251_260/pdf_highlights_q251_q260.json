@@ -1,0 +1,511 @@
+[
+  {
+    "qNumber": 251,
+    "highlights": [
+      {
+        "text": "미국에 기반을 둔 6개의 파트너와 정보를 공유하기",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "6개 파트너는 각각 하루에 한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon API Gateway 지역 엔드포인트를 생성했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "번씩 API에 액세스하여 일일 판매 수치를 게시합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전 세계 500개의 서로 다른 IP 주소에서 발생하는 초당 1,000개의 요청을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "관찰합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "6개의 파트너가 사용하는 IP 주소에 대한 접근을 허용하는 규칙으로 AWS WAF 웹 ACL을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "요청 제한이 있는 사용량 계획을 생성하고 API와",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "생성합니다. 웹 ACL을 API와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "API 키를 생성하고 사용량 계획에 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 252,
+    "highlights": [
+      {
+        "text": "모든 데이터베이스의 모든 데이터 활동을 모니터링해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Aurora DB 클러스터에서 데이터베이스 활동 스트림을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon S3에 전달하도록 Amazon Kinesis Data Firehose를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 253,
+    "highlights": [
+      {
+        "text": "r6g.16xlarge(메모리 최적화)",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "r6g.4xlarge(메모리 최적화)",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "3개, 원하는 용량 3개, 최대 용량 12개를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 254,
+    "highlights": [
+      {
+        "text": "매일 자정에 한 번씩 수백만 개의 새 레코드가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온디맨드 용량 모드를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "테이블에 로드됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "제한된 키 집합이 반복적으로 조회됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "관련된 비용을 줄여야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DynamoDB Accelerator(DAX)를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "프로비저닝된 용량 모드를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "DynamoDB Auto Scaling을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 255,
+    "highlights": [
+      {
+        "text": "NLB(Network Load Balancer)가 있는 EC2 인스턴스에서 실행되는 로깅",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서비스는 서로 다른 서브넷에 배포됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "클라이언트는 VPC 엔드포인트를 사용하여 로그를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "제출할 수 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "NLB 서브넷과의 통신을 허용하기 위해 NACL이 로깅 서비스 서브넷에 연결되어 있는지",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "확인하십시오. NACL이 NLB 서브넷에 연결되어 EC2 인스턴스에서 실행되는 로깅 서비스",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "서브넷과의 통신을 허용하는지 확인하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "EC2 인스턴스에서 실행 중인 로깅 서비스의 보안 그룹을 확인하여 NLB 서브넷에서 수신을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "허용하는지 확인합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 256,
+    "highlights": [
+      {
+        "text": "개체에 액세스하는 사용자 및 응용",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로그램의 수가 빠르게 증가하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3의 많은 요청으로 인해 AWS",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "KMS 비용이 증가하고 있음을 확인합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3 관리 키(SSE-S3)를 암호화 유형으로 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "S3 배치 작업을 사용하여 기존 객체를 새 S3 버킷에 복사합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 257,
+    "highlights": [
+      {
+        "text": "수천 명의 사용자가 동시에 사진을 업로드할 때 Lambda가 사진 처리 문제를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 저장 시 Lambda 동시성 제한 및 DynamoDB 성능의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "겪고 있음을 발견합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "결과입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DynamoDB 테이블에 대한 WCU를 평가하고 조정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon S3와 Lambda 함수 사이에 Amazon Simple Queue Service(Amazon SQS) 대기열 및",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "재처리 로직을 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 258,
+    "highlights": [
+      {
+        "text": "응용 프로그램 서버가 과도하게 사용되어 때때로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 업로드가 실패합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 파일 서버에 새 스토리지를 자주 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인증된 사용자만 애플리케이션에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션을 리팩터링하는 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "액세스하여 파일을 업로드할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "고려할 것이며 회사는 애플리케이션 개발을 가속화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Amplify를 사용하여 미디어 파일 업로드를 위한 정적 웹사이트를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Amplify",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Amazon S3를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Hosting을",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Amazon Cognito를 사용하여 사용자를 인증합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "업로드된 미디어 파일을 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 259,
+    "highlights": [
+      {
+        "text": "애플리케이션 로그를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스가 축소된 후에는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "분석하여 애플리케이션 성능을 개선할 방법을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "더 이상 로그를 사용할 수 없습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "통합 CloudWatch 에이전트를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon CloudWatch Logs에 로그를 게시하도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 260,
+    "highlights": [
+      {
+        "text": "등록 양식이 제출되면 웹 사이트는 AWS Lambda",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "함수를 호출하는 Amazon API Gateway API 엔드포인트를 호출하여 페이로드를 처리하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "페이로드를 외부 API 호출로 전달합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "API Gateway API 엔드포인트에서 CORS 설정을 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Access-Control-Allow-Origin",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "헤더가 www.example.com으로 설정된 모든 응답을 반환하도록 API 엔드포인트가 구성되었는지",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  }
+]

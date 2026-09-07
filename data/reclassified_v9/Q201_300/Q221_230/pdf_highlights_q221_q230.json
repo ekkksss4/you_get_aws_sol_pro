@@ -1,0 +1,518 @@
+[
+  {
+    "qNumber": 221,
+    "highlights": [
+      {
+        "text": "AWS Organizations를 사용하여 AWS 계정을 관리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사에는 CPU 또는 메모리",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용량이 충분히 활용되지 않은 모든 Amazon EC2 인스턴스 목록이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Systems Manager를 사용하여 모든 EC2 인스턴스에 Amazon CloudWatch 에이전트를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "조직의 마스터 계정에 있는 AWS 비용 탐색기에서 리소스 최적화 권장 사항을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "설치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "검색합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 222,
+    "highlights": [
+      {
+        "text": "분석 소프트웨어가 작동을 멈출 때마다",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Auto Scaling 그룹이 인스턴스를 교체합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "교체가 발생할 때 네트워크 경로가 업데이트되지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CloudFormation 템플릿을 업데이트하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "애플리케이션에 대한 프로세스 지표를 보내도록 CloudWatch 에이전트를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "실패 시나리오에 대해 Amazon CloudWatch에서 사용자 지정 지표에 대한 경보를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Service(Amazon SNS) 주제에 메시지를 게시하도록 경보를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "서비스에서 인스턴스를 제거하기 위해 Amazon Simple Notification Service(Amazon SNS)",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "메시지에 응답하는 AWS Lambda 함수를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 223,
+    "highlights": [
+      {
+        "text": "500만",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사는 HTTPS 프로토콜을 사용하는 ECS",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서비스를 사용하여 애플리케이션을 개발했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "솔루션은 로드 밸런서를 통해 각 ECS 서비스에 트래픽을 분산해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon CloudWatch 경보에 대한 응답으로 작업 수를 자동으로 조정해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Application Load Balancer를 사용하도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "Service Auto Scaling을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 224,
+    "highlights": [
+      {
+        "text": "새 이미지 버전이 업로드되면 새 이미지 버전에 고유한 태그가 부여됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "삭제가 발생하면 개발 팀에 알려야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "리포지토리에서 푸시할 때 스캔을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Service(Amazon SNS)를 통해 개발 팀에 알립니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 225,
+    "highlights": [
+      {
+        "text": "AWS Organizations를 사용하여 계정을 관리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon EC2에서 호스팅됩니다. AWS 파게이트. 및 AWS 람다. 일부 워크로드에는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "마스터 계정 수준의 권장 사항을 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Compute Savings Plan을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 226,
+    "highlights": [
+      {
+        "text": "AWS Organizations의 조직을 사용하여 모든",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "계정을 관리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "예산의 80%를 초과하는",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "이메일 알림을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직의 마스터 계정에서 AWS 예산을 사용하여 일일 기간이 있는 예산을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "경고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Service(Amazon SNS)를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "임계값을 추가하고 값을 80%로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "사용하여 재무 팀에 알립니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 227,
+    "highlights": [
+      {
+        "text": "유럽 사용자들은 이미지 업로드",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "속도가 느리다고 보고합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 Transfer Acceleration을 사용하도록 버킷을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 228,
+    "highlights": [
+      {
+        "text": "회사는 응용 프로그램이 내결함성과 확장성을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "자주",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프런트엔드 웹",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "액세스하는 일부 데이터는 애플리케이션 서버에서 항상 사용할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서버에는 세션 지속성이 필요하며 트래픽 증가에 맞춰 확장해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Elastic Kubernetes Service(Amazon EKS)에 애플리케이션을 배포합니다. 관리형 노드",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "그룹을 사용하도록 Amazon EKS를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "프런트엔드 웹 서버 세션 데이터를 Amazon DynamoDB 테이블에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "배포 시 모든 애플리케이션이 탑재될 Amazon Elastic File System(Amazon EFS)",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "볼륨을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 229,
+    "highlights": [
+      {
+        "text": "중요한 Microsoft SQL Server 데이터베이스를 AWS로 마이그레이션할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스는 레거시 시스템이므로 솔루션 설계자는 데이터베이스를 최신 데이터",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다운타임이 거의 없이 데이터베이스를 마이그레이션해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "아키텍처로 이동합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "소스 시스템을 Microsoft SQL Server DB",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "그에 따라 복제를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "데이터 복제가 완료되면",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "인스턴스용 Amazon RDS에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "워크로드를 Microsoft SQL Server DB 인스턴스용 Amazon RDS로 전환합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 230,
+    "highlights": [
+      {
+        "text": "데이터 전송 요금은 회사가 예상한 것보다 훨씬 높으며 솔루션 설계자는 비용을 줄여야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전체 환경에 대한 데이터 전송 요금을 최소화해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 서비스 공급자 애플리케이션 배포에서 Network Load Balancer에 대한 교차 영역 로드",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "밸런싱을 끕니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "엔드포인트의 로컬 DNS 이름을 사용하여 서비스 소비자 컴퓨팅 리소스가 가용 영역별",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "엔드포인트 서비스를 사용하는지 확인합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  }
+]

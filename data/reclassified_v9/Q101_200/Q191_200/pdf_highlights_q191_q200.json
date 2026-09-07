@@ -1,0 +1,537 @@
+[
+  {
+    "qNumber": 191,
+    "highlights": [
+      {
+        "text": "NFS 버전 4 파일",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "기본 인프라의 프로비저닝 또는 관리가 필요하지 않은 안전하고 확장 가능한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "컨테이너화된 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Fargate 시작 유형으로 Amazon Elastic Container Service(Amazon ECS)를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "공유 스토리지에 Amazon Elastic File System(Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "애플리케이션 컨테이너를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "EFS)을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 192,
+    "highlights": [
+      {
+        "text": "ALB(Application Load Balancer)는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스에 트래픽을 분산합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "api.example.com이",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "10%만 새로운 논리를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "테스트 기간",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "동안 동일한 버전의 비즈니스 로직을 사용해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이 새 대상 그룹의 EC2 인스턴스에 대한 새 논리를 ALDeploy에서 참조하는 두 번째 대상",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "그룹을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "가중 대상 그룹을 사용하도록 ALB 리스너 규칙을 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "ALB 대상",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "그룹 고정성을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 193,
+    "highlights": [
+      {
+        "text": "16MBps인 HDD",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "시스템의 성능 저하가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "정의된 유지 관리 기간 동안",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon FSx 콘솔에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "용량을 32MBps로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "스토리지 유형을 SSD로 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 194,
+    "highlights": [
+      {
+        "text": "애플리케이션은 단일 Amazon S3 버킷에 저장된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "두 AWS 리전에 애플리케이션을 배포하도록 애플리케이션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "객체를 읽고 씁니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "수정해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "원래 S3 버킷과 새 S3 버킷 간에 양방향 S3",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "두 번째 리전에서 새 S3 버킷을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "CRR(Cross-Region Replication)을 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "수정된 애플리케이션을 두 리전에 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 195,
+    "highlights": [
+      {
+        "text": "컴퓨팅(HPC)",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Ubuntu",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "온디맨드 인스턴스의",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "c5.large Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 196,
+    "highlights": [
+      {
+        "text": "실행할 수 있는 형식으로 저장되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "월별 보고서를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인프라는 가용성이 높아야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "하며 들어오는 데이터 및 보고 요청 속도에 맞게 확장되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon CloudFront에서 제공하는 Amazon S3 버킷에 애플리케이션 프런트 엔드를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Lambda 프록시 통합과 함께 Amazon API Gateway를 사용하여 애플리케이션 백엔드를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Amazon Athena 및 Amazon QuickSight를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "Amazon S3에 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 197,
+    "highlights": [
+      {
+        "text": "S3 버킷의 객체에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 활동을 기록하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "5년 동안 로그를 유지해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사의 보안 팀은 S3 버킷에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 삭제하려는 시도가 있을 때마다 이메일 알림을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 데이터 이벤트를 기록하도록 AWS CloudTrail을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Service(Amazon SNS) 주제에 게시하는 Amazon EventBridge",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "이벤트 버스로 객체 삭제 이벤트를 보내도록 Amazon S3를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "S3 수명 주기 정책으로 로그를 저장하도록 새 S3 버킷을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 198,
+    "highlights": [
+      {
+        "text": "3개의 VPC에 Amazon EC2 인스턴스를 배포했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 VPC는 서로 다른",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 리전에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 데이터 센터의 서버도 AWS 퍼블릭 서비스에 액세스할 수 있어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 센터와 가장 가까운 리전에서 Direct Connect 게이트웨이를 생성합니다. Direct",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Connect 연결을 Direct Connect 게이트웨이에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "공개 VIF를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "퍼블릭 VIF를 통해 다른 두 리전의 VPC에 대한 AWS Site-to-Site",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "VPN 연결을 설정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 199,
+    "highlights": [
+      {
+        "text": "OWASP(Open Web Application Security Project)",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Config를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "조직의 모든 기능을 활성화합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Firewall Manager를 사용하여 모든 CloudFront",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 200,
+    "highlights": [
+      {
+        "text": "SAML 2.0 연동",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "연합 사용자 또는 연합 그룹의 신뢰 정책을 위해 생성된 IAM 역할은 SAML 공급자를 보안",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "주체로 설정했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "테스트 사용자는 회사 IdP의 AWSFederatedUsers",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "온프레미스 IdP의 DNS 호스트 이름은 AWS 환경 VPC에서 연결할",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  }
+]

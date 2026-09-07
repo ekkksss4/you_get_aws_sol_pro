@@ -1,0 +1,668 @@
+[
+  {
+    "qNumber": 441,
+    "highlights": [
+      {
+        "text": "모든 AWS 계정에 대해 단일 AWS 송장을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 LOB 계정의 비용은 송장에서 분류되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "거버넌스 정책에 정의된 대로 LOB 계정의 서비스 및 기능을 제한하는 기능을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "제공합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "거버넌스 정책에 관계없이 전체 관리자 권한이 위임되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Organizations를 사용하여 상위 계정에 단일 조직을 생성합니다. 그런 다음 각 LOB의",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS 계정을 초대하여 조직에 가입합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "승인된 서비스 및 기능만 허용하는 SCP를 생성한 다음 LOB 계정에 정책을 적용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 442,
+    "highlights": [
+      {
+        "text": "Amazon Route 53 지연 시간 기반 라우팅을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가중치",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기반 레코드 세트를 연결했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "한 지역의 모든 웹 서버가 중지되면 Route",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "53은 자동으로 사용자를 다른 지역으로 리디렉션하지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지연 시간 별칭 리소스 레코드 세트에 대해 대상",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "상태를 평가하는 설정이 켜져 있지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "중지된 웹 서버와 연결된 하나 이상의 가중치 기반 리소스 레코드 세트에 대해 HTTP 상태",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "확인이 설정되지 않았습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 443,
+    "highlights": [
+      {
+        "text": "10,000개 이상의 수위 모니터링 센서를 배포했습니다. 센서는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지속적인 데이터 업데이트를 보내며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "원시 데이터를 사람이 읽을 수 있는 형식으로 변환하고,",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 분석가는 간단한 SQL 쿼리를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 모니터링합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "유지 관리 작업을 수행하는 데 필요한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "노력을 줄이고 싶어합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Lambda 함수를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "센서 데이터를 Amazon Kinesis Data Firehose로 보냅니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Kinesis Data Firehose 데이터를 읽고 이를 Apache Parquet 형식으로 변환한 후 Amazon S3",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "버킷에 저장합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "데이터 분석가에게 Amazon Athena를 사용하여 데이터를 쿼리하도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "지시합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 444,
+    "highlights": [
+      {
+        "text": "제품 카탈로그 페이지를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대상 그룹 상태 확인은 HTTP를 사용하도록 구성되고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가리킵니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Auto Scaling은 중단 중에 인스턴스를 지속적으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터베이스 계층에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "교체했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "높은 Toad 현상이 발생하여 쿼리 응답 시간이 심각하게 증가한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "간단한 HTML 페이지를 가리키도록 대상 그룹 상태 확인을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "구성하고 제품 페이지에 대한 Amazon Route 53 상태 확인을 구성하여 전체 애플리케이션 기능을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "평가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon Elastic ache 클러스터를 구성하고 이를 웹 애플리케이션과 RDS MySQL 인스턴스",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "사이에 배치하여 백엔드 데이터베이스 계층의 로드를 줄입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 445,
+    "highlights": [
+      {
+        "text": "Kubernetes를 사용하여 AWS에서 새로운",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "솔루션을 개발하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "프로덕션 워크로드를 위한 EKS 제어 플레인과 데이터 플레인은 온프레미스에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Kubernetes 관리를 위한 AWS 관리형 솔루션이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Outposts 서버를 설치합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "로컬 클러스터 구성을 사용하여 Amazon EKS를 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 446,
+    "highlights": [
+      {
+        "text": "AWS Organizations를 사용하여 개발 환경을 관리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 계정에는 겹치지 않는 단일 VPC 및 CIDR 블록이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DB 클러스터의 실시간 데이터로 작업해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "운송 게이트웨이(Transit Gateway)에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "공유 서비스 계정에 전송 게이트웨이를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Resource Access Manager(AWS RAM) 리소스 공유를 생성합니다. 모든 개발 계정과 전송",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "네트워킹을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "게이트웨이를 공유합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 447,
+    "highlights": [
+      {
+        "text": "사용되지 않은 리소스를 찾는 프로세스를 자동화하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "청구서 비용이 증가하는지 여부를 결정하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "비용 증가를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사 운영 팀에 자동으로 알려야 합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "유발하는 리소스를 식별하는 데 도움이 되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 비용 이상 탐지를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "모니터 유형이 AWS 서비스인 비용 모니터를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "일일 AWS 비용 요약을 운영 팀에 보내려면 구독을 생성하세요. 비용 차이에 대한 임계값을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 448,
+    "highlights": [
+      {
+        "text": "Linux 애플리케이션 서버용 스토리지",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 인스턴스에 대한 애플리케이션 데이터 업데이트를 위한 단일",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "활성 데이터 세트의 크기는 최대 100GB입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "위치를 생성하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "총 225MiBps의 읽기 처리량이 필요하다고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "재해 복구(DR)를 위해 다른 AWS 리전에서 사용할 수 있는 데이터 사본을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다중 AZ 솔루션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DR 사본의 RPO는 1시간 미만입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새로운 Amazon Elastic File System(Amazon EFS) 다중 AZ 파일 시스템을 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "프로비저닝된 처리량의 75MiBps에 대해 파일 시스템을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "DR 지역의 파일 시스템에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "대한 복제를 구현합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 449,
+    "highlights": [
+      {
+        "text": "연결되지 않은 원격 위치에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "1주일 동안 예비 형식으로 6TB의 데이터를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 파일을 FTP 서버에 주기적으로 업로드하도록 센서를 구성할 수 있지만 센서에는 자체",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "FTP 서버가 없습니다. 센서는 다른 프로토콜도 지원하지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS 클라우드의 객체 스토리지로 옮겨야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Linux 2 AMI를 포함한 AWS Snowcone 디바이스를 주문합니다. 장치를 로컬",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "네트워크에 연결하십시오. 디바이스에서 Amazon EC2 인스턴스를 시작합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "EC2 인스턴스에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "FTP 서버를 설치하고 구성합니다. EC2 인스턴스에 데이터를 업로드하도록 센서를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 450,
+    "highlights": [
+      {
+        "text": "모든 기능이 활성화된 AWS Organizations를 사용하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 AWS 계정의 관리자는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Athena를 사용하여 해당 계정에 대한 자세한 비용 및 사용률 데이터를 확인해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 사업부는 자체 비용 및 활용 데이터에만 액세스할 수 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직의 모든 데이터가 포함된 중앙 비용",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "및 사용 보고서는 이미 Amazon S3 버킷에서 사용할 수 있습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직의 마스터 계정에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Lambda 함수를 호출하도록 S3 이벤트를 구성합니다. 각 회원 계정의 데이터를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "추출하고 Amazon S3의 데이터를 별도의 접두사 아래에 배치하도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "각 회원 계정이 자체 접두사에 액세스할 수 있도록 S3 버킷 정책을 수정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  }
+]

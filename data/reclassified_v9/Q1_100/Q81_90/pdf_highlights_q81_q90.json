@@ -1,0 +1,323 @@
+[
+  {
+    "qNumber": 81,
+    "highlights": [
+      {
+        "text": "eu-central-1",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 버킷에서 S3 Transfer Acceleration을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "엣지 최적화 엔드포인트로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 82,
+    "highlights": [
+      {
+        "text": "하이킹 및 래프팅",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "30일 후에 드물게 액세스된다는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 버킷에서 S3 Intelligent-Tiering을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 83,
+    "highlights": [
+      {
+        "text": "Amazon S3를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "12개월 동안의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 추세를 검토하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3 Storage Lens를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 84,
+    "highlights": [
+      {
+        "text": "인프라를 코드로 정의해야",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS CloudFormation StackSets를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 86,
+    "highlights": [
+      {
+        "text": "매시간 여러 번 변경 사항을 릴리스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "가능한 한 빨리 변경 사항을 롤백할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "배포하려면 스테이징 및 프로덕션 환경 URL을 교환합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Elastic Beanstalk를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 87,
+    "highlights": [
+      {
+        "text": "애플리케이션이 Amazon Aurora DB 클러스터에 액세스해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최소 권한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "접근을 제공해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스의 보안 그룹에 아웃바운드 규칙을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DB 클러스터의 보안 그룹을 기본",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Aurora 포트를 통한 대상으로 지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DB 클러스터의 보안 그룹에 인바운드 규칙을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "기본 Aurora 포트를 통해 EC2",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "인스턴스의 보안 그룹을 소스로 지정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 88,
+    "highlights": [
+      {
+        "text": "중앙 집중식 솔루션을 원합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "설정된 임계값을 초과하는 모든 클라우드 지출에 대한 알림을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직의 마스터 계정에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS 예산을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon SNS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 89,
+    "highlights": [
+      {
+        "text": "CloudFormation 스택이 삭제되면 Amazon RDS 데이터베이스 또는 Amazon EBS 볼륨에 저장된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "중요한 데이터도 삭제될 수 있다고 우려하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터를 삭제하는 것을 어떻게 방지할",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "DeletionPolicy",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 90,
+    "highlights": [
+      {
+        "text": "198.51.100.2에서",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Action = ACCEPT를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "옥텟은 203.0입니다.",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon CloudWatch 콘솔을",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "\"like",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "198.51.100.2\"로 설정된 대상 주소와 \"like 203.0\"으로 설정된 소스 주소로 필터링하려면 쿼리를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "실행하십시오.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  }
+]

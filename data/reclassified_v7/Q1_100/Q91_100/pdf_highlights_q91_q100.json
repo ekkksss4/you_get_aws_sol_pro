@@ -194,7 +194,26 @@
   },
   {
     "qNumber": 96,
-    "highlights": []
+    "highlights": [
+      {
+        "text": "AWS Key Management Service(AWS KMS)에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "CMK를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "kms:GenerateDataKey",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
   },
   {
     "qNumber": 97,

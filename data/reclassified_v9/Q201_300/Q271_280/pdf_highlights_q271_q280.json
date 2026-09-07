@@ -1,0 +1,657 @@
+[
+  {
+    "qNumber": 271,
+    "highlights": [
+      {
+        "text": "EC2 인스턴스 플릿이 있는 소매 주문 웹 애플리케이션을 리팩터링하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실패한 주문을 유지하는 동시에 운영 비용을 최소화하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "분리되고 확장 가능한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "웹 호스팅에 Amazon S3를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "주문 대기열에 Amazon Simple Queue Service(Amazon SQS)를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "실패한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사용하십시오.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "주문을 유지하기 위해 Amazon SQS 데드 레터 대기열과 함께 비즈니스 로직에 AWS Lambda를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 272,
+    "highlights": [
+      {
+        "text": "us-east-1 리전의 AWS에서 웹 애플리케이션을 호스팅합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RTO가 5분 미만이고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RPO가 1분 미만인 AWS 서비스를 사용하여 리전 간 데이터 복구 솔루션을 설계해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "us-west-2에 애플리케이션 서버를 배포하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "기본 데이터베이스는 us-east-1에, 보조 데이터베이스는 us-west-2에 있는 Amazon Aurora",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "데이터베이스를 마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "글로벌 데이터베이스로",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 273,
+    "highlights": [
+      {
+        "text": "규제 요구 사항으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인해 회사는 리소스 배포가 허용되는 특정 AWS 리전으로 특정 멤버 계정을 제한하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최소한의 구성으로 중앙에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "관리되어야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "특정 회원 계정을 새 OU와 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "조건을 사용하여 태그 정책 및 SCP를 적용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "리전을 제한합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 274,
+    "highlights": [
+      {
+        "text": "파일이 공개되어 있으며 누구나 인증 없이 다운로드할 수 있음을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "발견했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "문제가 해결될 때까지 새로운 보고서 생성을 중단했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "문제를 즉시 해결할 일련의 조치는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon S3의 퍼블릭 액세스 차단 기능을 사용하여 버킷에서",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "IgnorePublicAcIs",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 275,
+    "highlights": [
+      {
+        "text": "Oracle 데이터베이스용 Amazon RDS를 다른 AWS 계정의 RDS for PostgreSQL DB",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스로 마이그레이션할 계획입니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다운타임이 필요하지 않고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "마이그레이션을 완료하는 데 필요한 시간을 최소화하는 마이그레이션 전략을 설계해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "RDS for Oracle DB 인스턴스는 프라이빗 서브넷에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Route 53 CNAME 레코드를 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대상 계정에서 PostgreSQL DB 인스턴스용 새 RDS를 생성합니다. AWS Schema Conversion",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Tool(AWS SCT)을 사용하여 원본 데이터베이스에서 대상 데이터베이스로 데이터베이스 스키마를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "마이그레이션합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "두 AWS 계정의 VPC 간에 VPC 피어링을 구성하여 대상 계정에서 두 DB 인스턴스에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "연결을 제공합니다. 대상 계정의 VPC에서 데이터베이스 포트의 트래픽을 허용하도록 각 DB",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "인스턴스에 연결된 보안 그룹을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Service(AWS DMS)를 사용하여 원본",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "대상 계정에서 AWS Database",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "Migration",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "데이터베이스에서 대상 데이터베이스로의 전체 로드 및 변경 데이터 캡처(CDC) 마이그레이션을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "수행합니다. 마이그레이션이 완료되면 대상 DB 인스턴스 엔드포인트를 가리키도록 CNAME",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "레코드를 변경합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 276,
+    "highlights": [
+      {
+        "text": "Service(Amazon SQS) 표준 대기열의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "30초로",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "잘못된 주문 메시지를 분석하고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "10초로",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "시스템이 후속 메시지를 계속 처리하는지 확인해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "새 SQS 표준 대기열을 배달 못한 편지 대기열로 구성하여 잘못된 메시지를 격리합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 277,
+    "highlights": [
+      {
+        "text": "워크플로는 AWS Lambda를 사용하는 여러 단계로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "재교육이 연속으로 여러 번 실패했음이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 유형의 실패에 대해 알림을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "팀의 메일링 리스트를 대상으로 하는 \"이메일\" 유형의 구독으로 Amazon Simple Notification",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Service(Amazon SNS) 주제를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "입력 인수를 SNS 주제로 전달하는 \"이메일\"이라는 작업을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "\"ErrorEquals\": [ \"States.ALL\" ]",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "\"Next\": \"Email\" 문이 있는 모든 작업, 맵 및 병렬 상태에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Catch 필드를 추가합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 278,
+    "highlights": [
+      {
+        "text": "새",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "서비스는 기존 온프레미스 서비스와 통신해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스 서비스는 company.example",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "DNS 영역에 있는 호스트 이름을 사용하여 액세스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "이 DNS 영역은 전적으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "온프레미스에서 호스팅되며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "호스트",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "company.example",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "이름을 확인할 수 있는지 확인해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Route 53 Resolver로 새로운 아웃바운드",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "VPC의 DNS 호스트 이름을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "엔드포인트를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "company.example에 대한 요청을 온프레미스 이름 서버로 전달하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "확인자 규칙을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 279,
+    "highlights": [
+      {
+        "text": "전송 게이트웨이는 모든 VPC 연결에 기본 라우팅",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "테이블을 사용합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다른 VPC에 배포된 EC2",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인스턴스와 통신할 수 있는 것으로 나타났습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 VPC는 미리 정의되고 제한된 승인된 VPC 세트와만 통신할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 VPC 연결에 대한 전용 운송 게이트웨이(Transit Gateway) 라우팅 테이블을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "승인된 VPC로만 트래픽을 라우팅합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 280,
+    "highlights": [
+      {
+        "text": "Linux 운영 체제가 설치된 시스템을 주로 사용하는 직원이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "있는 다른 회사를 인수했습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Windows 기반 데스크톱 애플리케이션을 AWS로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "마이그레이션하고 다시 호스팅하기로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 직원을 위해 AWS에서 애플리케이션에 대한 접근을 관리하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "간소화된 방법을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon AppStream 2.0 이미지 빌더를 사용하여 애플리케이션과 필요한 구성을 포함하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "이미지를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AppStream 2.0 사용자 풀을 사용하여 인증을 구현합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "직원들에게 브라우저 기반 AppStream 2.0 스트리밍 세션을 시작하여 애플리케이션에",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "액세스하도록",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,311 @@
+[
+  {
+    "qNumber": 561,
+    "highlights": [
+      {
+        "text": "사용자",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지정 애플리케이션이 S3 버킷에서 새 데이터를 폴링합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "데이터 업로드는 드물게 발생합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최대 25분이",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "처리 소프트웨어가 각 데이터 업로드를 분석하는 데",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "운영 오버헤드를 최소화하면서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Fargate 시작 유형을 사용하는 Amazon ECS 클러스터에 컨테이너를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "새 객체가 업로드될 때 Amazon EventBridge로 이벤트를 전송하도록 S3 버킷 알림을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "ECS 작업을 호출하는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 562,
+    "highlights": [
+      {
+        "text": "한 회사의 AWS Organizations에 여러 AWS 계정이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "지난 90일 동안의 CPU 및 메모리 사용량을 기준으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "EC2 인스턴스의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "크기를 조정하는 방법에 대한 권장 사항이 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Compute Optimizer에 가입하고 조직의 Compute Optimizer에 대한 신뢰할 수 있는",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "액세스를 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "모든 EC2 인스턴스에 Amazon CloudWatch 에이전트를 설치하고 구성하여 메모리 사용률",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "지표를 CloudWatch로 전송합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "AWS Compute Optimizer에서 향상된 지표를 활성화합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 566,
+    "highlights": [
+      {
+        "text": "게임의 클라이언트 애플리케이션은",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "게임 서버와 통신하며",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "UDP를 사용하여",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "고정 IP 주소에 연결할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "게임의 네트워크 성능과",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "글로벌 가용성을 유지하기를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크 로드 밸런서(NLB)를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Global Accelerator에 가속기를 생성하고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "프로비저닝합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 567,
+    "highlights": [
+      {
+        "text": "민감한 데이터가 포함되어",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "일부 S3 버킷에는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 버킷에 대한 데이터",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "인벤토리를 보유하고 있지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "솔루션 아키텍트는 관리자만",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "액세스할 수 있는 키로 민감한 데이터를 암호화하는 솔루션을 설계해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Amazon Made를 사용하여 민감한 데이터가 포함된 S3 버킷을 확인합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "새 AWS KMS 고객",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "관리형 키와 관리자에게만 액세스 권한을 제공하는 키 정책을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 570,
+    "highlights": [
+      {
+        "text": "스토리지 어레이 사용을 중단하려고",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Oracle Solaris NFS",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "네트워크 연결을 통해 Amazon S3, Amazon EFS, Amazon FSx for Windows File Server 등 다양한",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "대상에 대한 신속한 데이터 마이그레이션을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "전체 초기 사본과 변경 사항의 증분 전송이 필요합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 데이터는 암호화되고 무결성 검사가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS DataSync를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DataSync 에이전트를 구성하고 로컬 네트워크에 배포합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  }
+]

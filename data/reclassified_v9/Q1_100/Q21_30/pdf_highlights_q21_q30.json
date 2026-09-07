@@ -1,0 +1,319 @@
+[
+  {
+    "qNumber": 21,
+    "highlights": [
+      {
+        "text": "단일 위치에서 관리되어야",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "SAML 2.0을",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "SCIM(System for Cross-domain Identity Management)",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "ABAC(속성 기반 액세스 제어)를",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 22,
+    "highlights": [
+      {
+        "text": "많은 수의 PUT 요청이",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "429 응답을",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 23,
+    "highlights": [
+      {
+        "text": "200TB의",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "72시간이",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "파일의 하위 집합을",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "S3 Intelligent-Tiering",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 24,
+    "highlights": [
+      {
+        "text": "my.service.com을",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "서비스에 대한 Amazon EC2 인스턴스를 생성합니다.",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "NLB DNS 이름을 레코드",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "세트에 할당합니다.",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 25,
+    "highlights": [
+      {
+        "text": "엄격한 SLA가",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "65%를",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "각 가용",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "영역에서 용량 예약이 있는 온디맨드 인스턴스로 3개의 인스턴스를 실행합니다.",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "영역에서 하나의 인스턴스를 스팟 인스턴스로 실행합니다.",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 26,
+    "highlights": [
+      {
+        "text": "안전한 AWS 관리형 서비스에 저장된",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "90일마다 데이터베이스에 대한 자격 증명을 교체해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Secrets Manager를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Secrets Manager RotationSchedule",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 27,
+    "highlights": [
+      {
+        "text": "Amazon API Gateway REST API를 생성합니다.",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "DynamoDB에 대한 직접 통합으로",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "Amazon API Gateway HTTP API를 생성합니다.",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Lambda 함수와의 통합으로",
+        "color": "#4285f4",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 28,
+    "highlights": [
+      {
+        "text": "특정 URL로 리디렉션하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "JSON 문서에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "HTTP 및 HTTPS 요청을",
+        "color": "#4285f4",
+        "opacity": 0.4
+      },
+      {
+        "text": "리디렉션 URL을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "JSON 문서를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Lambda@Edge 함수를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "E"
+        ]
+      },
+      {
+        "text": "AWS Certificate Manager(ACM)를 사용하여 SSL 인증서를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 29,
+    "highlights": [
+      {
+        "text": "\"costCenter\"",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "조직의 마스터 계정에서 costCenter 사용자 정의 태그를 활성화합니다.",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 30,
+    "highlights": [
+      {
+        "text": "50개의 AWS 계정이",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "마스터 계정에서 AWS Resource Access Manager를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      },
+      {
+        "text": "AWS CloudFormation 스택 세트를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  }
+]

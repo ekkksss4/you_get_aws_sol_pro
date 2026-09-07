@@ -1,0 +1,505 @@
+[
+  {
+    "qNumber": 141,
+    "highlights": [
+      {
+        "text": "비디오를 처리하는 데 30분이 소요됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "Service(Amazon SQS) 대기열의 비디오 수에 따라 여러 EC2 인스턴스가 확장 및 축소됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "maxReceiveCount를",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "배달 못한 편지 대기열에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "처리 중에 인스턴스에 대한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "축소 보호를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 142,
+    "highlights": [
+      {
+        "text": "공용 액세스가 필요하지 않은 API 세트를",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "VPC에서만 API 세트에 액세스할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "API는 인증된 사용자로 호출해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "API 게이트웨이에서 리전에서 프라이빗으로 API 엔드포인트를 업데이트합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "인터페이스 VPC 엔드포인트 생성리소스 정책을 생성하고 API에 연결합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 143,
+    "highlights": [
+      {
+        "text": "us-east-1 지역의",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "신규",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자는 각각의 날씨 지도 보기가 때때로 느리다고 보고합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "us-east-1에서 새 S3 버킷을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "eu-west-1의 S3 버킷에서 동기화하도록 S3 교차",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "리전 복제를 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Lambda@Edge를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      },
+      {
+        "text": "북미에서 us-east-1의 S3 버킷을 사용하도록 요청을 수정합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "D"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 144,
+    "highlights": [
+      {
+        "text": "파일 시스템이 최대 용량에 도달했음을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "사용자가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다시 액세스할 수 있는지 확인해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "문제가 다시 발생하지 않도록 방지해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "update-file-system",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Lambda 함수를 호출하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "CloudWatch 지표를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "Amazon EventBridge를",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 145,
+    "highlights": [
+      {
+        "text": "FTP를 통해 서명과 사진을 단일 Amazon EC2 인스턴스에",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "핸드헬드 장치는",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "업로드합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "연결 끊김 및 메모리 문제로 인해 FTP 서버에 문제가",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "아카이브가 항상 파일을 수신하고 시스템이 항상 업데이트되도록 확장성을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "핸드헬드 장치는 수정할 수 없으므로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "최대화하는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "FTP 서버를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Transfer Family를 사용하여",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "S3 이벤트 알림을",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "Lambda 함수를 호출합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 146,
+    "highlights": [
+      {
+        "text": "애플리케이션이 별도의 AWS 리전으로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "장애가 발생해도 데이터가 손실되지 않습니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "복구할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "다른 리전에서 Aurora 복제본을 프로비저닝합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "A"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 147,
+    "highlights": [
+      {
+        "text": "5,000개의 레코드가",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "기본 계정 번호(PAN)",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "특정 필드를 제거 및 병합한 다음",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "레코드를 JSON 형식으로 변환해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "향후 추가 피드가 추가될 가능성이 있으므로",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "모든 디자인을 쉽게 확장할",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Glue 크롤러",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      },
+      {
+        "text": "AWS Glue ETL 작업을",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "C"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 148,
+    "highlights": [
+      {
+        "text": "비즈니스 연속성",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "솔루션을",
+        "color": "#5379ff",
+        "opacity": 0.4
+      },
+      {
+        "text": "애플리케이션은 다른 애플리케이션도 실행하는 물리적 서버에서",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "실행됩니다.",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "AWS Replication Agent를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "AWS Elastic Disaster Recovery를",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "장애 조치(failover) 및 폴백(fallback)을",
+        "color": "#5379ff",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 149,
+    "highlights": [
+      {
+        "text": "외부 감사자는",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "회사의 AWS 계정에 액세스해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "보안 모범 사례를 준수해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "안전한 읽기 전용 액세스 권한을",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "IAM 역할을 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "역할의 신뢰 정책에 고유한",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "외부 ID를 할당합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  },
+  {
+    "qNumber": 150,
+    "highlights": [
+      {
+        "text": "지연 시간에 민감한 거래 플랫폼이",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "고가용성을 보장해야",
+        "color": "#ddf300",
+        "opacity": 0.4
+      },
+      {
+        "text": "3노드 DynamoDB Accelerator(DAX) 클러스터를 생성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DAX를 사용하여 데이터를 읽고",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      },
+      {
+        "text": "DynamoDB 테이블에 직접 데이터를 쓰도록 애플리케이션을 구성합니다.",
+        "color": "#ddf300",
+        "opacity": 0.4,
+        "choiceLabels": [
+          "B"
+        ]
+      }
+    ]
+  }
+]
