@@ -23,7 +23,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 2,
@@ -49,7 +50,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 3,
@@ -75,7 +77,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 4,
@@ -101,7 +104,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 5,
@@ -127,7 +131,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 6,
@@ -158,7 +163,8 @@
     "answers": [
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 7,
@@ -184,7 +190,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 8,
@@ -210,7 +217,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 9,
@@ -246,7 +254,8 @@
       "A",
       "D",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 10,
@@ -277,7 +286,8 @@
     "answers": [
       "A",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 11,
@@ -308,7 +318,8 @@
     "answers": [
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 12,
@@ -334,7 +345,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 13,
@@ -360,7 +372,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 14,
@@ -386,7 +399,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 15,
@@ -417,7 +431,8 @@
     "answers": [
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 16,
@@ -443,7 +458,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 17,
@@ -469,7 +485,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 18,
@@ -495,7 +512,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 19,
@@ -521,7 +539,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 20,
@@ -544,10 +563,11 @@
         "text": "Amazon S3 버킷을 생성합니다. S3 Glacier Deep Archive 스토리지 클래스를 기본값으로 사용하도록 S3 버킷을 구성합니다. 웹 사이트 호스팅을 위해 S3 버킷을 구성합니다. S3 인터페이스 엔드포인트를 생성합니다. 해당 엔드포인트를 통해서만 접근을 허용하도록 S3 버킷을 구성합니다."
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "answers": [
-      "A"
-    ]
+      "D"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 21,
@@ -573,7 +593,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 22,
@@ -599,7 +620,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 23,
@@ -625,7 +647,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 24,
@@ -651,7 +674,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 25,
@@ -677,7 +701,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 26,
@@ -703,7 +728,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 27,
@@ -734,7 +760,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 28,
@@ -770,7 +797,8 @@
       "C",
       "E",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 29,
@@ -796,7 +824,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 30,
@@ -827,7 +856,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 31,
@@ -853,7 +883,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 32,
@@ -879,7 +910,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 33,
@@ -905,7 +937,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 34,
@@ -931,7 +964,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 35,
@@ -957,7 +991,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 36,
@@ -983,7 +1018,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 37,
@@ -1009,7 +1045,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 38,
@@ -1035,7 +1072,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 39,
@@ -1071,7 +1109,8 @@
       "A",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 40,
@@ -1097,7 +1136,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 41,
@@ -1123,7 +1163,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 42,
@@ -1149,7 +1190,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 43,
@@ -1175,7 +1217,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 44,
@@ -1198,10 +1241,11 @@
         "text": "aws:SourceIp 조건 키의 값이 0.0.0.0/0일 때 ec2:AuthorizeSecurityGroupIngress 작업을 거부하도록 SCP를 구성합니다. SCP를 NonProd OU에 적용합니다."
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "answers": [
-      "C"
-    ]
+      "D"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 45,
@@ -1227,7 +1271,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 46,
@@ -1253,7 +1298,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 47,
@@ -1279,7 +1325,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 48,
@@ -1310,7 +1357,8 @@
     "answers": [
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 49,
@@ -1336,7 +1384,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 50,
@@ -1362,7 +1411,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 51,
@@ -1388,7 +1438,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 52,
@@ -1414,7 +1465,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 53,
@@ -1440,7 +1492,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 54,
@@ -1466,7 +1519,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 55,
@@ -1502,7 +1556,8 @@
       "A",
       "C",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 56,
@@ -1528,7 +1583,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 57,
@@ -1554,7 +1610,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 58,
@@ -1580,7 +1637,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 59,
@@ -1616,7 +1674,8 @@
       "B",
       "D",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 60,
@@ -1642,7 +1701,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 61,
@@ -1668,7 +1728,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 62,
@@ -1694,7 +1755,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 63,
@@ -1725,7 +1787,8 @@
     "answers": [
       "A",
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 64,
@@ -1751,7 +1814,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 65,
@@ -1777,7 +1841,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 66,
@@ -1813,7 +1878,8 @@
       "B",
       "C",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 67,
@@ -1839,7 +1905,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 68,
@@ -1865,7 +1932,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 69,
@@ -1891,7 +1959,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 70,
@@ -1917,7 +1986,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 71,
@@ -1948,7 +2018,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 72,
@@ -1974,7 +2045,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 73,
@@ -2000,7 +2072,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 74,
@@ -2026,7 +2099,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 75,
@@ -2052,7 +2126,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 76,
@@ -2078,7 +2153,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 77,
@@ -2104,7 +2180,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 78,
@@ -2130,7 +2207,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 79,
@@ -2156,7 +2234,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 80,
@@ -2187,7 +2266,8 @@
     "answers": [
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 81,
@@ -2214,11 +2294,12 @@
         "text": "Lambda 함수와 Aurora Serverless 데이터베이스 사이에 Amazon RDS 프록시를 추가합니다."
       }
     ],
-    "answer": "A, C",
+    "answer": "C, A",
     "answers": [
-      "A",
-      "C"
-    ]
+      "C",
+      "A"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 82,
@@ -2244,7 +2325,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 83,
@@ -2270,7 +2352,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 84,
@@ -2296,7 +2379,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 85,
@@ -2322,7 +2406,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 86,
@@ -2348,7 +2433,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 87,
@@ -2379,7 +2465,8 @@
     "answers": [
       "B",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 88,
@@ -2405,7 +2492,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 89,
@@ -2431,7 +2519,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 90,
@@ -2457,7 +2546,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 91,
@@ -2483,7 +2573,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 92,
@@ -2509,7 +2600,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 93,
@@ -2535,7 +2627,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 94,
@@ -2561,7 +2654,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 95,
@@ -2587,7 +2681,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 96,
@@ -2613,7 +2708,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 97,
@@ -2639,7 +2735,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 98,
@@ -2665,7 +2762,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 99,
@@ -2691,7 +2789,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 100,
@@ -2717,7 +2816,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 101,
@@ -2743,7 +2843,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 102,
@@ -2769,7 +2870,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 103,
@@ -2805,7 +2907,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 104,
@@ -2831,7 +2934,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 105,
@@ -2857,7 +2961,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 106,
@@ -2883,7 +2988,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 107,
@@ -2909,7 +3015,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 108,
@@ -2935,7 +3042,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 109,
@@ -2961,7 +3069,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 110,
@@ -2987,7 +3096,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 111,
@@ -3013,7 +3123,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 112,
@@ -3039,7 +3150,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 113,
@@ -3075,7 +3187,8 @@
       "A",
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 114,
@@ -3106,7 +3219,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 115,
@@ -3132,7 +3246,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 116,
@@ -3158,7 +3273,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 117,
@@ -3194,7 +3310,8 @@
       "A",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 118,
@@ -3230,7 +3347,8 @@
       "A",
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 119,
@@ -3256,7 +3374,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 120,
@@ -3282,7 +3401,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 121,
@@ -3313,7 +3433,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 122,
@@ -3339,7 +3460,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 123,
@@ -3375,7 +3497,8 @@
       "B",
       "D",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 124,
@@ -3406,7 +3529,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 125,
@@ -3442,7 +3566,8 @@
       "C",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 126,
@@ -3468,7 +3593,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 127,
@@ -3494,7 +3620,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 128,
@@ -3525,7 +3652,8 @@
     "answers": [
       "A",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 129,
@@ -3551,7 +3679,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 130,
@@ -3577,7 +3706,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 131,
@@ -3603,7 +3733,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 132,
@@ -3634,7 +3765,8 @@
     "answers": [
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 133,
@@ -3665,7 +3797,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 134,
@@ -3691,7 +3824,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 135,
@@ -3717,7 +3851,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 136,
@@ -3743,7 +3878,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 137,
@@ -3774,11 +3910,13 @@
         "text": "S3 버킷에 대한 읽기 권한을 부여하고 사용자 지정 KMS 키에 대한 암호 해독 권한을 부여하도록 strategy_reviewer IAM 역할을 업데이트합니다."
       }
     ],
-    "answer": "A, C",
+    "answer": "A, C, F",
     "answers": [
       "A",
-      "C"
-    ]
+      "C",
+      "F"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 138,
@@ -3804,7 +3942,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 139,
@@ -3830,7 +3969,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 140,
@@ -3856,7 +3996,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 141,
@@ -3882,7 +4023,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 142,
@@ -3908,7 +4050,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 143,
@@ -3939,7 +4082,8 @@
     "answers": [
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 144,
@@ -3965,7 +4109,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 145,
@@ -3991,7 +4136,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 146,
@@ -4017,7 +4163,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 147,
@@ -4043,7 +4190,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 148,
@@ -4069,7 +4217,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 149,
@@ -4095,7 +4244,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 150,
@@ -4121,7 +4271,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 151,
@@ -4152,7 +4303,8 @@
     "answers": [
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 152,
@@ -4178,7 +4330,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 153,
@@ -4214,7 +4367,8 @@
       "A",
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 154,
@@ -4240,7 +4394,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 155,
@@ -4266,7 +4421,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 156,
@@ -4292,7 +4448,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 157,
@@ -4318,7 +4475,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 158,
@@ -4344,7 +4502,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 159,
@@ -4370,7 +4529,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 160,
@@ -4401,7 +4561,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 161,
@@ -4427,7 +4588,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 162,
@@ -4453,7 +4615,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 163,
@@ -4479,7 +4642,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 164,
@@ -4505,7 +4669,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 165,
@@ -4531,7 +4696,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 166,
@@ -4557,7 +4723,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 167,
@@ -4583,7 +4750,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 168,
@@ -4619,7 +4787,8 @@
       "C",
       "D",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 169,
@@ -4645,7 +4814,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 170,
@@ -4676,7 +4846,8 @@
     "answers": [
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 171,
@@ -4702,7 +4873,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 172,
@@ -4728,7 +4900,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 173,
@@ -4754,7 +4927,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 174,
@@ -4780,7 +4954,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 175,
@@ -4806,7 +4981,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 176,
@@ -4832,7 +5008,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 177,
@@ -4858,7 +5035,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 178,
@@ -4884,7 +5062,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 179,
@@ -4907,10 +5086,11 @@
         "text": "Amazon EventBndge 이벤트 버스에 이벤트를 게시합니다. Application Load Balancer(ALB) 뒤에 있는 Auto Scaling 그룹이 있는 Amazon EC2 인스턴스에서 애플리케이션을 생성하고 실행합니다. ALB를 이벤트 버스 대상으로 설정합니다. 이벤트를 재시도하도록 이벤트 버스를 구성하십시오. 애플리케이션이 메시지를 처리할 수 없는 경우 배달 못한 편지 대기열에 메시지를 씁니다."
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "answers": [
-      "A"
-    ]
+      "B"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 180,
@@ -4936,7 +5116,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 181,
@@ -4962,7 +5143,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 182,
@@ -4988,7 +5170,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 183,
@@ -5014,7 +5197,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 184,
@@ -5040,7 +5224,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 185,
@@ -5066,7 +5251,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 186,
@@ -5102,7 +5288,8 @@
       "A",
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 187,
@@ -5138,7 +5325,8 @@
       "B",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 188,
@@ -5164,7 +5352,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 189,
@@ -5195,7 +5384,8 @@
     "answers": [
       "A",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 190,
@@ -5221,7 +5411,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 191,
@@ -5247,7 +5438,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 192,
@@ -5273,7 +5465,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 193,
@@ -5299,7 +5492,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 194,
@@ -5325,7 +5519,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 195,
@@ -5351,7 +5546,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 196,
@@ -5382,7 +5578,8 @@
     "answers": [
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 197,
@@ -5418,7 +5615,8 @@
       "A",
       "D",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 198,
@@ -5449,7 +5647,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 199,
@@ -5485,7 +5684,8 @@
       "A",
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 200,
@@ -5521,7 +5721,8 @@
       "B",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 201,
@@ -5547,7 +5748,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 202,
@@ -5573,7 +5775,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 203,
@@ -5599,7 +5802,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 204,
@@ -5625,7 +5829,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 205,
@@ -5661,7 +5866,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 206,
@@ -5687,7 +5893,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 207,
@@ -5713,7 +5920,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 208,
@@ -5739,7 +5947,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 209,
@@ -5765,7 +5974,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 210,
@@ -5791,7 +6001,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 211,
@@ -5817,7 +6028,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 212,
@@ -5843,7 +6055,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 213,
@@ -5869,7 +6082,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 214,
@@ -5895,7 +6109,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 215,
@@ -5926,7 +6141,8 @@
     "answers": [
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 216,
@@ -5952,7 +6168,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 217,
@@ -5978,7 +6195,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 218,
@@ -6004,7 +6222,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 219,
@@ -6030,7 +6249,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 220,
@@ -6066,7 +6286,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 221,
@@ -6092,7 +6313,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 222,
@@ -6128,7 +6350,8 @@
       "B",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 223,
@@ -6154,7 +6377,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 224,
@@ -6180,7 +6404,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 225,
@@ -6206,7 +6431,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 226,
@@ -6232,7 +6458,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 227,
@@ -6258,7 +6485,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 228,
@@ -6284,7 +6512,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 229,
@@ -6310,7 +6539,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 230,
@@ -6341,7 +6571,8 @@
     "answers": [
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 231,
@@ -6367,7 +6598,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 232,
@@ -6393,7 +6625,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 233,
@@ -6419,7 +6652,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 234,
@@ -6445,7 +6679,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 235,
@@ -6481,7 +6716,8 @@
       "A",
       "C",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 236,
@@ -6507,7 +6743,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 237,
@@ -6533,7 +6770,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 238,
@@ -6569,7 +6807,8 @@
       "A",
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 239,
@@ -6595,7 +6834,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 240,
@@ -6631,7 +6871,8 @@
       "B",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 241,
@@ -6657,7 +6898,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 242,
@@ -6683,7 +6925,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 243,
@@ -6714,7 +6957,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 244,
@@ -6740,7 +6984,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 245,
@@ -6776,7 +7021,8 @@
       "B",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 246,
@@ -6802,7 +7048,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 247,
@@ -6828,7 +7075,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 248,
@@ -6854,7 +7102,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 249,
@@ -6880,7 +7129,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 250,
@@ -6906,7 +7156,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 251,
@@ -6932,7 +7183,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 252,
@@ -6958,7 +7210,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 253,
@@ -6984,7 +7237,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 254,
@@ -7010,7 +7264,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 255,
@@ -7041,7 +7296,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 256,
@@ -7067,7 +7323,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 257,
@@ -7098,7 +7355,8 @@
     "answers": [
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 258,
@@ -7124,7 +7382,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 259,
@@ -7150,7 +7409,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 260,
@@ -7176,7 +7436,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 261,
@@ -7212,7 +7473,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 262,
@@ -7238,7 +7500,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 263,
@@ -7264,7 +7527,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 264,
@@ -7290,7 +7554,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 265,
@@ -7326,7 +7591,8 @@
       "B",
       "E",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 266,
@@ -7352,7 +7618,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 267,
@@ -7378,7 +7645,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 268,
@@ -7404,7 +7672,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 269,
@@ -7430,7 +7699,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 270,
@@ -7456,7 +7726,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 271,
@@ -7482,7 +7753,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 272,
@@ -7508,7 +7780,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 273,
@@ -7534,7 +7807,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 274,
@@ -7560,7 +7834,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 275,
@@ -7596,7 +7871,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 276,
@@ -7622,7 +7898,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 277,
@@ -7658,7 +7935,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 278,
@@ -7684,7 +7962,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 279,
@@ -7710,7 +7989,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 280,
@@ -7736,7 +8016,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 281,
@@ -7762,7 +8043,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 282,
@@ -7788,7 +8070,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 283,
@@ -7819,7 +8102,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 284,
@@ -7845,7 +8129,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 285,
@@ -7871,7 +8156,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 286,
@@ -7897,7 +8183,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 287,
@@ -7923,7 +8210,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 288,
@@ -7949,7 +8237,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 289,
@@ -7972,10 +8261,11 @@
         "text": "RDS for MySQL DB 인스턴스를 Amazon Aurora MySQL DB 클러스터로 변환합니다. eu-west- 1을 DB 클러스터에 보조 리전으로 추가합니다. DB 클러스터에서 쓰기 전달을 활성화합니다. eu- west-1에 애플리케이션을 배포합니다. eu-west-1에서 Aurora MySQL 엔드포인트를 사용하도록 애플리케이션을 구성합니다."
       }
     ],
-    "answer": "D",
+    "answer": "A",
     "answers": [
-      "D"
-    ]
+      "A"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 290,
@@ -8001,7 +8291,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 291,
@@ -8027,7 +8318,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 292,
@@ -8053,7 +8345,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 293,
@@ -8079,7 +8372,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 294,
@@ -8105,7 +8399,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 295,
@@ -8131,7 +8426,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 296,
@@ -8157,7 +8453,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 297,
@@ -8183,7 +8480,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 298,
@@ -8206,10 +8504,11 @@
         "text": "자동 Aurora 백업을 끕니다. 1시간의 백업 빈도로 Aurora 백업을 구성합니다. 다른 지역을 대상 지역으로 지정하십시오. 리소스 할당으로 Aurora 데이터베이스를 선택합니다."
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "answers": [
-      "A"
-    ]
+      "C"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 299,
@@ -8235,7 +8534,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 300,
@@ -8261,7 +8561,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 301,
@@ -8287,7 +8588,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 302,
@@ -8313,7 +8615,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 303,
@@ -8339,7 +8642,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 304,
@@ -8365,7 +8669,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 305,
@@ -8391,7 +8696,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 306,
@@ -8422,7 +8728,8 @@
     "answers": [
       "A",
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 307,
@@ -8448,7 +8755,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 308,
@@ -8474,7 +8782,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 309,
@@ -8510,7 +8819,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 310,
@@ -8536,7 +8846,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 311,
@@ -8562,7 +8873,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 312,
@@ -8588,7 +8900,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 313,
@@ -8624,7 +8937,8 @@
       "A",
       "C",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 314,
@@ -8655,7 +8969,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 315,
@@ -8681,7 +8996,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 316,
@@ -8707,7 +9023,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 317,
@@ -8743,7 +9060,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 318,
@@ -8769,7 +9087,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 319,
@@ -8795,7 +9114,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 320,
@@ -8821,7 +9141,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 321,
@@ -8847,7 +9168,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 322,
@@ -8873,7 +9195,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 323,
@@ -8899,7 +9222,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 324,
@@ -8925,7 +9249,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 325,
@@ -8951,7 +9276,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 326,
@@ -8974,10 +9300,11 @@
         "text": "AWS Directory Service Simple AD 구현을 생성합니다. Amazon Workspace를 시작합니다. 도메인 보안 구성 작업을 위해 Workspace에 연결하고 작업 공간을 사용합니다."
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "answers": [
-      "A"
-    ]
+      "B"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 327,
@@ -9003,7 +9330,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 328,
@@ -9029,7 +9357,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 329,
@@ -9055,7 +9384,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 330,
@@ -9081,7 +9411,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 331,
@@ -9107,7 +9438,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 332,
@@ -9133,7 +9465,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 333,
@@ -9159,7 +9492,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 334,
@@ -9185,7 +9519,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 335,
@@ -9216,7 +9551,8 @@
     "answers": [
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 336,
@@ -9242,7 +9578,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 337,
@@ -9278,7 +9615,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 338,
@@ -9314,7 +9652,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 339,
@@ -9345,7 +9684,8 @@
     "answers": [
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 340,
@@ -9381,7 +9721,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 341,
@@ -9407,7 +9748,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 342,
@@ -9433,7 +9775,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 343,
@@ -9459,7 +9802,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 344,
@@ -9485,7 +9829,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 345,
@@ -9511,7 +9856,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 346,
@@ -9537,7 +9883,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 347,
@@ -9563,7 +9910,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 348,
@@ -9594,7 +9942,8 @@
     "answers": [
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 349,
@@ -9620,7 +9969,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 350,
@@ -9646,7 +9996,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 351,
@@ -9672,7 +10023,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 352,
@@ -9698,7 +10050,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 353,
@@ -9734,7 +10087,8 @@
       "A",
       "D",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 354,
@@ -9760,7 +10114,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 355,
@@ -9786,7 +10141,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 356,
@@ -9812,7 +10168,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 357,
@@ -9838,7 +10195,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 358,
@@ -9864,7 +10222,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 359,
@@ -9890,7 +10249,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 360,
@@ -9916,7 +10276,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 361,
@@ -9942,7 +10303,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 362,
@@ -9968,7 +10330,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 363,
@@ -9994,7 +10357,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 364,
@@ -10020,7 +10384,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 365,
@@ -10046,7 +10411,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 366,
@@ -10072,7 +10438,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 367,
@@ -10098,7 +10465,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 368,
@@ -10124,7 +10492,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 369,
@@ -10155,7 +10524,8 @@
     "answers": [
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 370,
@@ -10186,7 +10556,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 371,
@@ -10212,7 +10583,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 372,
@@ -10238,7 +10610,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 373,
@@ -10274,7 +10647,8 @@
       "A",
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 374,
@@ -10300,7 +10674,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 375,
@@ -10336,7 +10711,8 @@
       "A",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 376,
@@ -10359,10 +10735,11 @@
         "text": "Amazon Simple Queue Service(Amazon SQS)를 사용하여 사용자가 이미지를 저장할 때 발생하는 S3 이벤트를 처리합니다. 이미지 크기를 조정하고 크기 조정된 파일을 S3 Standard- Infrequent Access(S3 Standard-IA)를 사용하는 S3 버킷에 저장하는 AWS Lambda 함수를 실행합니다. 6개월 후 저장된 모든 이미지를 S3 Glacier Deep Archive로 이동하는 S3 수명 주기 정책을 생성합니다."
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "answers": [
-      "B"
-    ]
+      "D"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 377,
@@ -10388,7 +10765,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 378,
@@ -10414,7 +10792,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 379,
@@ -10445,7 +10824,8 @@
     "answers": [
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 380,
@@ -10471,7 +10851,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 381,
@@ -10507,7 +10888,8 @@
       "A",
       "B",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 382,
@@ -10533,7 +10915,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 383,
@@ -10559,7 +10942,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 384,
@@ -10585,7 +10969,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 385,
@@ -10611,7 +10996,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 386,
@@ -10647,7 +11033,8 @@
       "B",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 387,
@@ -10673,7 +11060,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 388,
@@ -10696,10 +11084,11 @@
         "text": "지정된 국가에 속한 IP 범위에서 포트 80 및 443을 허용하는 보안 그룹 규칙을 생성합니다. 보안 그룹을 ALB와 연결합니다."
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "answers": [
-      "C"
-    ]
+      "B"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 389,
@@ -10725,7 +11114,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 390,
@@ -10751,7 +11141,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 391,
@@ -10777,7 +11168,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 392,
@@ -10803,7 +11195,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 393,
@@ -10829,7 +11222,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 394,
@@ -10855,7 +11249,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 395,
@@ -10881,7 +11276,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 396,
@@ -10907,7 +11303,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 397,
@@ -10943,7 +11340,8 @@
       "B",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 398,
@@ -10969,7 +11367,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 399,
@@ -11000,7 +11399,8 @@
     "answers": [
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 400,
@@ -11031,7 +11431,8 @@
     "answers": [
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 401,
@@ -11057,7 +11458,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 402,
@@ -11083,7 +11485,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 403,
@@ -11109,7 +11512,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 404,
@@ -11135,7 +11539,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 405,
@@ -11161,7 +11566,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 406,
@@ -11187,7 +11593,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 407,
@@ -11210,10 +11617,11 @@
         "text": "조직의 마스터 계정에서 Amazon Detective를 구성합니다. Detective가 10%가 넘는 사용 이상을 식별한 경우 아키텍처 팀에 알리도록 EC2 사용 이상 경고를 구성합니다."
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "answers": [
-      "A"
-    ]
+      "B"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 408,
@@ -11239,7 +11647,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 409,
@@ -11265,7 +11674,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 410,
@@ -11291,7 +11701,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 411,
@@ -11317,7 +11728,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 412,
@@ -11343,7 +11755,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 413,
@@ -11369,7 +11782,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 414,
@@ -11395,7 +11809,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 415,
@@ -11421,7 +11836,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 416,
@@ -11447,7 +11863,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 417,
@@ -11473,7 +11890,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 418,
@@ -11499,7 +11917,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 419,
@@ -11525,7 +11944,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 420,
@@ -11551,7 +11971,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 421,
@@ -11577,7 +11998,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 422,
@@ -11603,7 +12025,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 423,
@@ -11629,7 +12052,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 424,
@@ -11655,7 +12079,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 425,
@@ -11681,7 +12106,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 426,
@@ -11707,7 +12133,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 427,
@@ -11733,7 +12160,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 428,
@@ -11759,7 +12187,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 429,
@@ -11785,7 +12214,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 430,
@@ -11811,7 +12241,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 431,
@@ -11837,7 +12268,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 432,
@@ -11863,7 +12295,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 433,
@@ -11889,7 +12322,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 434,
@@ -11915,7 +12349,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 435,
@@ -11941,7 +12376,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 436,
@@ -11967,7 +12403,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 437,
@@ -12003,7 +12440,8 @@
       "A",
       "C",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 439,
@@ -12030,7 +12468,8 @@
     "answers": [
       "A",
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 440,
@@ -12061,7 +12500,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 441,
@@ -12088,11 +12528,12 @@
         "text": "상위 계정의 결제 콘솔에서 통합 결제를 활성화하고 LOB 계정을 연결합니다."
       }
     ],
-    "answer": "B, D",
+    "answer": "B, E",
     "answers": [
       "B",
-      "D"
-    ]
+      "E"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 442,
@@ -12123,7 +12564,8 @@
     "answers": [
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 443,
@@ -12149,7 +12591,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 444,
@@ -12180,7 +12623,8 @@
     "answers": [
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 445,
@@ -12206,7 +12650,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 446,
@@ -12232,7 +12677,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 447,
@@ -12258,7 +12704,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 448,
@@ -12284,7 +12731,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 449,
@@ -12310,7 +12758,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 450,
@@ -12336,7 +12785,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 451,
@@ -12359,10 +12809,11 @@
         "text": "전송 중인 데이터를 보호하고 Direct Connect 연결에 대한 복원력을 제공하기 위해 정적 AWS Site-to-Site VPN을 보조 경로로 추가합니다."
       }
     ],
-    "answer": "D",
+    "answer": "A",
     "answers": [
-      "D"
-    ]
+      "A"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 452,
@@ -12388,7 +12839,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 453,
@@ -12414,7 +12866,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 454,
@@ -12440,7 +12893,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 455,
@@ -12466,7 +12920,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 456,
@@ -12492,7 +12947,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 457,
@@ -12518,7 +12974,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 458,
@@ -12544,7 +13001,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 459,
@@ -12570,7 +13028,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 460,
@@ -12601,7 +13060,8 @@
     "answers": [
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 461,
@@ -12627,7 +13087,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 462,
@@ -12653,7 +13114,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 463,
@@ -12679,7 +13141,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 464,
@@ -12705,7 +13168,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 465,
@@ -12731,7 +13195,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 466,
@@ -12757,7 +13222,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 467,
@@ -12783,7 +13249,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 468,
@@ -12809,7 +13276,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 469,
@@ -12840,7 +13308,8 @@
     "answers": [
       "B",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 470,
@@ -12866,7 +13335,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 471,
@@ -12902,7 +13372,8 @@
       "A",
       "C",
       "F"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 472,
@@ -12933,7 +13404,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 473,
@@ -12959,7 +13431,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 474,
@@ -12985,7 +13458,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 475,
@@ -13011,7 +13485,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 476,
@@ -13037,7 +13512,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 477,
@@ -13073,7 +13549,8 @@
       "A",
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 478,
@@ -13099,7 +13576,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 479,
@@ -13125,7 +13603,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 480,
@@ -13151,7 +13630,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 481,
@@ -13177,7 +13657,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 482,
@@ -13203,7 +13684,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 483,
@@ -13229,7 +13711,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 484,
@@ -13255,7 +13738,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 485,
@@ -13286,7 +13770,8 @@
     "answers": [
       "A",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 486,
@@ -13312,7 +13797,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 487,
@@ -13335,10 +13821,11 @@
         "text": "온프레미스 환경에 Migration Evaluator Collector를 설정합니다. 각 VM에 AWS Application Discovery Agent를 설치합니다. 데이터 수집 기간이 끝나면 AWS Migration Hub를 사용하여 애플리케이션 종속성을 확인합니다. Migration Evaluator에서 Quick Insights 평가 보고서를 다운로드하세요."
       }
     ],
-    "answer": "D",
+    "answer": "A",
     "answers": [
-      "D"
-    ]
+      "A"
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 488,
@@ -13364,7 +13851,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 489,
@@ -13390,7 +13878,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 490,
@@ -13416,7 +13905,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 491,
@@ -13442,7 +13932,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 492,
@@ -13473,7 +13964,8 @@
     "answers": [
       "A",
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 493,
@@ -13499,7 +13991,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 494,
@@ -13525,7 +14018,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 495,
@@ -13551,7 +14045,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 496,
@@ -13577,7 +14072,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 497,
@@ -13603,7 +14099,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 499,
@@ -13634,7 +14131,8 @@
     "answers": [
       "C",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 500,
@@ -13660,7 +14158,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 501,
@@ -13686,7 +14185,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 502,
@@ -13717,7 +14217,8 @@
     "answers": [
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 503,
@@ -13748,7 +14249,8 @@
     "answers": [
       "C",
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 504,
@@ -13774,7 +14276,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 506,
@@ -13800,7 +14303,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 507,
@@ -13826,7 +14330,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 508,
@@ -13852,7 +14357,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 509,
@@ -13888,7 +14394,8 @@
       "A",
       "D",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 511,
@@ -13914,7 +14421,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 512,
@@ -13940,7 +14448,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 513,
@@ -13966,7 +14475,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 514,
@@ -13997,7 +14507,8 @@
     "answers": [
       "A",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 515,
@@ -14027,7 +14538,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 516,
@@ -14053,7 +14565,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 517,
@@ -14079,7 +14592,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 518,
@@ -14105,7 +14619,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 519,
@@ -14131,7 +14646,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 520,
@@ -14167,7 +14683,8 @@
       "A",
       "B",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 521,
@@ -14193,7 +14710,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 522,
@@ -14219,7 +14737,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 523,
@@ -14250,7 +14769,8 @@
     "answers": [
       "A",
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 524,
@@ -14276,7 +14796,8 @@
     "answer": "C",
     "answers": [
       "C"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 525,
@@ -14302,7 +14823,8 @@
     "answer": "D",
     "answers": [
       "D"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 526,
@@ -14328,7 +14850,8 @@
     "answer": "B",
     "answers": [
       "B"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 527,
@@ -14359,7 +14882,8 @@
     "answers": [
       "A",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 528,
@@ -14385,7 +14909,8 @@
     "answer": "A",
     "answers": [
       "A"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   },
   {
     "qNumber": 529,
@@ -14416,6 +14941,7 @@
     "answers": [
       "A",
       "E"
-    ]
+    ],
+    "answerSource": "pdf_highlight_position"
   }
 ]
