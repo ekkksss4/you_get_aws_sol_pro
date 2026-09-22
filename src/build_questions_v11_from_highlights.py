@@ -27,6 +27,11 @@ def normalized(value: str) -> str:
     return re.sub(r"[^0-9a-z가-힣]+", "", value.lower())
 
 
+def css_color(color: tuple[float, float, float]) -> str:
+        channels = [round(max(0, min(1, channel)) * 255) for channel in color]
+        return "#" + "".join(f"{channel:02x}" for channel in channels)
+
+
 def parse_question(q_number: int, block: str) -> dict[str, Any] | None:
     answer_match = ANSWER_RE.search(block)
     body = block[: answer_match.start()] if answer_match else block
@@ -64,7 +69,7 @@ def is_highlight(drawing: dict[str, Any]) -> bool:
     )
 
 
-def extract_page_highlights(page: pymupdf.Page) -> list[tuple[float, str]]:
+def extract_page_highlights(page: pymupdf.Page) -> list[dict[str, Any]]:
     words = [(pymupdf.Rect(word[:4]), word[4]) for word in page.get_text("words")]
     result = []
     for drawing in page.get_drawings():
@@ -73,8 +78,15 @@ def extract_page_highlights(page: pymupdf.Page) -> list[tuple[float, str]]:
         rect = drawing["rect"]
         text = " ".join(word for word_rect, word in words if overlap_ratio(rect, word_rect) >= 0.15).strip()
         if text:
-            result.append((rect.y0, clean_text(text)))
-    return sorted(result)
+            result.append(
+                {
+                    "y": rect.y0,
+                    "text": clean_text(text),
+                    "color": css_color(drawing["fill"]),
+                    "opacity": round(drawing.get("fill_opacity", 1), 3),
+                }
+            )
+    return sorted(result, key=lambda item: item["y"])
 
 
 def page_markers(page: pymupdf.Page) -> tuple[list[tuple[float, int]], list[tuple[float, str]]]:
@@ -105,7 +117,9 @@ def extract_highlight_answers(pdf_path: Path) -> dict[int, list[dict[str, str]]]
     for page in document:
         question_markers, choice_markers = page_markers(page)
         current_question_y = -1.0
-        for y, text in extract_page_highlights(page):
+        for highlight in extract_page_highlights(page):
+            y = highlight["y"]
+            text = highlight["text"]
             while question_markers and question_markers[0][0] <= y:
                 current_question_y, current_question = question_markers.pop(0)
                 if current_question == 350 and current_question in seen_questions:
@@ -130,6 +144,56 @@ def extract_highlight_answers(pdf_path: Path) -> dict[int, list[dict[str, str]]]
 
     document.close()
     return dict(answers)
+
+
+def extract_viewer_highlights(pdf_path: Path, questions: list[dict[str, Any]]) -> dict[int, list[dict[str, Any]]]:
+    question_texts = {
+        question["qNumber"]: normalized(
+            " ".join([question["question"], *(choice["text"] for choice in question["choices"])])
+        )
+        for question in questions
+    }
+    document = pymupdf.open(pdf_path)
+    highlights: dict[int, list[dict[str, Any]]] = defaultdict(list)
+    current_question: int | None = None
+    seen_questions: set[int] = set()
+
+    for page in document:
+        question_markers, _ = page_markers(page)
+        for highlight in extract_page_highlights(page):
+            while question_markers and question_markers[0][0] <= highlight["y"]:
+                current_question = question_markers.pop(0)[1]
+                if current_question == 350 and current_question in seen_questions:
+                    current_question = 406
+                seen_questions.add(current_question)
+            if current_question not in question_texts:
+                continue
+            if normalized(highlight["text"]) not in question_texts[current_question]:
+                continue
+            entry = {key: highlight[key] for key in ("text", "color", "opacity")}
+            if entry not in highlights[current_question]:
+                highlights[current_question].append(entry)
+
+        if question_markers:
+            current_question = question_markers[-1][1]
+            if current_question == 350 and current_question in seen_questions:
+                current_question = 406
+            seen_questions.add(current_question)
+
+    document.close()
+    return dict(highlights)
+
+
+def write_viewer_highlights(highlights: dict[int, list[dict[str, Any]]], output_path: Path) -> None:
+    payload = [
+        {"qNumber": q_number, "highlights": items}
+        for q_number, items in sorted(highlights.items())
+    ]
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(
+        "window.DEFAULT_PDF_HIGHLIGHTS = " + json.dumps(payload, ensure_ascii=False) + ";\n",
+        encoding="utf-8",
+    )
 
 
 def extract_questions(pdf_path: Path, highlighted_answers: dict[int, list[dict[str, str]]]) -> list[dict[str, Any]]:
@@ -190,9 +254,20 @@ def main() -> None:
     parser.add_argument("--json-out", default="data/questions/questions_v11.json")
     parser.add_argument("--js-out", default="viewer/questions_v11.data.js")
     parser.add_argument("--batch-dir", default="data/questions/v11_batches")
+    parser.add_argument("--highlights-js-out", default="viewer/pdf_highlights.data.js")
+    parser.add_argument("--highlights-only", action="store_true")
     args = parser.parse_args()
 
     pdf_path = Path(args.pdf)
+    if args.highlights_only:
+        questions = json.loads(Path(args.json_out).read_text(encoding="utf-8"))
+        highlights = extract_viewer_highlights(pdf_path, questions)
+        write_viewer_highlights(highlights, Path(args.highlights_js_out))
+        print(f"questions_with_highlights={len(highlights)}")
+        print(f"highlights={sum(len(items) for items in highlights.values())}")
+        print(f"js={args.highlights_js_out}")
+        return
+
     highlighted_answers = extract_highlight_answers(pdf_path)
     questions = extract_questions(pdf_path, highlighted_answers)
     if not questions:
@@ -204,8 +279,11 @@ def main() -> None:
     payload = json.dumps(questions, ensure_ascii=False)
     Path(args.js_out).parent.mkdir(parents=True, exist_ok=True)
     Path(args.js_out).write_text("window.DEFAULT_QUESTIONS_V11 = " + payload + "\n", encoding="utf-8")
+    highlights = extract_viewer_highlights(pdf_path, questions)
+    write_viewer_highlights(highlights, Path(args.highlights_js_out))
     print(f"extracted={len(questions)}")
     print(f"highlighted_questions={len(highlighted_answers)}")
+    print(f"viewer_highlighted_questions={len(highlights)}")
     print(f"max_question=529")
     print(f"json_batches={len(batch_paths)}")
     print(f"json={args.json_out}")
