@@ -2,6 +2,7 @@ const state = {
   questions: [],
   index: 0,
   selections: new Map(),
+  highlightMode: "none",
 };
 
 const card = document.getElementById("card");
@@ -20,6 +21,10 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function normalized(value) {
@@ -42,8 +47,31 @@ function normalizeQuestions(raw, excluded) {
         text: String(choice.text ?? "").trim(),
       })),
       answers: parseAnswers(item.answers ?? item.answer),
+      highlights: [],
     }))
     .filter((question) => !excluded.has(question.qNumber));
+}
+
+function applyHighlights(questions, rawHighlights) {
+  const highlightsByQuestion = new Map(
+    (rawHighlights ?? []).map((entry) => [Number(entry.qNumber), entry.highlights ?? []])
+  );
+  return questions.map((question) => ({
+    ...question,
+    highlights: highlightsByQuestion.get(question.qNumber) ?? [],
+  }));
+}
+
+function markedText(text, highlights) {
+  let rendered = escapeHtml(text);
+  for (const highlight of [...highlights].filter((item) => item.text).sort((left, right) => right.text.length - left.text.length)) {
+    const pattern = new RegExp(escapeRegExp(escapeHtml(highlight.text)), "g");
+    rendered = rendered.replace(
+      pattern,
+      `<mark class="pdf-highlight" style="--highlight-color:${highlight.color};--highlight-opacity:${highlight.opacity}">$&</mark>`
+    );
+  }
+  return rendered;
 }
 
 function currentQuestion() {
@@ -66,7 +94,11 @@ function render() {
   const isMultiAnswer = current.answers.length > 1;
 
   qTitleEl.textContent = `Q${current.qNumber}`;
-  qTextEl.textContent = current.question;
+  const showQuestionHints = state.highlightMode !== "none";
+  const showAnswerHints = state.highlightMode === "question-answer";
+  qTextEl.innerHTML = showQuestionHints
+    ? markedText(current.question, current.highlights)
+    : escapeHtml(current.question);
   choiceListEl.innerHTML = current.choices.map((choice) => {
     const selected = selectedLabelsForQuestion.includes(choice.label);
     const correct = selected && current.answers.includes(choice.label);
@@ -75,10 +107,13 @@ function render() {
     if (correct) classNames.push("quiz-choice--correct");
     if (selected && !current.answers.includes(choice.label)) classNames.push("quiz-choice--wrong");
     const inputType = isMultiAnswer ? "checkbox" : "radio";
+    const choiceText = showAnswerHints && current.answers.includes(choice.label)
+      ? markedText(choice.text, current.highlights)
+      : escapeHtml(choice.text);
     return `<label class="${classNames.join(" ")}">
       <input type="${inputType}" name="question-${state.index}" value="${escapeHtml(choice.label)}"${selected ? " checked" : ""}>
       <span class="quiz-choice__label">${escapeHtml(choice.label)}.</span>
-      <span class="quiz-choice__text">${escapeHtml(choice.text)}</span>
+      <span class="quiz-choice__text">${choiceText}</span>
     </label>`;
   }).join("");
 
@@ -133,6 +168,15 @@ const darkModeBtn = document.getElementById("darkModeBtn");
 const blueLightBtn = document.getElementById("blueLightBtn");
 const blueDeepBtn = document.getElementById("blueDeepBtn");
 const skyBtn = document.getElementById("skyBtn");
+const questionHintBtn = document.getElementById("questionHintBtn");
+const questionAnswerHintBtn = document.getElementById("questionAnswerHintBtn");
+
+function setHighlightMode(mode) {
+  state.highlightMode = state.highlightMode === mode ? "none" : mode;
+  questionHintBtn.classList.toggle("hint-btn--active", state.highlightMode === "question");
+  questionAnswerHintBtn.classList.toggle("hint-btn--active", state.highlightMode === "question-answer");
+  render();
+}
 
 function setTheme(theme) {
   document.body.classList.remove("dark", "theme-blue-light", "theme-blue-deep", "theme-sky");
@@ -187,18 +231,27 @@ darkModeBtn.addEventListener("click", () => {
 blueLightBtn.addEventListener("click", () => setTheme("blue-light"));
 blueDeepBtn.addEventListener("click", () => setTheme("blue-deep"));
 skyBtn.addEventListener("click", () => setTheme("sky"));
+questionHintBtn.addEventListener("click", () => setHighlightMode("question"));
+questionAnswerHintBtn.addEventListener("click", () => setHighlightMode("question-answer"));
 
 async function loadData() {
   try {
     const embeddedQuestions = Array.isArray(window.DEFAULT_QUESTIONS_V11) ? window.DEFAULT_QUESTIONS_V11 : null;
-    if (embeddedQuestions) {
-      state.questions = normalizeQuestions(embeddedQuestions, new Set());
+    const embeddedHighlights = Array.isArray(window.DEFAULT_PDF_HIGHLIGHTS) ? window.DEFAULT_PDF_HIGHLIGHTS : null;
+    if (embeddedQuestions && embeddedHighlights) {
+      state.questions = applyHighlights(normalizeQuestions(embeddedQuestions, new Set()), embeddedHighlights);
       render();
       return;
     }
 
-    const questions = await fetch("../data/questions/questions_v11.json").then((response) => response.json());
-    state.questions = normalizeQuestions(questions, new Set());
+    const [questions, highlights] = await Promise.all([
+      fetch("../data/questions/questions_v11.json").then((response) => response.json()),
+      fetch("../data/reclassified/pdf_highlights_manifest.json")
+        .then((response) => response.json())
+        .then((manifest) => Promise.all(manifest.map((path) => fetch(`../data/reclassified/${path}`).then((response) => response.json()))))
+        .then((batches) => batches.flat()),
+    ]);
+    state.questions = applyHighlights(normalizeQuestions(questions, new Set()), highlights);
     render();
   } catch (error) {
     statusEl.textContent = `데이터 로드 실패: ${error.message}`;
