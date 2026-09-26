@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Question Viewer v12</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="v6 v10">
+  <main class="page">
+    <header class="hero">
+      <h1>AWS Question Viewer v12</h1>
+      <p>최종정리본 PDF의 문제를 풀어보세요. 선택한 답은 즉시 채점됩니다.</p>
+    </header>
+
+    <section class="controls">
+      <div class="nav">
+        <button id="prevBtn" type="button">이전</button>
+        <span id="progress">0 / 0</span>
+        <button id="nextBtn" type="button">다음</button>
+        <button id="darkModeBtn" type="button">다크모드</button>
+        <button id="blueLightBtn" type="button" class="theme-btn">파랑 연하게</button>
+        <button id="blueDeepBtn" type="button" class="theme-btn">파랑 진하게</button>
+        <button id="skyBtn" type="button" class="theme-btn">하늘색</button>
+        <button id="questionHintBtn" type="button" class="hint-btn">문제 힌트</button>
+        <button id="questionAnswerHintBtn" type="button" class="hint-btn">문제+정답 힌트</button>
+      </div>
+      <div class="jump">
+        <label for="jumpInput">Q번호 이동</label>
+        <input id="jumpInput" type="number" min="1" />
+        <button id="jumpBtn" type="button">이동</button>
+        <output id="accuracy" class="accuracy" title="완료된 문항의 최신 선택 기준">정답률 -- (0/0)</output>
+      </div>
+    </section>
+
+    <section id="status" class="status">데이터를 불러오는 중입니다.</section>
+
+    <article id="card" class="card hidden">
+      <h2 id="qTitle"></h2>
+      <p id="qText" class="question"></p>
+      <fieldset id="choiceList" class="quiz-choices">
+        <legend class="sr-only">답 선택</legend>
+      </fieldset>
+      <p id="answer" class="answer"></p>
+    </article>
+  </main>
+  <script src="questions_v11.data.js"></script>
+  <script src="pdf_highlights.data.js"></script>
+  <script src="app12.js"></script>
+</body>
+</html>
