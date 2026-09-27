@@ -205,6 +205,14 @@ button:hover,
   border-radius: 8px;
 }
 
+#autoPlaySeconds {
+  flex: 0 0 70px;
+  width: 70px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 .status {
   margin-top: 14px;
   color: var(--muted);
